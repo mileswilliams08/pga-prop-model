@@ -37,6 +37,13 @@ jobs:
         run: |
           git config user.name "props-bot"
           git config user.email "props-bot@users.noreply.github.com"
-          git add docs/data/props.json data/latest_stats.csv data/latest_blended_stats.csv
+          # Only stage files that actually exist — data/latest_blended_stats.csv
+          # only gets created when use_blended_years is on in config.json, and
+          # `git add` on a missing path fails the whole step otherwise.
+          for f in docs/data/props.json data/latest_stats.csv data/latest_blended_stats.csv; do
+            if [ -f "$f" ]; then
+              git add "$f"
+            fi
+          done
           git diff --cached --quiet || git commit -m "Auto-update props data"
           git push
