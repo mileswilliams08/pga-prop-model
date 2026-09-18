@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PGA Prop Model</title>
+<style>
+  body { font-family: -apple-system, Arial, sans-serif; background: #0f1720; color: #e6edf3;
+         max-width: 1100px; margin: 0 auto; padding: 24px; }
+  h1 { font-size: 22px; }
+  #meta { color: #8b98a5; margin-bottom: 20px; font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #263140; }
+  th { color: #8b98a5; font-weight: 600; cursor: pointer; }
+  .prob { font-variant-numeric: tabular-nums; }
+  .odds-input { width: 60px; background: #1c2733; border: 1px solid #33414f;
+                color: #e6edf3; padding: 4px; border-radius: 4px; }
+  .edge-pos { color: #3fb950; font-weight: 600; }
+  .edge-neg { color: #f85149; }
+  .bet-tag { padding: 2px 6px; border-radius: 4px; font-size: 11px; font-weight: 700; }
+  .bet-yes { background: #1a4620; color: #3fb950; }
+  .bet-no { background: #2d1a1a; color: #f85149; }
+  select { background: #1c2733; color: #e6edf3; border: 1px solid #33414f; padding: 4px; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<h1>PGA Prop Model</h1>
+<div id="meta">Loading...</div>
+
+<div style="margin-bottom:16px; padding:12px; background:#1c2733; border-radius:6px;">
+  <label>My breakeven hit-rate for this pick size:
+    <input id="breakeven" type="number" value="58" min="1" max="99" style="width:60px;"> %
+  </label>
+  <span style="color:#8b98a5; font-size:12px; margin-left:10px;">
+    (PrizePicks/Underdog pay a fixed multiplier per pick count, not per-leg odds —
+    set this to whatever hit-rate your specific entry size needs to break even.)
+  </span>
+</div>
+
+<label>Prop:
+  <select id="propSelect">
+    <option value="gir">Greens in Regulation</option>
+    <option value="fairways">Fairways Hit</option>
+    <option value="birdies">Birdies or Better</option>
+    <option value="strokes">Total Strokes</option>
+  </select>
+</label>
+
+<table id="propsTable">
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Model Line</th>
+      <th>Model P(Over)</th>
+      <th>Platform Line</th>
+      <th>Side</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody id="propsBody"></tbody>
+</table>
+
+<script>
+let DATA = null;
+
+function renderTable() {
+  const propKey = document.getElementById("propSelect").value;
+  const breakeven = Number(document.getElementById("breakeven").value) / 100;
+  const tbody = document.getElementById("propsBody");
+  tbody.innerHTML = "";
+
+  DATA.props.forEach((p) => {
+    const stat = p[propKey];
+    const platformMatch = (p.platform_lines || []).find(pl => pl.category === propKey);
+    const bestProb = Math.max(stat.over, stat.under);
+    const side = stat.over >= stat.under ? "Over" : "Under";
+    const clearsBreakeven = bestProb >= breakeven;
+
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${p.player}</td>
+      <td>${stat.line}</td>
+      <td class="prob">${(bestProb * 100).toFixed(1)}%</td>
+      <td>${platformMatch ? `${platformMatch.line} <span style="color:#8b98a5;font-size:11px;">(${platformMatch.source})</span>` : '<span style="color:#8b98a5;">no line found</span>'}</td>
+      <td>${side}</td>
+      <td>${clearsBreakeven
+          ? '<span class="bet-tag bet-yes">CLEARS</span>'
+          : '<span class="bet-tag bet-no">PASS</span>'}</td>
+    `;
+    tbody.appendChild(row);
+  });
+}
+
+fetch("data/props.json")
+  .then(r => r.json())
+  .then(json => {
+    DATA = json;
+    document.getElementById("meta").textContent =
+      `${json.tournament_name} — updated ${new Date(json.generated_at).toLocaleString()}`;
+    renderTable();
+  })
+  .catch(() => {
+    document.getElementById("meta").textContent =
+      "Couldn't load props.json yet — run update_data.py and push.";
+  });
+
+document.getElementById("propSelect").addEventListener("change", renderTable);
+document.getElementById("breakeven").addEventListener("input", renderTable);
+</script>
+
+</body>
+</html>

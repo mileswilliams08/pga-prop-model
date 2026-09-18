@@ -1,0 +1,42 @@
+name: Update PGA Props
+
+on:
+  schedule:
+    # Runs daily at 13:00 UTC. Adjust for tournament weeks as you like —
+    # cron syntax is "minute hour day month day-of-week".
+    - cron: "0 13 * * *"
+  workflow_dispatch: {}  # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write  # needed so the workflow can commit updated data back
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    # Multi-year blending (if enabled in config.json) scrapes ESPN 3x
+    # instead of once, plus PrizePicks/Underdog lookups on top — give it
+    # real headroom instead of GitHub's 6-hour default silently eating a
+    # stuck run.
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install pandas numpy scipy playwright requests
+          playwright install --with-deps chromium
+
+      - name: Run pipeline
+        run: python update_data.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "props-bot"
+          git config user.email "props-bot@users.noreply.github.com"
+          git add docs/data/props.json data/latest_stats.csv data/latest_blended_stats.csv
+          git diff --cached --quiet || git commit -m "Auto-update props data"
+          git push

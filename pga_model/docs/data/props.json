@@ -1,0 +1,101 @@
+{
+  "tournament_name": "Example Tournament (sample+mock platform data)",
+  "generated_at": "2026-09-18T05:08:15.491027+00:00",
+  "props": [
+    {
+      "player": "Scottie Scheffler",
+      "gir": {
+        "line": 12.5,
+        "over": 0.45342083563359714,
+        "under": 0.5465791643664029
+      },
+      "fairways": {
+        "line": 8.5,
+        "over": 0.6676888267245091,
+        "under": 0.33231117327549087
+      },
+      "birdies": {
+        "line": 3.5,
+        "over": 0.5460785974792148,
+        "under": 0.45392140252078517
+      },
+      "strokes": {
+        "line": 70.5,
+        "under": 0.5987063256829241,
+        "over": 0.40129367431707585
+      },
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 3.5
+        },
+        {
+          "source": "prizepicks",
+          "category": "gir",
+          "line": 13.0
+        }
+      ]
+    },
+    {
+      "player": "Xander Schauffele",
+      "gir": {
+        "line": 12.5,
+        "over": 0.3715166885180042,
+        "under": 0.6284833114819959
+      },
+      "fairways": {
+        "line": 8.5,
+        "over": 0.5112012441592895,
+        "under": 0.48879875584071053
+      },
+      "birdies": {
+        "line": 3.5,
+        "over": 0.45010582844152286,
+        "under": 0.5498941715584771
+      },
+      "strokes": {
+        "line": 70.5,
+        "under": 0.5284716645164789,
+        "over": 0.47152833548352113
+      },
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "fairways",
+          "line": 8.5
+        }
+      ]
+    },
+    {
+      "player": "Average Tour Pro",
+      "gir": {
+        "line": 12.5,
+        "over": 0.22711856362347263,
+        "under": 0.7728814363765274
+      },
+      "fairways": {
+        "line": 8.5,
+        "over": 0.4319248947684962,
+        "under": 0.5680751052315038
+      },
+      "birdies": {
+        "line": 3.5,
+        "over": 0.333084303188791,
+        "under": 0.666915696811209
+      },
+      "strokes": {
+        "line": 70.5,
+        "under": 0.3212215288371156,
+        "over": 0.6787784711628844
+      },
+      "platform_lines": [
+        {
+          "source": "underdog",
+          "category": "strokes",
+          "line": 71.0
+        }
+      ]
+    }
+  ]
+}

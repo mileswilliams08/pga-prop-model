@@ -1,0 +1,29 @@
+{
+  "year": 2025,
+  "use_blended_years": false,
+  "blend_years": [
+    2025,
+    2024,
+    2023
+  ],
+  "tournament_name": "Example Tournament",
+  "course": {
+    "gir_pct": 0.6,
+    "driving_accuracy": 0.58,
+    "scoring_avg": 71.8,
+    "birdie_rate_per_hole": 0.1611
+  },
+  "tour_avg": {
+    "gir_pct": 0.65,
+    "driving_accuracy": 0.605,
+    "scoring_avg": 70.9,
+    "birdie_rate_per_hole": 0.1944
+  },
+  "prop_lines": {
+    "gir": 12.5,
+    "fairways": 8.5,
+    "birdies": 3.5,
+    "strokes": 70.5
+  },
+  "field": []
+}
