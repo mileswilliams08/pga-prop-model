@@ -8,6 +8,8 @@
   ],
   "tournament_name": "Bank of Utah Championship",
   "course_history_years": [2025, 2024, 2023],
+  "player_course_years": [2025, 2024, 2023],
+  "player_course_k": 30.0,
   "course": {
     "gir_pct": 0.6,
     "driving_accuracy": 0.58,
