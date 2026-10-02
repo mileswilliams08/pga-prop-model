@@ -13,10 +13,56 @@ import re
 import pandas as pd
 
 
-def normalize_name(name: str) -> str:
-    name = (name or "").lower()
+def normalize_name(name) -> str:
+    # `name or ""` doesn't catch a missing value coming from pandas as
+    # NaN (a float) — NaN is truthy in Python, so `.lower()` below would
+    # crash on it instead of being treated as empty. Handle that
+    # explicitly rather than assuming the input is always a real string.
+    if not isinstance(name, str):
+        return ""
+    name = name.lower()
     name = re.sub(r"[^a-z\s]", "", name)
     return re.sub(r"\s+", " ", name).strip()
+
+
+def build_line_lookup(platform_dfs: dict, preferred_order=("prizepicks", "underdog")) -> dict:
+    """
+    platform_dfs: dict like {"prizepicks": df, "underdog": df}, each with
+    columns [player, stat_type, line, category].
+
+    Returns normalized_name -> {category: {"source": str, "line": float}}
+    — the SINGLE real line to actually evaluate the model's probability
+    against for that player+stat, picking whichever source in
+    preferred_order shows up first when more than one platform posts a
+    line for the same player+category.
+
+    This exists because build_props() used to compute every player's
+    probability against the same fixed line from config.json's
+    "prop_lines" (e.g. birdies=3.5 for everyone), regardless of what a
+    platform actually posted for that specific player (often much higher
+    for a good player at a birdie-friendly course). That meant the
+    displayed probability answered a different question than the one
+    actually being bet on. Feeding this lookup into build_props() fixes
+    that: whenever a real line exists, the model's probability is for
+    THAT line, not a generic placeholder. "other"-category markets (Pars,
+    Bogeys or Worse, etc. — PrizePicks props with no equivalent model
+    stat) are skipped since there is no model prop to evaluate them
+    against.
+    """
+    lookup = {}
+    for source in preferred_order:
+        df = platform_dfs.get(source)
+        if df is None or df.empty:
+            continue
+        for _, row in df.iterrows():
+            category = row["category"]
+            if category not in ("gir", "fairways", "birdies", "strokes"):
+                continue
+            key = normalize_name(row["player"])
+            player_lines = lookup.setdefault(key, {})
+            if category not in player_lines:  # first source in preferred_order wins
+                player_lines[category] = {"source": source, "line": row["line"]}
+    return lookup
 
 
 def attach_platform_lines(model_props: list, platform_dfs: dict) -> list:

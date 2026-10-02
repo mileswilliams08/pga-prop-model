@@ -7,10 +7,20 @@ fine to run by hand:
 
     python update_data.py
 
-Edit config.json before each tournament: update the course profile
-numbers and, optionally, the `field` list to restrict output to players
-actually in that week's field (leave it empty to include everyone
-scraped).
+Edit config.json before each tournament: set `tournament_name` to that
+week's event and, optionally, the `field` list to restrict output to
+players actually in that week's field (leave it empty to include
+everyone scraped).
+
+Course adjustment: if `course_history_years` is set (e.g. [2025, 2024]),
+get_course_profile() looks up this week's `tournament_name` in REAL
+per-round course difficulty from those years
+(data/historical_rounds/{year}_rounds.csv, from historical_scraper.py)
+and uses that instead of the hand-typed `course` dict — backtesting
+found this matters far more than anything else tuned in this project
+(see get_course_profile()'s docstring). The hand-typed `course` dict in
+config.json is kept as a fallback for events with no matching scraped
+history yet (a new event, or a name that didn't match across years).
 
 Multi-year blending: set "use_blended_years": true in config.json (with
 a "blend_years" list, e.g. [2025, 2024, 2023]) to rate players on a
@@ -26,7 +36,8 @@ import pandas as pd
 from features import clean_player_stats, build_player_course_profile
 from prop_models import (gir_prop, fairways_prop, birdies_or_better_prop,
                           total_strokes_prop)
-from match_props import attach_platform_lines
+from match_props import attach_platform_lines, build_line_lookup, normalize_name
+from course_history import build_course_profiles, normalize_tournament_name
 
 CONFIG_PATH = "config.json"
 OUTPUT_PATH = "docs/data/props.json"
@@ -35,6 +46,54 @@ OUTPUT_PATH = "docs/data/props.json"
 def load_config():
     with open(CONFIG_PATH) as f:
         return json.load(f)
+
+
+def get_course_profile(cfg) -> dict:
+    """
+    Looks up this week's tournament (cfg["tournament_name"]) in REAL
+    course history built from past per-round data
+    (data/historical_rounds/{year}_rounds.csv, from historical_scraper.py)
+    instead of using config.json's hand-typed "course" numbers.
+
+    Backtesting (backtest_rounds.py --course-adjust) found this is a much
+    bigger lever than anything else tuned in this project: GIR +9%,
+    Fairways +13%, Birdies +4%, Strokes +7% vs. the climatology baseline,
+    compared to under 1% from phi/shrinkage/bias tuning alone — flat,
+    hand-typed course numbers were leaving the single largest source of
+    round-to-round variance (how hard the course actually plays) on the
+    table.
+
+    Falls back to cfg["course"] (the manual numbers) when there's no
+    scraped history to match against — a new event, a name that doesn't
+    match across years (see course_history.normalize_tournament_name),
+    or cfg["course_history_years"] not set yet. This keeps the pipeline
+    working the old way for anything not covered by real data yet,
+    rather than failing or silently using an unadjusted tour average.
+    """
+    years = cfg.get("course_history_years", [])
+    if not years:
+        print("No course_history_years set in config.json — using the "
+              "hand-typed 'course' numbers.")
+        return cfg["course"]
+
+    profiles = build_course_profiles(years)
+    key = normalize_tournament_name(cfg["tournament_name"])
+
+    if key in profiles.index:
+        row = profiles.loc[key]
+        print(f"Using real course history for '{cfg['tournament_name']}' "
+              f"({int(row['n_rounds'])} real rounds from {years}).")
+        return {
+            "gir_pct": row["gir_pct"],
+            "driving_accuracy": row["driving_accuracy"],
+            "scoring_avg": row["scoring_avg"],
+            "birdie_rate_per_hole": row["birdie_rate_per_hole"],
+        }
+
+    print(f"No real course history found for '{cfg['tournament_name']}' "
+          f"(tried years {years}) — falling back to the hand-typed "
+          f"'course' numbers in config.json.")
+    return cfg["course"]
 
 
 def get_clean_stats(cfg) -> pd.DataFrame:
@@ -66,32 +125,50 @@ def get_clean_stats(cfg) -> pd.DataFrame:
         return clean_player_stats(pd.read_csv("data/latest_stats.csv"))
 
 
-def build_props(cfg, profile: pd.DataFrame) -> list:
-    lines = cfg["prop_lines"]
+PROP_SPECS = {
+    "gir": ("adj_gir_pct", gir_prop),
+    "fairways": ("adj_driving_accuracy", fairways_prop),
+    "birdies": ("adj_birdie_rate_per_hole", birdies_or_better_prop),
+    "strokes": ("adj_scoring_avg", total_strokes_prop),
+}
+
+
+def build_props(cfg, profile: pd.DataFrame, line_lookup: dict = None) -> list:
+    """
+    For each player/stat, computes the model's probability against the
+    REAL line a platform actually posted for that specific player
+    (line_lookup, from match_props.build_line_lookup — PrizePicks
+    preferred, Underdog as fallback) when one exists; otherwise falls
+    back to config.json's generic "prop_lines" default, same as before
+    any real per-player lines existed.
+
+    Without line_lookup, every player's probability used to be computed
+    against the SAME fixed line regardless of player (e.g. birdies=3.5
+    for everyone) — so a strong player at a birdie-friendly week, posted
+    at a PrizePicks line of 5.5, would still show a probability for
+    clearing 3.5, a basically unrelated question, right next to that 5.5
+    platform line on the site. Each stat dict now also carries "source"
+    (the platform the line came from, or None when it's the generic
+    config default) so the UI can tell which is which.
+    """
+    default_lines = cfg["prop_lines"]
+    line_lookup = line_lookup or {}
     rows = []
     for _, r in profile.iterrows():
         if pd.isna(r.get("adj_gir_pct")):
             continue  # skip players missing data
-        rows.append({
-            "player": r["player"],
-            "gir": {
-                "line": lines["gir"],
-                **gir_prop(r["adj_gir_pct"], lines["gir"]),
-            },
-            "fairways": {
-                "line": lines["fairways"],
-                **fairways_prop(r["adj_driving_accuracy"], lines["fairways"]),
-            },
-            "birdies": {
-                "line": lines["birdies"],
-                **birdies_or_better_prop(r["adj_birdie_rate_per_hole"],
-                                          lines["birdies"]),
-            },
-            "strokes": {
-                "line": lines["strokes"],
-                **total_strokes_prop(r["adj_scoring_avg"], lines["strokes"]),
-            },
-        })
+        player_lines = line_lookup.get(normalize_name(r["player"]), {})
+        entry = {"player": r["player"]}
+        for category, (col, prop_func) in PROP_SPECS.items():
+            match = player_lines.get(category)
+            line = match["line"] if match else default_lines[category]
+            source = match["source"] if match else None
+            entry[category] = {
+                "line": line,
+                "source": source,
+                **prop_func(r[col], line),
+            }
+        rows.append(entry)
     return rows
 
 
@@ -120,9 +197,16 @@ def main():
     if cfg.get("field"):
         clean = clean[clean["player"].isin(cfg["field"])]
 
-    profile = build_player_course_profile(clean, cfg["course"], cfg["tour_avg"])
-    props = build_props(cfg, profile)
-    props = attach_platform_lines(props, get_platform_lines())
+    course = get_course_profile(cfg)
+    profile = build_player_course_profile(clean, course, cfg["tour_avg"])
+
+    # Fetched once, used twice: build_props() needs it to evaluate each
+    # player's probability against their REAL posted line (not a generic
+    # fixed default — see build_props' docstring), and attach_platform_lines
+    # still separately records every line found for display/reference.
+    platform_dfs = get_platform_lines()
+    props = build_props(cfg, profile, build_line_lookup(platform_dfs))
+    props = attach_platform_lines(props, platform_dfs)
 
     # Sort so the most lopsided (highest-confidence) props float to the top.
     def max_confidence(p):

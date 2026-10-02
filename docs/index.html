@@ -50,9 +50,8 @@
   <thead>
     <tr>
       <th>Player</th>
-      <th>Model Line</th>
-      <th>Model P(Over)</th>
-      <th>Platform Line</th>
+      <th>Line</th>
+      <th>Model P(Side)</th>
       <th>Side</th>
       <th></th>
     </tr>
@@ -69,19 +68,31 @@ function renderTable() {
   const tbody = document.getElementById("propsBody");
   tbody.innerHTML = "";
 
-  DATA.props.forEach((p) => {
-    const stat = p[propKey];
-    const platformMatch = (p.platform_lines || []).find(pl => pl.category === propKey);
-    const bestProb = Math.max(stat.over, stat.under);
-    const side = stat.over >= stat.under ? "Over" : "Under";
+  // Only players whose probability for THIS prop was actually computed
+  // against a live PrizePicks line (stat.source — see update_data.py's
+  // build_props) — not just any player who happens to have a PrizePicks
+  // line lying around for some OTHER stat. Ranked by the model's own
+  // confidence (highest P(side) first) so the most lopsided edges float
+  // to the top without manual sorting.
+  const rows = DATA.props
+    .map((p) => {
+      const stat = p[propKey];
+      if (stat.source !== "prizepicks") return null;
+      const bestProb = Math.max(stat.over, stat.under);
+      const side = stat.over >= stat.under ? "Over" : "Under";
+      return { player: p.player, stat, bestProb, side };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.bestProb - a.bestProb);
+
+  rows.forEach(({ player, stat, bestProb, side }) => {
     const clearsBreakeven = bestProb >= breakeven;
 
     const row = document.createElement("tr");
     row.innerHTML = `
-      <td>${p.player}</td>
-      <td>${stat.line}</td>
+      <td>${player}</td>
+      <td>${stat.line} <span style="color:#8b98a5;font-size:11px;">(prizepicks)</span></td>
       <td class="prob">${(bestProb * 100).toFixed(1)}%</td>
-      <td>${platformMatch ? `${platformMatch.line} <span style="color:#8b98a5;font-size:11px;">(${platformMatch.source})</span>` : '<span style="color:#8b98a5;">no line found</span>'}</td>
       <td>${side}</td>
       <td>${clearsBreakeven
           ? '<span class="bet-tag bet-yes">CLEARS</span>'
@@ -89,6 +100,13 @@ function renderTable() {
     `;
     tbody.appendChild(row);
   });
+
+  if (rows.length === 0) {
+    const row = document.createElement("tr");
+    row.innerHTML = `<td colspan="5" style="color:#8b98a5; text-align:center; padding:16px;">
+      No PrizePicks lines found for this prop right now.</td>`;
+    tbody.appendChild(row);
+  }
 }
 
 fetch("data/props.json")

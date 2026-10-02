@@ -1,12 +1,13 @@
 {
   "year": 2025,
-  "use_blended_years": false,
+  "use_blended_years": true,
   "blend_years": [
     2025,
     2024,
     2023
   ],
-  "tournament_name": "Example Tournament",
+  "tournament_name": "Bank of Utah Championship",
+  "course_history_years": [2025, 2024, 2023],
   "course": {
     "gir_pct": 0.6,
     "driving_accuracy": 0.58,
