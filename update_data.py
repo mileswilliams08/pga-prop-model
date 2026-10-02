@@ -7,10 +7,20 @@ fine to run by hand:
 
     python update_data.py
 
-Edit config.json before each tournament: update the course profile
-numbers and, optionally, the `field` list to restrict output to players
-actually in that week's field (leave it empty to include everyone
-scraped).
+Edit config.json before each tournament: set `tournament_name` to that
+week's event and, optionally, the `field` list to restrict output to
+players actually in that week's field (leave it empty to include
+everyone scraped).
+
+Course adjustment: if `course_history_years` is set (e.g. [2025, 2024]),
+get_course_profile() looks up this week's `tournament_name` in REAL
+per-round course difficulty from those years
+(data/historical_rounds/{year}_rounds.csv, from historical_scraper.py)
+and uses that instead of the hand-typed `course` dict — backtesting
+found this matters far more than anything else tuned in this project
+(see get_course_profile()'s docstring). The hand-typed `course` dict in
+config.json is kept as a fallback for events with no matching scraped
+history yet (a new event, or a name that didn't match across years).
 
 Multi-year blending: set "use_blended_years": true in config.json (with
 a "blend_years" list, e.g. [2025, 2024, 2023]) to rate players on a
@@ -27,6 +37,7 @@ from features import clean_player_stats, build_player_course_profile
 from prop_models import (gir_prop, fairways_prop, birdies_or_better_prop,
                           total_strokes_prop)
 from match_props import attach_platform_lines
+from course_history import build_course_profiles, normalize_tournament_name
 
 CONFIG_PATH = "config.json"
 OUTPUT_PATH = "docs/data/props.json"
@@ -35,6 +46,54 @@ OUTPUT_PATH = "docs/data/props.json"
 def load_config():
     with open(CONFIG_PATH) as f:
         return json.load(f)
+
+
+def get_course_profile(cfg) -> dict:
+    """
+    Looks up this week's tournament (cfg["tournament_name"]) in REAL
+    course history built from past per-round data
+    (data/historical_rounds/{year}_rounds.csv, from historical_scraper.py)
+    instead of using config.json's hand-typed "course" numbers.
+
+    Backtesting (backtest_rounds.py --course-adjust) found this is a much
+    bigger lever than anything else tuned in this project: GIR +9%,
+    Fairways +13%, Birdies +4%, Strokes +7% vs. the climatology baseline,
+    compared to under 1% from phi/shrinkage/bias tuning alone — flat,
+    hand-typed course numbers were leaving the single largest source of
+    round-to-round variance (how hard the course actually plays) on the
+    table.
+
+    Falls back to cfg["course"] (the manual numbers) when there's no
+    scraped history to match against — a new event, a name that doesn't
+    match across years (see course_history.normalize_tournament_name),
+    or cfg["course_history_years"] not set yet. This keeps the pipeline
+    working the old way for anything not covered by real data yet,
+    rather than failing or silently using an unadjusted tour average.
+    """
+    years = cfg.get("course_history_years", [])
+    if not years:
+        print("No course_history_years set in config.json — using the "
+              "hand-typed 'course' numbers.")
+        return cfg["course"]
+
+    profiles = build_course_profiles(years)
+    key = normalize_tournament_name(cfg["tournament_name"])
+
+    if key in profiles.index:
+        row = profiles.loc[key]
+        print(f"Using real course history for '{cfg['tournament_name']}' "
+              f"({int(row['n_rounds'])} real rounds from {years}).")
+        return {
+            "gir_pct": row["gir_pct"],
+            "driving_accuracy": row["driving_accuracy"],
+            "scoring_avg": row["scoring_avg"],
+            "birdie_rate_per_hole": row["birdie_rate_per_hole"],
+        }
+
+    print(f"No real course history found for '{cfg['tournament_name']}' "
+          f"(tried years {years}) — falling back to the hand-typed "
+          f"'course' numbers in config.json.")
+    return cfg["course"]
 
 
 def get_clean_stats(cfg) -> pd.DataFrame:
@@ -120,7 +179,8 @@ def main():
     if cfg.get("field"):
         clean = clean[clean["player"].isin(cfg["field"])]
 
-    profile = build_player_course_profile(clean, cfg["course"], cfg["tour_avg"])
+    course = get_course_profile(cfg)
+    profile = build_player_course_profile(clean, course, cfg["tour_avg"])
     props = build_props(cfg, profile)
     props = attach_platform_lines(props, get_platform_lines())
 

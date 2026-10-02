@@ -13,8 +13,14 @@ import re
 import pandas as pd
 
 
-def normalize_name(name: str) -> str:
-    name = (name or "").lower()
+def normalize_name(name) -> str:
+    # `name or ""` doesn't catch a missing value coming from pandas as
+    # NaN (a float) — NaN is truthy in Python, so `.lower()` below would
+    # crash on it instead of being treated as empty. Handle that
+    # explicitly rather than assuming the input is always a real string.
+    if not isinstance(name, str):
+        return ""
+    name = name.lower()
     name = re.sub(r"[^a-z\s]", "", name)
     return re.sub(r"\s+", " ", name).strip()
 

@@ -96,21 +96,77 @@ def blend_multi_year_stats(cleaned_dfs_by_year: dict,
             record = {"player": player}
             for c in STAT_COLS:
                 record[c] = weighted_sum[c] / weight_total[c]
+            # weight_total sums to ~1.0 (the recency weights) when a
+            # player has data in every year requested, and less than
+            # that when some years are missing (a rookie only in the
+            # most recent year, say). We keep the average across stats
+            # as a per-player "coverage" score before it gets erased by
+            # the normalization above — this is what shrink_toward_mean()
+            # uses to tell a well-established player's average from a
+            # thin-sample one, since we don't scrape rounds-played.
+            record["coverage"] = sum(weight_total[c] for c in STAT_COLS) / len(STAT_COLS)
             rows.append(record)
 
     return pd.DataFrame(rows)
 
 
+def shrink_toward_mean(blended: pd.DataFrame, k: float = 0.3) -> pd.DataFrame:
+    """
+    Pulls each player's blended stat toward the tour-wide average, more
+    for players with thin coverage (low `coverage`, from
+    blend_multi_year_stats) and less for players with a full multi-year
+    track record. This is the standard empirical-Bayes shrinkage fix for
+    a pattern where a small sample's average gets treated as if it were
+    the player's true skill level: extreme predictions from thin data
+    end up "wrong" more often than the model expects, because most of
+    that extremity is noise, not signal.
+
+    shrink_weight = coverage / (coverage + k) — how much of the
+    player's OWN average survives. coverage=1.0 (full 3-year history)
+    with k=0.3 keeps ~77% of the player's own number; coverage=0.15
+    (one thin year) keeps only ~33%, pulling the rest toward the field
+    average.
+
+    No-op if `blended` has no "coverage" column (e.g. a single-year,
+    non-blended DataFrame — there's nothing to shrink against without
+    knowing how much data backs each row).
+    """
+    if "coverage" not in blended.columns:
+        return blended
+
+    out = blended.copy()
+    tour_avg = {c: out[c].mean() for c in STAT_COLS}
+    shrink_weight = out["coverage"] / (out["coverage"] + k)
+    for c in STAT_COLS:
+        out[c] = shrink_weight * out[c] + (1 - shrink_weight) * tour_avg[c]
+    return out
+
+
+# Calibrated against real per-round results (backtest_rounds.py,
+# --shrink-sweep, 2025 season, 12.8k player-rounds): pulling
+# thin-coverage players (rookies, anyone missing a blend year) toward
+# the tour average measurably improved calibration — GIR and Strokes
+# flipped from losing to beating the climatology baseline, Fairways
+# improved further, all without hurting anyone with a full history.
+# See shrink_toward_mean() above for the mechanism. Re-tune with
+# `python backtest_rounds.py --shrink-sweep` if this stops helping.
+DEFAULT_SHRINK_K = 0.3
+
+
 def scrape_and_blend_years(years: list, weights_by_recency: list = None,
-                            debug: bool = False) -> pd.DataFrame:
+                            debug: bool = False, shrink_k: float = DEFAULT_SHRINK_K) -> pd.DataFrame:
     """
     Convenience wrapper: scrapes each requested year from ESPN, cleans
-    each one, blends them, and returns the final blended DataFrame ready
-    for features.build_player_course_profile().
+    each one, blends them, shrinks thin-coverage players toward the tour
+    average, and returns the final blended DataFrame ready for
+    features.build_player_course_profile().
 
     A single year's scrape failing doesn't kill the whole run — it's
     just excluded from the blend (with a printed warning), same
     fail-soft philosophy as the rest of the pipeline.
+
+    Pass shrink_k=None to disable shrinkage (e.g. to reproduce old
+    behavior or compare against it).
     """
     from espn_scraper import scrape_espn_stats
 
@@ -127,7 +183,10 @@ def scrape_and_blend_years(years: list, weights_by_recency: list = None,
     if not cleaned_by_year:
         raise RuntimeError("Every year's scrape failed — nothing to blend.")
 
-    return blend_multi_year_stats(cleaned_by_year, weights_by_recency)
+    blended = blend_multi_year_stats(cleaned_by_year, weights_by_recency)
+    if shrink_k is not None:
+        blended = shrink_toward_mean(blended, k=shrink_k)
+    return blended
 
 
 if __name__ == "__main__":

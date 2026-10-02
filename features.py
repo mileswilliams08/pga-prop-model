@@ -21,6 +21,18 @@ Course adjustment logic:
 import numpy as np
 import pandas as pd
 
+# Calibrated against real per-round results (backtest_rounds.py,
+# --birdie-bias-sweep, 2025 season, 12.8k player-rounds): ESPN's
+# BIRDS/birdie_avg column undercounts what real "birdies-or-better"
+# outcomes actually clear a 3.5 line by (season base rate 0.586 vs.
+# model's uncorrected 0.553) — plausibly because it doesn't count
+# eagles the same way a real per-hole score<par check does. This flat
+# shift closed that gap and was the only tested value that beat the
+# climatology baseline (0.2417 vs 0.2426 Brier score). Re-tune with
+# `python backtest_rounds.py --birdie-bias-sweep` if ESPN's page or the
+# scraper's column mapping changes.
+BIRDIE_RATE_BIAS = 0.01
+
 
 def _to_frac(x):
     """Convert a percentage string/number like '65.4' or '65.4%' to 0.654."""
@@ -57,7 +69,7 @@ def clean_player_stats(raw: pd.DataFrame) -> pd.DataFrame:
     # birdie_avg on PGA Tour's site is birdies-per-round; convert to a
     # per-hole rate assuming 18 holes.
     if "birdie_avg" in df.columns:
-        df["birdie_rate_per_hole"] = df["birdie_avg"] / 18
+        df["birdie_rate_per_hole"] = df["birdie_avg"] / 18 + BIRDIE_RATE_BIAS
 
     # Drop players with no meaningful season data. Retired or
     # limited-status players who played ~0 rounds show up with a
