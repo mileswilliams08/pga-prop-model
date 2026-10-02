@@ -1,144 +1,7 @@
 {
   "tournament_name": "Bank of Utah Championship",
-  "generated_at": "2026-10-02T06:38:05.836968+00:00",
+  "generated_at": "2026-10-02T06:57:29.404477+00:00",
   "props": [
-    {
-      "player": "Harry Hall",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.25058329243359906,
-        "under": 0.7494167075664009
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.3630405231541798,
-        "under": 0.6369594768458202
-      },
-      "birdies": {
-        "line": 0.5,
-        "source": "prizepicks",
-        "over": 0.9781613096892073,
-        "under": 0.021838690310792663
-      },
-      "strokes": {
-        "line": 67.5,
-        "source": "prizepicks",
-        "under": 0.16192383879599753,
-        "over": 0.8380761612040024
-      },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 0.5
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 67.5
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.5
-        }
-      ]
-    },
-    {
-      "player": "Doug Ghim",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.3885638734780559,
-        "under": 0.6114361265219441
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.5503856352757509,
-        "under": 0.4496143647242491
-      },
-      "birdies": {
-        "line": 0.5,
-        "source": "prizepicks",
-        "over": 0.9671301617964192,
-        "under": 0.0328698382035808
-      },
-      "strokes": {
-        "line": 67.5,
-        "source": "prizepicks",
-        "under": 0.12225666260814161,
-        "over": 0.8777433373918584
-      },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 0.5
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 67.5
-        },
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 10.5
-        },
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 2.0
-        }
-      ]
-    },
-    {
-      "player": "Billy Horschel",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.25788763867176207,
-        "under": 0.7421123613282379
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.47804246596439925,
-        "under": 0.5219575340356007
-      },
-      "birdies": {
-        "line": 0.5,
-        "source": "prizepicks",
-        "over": 0.9628371764735995,
-        "under": 0.037162823526400546
-      },
-      "strokes": {
-        "line": 68.0,
-        "source": "prizepicks",
-        "under": 0.13844650169402772,
-        "over": 0.8615534983059723
-      },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 0.5
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 68.0
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.5
-        }
-      ]
-    },
     {
       "player": "Max Homa",
       "gir": {
@@ -162,8 +25,8 @@
       "strokes": {
         "line": 67.5,
         "source": "prizepicks",
-        "under": 0.08797350531195713,
-        "over": 0.9120264946880429
+        "under": 0.08797350531195641,
+        "over": 0.9120264946880436
       },
       "platform_lines": [
         {
@@ -321,6 +184,50 @@
       ]
     },
     {
+      "player": "Billy Horschel",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.25788763867178083,
+        "under": 0.7421123613282192
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.47804246596439925,
+        "under": 0.5219575340356007
+      },
+      "birdies": {
+        "line": 5.5,
+        "source": "prizepicks",
+        "over": 0.11621405807092856,
+        "under": 0.8837859419290715
+      },
+      "strokes": {
+        "line": 68.0,
+        "source": "prizepicks",
+        "under": 0.1384465016940266,
+        "over": 0.8615534983059734
+      },
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "other",
+          "line": 0.5
+        },
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 68.0
+        },
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 5.5
+        }
+      ]
+    },
+    {
       "player": "Nick Taylor",
       "gir": {
         "line": 13.5,
@@ -343,8 +250,8 @@
       "strokes": {
         "line": 68.0,
         "source": "prizepicks",
-        "under": 0.14533869330488774,
-        "over": 0.8546613066951123
+        "under": 0.14533869330488658,
+        "over": 0.8546613066951134
       },
       "platform_lines": [
         {
@@ -431,8 +338,8 @@
       "strokes": {
         "line": 68.5,
         "source": "prizepicks",
-        "under": 0.18041632342436936,
-        "over": 0.8195836765756306
+        "under": 0.18041632342436803,
+        "over": 0.8195836765756319
       },
       "platform_lines": [
         {
@@ -452,8 +359,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.34699476073895497,
-        "under": 0.653005239261045
+        "over": 0.34699476073898294,
+        "under": 0.6530052392610171
       },
       "fairways": {
         "line": 8.5,
@@ -524,14 +431,63 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.44772475324483985,
-        "over": 0.5522752467551602
+        "under": 0.44772475324483785,
+        "over": 0.5522752467551622
       },
       "platform_lines": [
         {
           "source": "prizepicks",
           "category": "birdies",
           "line": 5.5
+        }
+      ]
+    },
+    {
+      "player": "Doug Ghim",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.3885638734780559,
+        "under": 0.6114361265219441
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.5503856352757509,
+        "under": 0.4496143647242491
+      },
+      "birdies": {
+        "line": 3.5,
+        "source": null,
+        "over": 0.4483637097072122,
+        "under": 0.5516362902927878
+      },
+      "strokes": {
+        "line": 67.5,
+        "source": "prizepicks",
+        "under": 0.12225666260814161,
+        "over": 0.8777433373918584
+      },
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "other",
+          "line": 0.5
+        },
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 67.5
+        },
+        {
+          "source": "prizepicks",
+          "category": "other",
+          "line": 10.5
+        },
+        {
+          "source": "prizepicks",
+          "category": "other",
+          "line": 2.0
         }
       ]
     },
@@ -636,8 +592,8 @@
       "strokes": {
         "line": 69.0,
         "source": "prizepicks",
-        "under": 0.16350030136280658,
-        "over": 0.8364996986371934
+        "under": 0.1635003013628053,
+        "over": 0.8364996986371946
       },
       "platform_lines": [
         {
@@ -897,6 +853,50 @@
       ]
     },
     {
+      "player": "Stephan Jaeger",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.25899322660068486,
+        "under": 0.7410067733993151
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.3489781014559324,
+        "under": 0.6510218985440677
+      },
+      "birdies": {
+        "line": 5.5,
+        "source": "prizepicks",
+        "over": 0.1415933622440413,
+        "under": 0.8584066377559587
+      },
+      "strokes": {
+        "line": 70.5,
+        "source": null,
+        "under": 0.42362602137989636,
+        "over": 0.5763739786201036
+      },
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "other",
+          "line": 10.0
+        },
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 5.5
+        },
+        {
+          "source": "prizepicks",
+          "category": "other",
+          "line": 2.0
+        }
+      ]
+    },
+    {
       "player": "Beau Hossler",
       "gir": {
         "line": 12.5,
@@ -1024,6 +1024,50 @@
       ]
     },
     {
+      "player": "Harry Hall",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.25058329243359906,
+        "under": 0.7494167075664009
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.3630405231541798,
+        "under": 0.6369594768458202
+      },
+      "birdies": {
+        "line": 5.5,
+        "source": "prizepicks",
+        "over": 0.1786751133006382,
+        "under": 0.8213248866993618
+      },
+      "strokes": {
+        "line": 67.5,
+        "source": "prizepicks",
+        "under": 0.16192383879599753,
+        "over": 0.8380761612040024
+      },
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "other",
+          "line": 0.5
+        },
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 67.5
+        },
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 5.5
+        }
+      ]
+    },
+    {
       "player": "Frankie Capan III",
       "gir": {
         "line": 12.5,
@@ -1046,8 +1090,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.321056969834965,
-        "over": 0.678943030165035
+        "under": 0.3210569698349631,
+        "over": 0.6789430301650369
       },
       "platform_lines": []
     },
@@ -1095,8 +1139,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.17016831391465256,
-        "under": 0.8298316860853474
+        "over": 0.1701683139146383,
+        "under": 0.8298316860853617
       },
       "fairways": {
         "line": 8.5,
@@ -1113,8 +1157,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.29357878589862196,
-        "over": 0.706421214101378
+        "under": 0.2935787858986202,
+        "over": 0.7064212141013798
       },
       "platform_lines": []
     },
@@ -1287,8 +1331,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3564598447990036,
-        "over": 0.6435401552009964
+        "under": 0.3564598447990017,
+        "over": 0.6435401552009983
       },
       "platform_lines": []
     },
@@ -1343,8 +1387,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.321056969834965,
-        "over": 0.678943030165035
+        "under": 0.3210569698349631,
+        "over": 0.6789430301650369
       },
       "platform_lines": []
     },
@@ -1353,8 +1397,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.21442889518330327,
-        "under": 0.7855711048166967
+        "over": 0.21442889518330277,
+        "under": 0.7855711048166972
       },
       "fairways": {
         "line": 8.5,
@@ -1371,8 +1415,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.40600428059894333,
-        "over": 0.5939957194010567
+        "under": 0.40600428059894134,
+        "over": 0.5939957194010587
       },
       "platform_lines": []
     },
@@ -1399,8 +1443,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3337831936352027,
-        "over": 0.6662168063647973
+        "under": 0.33378319363520076,
+        "over": 0.6662168063647993
       },
       "platform_lines": []
     },
@@ -1409,8 +1453,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2150888044172841,
-        "under": 0.7849111955827159
+        "over": 0.21508880441728234,
+        "under": 0.7849111955827177
       },
       "fairways": {
         "line": 8.5,
@@ -1455,8 +1499,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.4371160607593368,
-        "over": 0.5628839392406633
+        "under": 0.4371160607593348,
+        "over": 0.5628839392406653
       },
       "platform_lines": []
     },
@@ -1483,8 +1527,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.37018551061967897,
-        "over": 0.629814489380321
+        "under": 0.3701855106196771,
+        "over": 0.6298144893803229
       },
       "platform_lines": []
     },
@@ -1567,8 +1611,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.38637500682615317,
-        "over": 0.6136249931738469
+        "under": 0.3863750068261513,
+        "over": 0.6136249931738487
       },
       "platform_lines": []
     },
@@ -1577,8 +1621,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2230851535662959,
-        "under": 0.7769148464337041
+        "over": 0.2230851535662933,
+        "under": 0.7769148464337067
       },
       "fairways": {
         "line": 8.5,
@@ -1595,8 +1639,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.31056186093982796,
-        "over": 0.689438139060172
+        "under": 0.31056186093982613,
+        "over": 0.6894381390601738
       },
       "platform_lines": []
     },
@@ -1605,8 +1649,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.22321777984632493,
-        "under": 0.776782220153675
+        "over": 0.22321777984632313,
+        "under": 0.7767822201536769
       },
       "fairways": {
         "line": 8.5,
@@ -1679,8 +1723,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.321056969834965,
-        "over": 0.678943030165035
+        "under": 0.3210569698349631,
+        "over": 0.6789430301650369
       },
       "platform_lines": []
     },
@@ -1717,8 +1761,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2261379063436759,
-        "under": 0.7738620936563241
+        "over": 0.2261379063436731,
+        "under": 0.773862093656327
       },
       "fairways": {
         "line": 8.5,
@@ -1763,8 +1807,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.38562804702582887,
-        "over": 0.6143719529741711
+        "under": 0.3856280470258269,
+        "over": 0.6143719529741731
       },
       "platform_lines": []
     },
@@ -1773,8 +1817,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.22644931320813644,
-        "under": 0.7735506867918636
+        "over": 0.22644931320813794,
+        "under": 0.773550686791862
       },
       "fairways": {
         "line": 8.5,
@@ -1791,8 +1835,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.36461234355257777,
-        "over": 0.6353876564474222
+        "under": 0.3646123435525759,
+        "over": 0.6353876564474241
       },
       "platform_lines": []
     },
@@ -1801,8 +1845,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2281656734050266,
-        "under": 0.7718343265949734
+        "over": 0.22816567340502872,
+        "under": 0.7718343265949713
       },
       "fairways": {
         "line": 8.5,
@@ -1875,8 +1919,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.29918113591091006,
-        "over": 0.70081886408909
+        "under": 0.29918113591090834,
+        "over": 0.7008188640890917
       },
       "platform_lines": []
     },
@@ -1885,8 +1929,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2312733173229691,
-        "under": 0.7687266826770309
+        "over": 0.23127331732296794,
+        "under": 0.768726682677032
       },
       "fairways": {
         "line": 8.5,
@@ -1947,8 +1991,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.23337450539660737,
-        "under": 0.7666254946033926
+        "over": 0.23337450539660462,
+        "under": 0.7666254946033954
       },
       "fairways": {
         "line": 8.5,
@@ -2031,8 +2075,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.23438310582073882,
-        "under": 0.7656168941792612
+        "over": 0.23438310582073507,
+        "under": 0.7656168941792649
       },
       "fairways": {
         "line": 8.5,
@@ -2105,8 +2149,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3737687527827687,
-        "over": 0.6262312472172313
+        "under": 0.3737687527827668,
+        "over": 0.6262312472172332
       },
       "platform_lines": []
     },
@@ -2161,8 +2205,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3357609743321044,
-        "over": 0.6642390256678956
+        "under": 0.33576097433210245,
+        "over": 0.6642390256678976
       },
       "platform_lines": []
     },
@@ -2245,8 +2289,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.41692186419802124,
-        "over": 0.5830781358019788
+        "under": 0.41692186419801924,
+        "over": 0.5830781358019808
       },
       "platform_lines": []
     },
@@ -2273,8 +2317,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3912352601961208,
-        "over": 0.6087647398038791
+        "under": 0.3912352601961189,
+        "over": 0.6087647398038811
       },
       "platform_lines": []
     },
@@ -2283,8 +2327,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.23864026691902457,
-        "under": 0.7613597330809754
+        "over": 0.2386402669190392,
+        "under": 0.7613597330809608
       },
       "fairways": {
         "line": 8.5,
@@ -2395,8 +2439,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.24219885857377838,
-        "under": 0.7578011414262216
+        "over": 0.2421988585737806,
+        "under": 0.7578011414262193
       },
       "fairways": {
         "line": 8.5,
@@ -2413,8 +2457,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.36909459338533057,
-        "over": 0.6309054066146694
+        "under": 0.36909459338532863,
+        "over": 0.6309054066146713
       },
       "platform_lines": []
     },
@@ -2423,8 +2467,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.24285752434433586,
-        "under": 0.7571424756556642
+        "over": 0.24285752434435603,
+        "under": 0.757142475655644
       },
       "fairways": {
         "line": 8.5,
@@ -2525,8 +2569,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.38282161483850796,
-        "over": 0.617178385161492
+        "under": 0.3828216148385061,
+        "over": 0.6171783851614939
       },
       "platform_lines": []
     },
@@ -2535,8 +2579,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2443696496972491,
-        "under": 0.7556303503027509
+        "over": 0.24436964969724728,
+        "under": 0.7556303503027527
       },
       "fairways": {
         "line": 8.5,
@@ -2721,8 +2765,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.401065263230193,
-        "over": 0.598934736769807
+        "under": 0.40106526323019104,
+        "over": 0.598934736769809
       },
       "platform_lines": []
     },
@@ -2777,8 +2821,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.4365749441174282,
-        "over": 0.5634250558825717
+        "under": 0.4365749441174262,
+        "over": 0.5634250558825737
       },
       "platform_lines": []
     },
@@ -2871,8 +2915,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.25399471563003656,
-        "under": 0.7460052843699634
+        "over": 0.2539947156300354,
+        "under": 0.7460052843699646
       },
       "fairways": {
         "line": 8.5,
@@ -2889,8 +2933,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3735947142811317,
-        "over": 0.6264052857188682
+        "under": 0.37359471428112984,
+        "over": 0.6264052857188702
       },
       "platform_lines": []
     },
@@ -2899,8 +2943,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.25399471563003656,
-        "under": 0.7460052843699634
+        "over": 0.2539947156300354,
+        "under": 0.7460052843699646
       },
       "fairways": {
         "line": 8.5,
@@ -2927,8 +2971,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2549166310522529,
-        "under": 0.7450833689477472
+        "over": 0.25491663105225154,
+        "under": 0.7450833689477485
       },
       "fairways": {
         "line": 8.5,
@@ -2945,8 +2989,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3337831936352027,
-        "over": 0.6662168063647973
+        "under": 0.33378319363520076,
+        "over": 0.6662168063647993
       },
       "platform_lines": []
     },
@@ -2973,8 +3017,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.31664209794553266,
-        "over": 0.6833579020544673
+        "under": 0.3166420979455309,
+        "over": 0.6833579020544691
       },
       "platform_lines": []
     },
@@ -3029,8 +3073,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.30118376080369325,
-        "over": 0.6988162391963068
+        "under": 0.30118376080369136,
+        "over": 0.6988162391963086
       },
       "platform_lines": []
     },
@@ -3091,79 +3135,12 @@
       "platform_lines": []
     },
     {
-      "player": "Stephan Jaeger",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.25899322660068486,
-        "under": 0.7410067733993151
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.3489781014559324,
-        "under": 0.6510218985440677
-      },
-      "birdies": {
-        "line": 3.5,
-        "source": null,
-        "over": 0.469708797997825,
-        "under": 0.530291202002175
-      },
-      "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.42362602137989636,
-        "over": 0.5763739786201036
-      },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 10.0
-        },
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 2.0
-        }
-      ]
-    },
-    {
-      "player": "Blaine Hale Jr.",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.25952006564832564,
-        "under": 0.7404799343516744
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.34210742842126646,
-        "under": 0.6578925715787336
-      },
-      "birdies": {
-        "line": 3.5,
-        "source": null,
-        "over": 0.41648812099579163,
-        "under": 0.5835118790042084
-      },
-      "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.3338439796935738,
-        "over": 0.6661560203064262
-      },
-      "platform_lines": []
-    },
-    {
       "player": "Will Zalatoris",
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.25952006564832564,
-        "under": 0.7404799343516744
+        "over": 0.2595200656483435,
+        "under": 0.7404799343516565
       },
       "fairways": {
         "line": 8.5,
@@ -3180,8 +3157,36 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3885043256658698,
-        "over": 0.6114956743341302
+        "under": 0.38850432566586784,
+        "over": 0.6114956743341322
+      },
+      "platform_lines": []
+    },
+    {
+      "player": "Blaine Hale Jr.",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.2595200656483435,
+        "under": 0.7404799343516565
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.34210742842126646,
+        "under": 0.6578925715787336
+      },
+      "birdies": {
+        "line": 3.5,
+        "source": null,
+        "over": 0.41648812099579163,
+        "under": 0.5835118790042084
+      },
+      "strokes": {
+        "line": 70.5,
+        "source": null,
+        "under": 0.33384397969357194,
+        "over": 0.6661560203064281
       },
       "platform_lines": []
     },
@@ -3208,8 +3213,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.48508063897324,
-        "over": 0.51491936102676
+        "under": 0.48508063897323794,
+        "over": 0.5149193610267621
       },
       "platform_lines": []
     },
@@ -3274,8 +3279,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.26049153218086085,
-        "under": 0.7395084678191391
+        "over": 0.260491532180841,
+        "under": 0.739508467819159
       },
       "fairways": {
         "line": 8.5,
@@ -3386,8 +3391,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.26209162969317207,
-        "under": 0.7379083703068279
+        "over": 0.2620916296931688,
+        "under": 0.7379083703068312
       },
       "fairways": {
         "line": 8.5,
@@ -3404,8 +3409,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.384394957872821,
-        "over": 0.615605042127179
+        "under": 0.3843949578728191,
+        "over": 0.6156050421271809
       },
       "platform_lines": []
     },
@@ -3432,8 +3437,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.408623478127452,
-        "over": 0.591376521872548
+        "under": 0.40862347812745,
+        "over": 0.59137652187255
       },
       "platform_lines": []
     },
@@ -3488,8 +3493,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.46089242666693575,
-        "over": 0.5391075733330642
+        "under": 0.46089242666693375,
+        "over": 0.5391075733330662
       },
       "platform_lines": []
     },
@@ -3516,8 +3521,36 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.43549306780833663,
-        "over": 0.5645069321916634
+        "under": 0.43549306780833463,
+        "over": 0.5645069321916654
+      },
+      "platform_lines": []
+    },
+    {
+      "player": "Jonathan Byrd",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.26424934453576787,
+        "under": 0.7357506554642321
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.43749709489811467,
+        "under": 0.5625029051018853
+      },
+      "birdies": {
+        "line": 3.5,
+        "source": null,
+        "over": 0.40601929488042476,
+        "under": 0.5939807051195752
+      },
+      "strokes": {
+        "line": 70.5,
+        "source": null,
+        "under": 0.37811213723108716,
+        "over": 0.6218878627689128
       },
       "platform_lines": []
     },
@@ -3526,8 +3559,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.26424934453578663,
-        "under": 0.7357506554642134
+        "over": 0.26424934453576787,
+        "under": 0.7357506554642321
       },
       "fairways": {
         "line": 8.5,
@@ -3544,8 +3577,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.40554728678287644,
-        "over": 0.5944527132171236
+        "under": 0.40554728678287444,
+        "over": 0.5944527132171256
       },
       "platform_lines": []
     },
@@ -3554,8 +3587,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.26424934453578663,
-        "under": 0.7357506554642134
+        "over": 0.26424934453576787,
+        "under": 0.7357506554642321
       },
       "fairways": {
         "line": 8.5,
@@ -3574,34 +3607,6 @@
         "source": null,
         "under": 0.3871965779717102,
         "over": 0.6128034220282899
-      },
-      "platform_lines": []
-    },
-    {
-      "player": "Jonathan Byrd",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.26424934453578663,
-        "under": 0.7357506554642134
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.43749709489811467,
-        "under": 0.5625029051018853
-      },
-      "birdies": {
-        "line": 3.5,
-        "source": null,
-        "over": 0.40601929488042476,
-        "under": 0.5939807051195752
-      },
-      "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.37811213723108905,
-        "over": 0.621887862768911
       },
       "platform_lines": []
     },
@@ -3740,8 +3745,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.36909459338533057,
-        "over": 0.6309054066146694
+        "under": 0.36909459338532863,
+        "over": 0.6309054066146713
       },
       "platform_lines": []
     },
@@ -3796,8 +3801,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.4571555715640082,
-        "over": 0.5428444284359918
+        "under": 0.4571555715640062,
+        "over": 0.5428444284359938
       },
       "platform_lines": []
     },
@@ -3824,8 +3829,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.43495231012955443,
-        "over": 0.5650476898704455
+        "under": 0.43495231012955243,
+        "over": 0.5650476898704475
       },
       "platform_lines": []
     },
@@ -3834,8 +3839,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2698226377222789,
-        "under": 0.7301773622777211
+        "over": 0.26982263772227577,
+        "under": 0.7301773622777242
       },
       "fairways": {
         "line": 8.5,
@@ -3908,8 +3913,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3735947142811317,
-        "over": 0.6264052857188682
+        "under": 0.37359471428112984,
+        "over": 0.6264052857188702
       },
       "platform_lines": []
     },
@@ -3918,8 +3923,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.27112757987653296,
-        "under": 0.7288724201234671
+        "over": 0.2711275798765318,
+        "under": 0.7288724201234682
       },
       "fairways": {
         "line": 8.5,
@@ -3936,8 +3941,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3885043256658698,
-        "over": 0.6114956743341302
+        "under": 0.38850432566586784,
+        "over": 0.6114956743341322
       },
       "platform_lines": []
     },
@@ -4020,36 +4025,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.38532418964295856,
-        "over": 0.6146758103570414
-      },
-      "platform_lines": []
-    },
-    {
-      "player": "Matt Kuchar",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.27231681242267264,
-        "under": 0.7276831875773273
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.5473983258390966,
-        "under": 0.45260167416090336
-      },
-      "birdies": {
-        "line": 3.5,
-        "source": null,
-        "over": 0.43618036410811845,
-        "under": 0.5638196358918816
-      },
-      "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.45122346986798534,
-        "over": 0.5487765301320147
+        "under": 0.38532418964295667,
+        "over": 0.6146758103570433
       },
       "platform_lines": []
     },
@@ -4078,6 +4055,34 @@
         "source": null,
         "under": 0.4295515871664364,
         "over": 0.5704484128335636
+      },
+      "platform_lines": []
+    },
+    {
+      "player": "Matt Kuchar",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.27231681242267264,
+        "under": 0.7276831875773273
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.5473983258390966,
+        "under": 0.45260167416090336
+      },
+      "birdies": {
+        "line": 3.5,
+        "source": null,
+        "over": 0.43618036410811845,
+        "under": 0.5638196358918816
+      },
+      "strokes": {
+        "line": 70.5,
+        "source": null,
+        "under": 0.45122346986798534,
+        "over": 0.5487765301320147
       },
       "platform_lines": []
     },
@@ -4160,8 +4165,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3826462861253542,
-        "over": 0.6173537138746459
+        "under": 0.38264628612535223,
+        "over": 0.6173537138746478
       },
       "platform_lines": []
     },
@@ -4194,34 +4199,6 @@
       "platform_lines": []
     },
     {
-      "player": "Trace Crowe",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.27506510029220405,
-        "under": 0.724934899707796
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.42367502491209325,
-        "under": 0.5763249750879067
-      },
-      "birdies": {
-        "line": 3.5,
-        "source": null,
-        "over": 0.4759014238343905,
-        "under": 0.5240985761656095
-      },
-      "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.41993859222985497,
-        "over": 0.580061407770145
-      },
-      "platform_lines": []
-    },
-    {
       "player": "Wilson Furr",
       "gir": {
         "line": 12.5,
@@ -4244,8 +4221,36 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3638620881533931,
-        "over": 0.6361379118466068
+        "under": 0.36386208815339116,
+        "over": 0.6361379118466088
+      },
+      "platform_lines": []
+    },
+    {
+      "player": "Trace Crowe",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.27506510029220405,
+        "under": 0.724934899707796
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.42367502491209325,
+        "under": 0.5763249750879067
+      },
+      "birdies": {
+        "line": 3.5,
+        "source": null,
+        "over": 0.4759014238343905,
+        "under": 0.5240985761656095
+      },
+      "strokes": {
+        "line": 70.5,
+        "source": null,
+        "under": 0.41993859222985297,
+        "over": 0.580061407770147
       },
       "platform_lines": []
     },
@@ -4254,8 +4259,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.27571919653851235,
-        "under": 0.7242808034614876
+        "over": 0.27571919653851046,
+        "under": 0.7242808034614896
       },
       "fairways": {
         "line": 8.5,
@@ -4272,8 +4277,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.4428386371142613,
-        "over": 0.5571613628857387
+        "under": 0.4428386371142593,
+        "over": 0.5571613628857407
       },
       "platform_lines": []
     },
@@ -4282,8 +4287,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.27571919653851235,
-        "under": 0.7242808034614876
+        "over": 0.27571919653851046,
+        "under": 0.7242808034614896
       },
       "fairways": {
         "line": 8.5,
@@ -4300,36 +4305,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.36461234355257777,
-        "over": 0.6353876564474222
-      },
-      "platform_lines": []
-    },
-    {
-      "player": "Robert Streb",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.2766882350392208,
-        "under": 0.7233117649607792
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.3966803003327825,
-        "under": 0.6033196996672174
-      },
-      "birdies": {
-        "line": 3.5,
-        "source": null,
-        "over": 0.40516995845961534,
-        "under": 0.5948300415403847
-      },
-      "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.3871965779717102,
-        "over": 0.6128034220282899
+        "under": 0.3646123435525759,
+        "over": 0.6353876564474241
       },
       "platform_lines": []
     },
@@ -4358,6 +4335,34 @@
         "source": null,
         "under": 0.3601485264770746,
         "over": 0.6398514735229254
+      },
+      "platform_lines": []
+    },
+    {
+      "player": "Robert Streb",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.2766882350392208,
+        "under": 0.7233117649607792
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.3966803003327825,
+        "under": 0.6033196996672174
+      },
+      "birdies": {
+        "line": 3.5,
+        "source": null,
+        "over": 0.40516995845961534,
+        "under": 0.5948300415403847
+      },
+      "strokes": {
+        "line": 70.5,
+        "source": null,
+        "under": 0.3871965779717102,
+        "over": 0.6128034220282899
       },
       "platform_lines": []
     },
@@ -4412,8 +4417,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.4020518298787793,
-        "over": 0.5979481701212207
+        "under": 0.4020518298787773,
+        "over": 0.5979481701212227
       },
       "platform_lines": []
     },
@@ -4468,8 +4473,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.4571555715640082,
-        "over": 0.5428444284359918
+        "under": 0.4571555715640062,
+        "over": 0.5428444284359938
       },
       "platform_lines": []
     },
@@ -4534,8 +4539,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.27994958878719917,
-        "under": 0.7200504112128008
+        "over": 0.27994958878719456,
+        "under": 0.7200504112128054
       },
       "fairways": {
         "line": 8.5,
@@ -4646,8 +4651,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2815637111973861,
-        "under": 0.7184362888026139
+        "over": 0.28156371119740886,
+        "under": 0.7184362888025911
       },
       "fairways": {
         "line": 8.5,
@@ -4674,8 +4679,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2815637111973861,
-        "under": 0.7184362888026139
+        "over": 0.28156371119740886,
+        "under": 0.7184362888025911
       },
       "fairways": {
         "line": 8.5,
@@ -4758,8 +4763,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.28352798507785865,
-        "under": 0.7164720149221413
+        "over": 0.2835279850778578,
+        "under": 0.7164720149221422
       },
       "fairways": {
         "line": 8.5,
@@ -4832,8 +4837,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.41825405334440674,
-        "over": 0.5817459466555932
+        "under": 0.41825405334440474,
+        "over": 0.5817459466555952
       },
       "platform_lines": []
     },
@@ -4842,8 +4847,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2857304786796322,
-        "under": 0.7142695213203678
+        "over": 0.28573047867962875,
+        "under": 0.7142695213203712
       },
       "fairways": {
         "line": 8.5,
@@ -4860,8 +4865,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.40100297516232647,
-        "over": 0.5989970248376735
+        "under": 0.4010029751623245,
+        "over": 0.5989970248376755
       },
       "platform_lines": []
     },
@@ -4888,36 +4893,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.38282161483850796,
-        "over": 0.617178385161492
-      },
-      "platform_lines": []
-    },
-    {
-      "player": "Cody Gribble",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.2864894169653958,
-        "under": 0.7135105830346042
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.4298118353365913,
-        "under": 0.5701881646634087
-      },
-      "birdies": {
-        "line": 3.5,
-        "source": null,
-        "over": 0.4309142239116472,
-        "under": 0.5690857760883528
-      },
-      "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.3917624231188774,
-        "over": 0.6082375768811226
+        "under": 0.3828216148385061,
+        "over": 0.6171783851614939
       },
       "platform_lines": []
     },
@@ -4946,6 +4923,34 @@
         "source": null,
         "under": 0.34687317466801626,
         "over": 0.6531268253319837
+      },
+      "platform_lines": []
+    },
+    {
+      "player": "Cody Gribble",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.2864894169653958,
+        "under": 0.7135105830346042
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.4298118353365913,
+        "under": 0.5701881646634087
+      },
+      "birdies": {
+        "line": 3.5,
+        "source": null,
+        "over": 0.4309142239116472,
+        "under": 0.5690857760883528
+      },
+      "strokes": {
+        "line": 70.5,
+        "source": null,
+        "under": 0.3917624231188774,
+        "over": 0.6082375768811226
       },
       "platform_lines": []
     },
@@ -5056,8 +5061,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.40329651145031775,
-        "over": 0.5967034885496822
+        "under": 0.4032965114503158,
+        "over": 0.5967034885496842
       },
       "platform_lines": []
     },
@@ -5066,8 +5071,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2882115741389304,
-        "under": 0.7117884258610696
+        "over": 0.2882115741389501,
+        "under": 0.7117884258610498
       },
       "fairways": {
         "line": 8.5,
@@ -5140,8 +5145,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.43819864604187464,
-        "over": 0.5618013539581254
+        "under": 0.43819864604187264,
+        "over": 0.5618013539581274
       },
       "platform_lines": []
     },
@@ -5150,8 +5155,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2905304409104595,
-        "under": 0.7094695590895406
+        "over": 0.29053044091045926,
+        "under": 0.7094695590895408
       },
       "fairways": {
         "line": 8.5,
@@ -5168,8 +5173,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.45508042403819143,
-        "over": 0.5449195759618086
+        "under": 0.45508042403818943,
+        "over": 0.5449195759618106
       },
       "platform_lines": []
     },
@@ -5252,8 +5257,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.43117046787616575,
-        "over": 0.5688295321238342
+        "under": 0.43117046787616375,
+        "over": 0.5688295321238362
       },
       "platform_lines": []
     },
@@ -5290,8 +5295,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.29447413674665535,
-        "under": 0.7055258632533447
+        "over": 0.2944741367466579,
+        "under": 0.7055258632533421
       },
       "fairways": {
         "line": 8.5,
@@ -5308,8 +5313,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3735947142811317,
-        "over": 0.6264052857188682
+        "under": 0.37359471428112984,
+        "over": 0.6264052857188702
       },
       "platform_lines": []
     },
@@ -5364,8 +5369,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.45122346986798534,
-        "over": 0.5487765301320147
+        "under": 0.45122346986798334,
+        "over": 0.5487765301320167
       },
       "platform_lines": []
     },
@@ -5392,8 +5397,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.45557748675614795,
-        "over": 0.544422513243852
+        "under": 0.45557748675614596,
+        "over": 0.544422513243854
       },
       "platform_lines": []
     },
@@ -5402,8 +5407,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.2954811275446752,
-        "under": 0.7045188724553249
+        "over": 0.29548112754467243,
+        "under": 0.7045188724553275
       },
       "fairways": {
         "line": 8.5,
@@ -5420,8 +5425,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.36461234355257777,
-        "over": 0.6353876564474222
+        "under": 0.3646123435525759,
+        "over": 0.6353876564474241
       },
       "platform_lines": []
     },
@@ -5448,8 +5453,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.4506796192153671,
-        "over": 0.549320380784633
+        "under": 0.45067961921536503,
+        "over": 0.549320380784635
       },
       "platform_lines": []
     },
@@ -5532,36 +5537,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.37811213723108905,
-        "over": 0.621887862768911
-      },
-      "platform_lines": []
-    },
-    {
-      "player": "Jason Dufner",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.2975010078387355,
-        "under": 0.7024989921612645
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.4060587328792339,
-        "under": 0.5939412671207661
-      },
-      "birdies": {
-        "line": 3.5,
-        "source": null,
-        "over": 0.4222255272231646,
-        "under": 0.5777744727768355
-      },
-      "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.3735947142811317,
-        "over": 0.6264052857188682
+        "under": 0.37811213723108716,
+        "over": 0.6218878627689128
       },
       "platform_lines": []
     },
@@ -5590,6 +5567,34 @@
         "source": null,
         "under": 0.3963432254843941,
         "over": 0.6036567745156058
+      },
+      "platform_lines": []
+    },
+    {
+      "player": "Jason Dufner",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.2975010078387355,
+        "under": 0.7024989921612645
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.4060587328792339,
+        "under": 0.5939412671207661
+      },
+      "birdies": {
+        "line": 3.5,
+        "source": null,
+        "over": 0.4222255272231646,
+        "under": 0.5777744727768355
+      },
+      "strokes": {
+        "line": 70.5,
+        "source": null,
+        "under": 0.37359471428112984,
+        "over": 0.6264052857188702
       },
       "platform_lines": []
     },
@@ -5644,8 +5649,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.420908308639814,
-        "over": 0.579091691360186
+        "under": 0.420908308639812,
+        "over": 0.579091691360188
       },
       "platform_lines": []
     },
@@ -5672,8 +5677,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.40702356653114985,
-        "over": 0.5929764334688501
+        "under": 0.4070235665311479,
+        "over": 0.5929764334688521
       },
       "platform_lines": []
     },
@@ -5812,8 +5817,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.43492222694131843,
-        "over": 0.5650777730586816
+        "under": 0.43492222694131644,
+        "over": 0.5650777730586836
       },
       "platform_lines": []
     },
@@ -5896,8 +5901,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.40276478284319334,
-        "over": 0.5972352171568067
+        "under": 0.4027647828431914,
+        "over": 0.5972352171568086
       },
       "platform_lines": []
     },
@@ -5934,8 +5939,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.3007826284137129,
-        "under": 0.699217371586287
+        "over": 0.30078262841371084,
+        "under": 0.6992173715862892
       },
       "fairways": {
         "line": 8.5,
@@ -5952,8 +5957,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3338439796935738,
-        "over": 0.6661560203064262
+        "under": 0.33384397969357194,
+        "over": 0.6661560203064281
       },
       "platform_lines": []
     },
@@ -6074,8 +6079,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.30217292685421787,
-        "under": 0.6978270731457821
+        "over": 0.30217292685423836,
+        "under": 0.6978270731457616
       },
       "fairways": {
         "line": 8.5,
@@ -6102,8 +6107,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.30217292685421787,
-        "under": 0.6978270731457821
+        "over": 0.30217292685423836,
+        "under": 0.6978270731457616
       },
       "fairways": {
         "line": 8.5,
@@ -6120,8 +6125,36 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.43266902880404357,
-        "over": 0.5673309711959564
+        "under": 0.43266902880404157,
+        "over": 0.5673309711959584
+      },
+      "platform_lines": []
+    },
+    {
+      "player": "Ryan Armour",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.30258496068402224,
+        "under": 0.6974150393159777
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.533862727884202,
+        "under": 0.46613727211579803
+      },
+      "birdies": {
+        "line": 3.5,
+        "source": null,
+        "over": 0.41039719383269235,
+        "under": 0.5896028061673076
+      },
+      "strokes": {
+        "line": 70.5,
+        "source": null,
+        "under": 0.38264628612535223,
+        "over": 0.6173537138746478
       },
       "platform_lines": []
     },
@@ -6130,8 +6163,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.3025849606840207,
-        "under": 0.6974150393159793
+        "over": 0.30258496068402224,
+        "under": 0.6974150393159777
       },
       "fairways": {
         "line": 8.5,
@@ -6150,34 +6183,6 @@
         "source": null,
         "under": 0.41016932350706464,
         "over": 0.5898306764929353
-      },
-      "platform_lines": []
-    },
-    {
-      "player": "Ryan Armour",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.3025849606840207,
-        "under": 0.6974150393159793
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.533862727884202,
-        "under": 0.46613727211579803
-      },
-      "birdies": {
-        "line": 3.5,
-        "source": null,
-        "over": 0.41039719383269235,
-        "under": 0.5896028061673076
-      },
-      "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.3826462861253542,
-        "over": 0.6173537138746459
       },
       "platform_lines": []
     },
@@ -6204,8 +6209,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.400079327054432,
-        "over": 0.599920672945568
+        "under": 0.40007932705443006,
+        "over": 0.5999206729455699
       },
       "platform_lines": []
     },
@@ -6316,8 +6321,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.404360504265734,
-        "over": 0.595639495734266
+        "under": 0.404360504265732,
+        "over": 0.595639495734268
       },
       "platform_lines": []
     },
@@ -6326,8 +6331,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.30565868044862093,
-        "under": 0.694341319551379
+        "over": 0.30565868044861727,
+        "under": 0.6943413195513828
       },
       "fairways": {
         "line": 8.5,
@@ -6382,8 +6387,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.3063654837343418,
-        "under": 0.6936345162656582
+        "over": 0.30636548373433903,
+        "under": 0.693634516265661
       },
       "fairways": {
         "line": 8.5,
@@ -6400,8 +6405,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.37612006988728314,
-        "over": 0.6238799301127169
+        "under": 0.3761200698872812,
+        "over": 0.6238799301127188
       },
       "platform_lines": []
     },
@@ -6466,8 +6471,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.30881659434705927,
-        "under": 0.6911834056529407
+        "over": 0.30881659434705694,
+        "under": 0.6911834056529431
       },
       "fairways": {
         "line": 8.5,
@@ -6568,8 +6573,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3826462861253542,
-        "over": 0.6173537138746459
+        "under": 0.38264628612535223,
+        "over": 0.6173537138746478
       },
       "platform_lines": []
     },
@@ -6652,8 +6657,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.42290460318673245,
-        "over": 0.5770953968132675
+        "under": 0.42290460318673045,
+        "over": 0.5770953968132695
       },
       "platform_lines": []
     },
@@ -6662,8 +6667,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.3120057545614478,
-        "under": 0.6879942454385521
+        "over": 0.3120057545614437,
+        "under": 0.6879942454385564
       },
       "fairways": {
         "line": 8.5,
@@ -6680,8 +6685,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.37612006988728314,
-        "over": 0.6238799301127169
+        "under": 0.3761200698872812,
+        "over": 0.6238799301127188
       },
       "platform_lines": []
     },
@@ -6690,8 +6695,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.3130398136588865,
-        "under": 0.6869601863411134
+        "over": 0.31303981365888434,
+        "under": 0.6869601863411157
       },
       "fairways": {
         "line": 8.5,
@@ -6802,8 +6807,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.3143800350762656,
-        "under": 0.6856199649237344
+        "over": 0.31438003507626183,
+        "under": 0.6856199649237382
       },
       "fairways": {
         "line": 8.5,
@@ -6858,8 +6863,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.31594759538494244,
-        "under": 0.6840524046150576
+        "over": 0.3159475953849417,
+        "under": 0.6840524046150582
       },
       "fairways": {
         "line": 8.5,
@@ -6876,8 +6881,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.42590274499280906,
-        "over": 0.574097255007191
+        "under": 0.4259027449928071,
+        "over": 0.5740972550071929
       },
       "platform_lines": []
     },
@@ -6904,8 +6909,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.47194837192464223,
-        "over": 0.5280516280753578
+        "under": 0.47194837192464023,
+        "over": 0.5280516280753598
       },
       "platform_lines": []
     },
@@ -6914,8 +6919,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.31706989078421,
-        "under": 0.68293010921579
+        "over": 0.31706989078420855,
+        "under": 0.6829301092157914
       },
       "fairways": {
         "line": 8.5,
@@ -6932,8 +6937,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.41095830360583513,
-        "over": 0.5890416963941649
+        "under": 0.4109583036058332,
+        "over": 0.5890416963941668
       },
       "platform_lines": []
     },
@@ -6960,8 +6965,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.47116266972368176,
-        "over": 0.5288373302763183
+        "under": 0.47116266972367976,
+        "over": 0.5288373302763203
       },
       "platform_lines": []
     },
@@ -7072,8 +7077,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.3919389515072099,
-        "over": 0.6080610484927901
+        "under": 0.391938951507208,
+        "over": 0.608061048492792
       },
       "platform_lines": []
     },
@@ -7156,8 +7161,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.4198640912662779,
-        "over": 0.5801359087337221
+        "under": 0.4198640912662759,
+        "over": 0.5801359087337241
       },
       "platform_lines": []
     },
@@ -7212,8 +7217,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.44772475324483985,
-        "over": 0.5522752467551602
+        "under": 0.44772475324483785,
+        "over": 0.5522752467551622
       },
       "platform_lines": []
     },
@@ -7240,8 +7245,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.41294394376129745,
-        "over": 0.5870560562387026
+        "under": 0.41294394376129545,
+        "over": 0.5870560562387046
       },
       "platform_lines": []
     },
@@ -7268,8 +7273,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.43279050575255,
-        "over": 0.5672094942474499
+        "under": 0.432790505752548,
+        "over": 0.5672094942474519
       },
       "platform_lines": []
     },
@@ -7380,8 +7385,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.4571555715640082,
-        "over": 0.5428444284359918
+        "under": 0.4571555715640062,
+        "over": 0.5428444284359938
       },
       "platform_lines": []
     },
@@ -7436,8 +7441,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.44772475324483985,
-        "over": 0.5522752467551602
+        "under": 0.44772475324483785,
+        "over": 0.5522752467551622
       },
       "platform_lines": []
     },
@@ -7464,8 +7469,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.45231144488399044,
-        "over": 0.5476885551160096
+        "under": 0.45231144488398844,
+        "over": 0.5476885551160116
       },
       "platform_lines": []
     },
@@ -7492,8 +7497,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.4714017561424215,
-        "over": 0.5285982438575785
+        "under": 0.4714017561424195,
+        "over": 0.5285982438575805
       },
       "platform_lines": []
     },
@@ -7604,8 +7609,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.38154931543760434,
-        "over": 0.6184506845623956
+        "under": 0.3815493154376024,
+        "over": 0.6184506845623976
       },
       "platform_lines": []
     },
@@ -7772,8 +7777,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.43765729506610646,
-        "over": 0.5623427049338936
+        "under": 0.43765729506610446,
+        "over": 0.5623427049338956
       },
       "platform_lines": []
     },
@@ -7782,8 +7787,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.34717877251231316,
-        "under": 0.6528212274876868
+        "over": 0.34717877251228924,
+        "under": 0.6528212274877108
       },
       "fairways": {
         "line": 8.5,
@@ -7884,8 +7889,8 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6440059739802129,
-        "over": 0.35599402601978714
+        "under": 0.6440059739802111,
+        "over": 0.3559940260197889
       },
       "platform_lines": []
     },
@@ -7918,6 +7923,34 @@
       "platform_lines": []
     },
     {
+      "player": "William Mouw",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.3575618341385682,
+        "under": 0.6424381658614318
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.45793912887313964,
+        "under": 0.5420608711268604
+      },
+      "birdies": {
+        "line": 3.5,
+        "source": null,
+        "over": 0.46693419295363975,
+        "under": 0.5330658070463603
+      },
+      "strokes": {
+        "line": 70.5,
+        "source": null,
+        "under": 0.4571555715640062,
+        "over": 0.5428444284359938
+      },
+      "platform_lines": []
+    },
+    {
       "player": "Luke Clanton",
       "gir": {
         "line": 12.5,
@@ -7942,34 +7975,6 @@
         "source": null,
         "under": 0.4383233950736173,
         "over": 0.5616766049263827
-      },
-      "platform_lines": []
-    },
-    {
-      "player": "William Mouw",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.3575618341385682,
-        "under": 0.6424381658614318
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.45793912887313964,
-        "under": 0.5420608711268604
-      },
-      "birdies": {
-        "line": 3.5,
-        "source": null,
-        "over": 0.46693419295363975,
-        "under": 0.5330658070463603
-      },
-      "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.4571555715640082,
-        "over": 0.5428444284359918
       },
       "platform_lines": []
     },
