@@ -52,12 +52,25 @@ USER_AGENT = "pga-prop-model/1.0 (read-only board refresh; github.com user proje
 # matchup markets) maps to "other" rather than being dropped — same
 # convention as underdog_scraper.normalize_stat_category — so new/renamed
 # markets show up as "other" instead of silently vanishing.
+#
+# "Birdies or Better Matchup" is deliberately NOT mapped to "birdies"
+# here (it falls through to the "other" default instead). It looks like
+# a normal fixed-threshold birdies prop — it even shows a numeric
+# "line" like 0.5 — but it's actually a head-to-head comparison between
+# two specific players' birdie counts ("will Player A have more/less
+# birdies than Player B"), not "will this player clear N birdies." Our
+# model's birdies_or_better_prop() only knows how to evaluate the
+# latter, so treating a matchup line as a real birdies line produced a
+# meaningless probability against an unrelated 0.5 threshold. Mapping
+# it to "other" means match_props.build_line_lookup() (which only
+# accepts "gir"/"fairways"/"birdies"/"strokes") automatically excludes
+# it from being used as a model line, while attach_platform_lines()
+# still records it under platform_lines for reference.
 _CATEGORY_BY_MARKET = {
     "greens in regulation": "gir",
     "fairways hit": "fairways",
     "driving accuracy": "fairways",
     "birdies or better": "birdies",
-    "birdies or better matchup": "birdies",
     "strokes": "strokes",
 }
 
