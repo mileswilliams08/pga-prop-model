@@ -33,7 +33,8 @@ import json
 import sys
 import pandas as pd
 
-from features import clean_player_stats, build_player_course_profile
+from features import (clean_player_stats, build_player_course_profile,
+                       add_player_course_history_adjustment)
 from prop_models import (gir_prop, fairways_prop, birdies_or_better_prop,
                           total_strokes_prop)
 from match_props import attach_platform_lines, build_line_lookup, normalize_name
@@ -199,6 +200,19 @@ def main():
 
     course = get_course_profile(cfg)
     profile = build_player_course_profile(clean, course, cfg["tour_avg"])
+
+    # Layers each individual player's own real history at THIS specific
+    # tournament on top of the course-level adjustment above (e.g. a
+    # player who's genuinely a strong fit for this course and has the
+    # rounds to prove it) -- see add_player_course_history_adjustment's
+    # docstring for why the course-level adjustment alone isn't enough.
+    # Off by default (empty list) until config.json sets
+    # "player_course_years"; fails soft to a no-op otherwise.
+    player_course_years = cfg.get("player_course_years", [])
+    if player_course_years:
+        profile = add_player_course_history_adjustment(
+            profile, cfg["tournament_name"], player_course_years,
+            k=cfg.get("player_course_k"), debug=True)
 
     # Fetched once, used twice: build_props() needs it to evaluate each
     # player's probability against their REAL posted line (not a generic

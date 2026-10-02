@@ -126,3 +126,102 @@ def build_player_course_profile(stats: pd.DataFrame, course: dict,
         out["adj_scoring_avg"] = course_adjust_scoring(
             out["scoring_avg"], course["scoring_avg"], tour_avg["scoring_avg"])
     return out
+
+
+# (adj_col read/written, raw per-player-course column it blends toward it,
+# output column name) -- shared with backtest_rounds.py's identical table
+# so the two stay in lockstep if a stat is ever added.
+PLAYER_COURSE_STAT_COLS = [
+    ("adj_gir_pct", "gir_pct", "pc_gir_pct"),
+    ("adj_driving_accuracy", "driving_accuracy", "pc_driving_accuracy"),
+    ("adj_birdie_rate_per_hole", "birdie_rate_per_hole", "pc_birdie_rate_per_hole"),
+    ("adj_scoring_avg", "scoring_avg", "pc_scoring_avg"),
+]
+
+
+def add_player_course_history_adjustment(profile: pd.DataFrame, tournament_name: str,
+                                          player_course_years: list, k: float = None,
+                                          debug: bool = False) -> pd.DataFrame:
+    """
+    Layers THIS SPECIFIC WEEK'S players' own real per-round history at
+    THIS SPECIFIC tournament (player_course_history.py) on top of the
+    course-level adjustment already baked into `profile`'s adj_* columns
+    (must run build_player_course_profile first).
+
+    Why this matters, concretely: a player's season-wide blended average
+    plus a generic field-wide course-difficulty shift has no way to see
+    that one particular player is a strong (or weak) fit for one
+    particular course -- e.g. a player who has shot several rounds well
+    under their own normal scoring average every time they've played
+    this specific event. That real track record is exactly the signal
+    PrizePicks' own "last 5 rounds at this course" line is likely
+    pricing in, so without it the model ends up comparing the platform's
+    line against a number that's still close to the player's generic
+    season average -- manufacturing false confidence in whichever
+    direction the platform's line already moved away from that generic
+    number. shrink_player_course_rate (used internally here) keeps this
+    safe: a player with only 1-2 rounds at the event barely moves at all,
+    and a player who has never played it (or whose name doesn't match)
+    is left completely unchanged.
+
+    Fails soft: no years configured, no historical_rounds CSVs on disk
+    yet, or no real history found for this specific tournament all just
+    leave `profile` exactly as it was (printing why, if debug=True),
+    rather than erroring or blocking a normal update_data.py run.
+    """
+    from player_course_history import build_player_course_profiles, DEFAULT_PLAYER_COURSE_K
+    from course_history import normalize_tournament_name
+    from match_props import normalize_name
+
+    if k is None:
+        k = DEFAULT_PLAYER_COURSE_K
+
+    out = profile.copy()
+    if not player_course_years:
+        return out
+
+    pc_profiles = build_player_course_profiles(player_course_years)
+    if pc_profiles.empty:
+        if debug:
+            print(f"No player-course history available (tried years "
+                  f"{player_course_years}) -- leaving course-level "
+                  f"adjustment as-is for everyone.")
+        return out
+
+    tournament_key = normalize_tournament_name(tournament_name)
+    if tournament_key not in pc_profiles.index.get_level_values("tournament_key"):
+        if debug:
+            print(f"No player-course history found for '{tournament_name}' "
+                  f"(tried years {player_course_years}) -- leaving "
+                  f"course-level adjustment as-is for everyone.")
+        return out
+
+    this_event = pc_profiles.xs(tournament_key, level="tournament_key").rename(columns={
+        "gir_pct": "raw_pc_gir_pct",
+        "driving_accuracy": "raw_pc_driving_accuracy",
+        "scoring_avg": "raw_pc_scoring_avg",
+        "birdie_rate_per_hole": "raw_pc_birdie_rate_per_hole",
+        "n_rounds": "pc_n_rounds",
+    }).reset_index().rename(columns={"player_key": "name_key"})
+
+    out["name_key"] = out["player"].apply(normalize_name)
+    out = out.merge(this_event, on="name_key", how="left")
+    out["pc_n_rounds"] = out["pc_n_rounds"].fillna(0)
+
+    if debug:
+        matched = int((out["pc_n_rounds"] > 0).sum())
+        print(f"Player-course history: {matched}/{len(out)} players in the field "
+              f"have real rounds at '{tournament_name}' ({player_course_years}); "
+              f"the rest keep their course-level-adjusted numbers unchanged.")
+
+    shrink_weight = out["pc_n_rounds"] / (out["pc_n_rounds"] + k)
+    for adj_col, _, out_col in PLAYER_COURSE_STAT_COLS:
+        raw_col = f"raw_{out_col}"
+        if adj_col not in out.columns or raw_col not in out.columns:
+            continue
+        course_specific_rate = out[raw_col].fillna(0.0)
+        out[adj_col] = shrink_weight * course_specific_rate + (1 - shrink_weight) * out[adj_col]
+
+    drop_cols = ["name_key", "pc_n_rounds"] + [f"raw_{c}" for _, _, c in PLAYER_COURSE_STAT_COLS]
+    out = out.drop(columns=[c for c in drop_cols if c in out.columns])
+    return out
