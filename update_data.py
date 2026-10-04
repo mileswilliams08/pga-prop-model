@@ -27,6 +27,17 @@ a "blend_years" list, e.g. [2025, 2024, 2023]) to rate players on a
 weighted blend of multiple seasons instead of just the current one —
 see blend_years.py for why this helps. Off by default since it makes
 each run slower (multiple scrapes instead of one).
+
+Live in-week recalibration: apply_live_conditions() (live_course_conditions.py)
+further adjusts the course profile above using THIS WEEK'S real,
+already-completed rounds (from data/espn_cumulative_snapshots.json,
+written daily by update_results.py), blended in by how many rounds of
+this week's data exist so far. This exists because a course can play
+meaningfully easier or harder than its multi-year history in any given
+week (weather, setup) — see live_course_conditions.py's docstring for
+the real example that motivated it. Optional config.json key:
+"live_conditions_k" to override the default shrinkage constant. Fails
+soft to the historical-only profile if no rounds have finished yet.
 """
 
 import json
@@ -40,6 +51,7 @@ from prop_models import (gir_prop, fairways_prop, birdies_or_better_prop,
                           total_strokes_prop)
 from match_props import attach_platform_lines, build_line_lookup, normalize_name
 from course_history import build_course_profiles, normalize_tournament_name
+from live_course_conditions import apply_live_conditions
 
 CONFIG_PATH = "config.json"
 OUTPUT_PATH = "docs/data/props.json"
@@ -228,6 +240,16 @@ def main():
         clean = clean[clean["player"].isin(cfg["field"])]
 
     course = get_course_profile(cfg)
+
+    # Recalibrates the course profile above using THIS WEEK'S real,
+    # in-progress field results (if any rounds have finished yet) instead
+    # of relying purely on the multi-year historical average -- see
+    # live_course_conditions.py's docstring for why (a course can play
+    # meaningfully easier/harder than its history in any given week, and
+    # that's invisible to the historical-only baseline until now). Fails
+    # soft to `course` unchanged if no live data is available yet.
+    course = apply_live_conditions(course, cfg, debug=True)
+
     profile = build_player_course_profile(clean, course, cfg["tour_avg"])
 
     # Layers each individual player's own real history at THIS specific
