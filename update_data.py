@@ -30,6 +30,7 @@ each run slower (multiple scrapes instead of one).
 """
 
 import json
+import os
 import sys
 import pandas as pd
 
@@ -42,6 +43,7 @@ from course_history import build_course_profiles, normalize_tournament_name
 
 CONFIG_PATH = "config.json"
 OUTPUT_PATH = "docs/data/props.json"
+PROPS_HISTORY_DIR = "data/props_history"
 
 
 def load_config():
@@ -191,6 +193,33 @@ def get_platform_lines() -> dict:
     return lines
 
 
+def archive_props_snapshot(output: dict, cfg: dict) -> None:
+    """
+    Saves a dated copy of today's props BEFORE it's overwritten tomorrow,
+    so grade_results.py has something to compare real results against
+    later. docs/data/props.json only ever holds the latest snapshot — a
+    results tab tracking hit rate needs to know what the model actually
+    said on each PAST day, not just today.
+
+    Keyed by tournament + the UTC calendar date this snapshot was
+    generated (not round number — we don't reliably know which round is
+    "live" at generation time, just which day it is). One file per
+    tournament-day is enough: update_data.py already only runs once a
+    day via the scheduled Action, so this never needs to distinguish
+    multiple runs on the same day.
+
+    Lives in data/ (not docs/) since it's grading input, not something
+    the site needs to serve directly.
+    """
+    os.makedirs(PROPS_HISTORY_DIR, exist_ok=True)
+    date_str = pd.Timestamp.now("UTC").strftime("%Y-%m-%d")
+    tournament_slug = normalize_tournament_name(cfg["tournament_name"]).replace(" ", "_")
+    path = f"{PROPS_HISTORY_DIR}/{tournament_slug}_{date_str}.json"
+    with open(path, "w") as f:
+        json.dump(output, f, indent=2)
+    print(f"Archived today's props snapshot to {path}")
+
+
 def main():
     cfg = load_config()
     clean = get_clean_stats(cfg)
@@ -239,6 +268,8 @@ def main():
         json.dump(output, f, indent=2)
 
     print(f"Wrote {len(props)} players' props to {OUTPUT_PATH}")
+
+    archive_props_snapshot(output, cfg)
 
 
 if __name__ == "__main__":

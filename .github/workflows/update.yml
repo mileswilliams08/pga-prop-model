@@ -33,17 +33,36 @@ jobs:
       - name: Run pipeline
         run: python update_data.py
 
+      - name: Update results tracking
+        # Pulls real round results from ESPN and grades every archived
+        # props snapshot that now has a gradable result, refreshing
+        # docs/data/results.json for the site's Results tab. Runs AFTER
+        # update_data.py so today's freshly-archived snapshot is
+        # available too, and never blocks the props update above if it
+        # fails (results tracking is a bonus feature — a stale/missing
+        # results page shouldn't take the whole site down).
+        run: python update_results.py --debug || echo "Results update failed — see log above. Props update above is unaffected."
+
       - name: Commit updated data
         run: |
           git config user.name "props-bot"
           git config user.email "props-bot@users.noreply.github.com"
-          # Only stage files that actually exist — data/latest_blended_stats.csv
-          # only gets created when use_blended_years is on in config.json, and
-          # `git add` on a missing path fails the whole step otherwise.
-          for f in docs/data/props.json data/latest_stats.csv data/latest_blended_stats.csv; do
+          # Only stage files that actually exist — several of these
+          # (data/latest_blended_stats.csv, the results-tracking files)
+          # only get created once the relevant feature is on/has run
+          # successfully at least once, and `git add` on a missing path
+          # fails the whole step otherwise.
+          for f in docs/data/props.json docs/data/results.json \
+                   data/latest_stats.csv data/latest_blended_stats.csv \
+                   data/graded_results.csv data/espn_cumulative_snapshots.json; do
             if [ -f "$f" ]; then
               git add "$f"
             fi
           done
-          git diff --cached --quiet || git commit -m "Auto-update props data"
+          # data/props_history/ grows one file per tournament-day — glob
+          # it separately since there's no single fixed filename.
+          if [ -d data/props_history ]; then
+            git add data/props_history/*.json 2>/dev/null || true
+          fi
+          git diff --cached --quiet || git commit -m "Auto-update props and results data"
           git push

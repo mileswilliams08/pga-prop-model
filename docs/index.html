@@ -8,6 +8,10 @@
          max-width: 1100px; margin: 0 auto; padding: 24px; }
   h1 { font-size: 22px; }
   #meta { color: #8b98a5; margin-bottom: 20px; font-size: 14px; }
+  nav { margin-bottom: 20px; }
+  nav a { color: #8b98a5; text-decoration: none; font-size: 14px; margin-right: 16px;
+          padding-bottom: 4px; }
+  nav a.active { color: #e6edf3; border-bottom: 2px solid #3fb950; }
   table { width: 100%; border-collapse: collapse; font-size: 14px; }
   th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #263140; }
   th { color: #8b98a5; font-weight: 600; cursor: pointer; }
@@ -25,6 +29,10 @@
 <body>
 
 <h1>PGA Prop Model</h1>
+<nav>
+  <a href="index.html" class="active">Props</a>
+  <a href="results.html">Results</a>
+</nav>
 <div id="meta">Loading...</div>
 
 <div style="margin-bottom:16px; padding:12px; background:#1c2733; border-radius:6px;">

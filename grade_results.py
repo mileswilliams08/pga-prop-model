@@ -1,0 +1,280 @@
+"""
+Compares each day's ARCHIVED props snapshot (data/props_history/, from
+update_data.py's archive_props_snapshot) against REAL round results
+(espn_round_results.py + snapshot_store.py) and logs every gradable pick
+as a hit, miss, or push — "every graded prop", per how this was scoped
+(not just picks that cleared a breakeven threshold).
+
+Which round did a given day's snapshot predict? update_data.py runs
+once a day, before that day's round is played, so a snapshot generated
+on calendar day D is predicting whichever round is actually played on
+day D. We don't get an explicit round number from ESPN for "what's
+about to be played" without another API call, so this infers it from
+the tournament's start date instead: round_number = days since the
+tournament started + 1 (capped at the event's total round count). This
+is a simplifying assumption — a rain delay or restructured schedule
+could throw it off by a day — so grade_tournament_day() only grades a
+round once snapshot_store confirms that SPECIFIC round's real result is
+actually available; a mismatched guess just means "nothing to grade
+yet" rather than silently grading against the wrong round.
+
+Push handling: a line can be a whole number (not just X.5), so an exact
+tie between the model's pick and the real result is possible and isn't
+a win or a loss — it's excluded from the hit-rate denominator, same as
+a sportsbook push, but still logged so the record is complete.
+
+Output: appends one row per gradable (player, category, round) to
+data/graded_results.csv (append-only, deduplicated against what's
+already logged so reruns are safe), then build_results_summary()
+aggregates that log into docs/data/results.json for the website's
+results tab — see that function's docstring for the exact shape.
+"""
+
+import csv
+import glob
+import json
+import os
+from datetime import date, datetime
+
+GRADED_LOG_PATH = "data/graded_results.csv"
+RESULTS_OUTPUT_PATH = "docs/data/results.json"
+PROPS_HISTORY_DIR = "data/props_history"
+
+GRADED_LOG_FIELDS = [
+    "date", "tournament", "round", "player", "category", "line", "source",
+    "model_prob", "picked_side", "actual_value", "result", "fairways_estimated",
+]
+
+# category -> which field in a snapshot_store round-entry holds the real value.
+CATEGORY_TO_RESULT_FIELD = {
+    "gir": "gir",
+    "fairways": "fairways_hit_est",
+    "birdies": "birdies_or_better",
+    "strokes": "strokes",
+}
+
+
+def infer_round_number(generated_at_iso: str, tournament_start_date_iso: str,
+                        total_rounds: int = 4) -> int:
+    """
+    generated_at_iso: the archived snapshot's "generated_at" (UTC
+    timestamp string). tournament_start_date_iso: the event's listed
+    start date (e.g. ESPN's event "date" field, "2026-10-01T04:00Z").
+    See module docstring for the day-offset assumption and its limits.
+    """
+    generated_date = datetime.fromisoformat(generated_at_iso.replace("Z", "+00:00")).date()
+    start_date = datetime.fromisoformat(tournament_start_date_iso.replace("Z", "+00:00")).date()
+    offset_days = (generated_date - start_date).days
+    return max(1, min(total_rounds, offset_days + 1))
+
+
+def grade_one_pick(line: float, over_prob: float, under_prob: float,
+                    actual_value: float) -> dict:
+    """
+    Picks the model's own side (whichever it gave >=50% to) and checks
+    it against the real result. Returns {"picked_side", "model_prob",
+    "result"} where result is "hit" / "miss" / "push" (actual_value
+    exactly equals the line — can only happen on a whole-number line,
+    e.g. a GIR line of 13 rather than 12.5).
+    """
+    if over_prob >= under_prob:
+        picked_side, model_prob = "over", over_prob
+    else:
+        picked_side, model_prob = "under", under_prob
+
+    if actual_value == line:
+        result = "push"
+    elif (actual_value > line) == (picked_side == "over"):
+        result = "hit"
+    else:
+        result = "miss"
+
+    return {"picked_side": picked_side, "model_prob": model_prob, "result": result}
+
+
+def grade_tournament_day(props_snapshot: dict, graded_rounds_by_player: dict,
+                          round_number: int) -> list:
+    """
+    props_snapshot: one archived data/props_history/*.json file's
+        parsed content (tournament_name, generated_at, props[]).
+    graded_rounds_by_player: normalized_player_key -> snapshot_store's
+        per-player "rounds" dict (round_num_str -> {strokes,
+        birdies_or_better, gir, fairways_hit_est, ...}).
+    round_number: which round this day's snapshot was predicting (see
+        infer_round_number).
+
+    Returns a list of graded-row dicts (GRADED_LOG_FIELDS shape, minus
+    "date"/"tournament" which the caller fills in) — one per player per
+    prop category that BOTH had a real platform line (source is not
+    None, i.e. this was an actual postable prop, not a generic-default
+    fallback) AND has a real, gradable result for this exact round
+    (skips silently otherwise — a still-ungradeable GIR/fairways round
+    from a diffing gap, or a player with no ESPN match, just isn't
+    included yet, not an error).
+    """
+    from match_props import normalize_name
+
+    rows = []
+    for player_entry in props_snapshot.get("props", []):
+        player_key = normalize_name(player_entry["player"])
+        real_rounds = graded_rounds_by_player.get(player_key)
+        if not real_rounds:
+            continue
+        real_round = real_rounds.get(str(round_number))
+        if not real_round:
+            continue
+
+        for category, result_field in CATEGORY_TO_RESULT_FIELD.items():
+            stat = player_entry.get(category)
+            if not stat or stat.get("source") is None:
+                continue  # no real platform line was posted for this prop — nothing to grade
+            actual_value = real_round.get(result_field)
+            if actual_value is None:
+                continue  # not gradable yet (e.g. GIR/fairways diffing gap)
+
+            graded = grade_one_pick(stat["line"], stat["over"], stat["under"], actual_value)
+            rows.append({
+                "round": round_number,
+                "player": player_entry["player"],
+                "category": category,
+                "line": stat["line"],
+                "source": stat["source"],
+                "actual_value": actual_value,
+                "fairways_estimated": category == "fairways",
+                **graded,
+            })
+    return rows
+
+
+def _load_existing_keys(path: str) -> set:
+    """Dedup key: (date, player, category, round) — reruns on the same
+    day/round/player/category just skip, instead of double-logging."""
+    if not os.path.exists(path):
+        return set()
+    keys = set()
+    with open(path, newline="") as f:
+        for row in csv.DictReader(f):
+            keys.add((row["date"], row["player"], row["category"], row["round"]))
+    return keys
+
+
+def append_graded_rows(rows: list, date_str: str, tournament_name: str,
+                        path: str = GRADED_LOG_PATH) -> int:
+    """Appends new rows (with "date"/"tournament" filled in) to the
+    CSV log, skipping anything already logged. Returns how many NEW
+    rows were actually written."""
+    existing_keys = _load_existing_keys(path)
+    new_rows = []
+    for row in rows:
+        full_row = {"date": date_str, "tournament": tournament_name, **row}
+        key = (date_str, full_row["player"], full_row["category"], str(full_row["round"]))
+        if key in existing_keys:
+            continue
+        new_rows.append(full_row)
+        existing_keys.add(key)
+
+    if not new_rows:
+        return 0
+
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    file_exists = os.path.exists(path)
+    with open(path, "a", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=GRADED_LOG_FIELDS)
+        if not file_exists:
+            writer.writeheader()
+        for row in new_rows:
+            writer.writerow({k: row.get(k, "") for k in GRADED_LOG_FIELDS})
+    return len(new_rows)
+
+
+CONFIDENCE_BUCKETS = [(0.5, 0.6), (0.6, 0.7), (0.7, 0.8), (0.8, 0.9), (0.9, 1.01)]
+
+
+def _bucket_label(prob: float) -> str:
+    for lo, hi in CONFIDENCE_BUCKETS:
+        if lo <= prob < hi:
+            return f"{int(lo*100)}-{int(hi*100) if hi <= 1 else 100}%"
+    return "unknown"
+
+
+def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> dict:
+    """
+    Aggregates the graded-results log into the shape the website's
+    results tab reads (docs/data/results.json):
+
+        {
+          "generated_at": iso timestamp,
+          "overall": {"n": int, "hits": int, "hit_rate": float},
+          "by_category": {"gir": {...}, "fairways": {...}, ...},
+          "by_confidence_bucket": {"50-60%": {...}, "60-70%": {...}, ...},
+          "recent": [ {date, tournament, player, category, line, result, model_prob}, ... ]
+        }
+
+    Pushes are excluded from every hit_rate denominator (counted
+    separately as "pushes") — same convention as a sportsbook push,
+    since neither side of the bet actually resolved.
+    "By confidence bucket" is the calibration check: if the model is
+    well-calibrated, its 70-80% bucket should hit close to 70-80% of
+    the time, not more and not less.
+    """
+    import pandas as pd
+
+    if not os.path.exists(path):
+        return {
+            "generated_at": pd.Timestamp.now("UTC").isoformat(),
+            "overall": {"n": 0, "hits": 0, "pushes": 0, "hit_rate": None},
+            "by_category": {}, "by_confidence_bucket": {}, "recent": [],
+        }
+
+    df = pd.read_csv(path)
+    df["model_prob"] = pd.to_numeric(df["model_prob"], errors="coerce")
+
+    def summarize(sub: pd.DataFrame) -> dict:
+        pushes = int((sub["result"] == "push").sum())
+        decided = sub[sub["result"] != "push"]
+        hits = int((decided["result"] == "hit").sum())
+        n = len(decided)
+        return {
+            "n": n, "hits": hits, "pushes": pushes,
+            "hit_rate": (hits / n) if n > 0 else None,
+        }
+
+    overall = summarize(df)
+
+    by_category = {
+        cat: summarize(df[df["category"] == cat])
+        for cat in sorted(df["category"].unique())
+    }
+
+    df["_bucket"] = df["model_prob"].apply(lambda p: _bucket_label(p) if pd.notna(p) else "unknown")
+    by_confidence_bucket = {
+        bucket: summarize(df[df["_bucket"] == bucket])
+        for bucket in sorted(df["_bucket"].unique()) if bucket != "unknown"
+    }
+
+    recent = (
+        df.sort_values("date", ascending=False)
+        .head(recent_n)[["date", "tournament", "player", "category", "line",
+                          "result", "model_prob", "picked_side", "actual_value"]]
+        .to_dict(orient="records")
+    )
+
+    return {
+        "generated_at": pd.Timestamp.now("UTC").isoformat(),
+        "overall": overall,
+        "by_category": by_category,
+        "by_confidence_bucket": by_confidence_bucket,
+        "recent": recent,
+    }
+
+
+def write_results_json(summary: dict, path: str = RESULTS_OUTPUT_PATH) -> None:
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(summary, f, indent=2)
+
+
+def list_archived_snapshots(tournament_slug: str, directory: str = PROPS_HISTORY_DIR) -> list:
+    """Every archived props snapshot for this tournament, oldest first."""
+    paths = sorted(glob.glob(f"{directory}/{tournament_slug}_*.json"))
+    return paths

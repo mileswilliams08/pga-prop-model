@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PGA Prop Model — Results</title>
+<style>
+  body { font-family: -apple-system, Arial, sans-serif; background: #0f1720; color: #e6edf3;
+         max-width: 1100px; margin: 0 auto; padding: 24px; }
+  h1 { font-size: 22px; }
+  h2 { font-size: 16px; color: #8b98a5; font-weight: 600; margin: 28px 0 10px; }
+  #meta { color: #8b98a5; margin-bottom: 20px; font-size: 14px; }
+  nav { margin-bottom: 20px; }
+  nav a { color: #8b98a5; text-decoration: none; font-size: 14px; margin-right: 16px;
+          padding-bottom: 4px; }
+  nav a.active { color: #e6edf3; border-bottom: 2px solid #3fb950; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; margin-bottom: 8px; }
+  th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #263140; }
+  th { color: #8b98a5; font-weight: 600; }
+  .prob, .num { font-variant-numeric: tabular-nums; }
+  .result-tag { padding: 2px 6px; border-radius: 4px; font-size: 11px; font-weight: 700; }
+  .result-hit { background: #1a4620; color: #3fb950; }
+  .result-miss { background: #2d1a1a; color: #f85149; }
+  .result-push { background: #2d2a1a; color: #d4a72c; }
+  .overall-card { display: flex; gap: 24px; padding: 16px; background: #1c2733;
+                  border-radius: 6px; margin-bottom: 8px; align-items: baseline; flex-wrap: wrap; }
+  .overall-card .big { font-size: 32px; font-weight: 700; }
+  .overall-card .sub { color: #8b98a5; font-size: 13px; }
+  .caveat { color: #8b98a5; font-size: 12px; margin-top: 4px; }
+  .empty { color: #8b98a5; text-align: center; padding: 24px; }
+</style>
+</head>
+<body>
+
+<h1>PGA Prop Model</h1>
+<nav>
+  <a href="index.html">Props</a>
+  <a href="results.html" class="active">Results</a>
+</nav>
+<div id="meta">Loading...</div>
+
+<div id="content"></div>
+
+<script>
+// Every graded prop is tracked here (not just ones that cleared a
+// breakeven threshold) -- this is meant to show the model's real,
+// honest hit rate and calibration, not a highlight reel. "Fairways
+// Hit" results are estimated (ESPN only exposes a cumulative
+// percentage, not a raw per-round count -- see grade_results.py's
+// module docstring) and are labeled as such everywhere they appear.
+
+function pct(x) {
+  return x === null || x === undefined ? "—" : (x * 100).toFixed(1) + "%";
+}
+
+function statBlock(label, stat) {
+  const rate = pct(stat.hit_rate);
+  return `
+    <tr>
+      <td>${label}</td>
+      <td class="num">${stat.n}</td>
+      <td class="prob">${rate}</td>
+      <td class="num">${stat.pushes}</td>
+    </tr>`;
+}
+
+function renderResultTag(result) {
+  const cls = result === "hit" ? "result-hit" : result === "miss" ? "result-miss" : "result-push";
+  return `<span class="result-tag ${cls}">${result.toUpperCase()}</span>`;
+}
+
+const CATEGORY_LABELS = { gir: "Greens in Regulation", fairways: "Fairways Hit (estimated)",
+                           birdies: "Birdies or Better", strokes: "Total Strokes" };
+const BUCKET_ORDER = ["50-60%", "60-70%", "70-80%", "80-90%", "90-100%"];
+
+function render(data) {
+  const content = document.getElementById("content");
+
+  if (!data.overall || data.overall.n === 0) {
+    content.innerHTML = `<div class="empty">No graded picks yet — results show up here once a
+      day's props have a real posted line AND that round's results are in.</div>`;
+    return;
+  }
+
+  const o = data.overall;
+  let html = `
+    <div class="overall-card">
+      <div><div class="big">${pct(o.hit_rate)}</div><div class="sub">overall hit rate</div></div>
+      <div><div class="big">${o.n}</div><div class="sub">graded picks</div></div>
+      <div><div class="big">${o.hits}</div><div class="sub">hits</div></div>
+      <div><div class="big">${o.pushes}</div><div class="sub">pushes (excluded above)</div></div>
+    </div>
+    <div class="caveat">Tracks every graded pick, not just ones that cleared a breakeven
+      threshold — this is the model's real calibration, not a highlight reel.</div>
+
+    <h2>By prop type</h2>
+    <table>
+      <thead><tr><th>Prop</th><th>N</th><th>Hit rate</th><th>Pushes</th></tr></thead>
+      <tbody>`;
+
+  for (const [key, label] of Object.entries(CATEGORY_LABELS)) {
+    if (data.by_category[key]) html += statBlock(label, data.by_category[key]);
+  }
+
+  html += `</tbody></table>
+
+    <h2>By model confidence (calibration check)</h2>
+    <div class="caveat">If the model is well-calibrated, its 70-80% bucket should hit close to
+      70-80% of the time — not more, not less.</div>
+    <table>
+      <thead><tr><th>Confidence</th><th>N</th><th>Hit rate</th><th>Pushes</th></tr></thead>
+      <tbody>`;
+
+  for (const bucket of BUCKET_ORDER) {
+    if (data.by_confidence_bucket[bucket]) html += statBlock(bucket, data.by_confidence_bucket[bucket]);
+  }
+
+  html += `</tbody></table>
+
+    <h2>Recent graded picks</h2>
+    <table>
+      <thead><tr><th>Date</th><th>Player</th><th>Prop</th><th>Line</th>
+        <th>Pick</th><th>Model prob</th><th>Actual</th><th>Result</th></tr></thead>
+      <tbody>`;
+
+  if (data.recent.length === 0) {
+    html += `<tr><td colspan="8" class="empty">Nothing graded yet.</td></tr>`;
+  }
+  for (const r of data.recent) {
+    html += `
+      <tr>
+        <td>${r.date}</td>
+        <td>${r.player}</td>
+        <td>${CATEGORY_LABELS[r.category] || r.category}</td>
+        <td>${r.line}</td>
+        <td>${r.picked_side}</td>
+        <td class="prob">${pct(r.model_prob)}</td>
+        <td class="num">${r.actual_value}</td>
+        <td>${renderResultTag(r.result)}</td>
+      </tr>`;
+  }
+  html += `</tbody></table>`;
+
+  content.innerHTML = html;
+}
+
+fetch("data/results.json")
+  .then(r => r.json())
+  .then(json => {
+    document.getElementById("meta").textContent =
+      `Updated ${new Date(json.generated_at).toLocaleString()}`;
+    render(json);
+  })
+  .catch(() => {
+    document.getElementById("meta").textContent = "";
+    document.getElementById("content").innerHTML =
+      `<div class="empty">Couldn't load results.json yet — run update_results.py and push.</div>`;
+  });
+</script>
+
+</body>
+</html>
