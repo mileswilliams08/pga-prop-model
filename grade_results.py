@@ -123,6 +123,14 @@ def grade_tournament_day(props_snapshot: dict, graded_rounds_by_player: dict,
         real_round = real_rounds.get(str(round_number))
         if not real_round:
             continue
+        if real_round.get("holes_played") != 18:
+            continue  # round not actually finished yet -- a partial or
+                       # zeroed placeholder round (see espn_round_results.py's
+                       # matching guard) isn't a real result to grade against.
+                       # Belt-and-suspenders: that guard should already stop
+                       # a placeholder from reaching here, but grading is
+                       # the point where a bad round does the most damage,
+                       # so it gets its own check too.
 
         for category, result_field in CATEGORY_TO_RESULT_FIELD.items():
             stat = player_entry.get(category)

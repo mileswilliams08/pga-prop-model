@@ -252,11 +252,21 @@ def get_player_cumulative_snapshot(event_id: str, year: int, espn_player_id: str
 
     per_round_exact = {}
     for r in rounds:
-        if r.get("value") is None:
-            continue  # round not completed yet
         period = r.get("period")
         if period is None:
             continue
+        holes_played = len(r.get("linescores") or [])
+        # ESPN can return a PLACEHOLDER entry for a round that hasn't
+        # started yet or is still in progress -- "value": 0 (not None!)
+        # with holes_played: 0, rather than omitting the round entirely.
+        # `value is None` alone doesn't catch that (0 is not None), and
+        # treating it as a real completed round silently corrupts
+        # grading downstream (confirmed 2026-10-04: a round-4 placeholder
+        # like this got graded as a real result with actual_value=0
+        # before round 4 had actually finished). Requiring a full 18
+        # holes is the real signal that a round is actually done.
+        if r.get("value") is None or holes_played < 18:
+            continue  # round not actually completed yet
         stats_block = (r.get("statistics") or {}).get("categories") or []
         birdies = eagles = 0
         for cat in stats_block:
@@ -269,7 +279,7 @@ def get_player_cumulative_snapshot(event_id: str, year: int, espn_player_id: str
             "strokes": float(r["value"]),
             "birdies_or_better": birdies + eagles,
             "fairways_possible": _round_fairways_possible(r),
-            "holes_played": len(r.get("linescores") or []),
+            "holes_played": holes_played,
         }
 
     # Cumulative (tournament-total-so-far) stats live in a separate

@@ -1,61 +1,61 @@
 {
-  "generated_at": "2026-10-05T02:20:13.330867+00:00",
+  "generated_at": "2026-10-05T02:50:07.367521+00:00",
   "overall": {
-    "n": 37,
-    "hits": 21,
-    "pushes": 0,
-    "hit_rate": 0.5675675675675675
+    "n": 33,
+    "hits": 18,
+    "pushes": 4,
+    "hit_rate": 0.5454545454545454
   },
   "by_category": {
     "birdies": {
       "n": 9,
-      "hits": 3,
-      "pushes": 0,
-      "hit_rate": 0.3333333333333333
-    },
-    "fairways": {
-      "n": 7,
-      "hits": 7,
-      "pushes": 0,
-      "hit_rate": 1.0
-    },
-    "gir": {
-      "n": 7,
       "hits": 6,
       "pushes": 0,
-      "hit_rate": 0.8571428571428571
+      "hit_rate": 0.6666666666666666
+    },
+    "fairways": {
+      "n": 5,
+      "hits": 1,
+      "pushes": 2,
+      "hit_rate": 0.2
+    },
+    "gir": {
+      "n": 6,
+      "hits": 2,
+      "pushes": 1,
+      "hit_rate": 0.3333333333333333
     },
     "strokes": {
-      "n": 14,
-      "hits": 5,
-      "pushes": 0,
-      "hit_rate": 0.35714285714285715
+      "n": 13,
+      "hits": 9,
+      "pushes": 1,
+      "hit_rate": 0.6923076923076923
     }
   },
   "by_confidence_bucket": {
     "50-60%": {
-      "n": 23,
-      "hits": 10,
-      "pushes": 0,
-      "hit_rate": 0.43478260869565216
+      "n": 22,
+      "hits": 13,
+      "pushes": 1,
+      "hit_rate": 0.5909090909090909
     },
     "60-70%": {
-      "n": 9,
-      "hits": 7,
-      "pushes": 0,
-      "hit_rate": 0.7777777777777778
+      "n": 8,
+      "hits": 4,
+      "pushes": 1,
+      "hit_rate": 0.5
     },
     "70-80%": {
-      "n": 4,
-      "hits": 3,
-      "pushes": 0,
-      "hit_rate": 0.75
+      "n": 3,
+      "hits": 1,
+      "pushes": 1,
+      "hit_rate": 0.3333333333333333
     },
     "90-100%": {
-      "n": 1,
-      "hits": 1,
-      "pushes": 0,
-      "hit_rate": 1.0
+      "n": 0,
+      "hits": 0,
+      "pushes": 1,
+      "hit_rate": null
     }
   },
   "recent": [
@@ -68,7 +68,7 @@
       "result": "hit",
       "model_prob": 0.5029000752604937,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 5.0
     },
     {
       "date": "2026-10-04",
@@ -76,10 +76,10 @@
       "player": "Chris Kirk",
       "category": "gir",
       "line": 14.0,
-      "result": "hit",
+      "result": "push",
       "model_prob": 0.6959472800238884,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 14.0
     },
     {
       "date": "2026-10-04",
@@ -87,10 +87,10 @@
       "player": "Chris Kirk",
       "category": "strokes",
       "line": 67.5,
-      "result": "miss",
+      "result": "hit",
       "model_prob": 0.547716088236517,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 70.0
     },
     {
       "date": "2026-10-04",
@@ -98,10 +98,10 @@
       "player": "Trace Crowe",
       "category": "gir",
       "line": 13.5,
-      "result": "hit",
+      "result": "miss",
       "model_prob": 0.5128833008915155,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 15.0
     },
     {
       "date": "2026-10-04",
@@ -109,10 +109,10 @@
       "player": "Trace Crowe",
       "category": "fairways",
       "line": 12.0,
-      "result": "hit",
+      "result": "push",
       "model_prob": 0.7246821476221558,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 12.0
     },
     {
       "date": "2026-10-04",
@@ -120,10 +120,10 @@
       "player": "Trace Crowe",
       "category": "birdies",
       "line": 4.5,
-      "result": "miss",
+      "result": "hit",
       "model_prob": 0.7366601149724471,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 6.0
     },
     {
       "date": "2026-10-04",
@@ -134,7 +134,7 @@
       "result": "hit",
       "model_prob": 0.5229246727927646,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 66.0
     },
     {
       "date": "2026-10-04",
@@ -142,10 +142,10 @@
       "player": "Steven Fisk",
       "category": "gir",
       "line": 14.0,
-      "result": "hit",
+      "result": "miss",
       "model_prob": 0.6272862940415354,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 15.0
     },
     {
       "date": "2026-10-04",
@@ -153,10 +153,10 @@
       "player": "Steven Fisk",
       "category": "fairways",
       "line": 12.0,
-      "result": "hit",
+      "result": "miss",
       "model_prob": 0.7288754949030108,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 13.0
     },
     {
       "date": "2026-10-04",
@@ -167,7 +167,7 @@
       "result": "hit",
       "model_prob": 0.5252546043631696,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 5.0
     },
     {
       "date": "2026-10-04",
@@ -178,7 +178,7 @@
       "result": "hit",
       "model_prob": 0.5123013984207488,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 67.0
     },
     {
       "date": "2026-10-04",
@@ -186,10 +186,10 @@
       "player": "Kevin Streelman",
       "category": "fairways",
       "line": 12.0,
-      "result": "hit",
+      "result": "miss",
       "model_prob": 0.7058726668975861,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 14.0
     },
     {
       "date": "2026-10-04",
@@ -197,10 +197,10 @@
       "player": "Kevin Streelman",
       "category": "birdies",
       "line": 4.5,
-      "result": "miss",
+      "result": "hit",
       "model_prob": 0.6686985397640423,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 5.0
     },
     {
       "date": "2026-10-04",
@@ -211,7 +211,7 @@
       "result": "miss",
       "model_prob": 0.5568831115687749,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 67.0
     },
     {
       "date": "2026-10-04",
@@ -222,7 +222,7 @@
       "result": "hit",
       "model_prob": 0.6080438137563899,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 13.0
     },
     {
       "date": "2026-10-04",
@@ -230,10 +230,10 @@
       "player": "Doug Ghim",
       "category": "fairways",
       "line": 12.5,
-      "result": "hit",
+      "result": "miss",
       "model_prob": 0.6271888271870185,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 14.0
     },
     {
       "date": "2026-10-04",
@@ -244,7 +244,7 @@
       "result": "hit",
       "model_prob": 0.5112201069537925,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 5.0
     },
     {
       "date": "2026-10-04",
@@ -255,7 +255,7 @@
       "result": "hit",
       "model_prob": 0.6933377501887386,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 11.0
     },
     {
       "date": "2026-10-04",
@@ -266,7 +266,7 @@
       "result": "hit",
       "model_prob": 0.544500063644343,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 67.0
     },
     {
       "date": "2026-10-04",
@@ -277,7 +277,7 @@
       "result": "miss",
       "model_prob": 0.5286265199988609,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 67.0
     },
     {
       "date": "2026-10-04",
@@ -285,10 +285,10 @@
       "player": "Rico Hoey",
       "category": "fairways",
       "line": 12.0,
-      "result": "hit",
+      "result": "miss",
       "model_prob": 0.6281564447453687,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 13.0
     },
     {
       "date": "2026-10-04",
@@ -296,10 +296,10 @@
       "player": "David Lipsky",
       "category": "strokes",
       "line": 68.5,
-      "result": "hit",
+      "result": "miss",
       "model_prob": 0.5605535926435488,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 69.0
     },
     {
       "date": "2026-10-04",
@@ -307,10 +307,10 @@
       "player": "Kevin Roy",
       "category": "strokes",
       "line": 67.5,
-      "result": "miss",
+      "result": "hit",
       "model_prob": 0.5517088352908315,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 70.0
     },
     {
       "date": "2026-10-04",
@@ -321,7 +321,7 @@
       "result": "miss",
       "model_prob": 0.5398840643547613,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 65.0
     },
     {
       "date": "2026-10-04",
@@ -332,7 +332,7 @@
       "result": "miss",
       "model_prob": 0.523134623855069,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 5.0
     },
     {
       "date": "2026-10-04",
@@ -340,10 +340,10 @@
       "player": "Max Homa",
       "category": "strokes",
       "line": 67.5,
-      "result": "miss",
+      "result": "hit",
       "model_prob": 0.5662336186386312,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 68.0
     },
     {
       "date": "2026-10-04",
@@ -354,7 +354,7 @@
       "result": "miss",
       "model_prob": 0.5429650497269506,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 4.0
     },
     {
       "date": "2026-10-04",
@@ -362,10 +362,10 @@
       "player": "Jackson Suber",
       "category": "strokes",
       "line": 67.5,
-      "result": "miss",
+      "result": "hit",
       "model_prob": 0.546979250925931,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 70.0
     },
     {
       "date": "2026-10-04",
@@ -373,10 +373,10 @@
       "player": "Stephan Jaeger",
       "category": "gir",
       "line": 13.5,
-      "result": "miss",
+      "result": "hit",
       "model_prob": 0.5054428898229548,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 14.0
     },
     {
       "date": "2026-10-04",
@@ -387,7 +387,7 @@
       "result": "miss",
       "model_prob": 0.5387306967183849,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 4.0
     },
     {
       "date": "2026-10-04",
@@ -395,10 +395,10 @@
       "player": "Stephan Jaeger",
       "category": "strokes",
       "line": 67.5,
-      "result": "miss",
+      "result": "hit",
       "model_prob": 0.5392386755071017,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 72.0
     },
     {
       "date": "2026-10-04",
@@ -406,10 +406,10 @@
       "player": "Austin Smotherman",
       "category": "gir",
       "line": 14.0,
-      "result": "hit",
+      "result": "miss",
       "model_prob": 0.6422754690130412,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 16.0
     },
     {
       "date": "2026-10-04",
@@ -417,10 +417,10 @@
       "player": "Austin Smotherman",
       "category": "fairways",
       "line": 13.0,
-      "result": "hit",
+      "result": "push",
       "model_prob": 0.9055540159697404,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 13.0
     },
     {
       "date": "2026-10-04",
@@ -428,10 +428,10 @@
       "player": "Austin Smotherman",
       "category": "birdies",
       "line": 5.0,
-      "result": "miss",
+      "result": "hit",
       "model_prob": 0.5118879722106522,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 6.0
     },
     {
       "date": "2026-10-04",
@@ -439,10 +439,10 @@
       "player": "Austin Smotherman",
       "category": "strokes",
       "line": 68.0,
-      "result": "hit",
+      "result": "push",
       "model_prob": 0.5208641209201538,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 68.0
     },
     {
       "date": "2026-10-04",
@@ -450,10 +450,10 @@
       "player": "Rico Hoey",
       "category": "gir",
       "line": 14.0,
-      "result": "hit",
+      "result": "miss",
       "model_prob": 0.5696883330754225,
       "picked_side": "under",
-      "actual_value": 0.0
+      "actual_value": 17.0
     },
     {
       "date": "2026-10-04",
@@ -461,10 +461,10 @@
       "player": "Doug Ghim",
       "category": "strokes",
       "line": 67.0,
-      "result": "miss",
+      "result": "hit",
       "model_prob": 0.6314395503198071,
       "picked_side": "over",
-      "actual_value": 0.0
+      "actual_value": 69.0
     }
   ]
 }
