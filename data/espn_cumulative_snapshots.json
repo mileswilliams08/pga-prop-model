@@ -4710,5 +4710,367 @@
         }
       }
     }
+  },
+  "baycurrent classic": {
+    "zach bauchou": {
+      "player_name": "Zach Bauchou",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "denny mccarthy": {
+      "player_name": "Denny McCarthy",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "xander schauffele": {
+      "player_name": "Xander Schauffele",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "kurt kitayama": {
+      "player_name": "Kurt Kitayama",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "matt wallace": {
+      "player_name": "Matt Wallace",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "collin morikawa": {
+      "player_name": "Collin Morikawa",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "taylor moore": {
+      "player_name": "Taylor Moore",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "sahith theegala": {
+      "player_name": "Sahith Theegala",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "max greyserman": {
+      "player_name": "Max Greyserman",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "wyndham clark": {
+      "player_name": "Wyndham Clark",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "sungjae im": {
+      "player_name": "Sungjae Im",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "doug ghim": {
+      "player_name": "Doug Ghim",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "brian harman": {
+      "player_name": "Brian Harman",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "billy horschel": {
+      "player_name": "Billy Horschel",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "tony finau": {
+      "player_name": "Tony Finau",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "rickie fowler": {
+      "player_name": "Rickie Fowler",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "nick taylor": {
+      "player_name": "Nick Taylor",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "hiroshi iwata": {
+      "player_name": "Hiroshi Iwata",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "adam scott": {
+      "player_name": "Adam Scott",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "kevin yu": {
+      "player_name": "Kevin Yu",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "kristoffer ventura": {
+      "player_name": "Kristoffer Ventura",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "lee hodges": {
+      "player_name": "Lee Hodges",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "nico echavarria": {
+      "player_name": "Nico Echavarria",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "kevin roy": {
+      "player_name": "Kevin Roy",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "takumi kanaya": {
+      "player_name": "Takumi Kanaya",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "min woo lee": {
+      "player_name": "Min Woo Lee",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "michael thorbjornsen": {
+      "player_name": "Michael Thorbjornsen",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "steven fisk": {
+      "player_name": "Steven Fisk",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "keegan bradley": {
+      "player_name": "Keegan Bradley",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "chandler phillips": {
+      "player_name": "Chandler Phillips",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "jinichiro kozuma": {
+      "player_name": "Jinichiro Kozuma",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "davis thompson": {
+      "player_name": "Davis Thompson",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "john parry": {
+      "player_name": "John Parry",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "ricky castillo": {
+      "player_name": "Ricky Castillo",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "ren yonezawa": {
+      "player_name": "Ren Yonezawa",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "keita nakajima": {
+      "player_name": "Keita Nakajima",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "tomohiro ishizaka": {
+      "player_name": "Tomohiro Ishizaka",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "mac meissner": {
+      "player_name": "Mac Meissner",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "pierceson coody": {
+      "player_name": "Pierceson Coody",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "justin thomas": {
+      "player_name": "Justin Thomas",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "ryo hisatsune": {
+      "player_name": "Ryo Hisatsune",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "rasmus neergaardpetersen": {
+      "player_name": "Rasmus Neergaard-Petersen",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "aguri iwasaki": {
+      "player_name": "Aguri Iwasaki",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "matt mccarty": {
+      "player_name": "Matt McCarty",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "michael brennan": {
+      "player_name": "Michael Brennan",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "jackson suber": {
+      "player_name": "Jackson Suber",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "jacob bridgeman": {
+      "player_name": "Jacob Bridgeman",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "ryan gerard": {
+      "player_name": "Ryan Gerard",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "aldrich potgieter": {
+      "player_name": "Aldrich Potgieter",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "yusaku hosono": {
+      "player_name": "Yusaku Hosono",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "johnny keefer": {
+      "player_name": "Johnny Keefer",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "kosuke sunagawa": {
+      "player_name": "Kosuke Sunagawa",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "koshin nagasaki": {
+      "player_name": "Koshin Nagasaki",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "jordan spieth": {
+      "player_name": "Jordan Spieth",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "andrew putnam": {
+      "player_name": "Andrew Putnam",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "hideki matsuyama": {
+      "player_name": "Hideki Matsuyama",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "beau hossler": {
+      "player_name": "Beau Hossler",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "tom hoge": {
+      "player_name": "Tom Hoge",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "david lipsky": {
+      "player_name": "David Lipsky",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "sanghee lee": {
+      "player_name": "Sanghee Lee",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "patrick rodgers": {
+      "player_name": "Patrick Rodgers",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "yoshinori fujimoto": {
+      "player_name": "Yoshinori Fujimoto",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "ben kohles": {
+      "player_name": "Ben Kohles",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "stephan jaeger": {
+      "player_name": "Stephan Jaeger",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "keith mitchell": {
+      "player_name": "Keith Mitchell",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "max homa": {
+      "player_name": "Max Homa",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "michael kim": {
+      "player_name": "Michael Kim",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "christiaan bezuidenhout": {
+      "player_name": "Christiaan Bezuidenhout",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "alex smalley": {
+      "player_name": "Alex Smalley",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "jordan smith": {
+      "player_name": "Jordan Smith",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "maverick mcnealy": {
+      "player_name": "Maverick McNealy",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "taylor pendrith": {
+      "player_name": "Taylor Pendrith",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    }
   }
 }
