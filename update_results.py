@@ -23,7 +23,8 @@ from datetime import datetime, timedelta, timezone
 from course_history import normalize_tournament_name
 from espn_round_results import find_event_id, get_event_metadata, get_tournament_snapshots
 from snapshot_store import load_store, save_store, update_and_diff
-from grade_results import (list_archived_snapshots, infer_round_number,
+from grade_results import (list_archived_snapshots, calendar_round_guess,
+                            predicted_round_from_field,
                             grade_tournament_day, append_graded_rows,
                             build_results_summary, write_results_json)
 from match_props import normalize_name
@@ -91,12 +92,50 @@ def main(debug: bool = False):
               f"today. This is normal the first day a tournament is configured; "
               f"update_data.py archives one each day it runs.")
 
+    # Which round is the snapshot being archived TODAY predicting? Answered
+    # from what the field has actually finished right now (see
+    # predicted_round_from_field) rather than from the calendar, because
+    # the calendar guess breaks for events in other timezones — e.g. an
+    # event in Japan finishes each round before the 13:00 UTC cron runs.
+    # Stamped into the archived file once, the first time this runs on the
+    # day it was generated, so later reruns can't change the answer.
+    today_utc = now.strftime("%Y-%m-%d")
+    predicted_round_today = predicted_round_from_field(
+        [s.get("rounds_completed", 0) for s in snapshots], meta["total_rounds"])
+
     total_new_rows = 0
     for path in archived_paths:
         with open(path) as f:
             snapshot = json.load(f)
-        round_number = infer_round_number(
-            snapshot["generated_at"], meta["start_date"], meta["total_rounds"])
+
+        if "predicted_round" not in snapshot and snapshot["generated_at"][:10] == today_utc:
+            snapshot["predicted_round"] = predicted_round_today
+            with open(path, "w") as f:
+                json.dump(snapshot, f, indent=2)
+            print(f"  Stamped {path} with predicted_round={predicted_round_today} "
+                  f"(None = tournament already complete).")
+
+        if "predicted_round" in snapshot:
+            round_number = snapshot["predicted_round"]
+            if round_number is None:
+                if debug:
+                    print(f"  {path}: archived after the final round finished — skipping.")
+                continue
+        else:
+            # Older snapshot with no stamp (archived before this existed, or
+            # a day this script didn't run): fall back to the calendar guess,
+            # but a date outside the tournament's own days means "nothing to
+            # grade" — never clamp it to the first or last round.
+            guess = calendar_round_guess(
+                snapshot["generated_at"], meta["start_date"], meta["total_rounds"])
+            if guess is None:
+                if debug:
+                    print(f"  {path}: unstamped and dated outside the tournament — skipping.")
+                continue
+            print(f"  {path}: no predicted_round stamp — using calendar guess (round {guess}). "
+                  f"Fine for US-timezone events; verify for events in other timezones.")
+            round_number = guess
+
         rows = grade_tournament_day(snapshot, graded_rounds_by_player, round_number)
         date_str = snapshot["generated_at"][:10]
         new_rows = append_graded_rows(rows, date_str, tournament_name)

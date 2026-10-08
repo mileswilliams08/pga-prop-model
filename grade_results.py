@@ -68,6 +68,57 @@ def infer_round_number(generated_at_iso: str, tournament_start_date_iso: str,
     return max(1, min(total_rounds, offset_days + 1))
 
 
+def calendar_round_guess(generated_at_iso: str, tournament_start_date_iso: str,
+                          total_rounds: int = 4):
+    """
+    Fallback for snapshots with no stamped predicted_round: the same
+    days-since-start guess as infer_round_number, but returns None when
+    the date falls before the tournament starts or after its last round,
+    instead of clamping to round 1 / the final round. A snapshot from
+    outside the event's dates has nothing real to be graded against.
+    """
+    generated_date = datetime.fromisoformat(generated_at_iso.replace("Z", "+00:00")).date()
+    start_date = datetime.fromisoformat(tournament_start_date_iso.replace("Z", "+00:00")).date()
+    round_number = (generated_date - start_date).days + 1
+    if round_number < 1 or round_number > total_rounds:
+        return None
+    return round_number
+
+
+def predicted_round_from_field(rounds_completed_by_player: list, total_rounds: int = 4,
+                                threshold: float = 0.4):
+    """
+    Which round was a snapshot archived right now predicting? Answers
+    from what the field has ACTUALLY finished, not from the calendar —
+    infer_round_number's "days since start + 1" assumes each day's round
+    is played after that day's snapshot is generated, which only holds
+    for US-timezone events. For an event in Japan (e.g. the Baycurrent
+    Classic), each round is already over before the 13:00 UTC cron runs,
+    so the date-based guess lands one round too early.
+
+    A round counts as finished once at least `threshold` of the field
+    has completed it (0.4, not ~1.0, so players who withdrew or missed
+    the cut don't hold a finished round open, while a handful of early
+    finishers in a round still in progress don't count it as done).
+    Predicted round = finished rounds + 1. Returns None when every round
+    is finished (tournament over — nothing left to predict) or when
+    there's no data at all, so callers skip grading rather than guess.
+    """
+    n = len(rounds_completed_by_player)
+    if n == 0:
+        return None
+    finished = 0
+    for r in range(1, total_rounds + 1):
+        count = sum(1 for c in rounds_completed_by_player if (c or 0) >= r)
+        if count >= threshold * n:
+            finished = r
+        else:
+            break
+    if finished >= total_rounds:
+        return None
+    return finished + 1
+
+
 def grade_one_pick(line: float, over_prob: float, under_prob: float,
                     actual_value: float) -> dict:
     """
