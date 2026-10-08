@@ -282,7 +282,8 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
         return {
             "generated_at": pd.Timestamp.now("UTC").isoformat(),
             "overall": {"n": 0, "hits": 0, "pushes": 0, "hit_rate": None},
-            "by_category": {}, "by_confidence_bucket": {}, "recent": [],
+            "by_category": {}, "by_side": {}, "by_category_side": {},
+            "by_confidence_bucket": {}, "recent": [],
         }
 
     df = pd.read_csv(path)
@@ -311,6 +312,21 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
         for bucket in sorted(df["_bucket"].unique()) if bucket != "unknown"
     }
 
+    # Hit rate for the model's Over picks vs. its Under picks ("picked_side"
+    # is the side the model chose, whichever had the higher probability).
+    # Also split per prop type, since a lean can hide inside one category
+    # (e.g. Total Strokes Overs) while the overall split looks balanced.
+    df["picked_side"] = df["picked_side"].astype(str).str.lower()
+    by_side = {
+        side: summarize(df[df["picked_side"] == side])
+        for side in ("over", "under")
+    }
+    by_category_side = {
+        cat: {side: summarize(df[(df["category"] == cat) & (df["picked_side"] == side)])
+              for side in ("over", "under")}
+        for cat in sorted(df["category"].unique())
+    }
+
     recent = (
         df.sort_values("date", ascending=False)
         .head(recent_n)[["date", "tournament", "player", "category", "line",
@@ -322,6 +338,8 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
         "generated_at": pd.Timestamp.now("UTC").isoformat(),
         "overall": overall,
         "by_category": by_category,
+        "by_side": by_side,
+        "by_category_side": by_category_side,
         "by_confidence_bucket": by_confidence_bucket,
         "recent": recent,
     }
