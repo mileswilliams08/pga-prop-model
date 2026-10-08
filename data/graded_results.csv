@@ -36,3 +36,32 @@ date,tournament,round,player,category,line,source,model_prob,picked_side,actual_
 2026-10-04,Bank of Utah Championship,4,Doug Ghim,fairways,12.5,prizepicks,0.6271888271870185,under,14.0,miss,True
 2026-10-04,Bank of Utah Championship,4,Doug Ghim,birdies,5.5,prizepicks,0.5112201069537925,under,5.0,hit,False
 2026-10-04,Bank of Utah Championship,4,Doug Ghim,strokes,67.0,prizepicks,0.6314395503198071,over,69.0,hit,False
+2026-10-07,Baycurrent Classic,1,Takumi Kanaya,strokes,69.0,prizepicks,0.5169178178956749,under,70.0,miss,False
+2026-10-07,Baycurrent Classic,1,Ben Kohles,strokes,68.5,prizepicks,0.5920729752464914,over,71.0,hit,False
+2026-10-07,Baycurrent Classic,1,Collin Morikawa,strokes,67.5,prizepicks,0.6923288243298881,over,67.0,miss,False
+2026-10-07,Baycurrent Classic,1,Alex Smalley,strokes,68.5,prizepicks,0.5416195400458739,over,71.0,hit,False
+2026-10-07,Baycurrent Classic,1,Sungjae Im,strokes,68.0,prizepicks,0.6636585594316602,over,69.0,hit,False
+2026-10-07,Baycurrent Classic,1,Brian Harman,strokes,68.5,prizepicks,0.6023658511416196,over,69.0,hit,False
+2026-10-07,Baycurrent Classic,1,Michael Thorbjornsen,strokes,68.0,prizepicks,0.574825457748895,over,66.0,miss,False
+2026-10-07,Baycurrent Classic,1,Ryan Gerard,strokes,68.0,prizepicks,0.6816388415905366,over,68.0,push,False
+2026-10-07,Baycurrent Classic,1,Kevin Yu,strokes,68.5,prizepicks,0.5536210301825855,over,74.0,hit,False
+2026-10-07,Baycurrent Classic,1,Rickie Fowler,strokes,68.5,prizepicks,0.5997142248754725,over,73.0,hit,False
+2026-10-07,Baycurrent Classic,1,Pierceson Coody,strokes,69.5,prizepicks,0.6065063793080063,under,65.0,hit,False
+2026-10-07,Baycurrent Classic,1,Ryo Hisatsune,strokes,68.5,prizepicks,0.6586261137893691,over,67.0,miss,False
+2026-10-07,Baycurrent Classic,1,Keegan Bradley,strokes,68.5,prizepicks,0.6018358998591864,over,72.0,hit,False
+2026-10-07,Baycurrent Classic,1,Steven Fisk,strokes,68.5,prizepicks,0.5892959235902473,over,74.0,hit,False
+2026-10-07,Baycurrent Classic,1,Hideki Matsuyama,strokes,68.0,prizepicks,0.6457933232447519,over,67.0,miss,False
+2026-10-07,Baycurrent Classic,1,Keith Mitchell,strokes,68.5,prizepicks,0.5334361182893317,over,66.0,miss,False
+2026-10-07,Baycurrent Classic,1,Jacob Bridgeman,strokes,68.0,prizepicks,0.644710822733787,over,63.0,miss,False
+2026-10-07,Baycurrent Classic,1,Xander Schauffele,strokes,67.5,prizepicks,0.6498427883042095,over,70.0,hit,False
+2026-10-07,Baycurrent Classic,1,Jordan Spieth,strokes,68.5,prizepicks,0.6192195373792279,over,72.0,hit,False
+2026-10-07,Baycurrent Classic,1,Maverick McNealy,strokes,68.0,prizepicks,0.6415098873983172,over,72.0,hit,False
+2026-10-07,Baycurrent Classic,1,Max Homa,strokes,69.0,prizepicks,0.5856716924313763,over,65.0,miss,False
+2026-10-07,Baycurrent Classic,1,Matt Wallace,strokes,68.5,prizepicks,0.5765175312384769,over,70.0,hit,False
+2026-10-07,Baycurrent Classic,1,Adam Scott,strokes,68.0,prizepicks,0.690479591968446,over,69.0,hit,False
+2026-10-07,Baycurrent Classic,1,Jackson Suber,strokes,68.5,prizepicks,0.616828880531045,over,72.0,hit,False
+2026-10-07,Baycurrent Classic,1,Michael Kim,strokes,68.5,prizepicks,0.637948076468163,over,68.0,miss,False
+2026-10-07,Baycurrent Classic,1,Kurt Kitayama,strokes,68.0,prizepicks,0.6507403798167071,over,71.0,hit,False
+2026-10-07,Baycurrent Classic,1,Min Woo Lee,strokes,68.0,prizepicks,0.6942106621104001,over,67.0,miss,False
+2026-10-07,Baycurrent Classic,1,Justin Thomas,strokes,68.0,prizepicks,0.6481589435022379,over,69.0,hit,False
+2026-10-07,Baycurrent Classic,1,Wyndham Clark,strokes,67.5,prizepicks,0.7392506715604518,over,70.0,hit,False
