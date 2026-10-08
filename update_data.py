@@ -232,7 +232,22 @@ def archive_props_snapshot(output: dict, cfg: dict) -> None:
     print(f"Archived today's props snapshot to {path}")
 
 
-def main():
+def count_real_lines(props: list) -> int:
+    """Number of (player, stat) entries whose line came from a real platform."""
+    return sum(1 for p in props for cat in PROP_SPECS
+               if (p.get(cat) or {}).get("source") is not None)
+
+
+def load_previous_output():
+    """The props.json currently on disk, or None if missing/unreadable."""
+    try:
+        with open(OUTPUT_PATH) as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def main(allow_no_lines: bool = False):
     cfg = load_config()
     clean = get_clean_stats(cfg)
 
@@ -280,6 +295,23 @@ def main():
 
     props.sort(key=max_confidence, reverse=True)
 
+    # Guard: if the platforms posted NO real lines for this tournament right
+    # now (e.g. PrizePicks pulls the board between rounds, or hasn't posted
+    # the next round yet), don't overwrite the site's last good props with
+    # a version built on generic default lines, and don't archive a snapshot
+    # the grader would just skip. Pass --allow-no-lines to override.
+    if not allow_no_lines and count_real_lines(props) == 0:
+        previous = load_previous_output()
+        if previous and previous.get("tournament_name") == cfg["tournament_name"]:
+            print("No real platform lines found for any player right now "
+                  "(PrizePicks board empty or not yet posted). Keeping the "
+                  f"existing {OUTPUT_PATH} and skipping today's archive — "
+                  "re-run once lines are posted (or use --allow-no-lines).")
+            return
+        print("No real platform lines found, but the existing site data is for "
+              "a different tournament (or missing) — writing the lineless props "
+              "so the site doesn't show the wrong event.")
+
     output = {
         "tournament_name": cfg["tournament_name"],
         "generated_at": pd.Timestamp.now("UTC").isoformat(),
@@ -291,8 +323,13 @@ def main():
 
     print(f"Wrote {len(props)} players' props to {OUTPUT_PATH}")
 
-    archive_props_snapshot(output, cfg)
+    # Only archive snapshots with real lines — the grader skips picks with no
+    # posted line anyway, so a lineless snapshot has nothing to grade.
+    if count_real_lines(props) > 0:
+        archive_props_snapshot(output, cfg)
+    else:
+        print("No real lines in this run — not archiving a snapshot.")
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main(allow_no_lines="--allow-no-lines" in sys.argv))
