@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-07T19:11:15.873051+00:00",
+  "generated_at": "2026-10-08T02:15:12.471431+00:00",
   "overall": {
-    "n": 39,
-    "hits": 23,
+    "n": 33,
+    "hits": 18,
     "pushes": 4,
-    "hit_rate": 0.5897435897435898
+    "hit_rate": 0.5454545454545454
   },
   "by_category": {
     "birdies": {
@@ -26,24 +26,178 @@
       "hit_rate": 0.3333333333333333
     },
     "strokes": {
-      "n": 19,
-      "hits": 14,
+      "n": 13,
+      "hits": 9,
       "pushes": 1,
-      "hit_rate": 0.7368421052631579
+      "hit_rate": 0.6923076923076923
+    }
+  },
+  "by_side": {
+    "over": {
+      "n": 16,
+      "hits": 10,
+      "pushes": 0,
+      "hit_rate": 0.625
+    },
+    "under": {
+      "n": 17,
+      "hits": 8,
+      "pushes": 4,
+      "hit_rate": 0.47058823529411764
+    }
+  },
+  "by_category_side": {
+    "birdies": {
+      "over": {
+        "n": 6,
+        "hits": 3,
+        "pushes": 0,
+        "hit_rate": 0.5
+      },
+      "under": {
+        "n": 3,
+        "hits": 3,
+        "pushes": 0,
+        "hit_rate": 1.0
+      }
+    },
+    "fairways": {
+      "over": {
+        "n": 0,
+        "hits": 0,
+        "pushes": 0,
+        "hit_rate": null
+      },
+      "under": {
+        "n": 5,
+        "hits": 1,
+        "pushes": 2,
+        "hit_rate": 0.2
+      }
+    },
+    "gir": {
+      "over": {
+        "n": 1,
+        "hits": 1,
+        "pushes": 0,
+        "hit_rate": 1.0
+      },
+      "under": {
+        "n": 5,
+        "hits": 1,
+        "pushes": 1,
+        "hit_rate": 0.2
+      }
+    },
+    "strokes": {
+      "over": {
+        "n": 9,
+        "hits": 6,
+        "pushes": 0,
+        "hit_rate": 0.6666666666666666
+      },
+      "under": {
+        "n": 4,
+        "hits": 3,
+        "pushes": 1,
+        "hit_rate": 0.75
+      }
+    }
+  },
+  "by_tournament": {
+    "Bank of Utah Championship": {
+      "overall": {
+        "n": 33,
+        "hits": 18,
+        "pushes": 4,
+        "hit_rate": 0.5454545454545454
+      },
+      "by_side": {
+        "over": {
+          "n": 16,
+          "hits": 10,
+          "pushes": 0,
+          "hit_rate": 0.625
+        },
+        "under": {
+          "n": 17,
+          "hits": 8,
+          "pushes": 4,
+          "hit_rate": 0.47058823529411764
+        }
+      },
+      "by_category_side": {
+        "birdies": {
+          "over": {
+            "n": 6,
+            "hits": 3,
+            "pushes": 0,
+            "hit_rate": 0.5
+          },
+          "under": {
+            "n": 3,
+            "hits": 3,
+            "pushes": 0,
+            "hit_rate": 1.0
+          }
+        },
+        "fairways": {
+          "over": {
+            "n": 0,
+            "hits": 0,
+            "pushes": 0,
+            "hit_rate": null
+          },
+          "under": {
+            "n": 5,
+            "hits": 1,
+            "pushes": 2,
+            "hit_rate": 0.2
+          }
+        },
+        "gir": {
+          "over": {
+            "n": 1,
+            "hits": 1,
+            "pushes": 0,
+            "hit_rate": 1.0
+          },
+          "under": {
+            "n": 5,
+            "hits": 1,
+            "pushes": 1,
+            "hit_rate": 0.2
+          }
+        },
+        "strokes": {
+          "over": {
+            "n": 9,
+            "hits": 6,
+            "pushes": 0,
+            "hit_rate": 0.6666666666666666
+          },
+          "under": {
+            "n": 4,
+            "hits": 3,
+            "pushes": 1,
+            "hit_rate": 0.75
+          }
+        }
+      }
     }
   },
   "by_confidence_bucket": {
     "50-60%": {
-      "n": 23,
-      "hits": 14,
+      "n": 22,
+      "hits": 13,
       "pushes": 1,
-      "hit_rate": 0.6086956521739131
+      "hit_rate": 0.5909090909090909
     },
     "60-70%": {
-      "n": 13,
-      "hits": 8,
+      "n": 8,
+      "hits": 4,
       "pushes": 1,
-      "hit_rate": 0.6153846153846154
+      "hit_rate": 0.5
     },
     "70-80%": {
       "n": 3,
@@ -60,81 +214,59 @@
   },
   "recent": [
     {
-      "date": "2026-10-07",
-      "tournament": "Bank of Utah Championship",
-      "player": "Jackson Suber",
-      "category": "strokes",
-      "line": 68.5,
-      "result": "miss",
-      "model_prob": 0.6061607672786662,
-      "picked_side": "under",
-      "actual_value": 70.0
-    },
-    {
-      "date": "2026-10-07",
-      "tournament": "Bank of Utah Championship",
-      "player": "Steven Fisk",
-      "category": "strokes",
-      "line": 68.5,
-      "result": "hit",
-      "model_prob": 0.5954225912122523,
-      "picked_side": "under",
-      "actual_value": 67.0
-    },
-    {
-      "date": "2026-10-07",
-      "tournament": "Bank of Utah Championship",
-      "player": "Kevin Yu",
-      "category": "strokes",
-      "line": 68.5,
-      "result": "hit",
-      "model_prob": 0.6619248296542218,
-      "picked_side": "under",
-      "actual_value": 64.0
-    },
-    {
-      "date": "2026-10-07",
-      "tournament": "Bank of Utah Championship",
-      "player": "Max Homa",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "hit",
-      "model_prob": 0.6551041290954049,
-      "picked_side": "under",
-      "actual_value": 68.0
-    },
-    {
-      "date": "2026-10-07",
-      "tournament": "Bank of Utah Championship",
-      "player": "Takumi Kanaya",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "hit",
-      "model_prob": 0.6916099279542844,
-      "picked_side": "under",
-      "actual_value": 67.0
-    },
-    {
-      "date": "2026-10-07",
+      "date": "2026-10-04",
       "tournament": "Bank of Utah Championship",
       "player": "Ben Kohles",
-      "category": "strokes",
-      "line": 68.5,
+      "category": "birdies",
+      "line": 5.5,
       "result": "hit",
-      "model_prob": 0.62382482177162,
+      "model_prob": 0.5029000752604937,
       "picked_side": "under",
-      "actual_value": 67.0
+      "actual_value": 5.0
     },
     {
       "date": "2026-10-04",
       "tournament": "Bank of Utah Championship",
-      "player": "Kevin Streelman",
-      "category": "fairways",
-      "line": 12.0,
-      "result": "miss",
-      "model_prob": 0.7058726668975861,
+      "player": "Chris Kirk",
+      "category": "gir",
+      "line": 14.0,
+      "result": "push",
+      "model_prob": 0.6959472800238884,
       "picked_side": "under",
       "actual_value": 14.0
+    },
+    {
+      "date": "2026-10-04",
+      "tournament": "Bank of Utah Championship",
+      "player": "Chris Kirk",
+      "category": "strokes",
+      "line": 67.5,
+      "result": "hit",
+      "model_prob": 0.547716088236517,
+      "picked_side": "over",
+      "actual_value": 70.0
+    },
+    {
+      "date": "2026-10-04",
+      "tournament": "Bank of Utah Championship",
+      "player": "Trace Crowe",
+      "category": "gir",
+      "line": 13.5,
+      "result": "miss",
+      "model_prob": 0.5128833008915155,
+      "picked_side": "under",
+      "actual_value": 15.0
+    },
+    {
+      "date": "2026-10-04",
+      "tournament": "Bank of Utah Championship",
+      "player": "Trace Crowe",
+      "category": "fairways",
+      "line": 12.0,
+      "result": "push",
+      "model_prob": 0.7246821476221558,
+      "picked_side": "under",
+      "actual_value": 12.0
     },
     {
       "date": "2026-10-04",
@@ -205,13 +337,13 @@
     {
       "date": "2026-10-04",
       "tournament": "Bank of Utah Championship",
-      "player": "Doug Ghim",
-      "category": "gir",
-      "line": 14.0,
-      "result": "hit",
-      "model_prob": 0.6080438137563899,
+      "player": "Kevin Streelman",
+      "category": "fairways",
+      "line": 12.0,
+      "result": "miss",
+      "model_prob": 0.7058726668975861,
       "picked_side": "under",
-      "actual_value": 13.0
+      "actual_value": 14.0
     },
     {
       "date": "2026-10-04",
@@ -238,13 +370,13 @@
     {
       "date": "2026-10-04",
       "tournament": "Bank of Utah Championship",
-      "player": "Trace Crowe",
+      "player": "Doug Ghim",
       "category": "gir",
-      "line": 13.5,
-      "result": "miss",
-      "model_prob": 0.5128833008915155,
+      "line": 14.0,
+      "result": "hit",
+      "model_prob": 0.6080438137563899,
       "picked_side": "under",
-      "actual_value": 15.0
+      "actual_value": 13.0
     },
     {
       "date": "2026-10-04",
@@ -271,35 +403,24 @@
     {
       "date": "2026-10-04",
       "tournament": "Bank of Utah Championship",
-      "player": "Doug Ghim",
-      "category": "strokes",
-      "line": 67.0,
-      "result": "hit",
-      "model_prob": 0.6314395503198071,
-      "picked_side": "over",
-      "actual_value": 69.0
-    },
-    {
-      "date": "2026-10-04",
-      "tournament": "Bank of Utah Championship",
-      "player": "Trace Crowe",
+      "player": "Chris Kirk",
       "category": "fairways",
       "line": 12.0,
-      "result": "push",
-      "model_prob": 0.7246821476221558,
+      "result": "hit",
+      "model_prob": 0.6933377501887386,
       "picked_side": "under",
-      "actual_value": 12.0
+      "actual_value": 11.0
     },
     {
       "date": "2026-10-04",
       "tournament": "Bank of Utah Championship",
-      "player": "Ben Kohles",
-      "category": "birdies",
-      "line": 5.5,
+      "player": "Rico Hoey",
+      "category": "strokes",
+      "line": 67.5,
       "result": "hit",
-      "model_prob": 0.5029000752604937,
+      "model_prob": 0.544500063644343,
       "picked_side": "under",
-      "actual_value": 5.0
+      "actual_value": 67.0
     },
     {
       "date": "2026-10-04",
@@ -315,13 +436,13 @@
     {
       "date": "2026-10-04",
       "tournament": "Bank of Utah Championship",
-      "player": "Stephan Jaeger",
-      "category": "birdies",
-      "line": 5.5,
+      "player": "Rico Hoey",
+      "category": "fairways",
+      "line": 12.0,
       "result": "miss",
-      "model_prob": 0.5387306967183849,
-      "picked_side": "over",
-      "actual_value": 4.0
+      "model_prob": 0.6281564447453687,
+      "picked_side": "under",
+      "actual_value": 13.0
     },
     {
       "date": "2026-10-04",
@@ -415,23 +536,23 @@
       "date": "2026-10-04",
       "tournament": "Bank of Utah Championship",
       "player": "Stephan Jaeger",
+      "category": "birdies",
+      "line": 5.5,
+      "result": "miss",
+      "model_prob": 0.5387306967183849,
+      "picked_side": "over",
+      "actual_value": 4.0
+    },
+    {
+      "date": "2026-10-04",
+      "tournament": "Bank of Utah Championship",
+      "player": "Stephan Jaeger",
       "category": "strokes",
       "line": 67.5,
       "result": "hit",
       "model_prob": 0.5392386755071017,
       "picked_side": "over",
       "actual_value": 72.0
-    },
-    {
-      "date": "2026-10-04",
-      "tournament": "Bank of Utah Championship",
-      "player": "Chris Kirk",
-      "category": "fairways",
-      "line": 12.0,
-      "result": "hit",
-      "model_prob": 0.6933377501887386,
-      "picked_side": "under",
-      "actual_value": 11.0
     },
     {
       "date": "2026-10-04",
@@ -491,46 +612,13 @@
     {
       "date": "2026-10-04",
       "tournament": "Bank of Utah Championship",
-      "player": "Rico Hoey",
-      "category": "fairways",
-      "line": 12.0,
-      "result": "miss",
-      "model_prob": 0.6281564447453687,
-      "picked_side": "under",
-      "actual_value": 13.0
-    },
-    {
-      "date": "2026-10-04",
-      "tournament": "Bank of Utah Championship",
-      "player": "Rico Hoey",
+      "player": "Doug Ghim",
       "category": "strokes",
-      "line": 67.5,
+      "line": 67.0,
       "result": "hit",
-      "model_prob": 0.544500063644343,
-      "picked_side": "under",
-      "actual_value": 67.0
-    },
-    {
-      "date": "2026-10-04",
-      "tournament": "Bank of Utah Championship",
-      "player": "Chris Kirk",
-      "category": "gir",
-      "line": 14.0,
-      "result": "push",
-      "model_prob": 0.6959472800238884,
-      "picked_side": "under",
-      "actual_value": 14.0
-    },
-    {
-      "date": "2026-10-04",
-      "tournament": "Bank of Utah Championship",
-      "player": "Chris Kirk",
-      "category": "strokes",
-      "line": 67.5,
-      "result": "hit",
-      "model_prob": 0.547716088236517,
+      "model_prob": 0.6314395503198071,
       "picked_side": "over",
-      "actual_value": 70.0
+      "actual_value": 69.0
     }
   ]
 }
