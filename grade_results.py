@@ -282,7 +282,7 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
         return {
             "generated_at": pd.Timestamp.now("UTC").isoformat(),
             "overall": {"n": 0, "hits": 0, "pushes": 0, "hit_rate": None},
-            "by_category": {}, "by_side": {}, "by_category_side": {},
+            "by_category": {}, "by_side": {}, "by_category_side": {}, "by_tournament": {},
             "by_confidence_bucket": {}, "recent": [],
         }
 
@@ -317,15 +317,30 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
     # Also split per prop type, since a lean can hide inside one category
     # (e.g. Total Strokes Overs) while the overall split looks balanced.
     df["picked_side"] = df["picked_side"].astype(str).str.lower()
-    by_side = {
-        side: summarize(df[df["picked_side"] == side])
-        for side in ("over", "under")
-    }
-    by_category_side = {
-        cat: {side: summarize(df[(df["category"] == cat) & (df["picked_side"] == side)])
-              for side in ("over", "under")}
-        for cat in sorted(df["category"].unique())
-    }
+    def side_breakdown(sub: pd.DataFrame):
+        by_side_ = {side: summarize(sub[sub["picked_side"] == side])
+                    for side in ("over", "under")}
+        by_cat_side_ = {
+            cat: {side: summarize(sub[(sub["category"] == cat) & (sub["picked_side"] == side)])
+                  for side in ("over", "under")}
+            for cat in sorted(sub["category"].unique())
+        }
+        return by_side_, by_cat_side_
+
+    by_side, by_category_side = side_breakdown(df)
+
+    # Same numbers per tournament, so one week's results (e.g. a one-sided
+    # week) don't hide inside the all-time totals above. The all-tournament
+    # numbers above are unchanged.
+    by_tournament = {}
+    for tname in sorted(df["tournament"].dropna().unique()):
+        sub = df[df["tournament"] == tname]
+        t_side, t_cat_side = side_breakdown(sub)
+        by_tournament[tname] = {
+            "overall": summarize(sub),
+            "by_side": t_side,
+            "by_category_side": t_cat_side,
+        }
 
     recent = (
         df.sort_values("date", ascending=False)
@@ -340,6 +355,7 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
         "by_category": by_category,
         "by_side": by_side,
         "by_category_side": by_category_side,
+        "by_tournament": by_tournament,
         "by_confidence_bucket": by_confidence_bucket,
         "recent": recent,
     }

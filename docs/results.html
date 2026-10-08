@@ -103,36 +103,44 @@ function render(data) {
 
   html += `</tbody></table>`;
 
-  // Over vs Under hit rates (side the model picked), overall and per prop.
+  // Over vs Under hit rates (side the model picked). The dropdown picks
+  // which scope the cards + per-prop table show: all tournaments (default)
+  // or a single one. The per-tournament summary table below always lists
+  // every tournament side by side.
   const sideStat = (s) => s ? { n: s.n, rate: pct(s.hit_rate), pushes: s.pushes }
                             : { n: 0, rate: "—", pushes: 0 };
-  const bs = data.by_side || {};
-  if (bs.over || bs.under) {
-    const ov = sideStat(bs.over), un = sideStat(bs.under);
+  const tournaments = data.by_tournament || {};
+  const tNames = Object.keys(tournaments);
+
+  if ((data.by_side && (data.by_side.over || data.by_side.under))) {
+    const options = [`<option value="__all__">All tournaments</option>`]
+      .concat(tNames.map(t => `<option value="${t}">${t}</option>`)).join("");
     html += `
     <h2>Overs vs. Unders</h2>
-    <div class="overall-card">
-      <div><div class="big">${ov.rate}</div><div class="sub">Over hit rate (${ov.n} picks)</div></div>
-      <div><div class="big">${un.rate}</div><div class="sub">Under hit rate (${un.n} picks)</div></div>
-    </div>
+    <div class="caveat" style="margin-bottom:8px">Show:
+      <select id="side-scope" style="background:#1c2733;color:#e6edf3;border:1px solid #263140;
+        border-radius:4px;padding:4px 8px;font-size:13px">${options}</select></div>
+    <div id="side-section"></div>
+
+    <h2>Overs vs. Unders by tournament</h2>
     <table>
-      <thead><tr><th>Prop</th><th>Over N</th><th>Over hit rate</th>
-        <th>Under N</th><th>Under hit rate</th></tr></thead>
+      <thead><tr><th>Tournament</th><th>Graded N</th><th>Overall</th>
+        <th>Over N</th><th>Over hit rate</th><th>Under N</th><th>Under hit rate</th></tr></thead>
       <tbody>`;
-    for (const [key, label] of Object.entries(CATEGORY_LABELS)) {
-      const cs = (data.by_category_side || {})[key];
-      if (!cs) continue;
-      const o2 = sideStat(cs.over), u2 = sideStat(cs.under);
+    for (const t of tNames) {
+      const td = tournaments[t];
+      const o3 = sideStat(td.by_side.over), u3 = sideStat(td.by_side.under);
       html += `
         <tr>
-          <td>${label}</td>
-          <td class="num">${o2.n}</td><td class="prob">${o2.rate}</td>
-          <td class="num">${u2.n}</td><td class="prob">${u2.rate}</td>
+          <td>${t}</td>
+          <td class="num">${td.overall.n}</td><td class="prob">${pct(td.overall.hit_rate)}</td>
+          <td class="num">${o3.n}</td><td class="prob">${o3.rate}</td>
+          <td class="num">${u3.n}</td><td class="prob">${u3.rate}</td>
         </tr>`;
     }
     html += `</tbody></table>
-    <div class="caveat">Based on the side the model picked. Small samples swing a lot —
-      treat anything under ~30 picks as noise.</div>`;
+    <div class="caveat">Based on the side the model picked; pushes excluded. Small samples
+      swing a lot — treat anything under ~30 picks as noise.</div>`;
   }
 
   html += `
@@ -174,6 +182,41 @@ function render(data) {
   html += `</tbody></table>`;
 
   content.innerHTML = html;
+
+  const scopeSel = document.getElementById("side-scope");
+  if (scopeSel) {
+    const draw = () => {
+      const v = scopeSel.value;
+      const scope = v === "__all__"
+        ? { by_side: data.by_side, by_category_side: data.by_category_side }
+        : tournaments[v];
+      const ov = sideStat(scope.by_side.over), un = sideStat(scope.by_side.under);
+      let h = `
+      <div class="overall-card">
+        <div><div class="big">${ov.rate}</div><div class="sub">Over hit rate (${ov.n} picks)</div></div>
+        <div><div class="big">${un.rate}</div><div class="sub">Under hit rate (${un.n} picks)</div></div>
+      </div>
+      <table>
+        <thead><tr><th>Prop</th><th>Over N</th><th>Over hit rate</th>
+          <th>Under N</th><th>Under hit rate</th></tr></thead>
+        <tbody>`;
+      for (const [key, label] of Object.entries(CATEGORY_LABELS)) {
+        const cs = (scope.by_category_side || {})[key];
+        if (!cs) continue;
+        const o2 = sideStat(cs.over), u2 = sideStat(cs.under);
+        h += `
+          <tr>
+            <td>${label}</td>
+            <td class="num">${o2.n}</td><td class="prob">${o2.rate}</td>
+            <td class="num">${u2.n}</td><td class="prob">${u2.rate}</td>
+          </tr>`;
+      }
+      h += `</tbody></table>`;
+      document.getElementById("side-section").innerHTML = h;
+    };
+    scopeSel.addEventListener("change", draw);
+    draw();
+  }
 }
 
 fetch("data/results.json")
