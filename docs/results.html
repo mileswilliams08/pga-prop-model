@@ -85,13 +85,17 @@ function render(data) {
     border-radius:4px;padding:4px 8px;font-size:13px`;
   const PROP_OPTIONS = `<option value="__all__">All props</option>` +
     Object.entries(CATEGORY_LABELS).map(([k, l]) => `<option value="${k}">${l}</option>`).join("");
+  const PROB_OPTIONS = [["__all__", "All probabilities"], ["50-60", "50-60%"], ["60-65", "60-65%"],
+    ["65-70", "65-70%"], ["70-80", "70-80%"], ["80+", "80%+"]]
+    .map(([k, l]) => `<option value="${k}">${l}</option>`).join("");
   const ROUND_OPTIONS = `<option value="__all__">All rounds</option>` +
     [1, 2, 3, 4].map(r => `<option value="${r}">Round ${r}</option>`).join("");
 
   let html = `
     <div class="caveat" style="margin-bottom:8px">Show:
       <select id="overall-round" style="${SELECT_STYLE}">${ROUND_OPTIONS}</select>
-      <select id="overall-prop" style="${SELECT_STYLE}">${PROP_OPTIONS}</select></div>
+      <select id="overall-prop" style="${SELECT_STYLE}">${PROP_OPTIONS}</select>
+      <select id="overall-prob" style="${SELECT_STYLE}">${PROB_OPTIONS}</select></div>
     <div id="overall-section"></div>
     <div class="caveat">Tracks every graded pick, not just ones that cleared a breakeven
       threshold — this is the model's real calibration, not a highlight reel.</div>`;
@@ -102,10 +106,10 @@ function render(data) {
   // every tournament side by side.
   const sideStat = (s) => s ? { n: s.n, rate: pct(s.hit_rate), pushes: s.pushes }
                             : { n: 0, rate: "—", pushes: 0 };
-  const tournaments = data.by_tournament || {};
-  const tNames = Object.keys(tournaments);
+  const allPicks = data.picks || [];
+  const tNames = [...new Set(allPicks.map(x => x.t))].sort();
 
-  if ((data.by_side && (data.by_side.over || data.by_side.under))) {
+  if (allPicks.length) {
     const options = [`<option value="__all__">All tournaments</option>`]
       .concat(tNames.map(t => `<option value="${t}">${t}</option>`)).join("");
     html += `
@@ -113,11 +117,12 @@ function render(data) {
     <div class="caveat" style="margin-bottom:8px">Show:
       <select id="side-scope" style="${SELECT_STYLE}">${options}</select>
       <select id="side-round" style="${SELECT_STYLE}">${ROUND_OPTIONS}</select>
-      <select id="side-prop" style="${SELECT_STYLE}">${PROP_OPTIONS}</select></div>
+      <select id="side-prop" style="${SELECT_STYLE}">${PROP_OPTIONS}</select>
+      <select id="side-prob" style="${SELECT_STYLE}">${PROB_OPTIONS}</select></div>
     <div id="side-section"></div>
 
     <h2>Overs vs. Unders by tournament</h2>
-    <div class="caveat">Follows the round and prop filters above.</div>
+    <div class="caveat">Follows the round, prop and probability filters above.</div>
     <table>
       <thead><tr><th>Tournament</th><th>Graded N</th><th>Overall</th>
         <th>Over N</th><th>Over hit rate</th><th>Under N</th><th>Under hit rate</th></tr></thead>
@@ -167,19 +172,37 @@ function render(data) {
 
   content.innerHTML = html;
 
-  // Overall card + by-prop table, filtered by round (all tournaments).
-  const overallSel = document.getElementById("overall-round");
-  const overallProp = document.getElementById("overall-prop");
+  // ---- Filtering is done here from the raw per-pick rows (data.picks). ----
+  // Probability ranges are on the model's probability for the side it picked.
+  const PROB_RANGES = { "__all__": [0, 1.01], "50-60": [0.5, 0.6], "60-65": [0.6, 0.65],
+                        "65-70": [0.65, 0.7], "70-80": [0.7, 0.8], "80+": [0.8, 1.01] };
+  const selected = (id) => document.getElementById(id).value;
+  const filterPicks = ({ t = "__all__", r = "__all__", c = "__all__", pr = "__all__", s = null }) => {
+    const [lo, hi] = PROB_RANGES[pr];
+    return allPicks.filter(x =>
+      (t === "__all__" || x.t === t) &&
+      (r === "__all__" || String(x.r) === r) &&
+      (c === "__all__" || x.c === c) &&
+      (s === null || x.s === s) &&
+      (pr === "__all__" || (x.p !== null && x.p >= lo && x.p < hi)));
+  };
+  const statsOf = (rows) => {
+    let hits = 0, miss = 0, pushes = 0;
+    for (const x of rows) { if (x.x === "h") hits++; else if (x.x === "m") miss++; else pushes++; }
+    const n = hits + miss;
+    return { n, hits, pushes, hit_rate: n > 0 ? hits / n : null };
+  };
+
+  // Overall card + by-prop table: round, prop and probability filters (all tournaments).
   const drawOverall = () => {
-    const r = overallSel.value, cat = overallProp.value;
-    const scope = r === "__all__" ? data : (data.by_round || {})[r];
+    const f = { r: selected("overall-round"), c: selected("overall-prop"), pr: selected("overall-prob") };
     const box = document.getElementById("overall-section");
-    const o = !scope ? null : (cat === "__all__" ? scope.overall : (scope.by_category || {})[cat]);
-    if (!o || o.n + o.pushes === 0) {
+    const o = statsOf(filterPicks(f));
+    if (o.n + o.pushes === 0) {
       box.innerHTML = `<div class="empty">No graded picks for this selection yet.</div>`;
       return;
     }
-    const label = cat === "__all__" ? "overall hit rate" : `${CATEGORY_LABELS[cat]} hit rate`;
+    const label = f.c === "__all__" ? "overall hit rate" : `${CATEGORY_LABELS[f.c]} hit rate`;
     let h = `
       <div class="overall-card">
         <div><div class="big">${pct(o.hit_rate)}</div><div class="sub">${label}</div></div>
@@ -192,93 +215,75 @@ function render(data) {
         <thead><tr><th>Prop</th><th>N</th><th>Hit rate</th><th>Pushes</th></tr></thead>
         <tbody>`;
     for (const [key, l] of Object.entries(CATEGORY_LABELS)) {
-      if (cat !== "__all__" && key !== cat) continue;
-      if ((scope.by_category || {})[key]) h += statBlock(l, scope.by_category[key]);
+      if (f.c !== "__all__" && key !== f.c) continue;
+      const st = statsOf(filterPicks({ ...f, c: key }));
+      if (st.n + st.pushes > 0) h += statBlock(l, st);
     }
     h += `</tbody></table>`;
     box.innerHTML = h;
   };
-  overallSel.addEventListener("change", drawOverall);
-  overallProp.addEventListener("change", drawOverall);
+  for (const id of ["overall-round", "overall-prop", "overall-prob"])
+    document.getElementById(id).addEventListener("change", drawOverall);
   drawOverall();
 
-  // Over/Under section: tournament + round + prop-type filters.
-  const scopeSel = document.getElementById("side-scope");
-  const roundSel = document.getElementById("side-round");
-  const propSel = document.getElementById("side-prop");
-  if (scopeSel) {
-    const pick = (t, r) => {
-      const base = t === "__all__" ? data : tournaments[t];
-      return r === "__all__" ? base : (base.by_round || {})[r];
-    };
-    // Over/under stats for one scope, optionally narrowed to one prop type.
-    const sides = (scope, cat) => {
-      if (!scope || !scope.by_side) return null;
-      if (cat === "__all__") return scope.by_side;
-      const cs = (scope.by_category_side || {})[cat];
-      return cs || null;
-    };
-    const draw = () => {
-      const cat = propSel.value;
-      const scope = pick(scopeSel.value, roundSel.value);
+  // Over/Under section: tournament + round + prop + probability filters.
+  if (document.getElementById("side-scope")) {
+    const drawSides = () => {
+      const f = { t: selected("side-scope"), r: selected("side-round"),
+                  c: selected("side-prop"), pr: selected("side-prob") };
       const box = document.getElementById("side-section");
-      const sd = sides(scope, cat);
-      if (!sd) {
+      const ov = statsOf(filterPicks({ ...f, s: "over" })), un = statsOf(filterPicks({ ...f, s: "under" }));
+      const sv = (st) => ({ n: st.n, rate: pct(st.hit_rate) });
+      if (ov.n + ov.pushes + un.n + un.pushes === 0) {
         box.innerHTML = `<div class="empty">No graded picks for this selection yet.</div>`;
       } else {
-        const ov = sideStat(sd.over), un = sideStat(sd.under);
+        const o1 = sv(ov), u1 = sv(un);
         let h = `
         <div class="overall-card">
-          <div><div class="big">${ov.rate}</div><div class="sub">Over hit rate (${ov.n} picks)</div></div>
-          <div><div class="big">${un.rate}</div><div class="sub">Under hit rate (${un.n} picks)</div></div>
+          <div><div class="big">${o1.rate}</div><div class="sub">Over hit rate (${o1.n} picks)</div></div>
+          <div><div class="big">${u1.rate}</div><div class="sub">Under hit rate (${u1.n} picks)</div></div>
         </div>
         <table>
           <thead><tr><th>Prop</th><th>Over N</th><th>Over hit rate</th>
             <th>Under N</th><th>Under hit rate</th></tr></thead>
           <tbody>`;
         for (const [key, label] of Object.entries(CATEGORY_LABELS)) {
-          if (cat !== "__all__" && key !== cat) continue;
-          const cs = (scope.by_category_side || {})[key];
-          if (!cs) continue;
-          const o2 = sideStat(cs.over), u2 = sideStat(cs.under);
+          if (f.c !== "__all__" && key !== f.c) continue;
+          const o2 = statsOf(filterPicks({ ...f, c: key, s: "over" }));
+          const u2 = statsOf(filterPicks({ ...f, c: key, s: "under" }));
+          if (o2.n + o2.pushes + u2.n + u2.pushes === 0) continue;
           h += `
             <tr>
               <td>${label}</td>
-              <td class="num">${o2.n}</td><td class="prob">${o2.rate}</td>
-              <td class="num">${u2.n}</td><td class="prob">${u2.rate}</td>
+              <td class="num">${o2.n}</td><td class="prob">${pct(o2.hit_rate)}</td>
+              <td class="num">${u2.n}</td><td class="prob">${pct(u2.hit_rate)}</td>
             </tr>`;
         }
         h += `</tbody></table>`;
         box.innerHTML = h;
       }
 
-      // Per-tournament table follows the round + prop filters.
+      // Per-tournament table follows the round, prop and probability filters.
       let rows = "";
       for (const t of tNames) {
-        const ts = pick(t, roundSel.value);
-        const td = sides(ts, cat);
-        if (!td) continue;
-        const o3 = sideStat(td.over), u3 = sideStat(td.under);
-        // Overall for this slice = over + under picks combined (pushes excluded).
-        const n = o3.n + u3.n;
-        const hits = (td.over ? td.over.hits : 0) + (td.under ? td.under.hits : 0);
-        const overall = n > 0 ? pct(hits / n) : "—";
-        if (n === 0 && o3.n + u3.n === 0 && !(td.over && td.over.pushes) && !(td.under && td.under.pushes)) continue;
+        const g = { ...f, t };
+        const o3 = statsOf(filterPicks({ ...g, s: "over" })), u3 = statsOf(filterPicks({ ...g, s: "under" }));
+        if (o3.n + o3.pushes + u3.n + u3.pushes === 0) continue;
+        const n = o3.n + u3.n, hits = o3.hits + u3.hits;
         rows += `
           <tr>
             <td>${t}</td>
-            <td class="num">${n}</td><td class="prob">${overall}</td>
-            <td class="num">${o3.n}</td><td class="prob">${o3.rate}</td>
-            <td class="num">${u3.n}</td><td class="prob">${u3.rate}</td>
+            <td class="num">${n}</td><td class="prob">${n > 0 ? pct(hits / n) : "—"}</td>
+            <td class="num">${o3.n}</td><td class="prob">${pct(o3.hit_rate)}</td>
+            <td class="num">${u3.n}</td><td class="prob">${pct(u3.hit_rate)}</td>
           </tr>`;
       }
       document.getElementById("tourn-body").innerHTML = rows ||
         `<tr><td colspan="7" class="empty">No graded picks for this selection yet.</td></tr>`;
     };
-    scopeSel.addEventListener("change", draw);
-    roundSel.addEventListener("change", draw);
-    propSel.addEventListener("change", draw);
-    draw();
+    for (const id of ["side-scope", "side-round", "side-prop", "side-prob"])
+      document.getElementById(id).addEventListener("change", drawSides);
+    drawSides();
   }
 }
 

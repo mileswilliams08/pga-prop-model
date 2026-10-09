@@ -358,7 +358,7 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
             "generated_at": pd.Timestamp.now("UTC").isoformat(),
             "overall": {"n": 0, "hits": 0, "pushes": 0, "hit_rate": None},
             "by_category": {}, "by_side": {}, "by_category_side": {}, "by_tournament": {},
-            "by_round": {}, "by_confidence_bucket": {}, "recent": [],
+            "by_round": {}, "picks": [], "by_confidence_bucket": {}, "recent": [],
         }
 
     df = pd.read_csv(path)
@@ -446,8 +446,23 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
         .to_dict(orient="records")
     )
 
+    # Compact per-pick rows (after exclusions) so the results page can filter
+    # by anything -- tournament, round, prop, side, probability range -- and
+    # compute hit rates in the browser instead of precomputing every
+    # combination. t=tournament, r=round, c=category, s=side picked,
+    # p=model probability of that side, x=h(it)/m(iss)/p(ush).
+    result_code = {"hit": "h", "miss": "m", "push": "p"}
+    picks = [
+        {"t": r.tournament, "r": int(r.round) if pd.notna(r.round) else None,
+         "c": r.category, "s": r.picked_side,
+         "p": round(float(r.model_prob), 4) if pd.notna(r.model_prob) else None,
+         "x": result_code.get(r.result, "p")}
+        for r in df.itertuples()
+    ]
+
     return {
         "generated_at": pd.Timestamp.now("UTC").isoformat(),
+        "picks": picks,
         "overall": overall,
         "by_category": by_category,
         "by_side": by_side,
