@@ -75,6 +75,22 @@ _CATEGORY_BY_MARKET = {
 }
 
 
+# PrizePicks also posts "goblin" and "demon" variants of a prop alongside
+# the standard line: a different line number for the same player+stat that
+# can only be taken ONE way (Over/"More" only, per the person running this
+# project). Those are NOT two-sided bets, so the model must never price
+# against them or count them in hit rates -- see match_props.py and
+# grade_results.py. The label lives in each projection's attributes as
+# "odds_type" ("standard" / "goblin" / "demon"); a missing value is
+# treated as standard.
+ONE_WAY_ODDS_TYPES = ("goblin", "demon")
+
+
+def normalize_odds_type(value) -> str:
+    v = str(value or "standard").strip().lower()
+    return v or "standard"
+
+
 def normalize_stat_category(market: str) -> str:
     return _CATEGORY_BY_MARKET.get((market or "").strip().lower(), "other")
 
@@ -144,7 +160,7 @@ def parse_golf_projections(payload: dict, league: str = GOLF_LEAGUE, debug: bool
     """Walks every 'projection' resource in payload['data'], resolves its
     player via payload['included'], and keeps only rows whose player's
     league matches (default "PGA"). Returns columns [player, stat_type,
-    line, category] — the exact shape match_props.attach_platform_lines
+    line, odds_type, category] — the exact shape match_props.attach_platform_lines
     expects (same as underdog_scraper's output)."""
     data = payload.get("data") or []
     included = payload.get("included") or []
@@ -160,6 +176,7 @@ def parse_golf_projections(payload: dict, league: str = GOLF_LEAGUE, debug: bool
               f"(by player count): {dict(league_counts.most_common(15))}")
 
     rows = []
+    saw_odds_type_field = False
     skipped_no_player = 0
     skipped_wrong_league = 0
     skipped_no_market_or_line = 0
@@ -192,18 +209,28 @@ def parse_golf_projections(payload: dict, league: str = GOLF_LEAGUE, debug: bool
             skipped_no_market_or_line += 1
             continue
 
-        rows.append({"player": display_name, "stat_type": market, "line": line})
+        if "odds_type" in attrs:
+            saw_odds_type_field = True
+        rows.append({"player": display_name, "stat_type": market, "line": line,
+                     "odds_type": normalize_odds_type(attrs.get("odds_type"))})
 
     if debug:
         print(f"  Parsed {len(rows)} {league} rows from {len(data)} total projections "
               f"({skipped_wrong_league} other-league, {skipped_no_player} unresolved player, "
               f"{skipped_no_market_or_line} missing market/line).")
 
-    df = pd.DataFrame(rows, columns=["player", "stat_type", "line"])
+    df = pd.DataFrame(rows, columns=["player", "stat_type", "line", "odds_type"])
     if not df.empty:
         df["category"] = df["stat_type"].apply(normalize_stat_category)
     else:
         df["category"] = pd.Series(dtype="object")
+    # Lets callers warn when the board has no odds_type field at all (then
+    # goblins/demons can't be told apart from standard lines).
+    df.attrs["odds_type_field_seen"] = saw_odds_type_field
+    if debug:
+        from collections import Counter
+        print(f"  odds_type field present on board: {saw_odds_type_field}; "
+              f"counts: {dict(Counter(df['odds_type'])) if not df.empty else {}}")
     return df
 
 
@@ -216,7 +243,7 @@ def get_golf_props(league: str = GOLF_LEAGUE, debug: bool = False) -> pd.DataFra
         payload = fetch_board(debug=debug)
     except Exception as e:
         print(f"PrizePicks fetch failed: {e}")
-        return pd.DataFrame(columns=["player", "stat_type", "line", "category"])
+        return pd.DataFrame(columns=["player", "stat_type", "line", "odds_type", "category"])
 
     return parse_golf_projections(payload, league=league, debug=debug)
 

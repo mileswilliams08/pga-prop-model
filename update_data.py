@@ -181,6 +181,10 @@ def build_props(cfg, profile: pd.DataFrame, line_lookup: dict = None) -> list:
             entry[category] = {
                 "line": line,
                 "source": source,
+                # Only standard (two-sided) lines are ever used as a real line
+                # -- see match_props.build_line_lookup. Recorded so grading can
+                # tell new snapshots (labeled) from older unlabeled ones.
+                **({"odds_type": match.get("odds_type", "standard")} if match else {}),
                 **prop_func(r[col], line),
             }
         rows.append(entry)
@@ -285,6 +289,15 @@ def main(allow_no_lines: bool = False):
     # fixed default — see build_props' docstring), and attach_platform_lines
     # still separately records every line found for display/reference.
     platform_dfs = get_platform_lines()
+    pp = platform_dfs.get("prizepicks")
+    if pp is not None and not pp.empty:
+        if "odds_type" in pp.columns:
+            counts = pp["odds_type"].value_counts().to_dict()
+            print(f"PrizePicks lines by type: {counts} "
+                  f"(goblin/demon are one-way and are excluded from the model + hit rates).")
+            if not pp.attrs.get("odds_type_field_seen", True):
+                print("WARNING: PrizePicks rows had no 'odds_type' field -- goblins/demons "
+                      "can't be told apart from standard lines. Check the API field name.")
     props = build_props(cfg, profile, build_line_lookup(platform_dfs))
     props = attach_platform_lines(props, platform_dfs)
 

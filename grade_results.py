@@ -38,6 +38,7 @@ from datetime import date, datetime
 
 GRADED_LOG_PATH = "data/graded_results.csv"
 RESULTS_OUTPUT_PATH = "docs/data/results.json"
+EXCLUDED_PICKS_PATH = "data/excluded_picks.csv"  # hand-maintained, see exclude_pick.py
 PROPS_HISTORY_DIR = "data/props_history"
 
 GRADED_LOG_FIELDS = [
@@ -143,6 +144,43 @@ def grade_one_pick(line: float, over_prob: float, under_prob: float,
     return {"picked_side": picked_side, "model_prob": model_prob, "result": result}
 
 
+ONE_WAY_ODDS_TYPES = ("goblin", "demon")
+
+
+def is_untakeable_line(player_entry: dict, category: str, use_heuristic: bool = False) -> bool:
+    """
+    True if this prop shouldn't be graded because its line can't be taken
+    both ways (a PrizePicks goblin/demon, Over-only) or can't be shown to be
+    a standard two-sided line.
+
+    New snapshots label each real line with "odds_type" ("standard" only
+    ever reaches here). OLDER snapshots have no label; by default those are
+    left alone (grading them as before — remove known one-way picks by hand
+    with exclude_pick.py). With use_heuristic=True (only prune_one_way.py
+    does this) the best available check is the player's recorded
+    platform_lines: with one distinct
+    PrizePicks line for the stat it's safely the standard; with three the
+    evaluated line must be the middle one (goblin is the low line, demon the
+    high); anything else is ambiguous and is skipped rather than risk
+    counting a one-way prop.
+    """
+    stat = player_entry.get(category) or {}
+    odds_type = stat.get("odds_type")
+    if odds_type is not None:
+        return str(odds_type).strip().lower() in ONE_WAY_ODDS_TYPES
+
+    if not use_heuristic or stat.get("source") != "prizepicks":
+        return False
+    lines = sorted({pl.get("line") for pl in (player_entry.get("platform_lines") or [])
+                    if pl.get("source") == "prizepicks" and pl.get("category") == category
+                    and pl.get("line") is not None})
+    if len(lines) <= 1:
+        return False
+    if len(lines) == 3 and stat.get("line") == lines[1]:
+        return False
+    return True
+
+
 def grade_tournament_day(props_snapshot: dict, graded_rounds_by_player: dict,
                           round_number: int) -> list:
     """
@@ -187,6 +225,8 @@ def grade_tournament_day(props_snapshot: dict, graded_rounds_by_player: dict,
             stat = player_entry.get(category)
             if not stat or stat.get("source") is None:
                 continue  # no real platform line was posted for this prop — nothing to grade
+            if is_untakeable_line(player_entry, category):
+                continue  # goblin/demon (one-way) or ambiguous multi-line prop — not gradable
             actual_value = real_round.get(result_field)
             if actual_value is None:
                 continue  # not gradable yet (e.g. GIR/fairways diffing gap)
@@ -256,6 +296,41 @@ def _bucket_label(prob: float) -> str:
     return "unknown"
 
 
+def load_exclusions(path: str = EXCLUDED_PICKS_PATH) -> set:
+    """
+    Picks the person running this has marked as not takeable (e.g. a
+    PrizePicks goblin/demon, Over-only) and wants out of every hit rate,
+    without deleting them from the graded log. One row per pick in
+    data/excluded_picks.csv: tournament, round, player, category.
+    Returns a set of (normalized tournament, str(round), normalized player,
+    category) keys.
+    """
+    import pandas as pd
+    from course_history import normalize_tournament_name
+    from match_props import normalize_name
+    if not os.path.exists(path):
+        return set()
+    ex = pd.read_csv(path, dtype=str).fillna("")
+    keys = set()
+    for _, r in ex.iterrows():
+        keys.add((normalize_tournament_name(r["tournament"]), str(r["round"]).strip(),
+                  normalize_name(r["player"]), r["category"].strip().lower()))
+    return keys
+
+
+def apply_exclusions(df, exclusions: set):
+    """Drops excluded picks from a graded-log DataFrame (the CSV itself is untouched)."""
+    if not exclusions or df.empty:
+        return df
+    from course_history import normalize_tournament_name
+    from match_props import normalize_name
+    keys = df.apply(lambda r: (normalize_tournament_name(str(r["tournament"])),
+                               str(int(r["round"])) if str(r["round"]).replace(".0", "").isdigit()
+                               else str(r["round"]),
+                               normalize_name(r["player"]), str(r["category"]).lower()), axis=1)
+    return df[~keys.isin(exclusions)].copy()
+
+
 def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> dict:
     """
     Aggregates the graded-results log into the shape the website's
@@ -288,6 +363,7 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
 
     df = pd.read_csv(path)
     df["model_prob"] = pd.to_numeric(df["model_prob"], errors="coerce")
+    df = apply_exclusions(df, load_exclusions())
 
     def summarize(sub: pd.DataFrame) -> dict:
         pushes = int((sub["result"] == "push").sum())

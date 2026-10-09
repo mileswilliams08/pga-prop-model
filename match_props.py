@@ -25,6 +25,20 @@ def normalize_name(name) -> str:
     return re.sub(r"\s+", " ", name).strip()
 
 
+# Goblin/demon lines can only be taken one way (Over), so they are never a
+# two-sided line the model can price. Platforms without an odds_type column
+# (Underdog) are treated as all-standard.
+ONE_WAY_ODDS_TYPES = ("goblin", "demon")
+
+
+def is_one_way_row(row) -> bool:
+    try:
+        v = row["odds_type"]
+    except (KeyError, IndexError):
+        return False
+    return str(v or "standard").strip().lower() in ONE_WAY_ODDS_TYPES
+
+
 def build_line_lookup(platform_dfs: dict, preferred_order=("prizepicks", "underdog")) -> dict:
     """
     platform_dfs: dict like {"prizepicks": df, "underdog": df}, each with
@@ -58,10 +72,13 @@ def build_line_lookup(platform_dfs: dict, preferred_order=("prizepicks", "underd
             category = row["category"]
             if category not in ("gir", "fairways", "birdies", "strokes"):
                 continue
+            if is_one_way_row(row):
+                continue  # goblin/demon: one-way line, not a real two-sided prop
             key = normalize_name(row["player"])
             player_lines = lookup.setdefault(key, {})
             if category not in player_lines:  # first source in preferred_order wins
-                player_lines[category] = {"source": source, "line": row["line"]}
+                player_lines[category] = {"source": source, "line": row["line"],
+                                          "odds_type": "standard"}
     return lookup
 
 
@@ -81,11 +98,14 @@ def attach_platform_lines(model_props: list, platform_dfs: dict) -> list:
             continue
         for _, row in df.iterrows():
             key = normalize_name(row["player"])
-            lookup.setdefault(key, []).append({
+            entry = {
                 "source": source,
                 "category": row["category"],
                 "line": row["line"],
-            })
+            }
+            if "odds_type" in df.columns:
+                entry["odds_type"] = str(row["odds_type"] or "standard").strip().lower()
+            lookup.setdefault(key, []).append(entry)
 
     for player_entry in model_props:
         key = normalize_name(player_entry["player"])
