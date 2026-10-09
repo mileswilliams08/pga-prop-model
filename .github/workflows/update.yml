@@ -30,6 +30,17 @@ jobs:
           pip install pandas numpy scipy playwright requests
           playwright install --with-deps chromium
 
+      - name: Refresh results data (before building props)
+        # update_data.py's live course-conditions adjustment reads the
+        # results saved by update_results.py. Running it once BEFORE the
+        # props are built means the props always see every round that has
+        # finished by now — otherwise they'd only see what the previous
+        # day's run saved, a full round stale for events (e.g. in Japan)
+        # that finish a round before this schedule fires. Safe to run
+        # twice a day: grading dedupes already-logged picks. Never blocks
+        # the props update if it fails.
+        run: python update_results.py --debug || echo "Pre-props results refresh failed — continuing with last saved results."
+
       - name: Run pipeline
         run: python update_data.py
 
@@ -38,9 +49,10 @@ jobs:
         # props snapshot that now has a gradable result, refreshing
         # docs/data/results.json for the site's Results tab. Runs AFTER
         # update_data.py so today's freshly-archived snapshot is
-        # available too, and never blocks the props update above if it
-        # fails (results tracking is a bonus feature — a stale/missing
-        # results page shouldn't take the whole site down).
+        # available too (it gets its round stamp here), and never blocks
+        # the props update above if it fails (results tracking is a bonus
+        # feature — a stale/missing results page shouldn't take the whole
+        # site down).
         run: python update_results.py --debug || echo "Results update failed — see log above. Props update above is unaffected."
 
       - name: Commit updated data

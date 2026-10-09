@@ -59,6 +59,14 @@ from course_history import normalize_tournament_name
 # treat this as a reasonable starting point, not a tuned constant.
 DEFAULT_LIVE_CONDITIONS_K = 1.5
 
+# A round only counts toward the live adjustment once at least this share
+# of the players recorded for the tournament have finished it. Without
+# this, the first few players to finish a round (the earliest tee times,
+# all in the same morning conditions) would count as a whole "round" at
+# full weight. 0.35 (not higher) so rounds 3-4 still qualify after a cut,
+# when only ~40-45% of the original field is still playing.
+MIN_FIELD_SHARE_FOR_ROUND = 0.35
+
 
 def load_live_field_profile(tournament_name: str, store: dict) -> dict:
     """
@@ -68,8 +76,10 @@ def load_live_field_profile(tournament_name: str, store: dict) -> dict:
 
     Averages every FULLY COMPLETED (holes_played == 18) player-round
     found for this tournament across the whole field, for each of the
-    four stats. Returns None if nothing is recorded yet for this
-    tournament or no round has fully completed for anyone.
+    four stats, counting only rounds that at least
+    MIN_FIELD_SHARE_FOR_ROUND of the recorded players have finished.
+    Returns None if nothing is recorded yet for this tournament or no
+    round has been finished by enough of the field.
 
     Returns:
         {"scoring_avg": float, "birdie_rate_per_hole": float or None,
@@ -89,11 +99,25 @@ def load_live_field_profile(tournament_name: str, store: dict) -> dict:
     strokes, birdie_rates, gir_rates, driving_rates = [], [], [], []
     distinct_rounds = set()
 
+    # How many players have finished each round, versus everyone recorded
+    # for this tournament. Rounds that too few have finished are skipped
+    # entirely for now (see MIN_FIELD_SHARE_FOR_ROUND).
+    n_players = len(tdata)
+    finished_by_round = {}
+    for pdata in tdata.values():
+        for round_key, r in (pdata.get("rounds") or {}).items():
+            if r.get("holes_played") == 18:
+                finished_by_round[round_key] = finished_by_round.get(round_key, 0) + 1
+    usable_rounds = {rk for rk, cnt in finished_by_round.items()
+                     if n_players and cnt >= MIN_FIELD_SHARE_FOR_ROUND * n_players}
+
     for player_key, pdata in tdata.items():
         for round_key, r in (pdata.get("rounds") or {}).items():
             if r.get("holes_played") != 18:
                 continue  # only count rounds the player actually finished --
                           # a partial round's totals aren't comparable.
+            if round_key not in usable_rounds:
+                continue  # too few of the field have finished this round yet
             distinct_rounds.add(round_key)
             strokes.append(r["strokes"])
             birdie_rates.append(r["birdies_or_better"] / 18)
