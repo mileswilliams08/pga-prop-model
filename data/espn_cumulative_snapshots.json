@@ -4723,12 +4723,25 @@
           "gir": 11,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 64.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 14,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 25
         }
       }
     },
@@ -4743,12 +4756,25 @@
           "gir": 12,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 10,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 12,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 22,
+          "fairways_hit_est": 24
         }
       }
     },
@@ -4763,12 +4789,25 @@
           "gir": 11,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 14,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 20
         }
       }
     },
@@ -4783,12 +4822,25 @@
           "gir": 9,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 73.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 9,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 20,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -4803,12 +4855,25 @@
           "gir": 11,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 8,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 19,
+          "fairways_hit_est": 18
         }
       }
     },
@@ -4823,12 +4888,25 @@
           "gir": 15,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 73.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 6,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 15,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 26,
+          "fairways_hit_est": 18
         }
       }
     },
@@ -4843,12 +4921,25 @@
           "gir": 12,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 65.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 12,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 21
         }
       }
     },
@@ -4863,12 +4954,25 @@
           "gir": 8,
           "fairways_hit_est": 8,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 12,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 8,
           "fairways_hit_est": 8
+        },
+        "2": {
+          "gir_count": 20,
+          "fairways_hit_est": 17
         }
       }
     },
@@ -4883,12 +4987,25 @@
           "gir": 13,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 71.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 24,
+          "fairways_hit_est": 20
         }
       }
     },
@@ -4903,12 +5020,25 @@
           "gir": 10,
           "fairways_hit_est": 9,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 9
+        },
+        "2": {
+          "gir_count": 21,
+          "fairways_hit_est": 18
         }
       }
     },
@@ -4923,12 +5053,25 @@
           "gir": 11,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 14
+        },
+        "2": {
+          "gir_count": 24,
+          "fairways_hit_est": 25
         }
       }
     },
@@ -4943,12 +5086,25 @@
           "gir": 14,
           "fairways_hit_est": 9,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 14,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 14,
           "fairways_hit_est": 9
+        },
+        "2": {
+          "gir_count": 28,
+          "fairways_hit_est": 20
         }
       }
     },
@@ -4963,12 +5119,25 @@
           "gir": 10,
           "fairways_hit_est": 9,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 9
+        },
+        "2": {
+          "gir_count": 21,
+          "fairways_hit_est": 20
         }
       }
     },
@@ -4983,12 +5152,25 @@
           "gir": 14,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 14,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 27,
+          "fairways_hit_est": 24
         }
       }
     },
@@ -5003,12 +5185,25 @@
           "gir": 12,
           "fairways_hit_est": 9,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 12,
           "fairways_hit_est": 9
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 17
         }
       }
     },
@@ -5023,12 +5218,25 @@
           "gir": 13,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 24,
+          "fairways_hit_est": 17
         }
       }
     },
@@ -5043,12 +5251,25 @@
           "gir": 10,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 67.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 14,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 24,
+          "fairways_hit_est": 20
         }
       }
     },
@@ -5063,12 +5284,25 @@
           "gir": 14,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 12,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 14,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 26,
+          "fairways_hit_est": 24
         }
       }
     },
@@ -5083,12 +5317,25 @@
           "gir": 14,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 14,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 14,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 28,
+          "fairways_hit_est": 21
         }
       }
     },
@@ -5103,12 +5350,25 @@
           "gir": 10,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 23,
+          "fairways_hit_est": 21
         }
       }
     },
@@ -5123,12 +5383,25 @@
           "gir": 14,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 10,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 14,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 24,
+          "fairways_hit_est": 19
         }
       }
     },
@@ -5143,12 +5416,25 @@
           "gir": 14,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 71.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 12,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 14,
           "fairways_hit_est": 13
+        },
+        "2": {
+          "gir_count": 26,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -5163,12 +5449,25 @@
           "gir": 12,
           "fairways_hit_est": 9,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 10,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 12,
           "fairways_hit_est": 9
+        },
+        "2": {
+          "gir_count": 22,
+          "fairways_hit_est": 20
         }
       }
     },
@@ -5183,12 +5482,25 @@
           "gir": 11,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 14,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 21
         }
       }
     },
@@ -5203,12 +5515,25 @@
           "gir": 10,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 14,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 24,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -5223,12 +5548,25 @@
           "gir": 11,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 9,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 20,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -5243,12 +5581,25 @@
           "gir": 13,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 24,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -5263,12 +5614,25 @@
           "gir": 10,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 76.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 10,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 20,
+          "fairways_hit_est": 20
         }
       }
     },
@@ -5283,12 +5647,25 @@
           "gir": 10,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 12,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 22,
+          "fairways_hit_est": 20
         }
       }
     },
@@ -5303,12 +5680,25 @@
           "gir": 13,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 71.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 10,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 23,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -5323,12 +5713,25 @@
           "gir": 10,
           "fairways_hit_est": 8,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 8
+        },
+        "2": {
+          "gir_count": 23,
+          "fairways_hit_est": 19
         }
       }
     },
@@ -5343,12 +5746,25 @@
           "gir": 11,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 14,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 25
         }
       }
     },
@@ -5363,12 +5779,25 @@
           "gir": 13,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 71.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 14,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 13
+        },
+        "2": {
+          "gir_count": 27,
+          "fairways_hit_est": 25
         }
       }
     },
@@ -5383,12 +5812,25 @@
           "gir": 15,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 15,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 15,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 30,
+          "fairways_hit_est": 25
         }
       }
     },
@@ -5403,12 +5845,25 @@
           "gir": 14,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 14,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -5423,12 +5878,25 @@
           "gir": 13,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 74.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 12,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 13
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 25
         }
       }
     },
@@ -5443,12 +5911,25 @@
           "gir": 9,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 8,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 9,
           "fairways_hit_est": 13
+        },
+        "2": {
+          "gir_count": 17,
+          "fairways_hit_est": 27
         }
       }
     },
@@ -5463,12 +5944,25 @@
           "gir": 12,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 16,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 12,
           "fairways_hit_est": 13
+        },
+        "2": {
+          "gir_count": 28,
+          "fairways_hit_est": 24
         }
       }
     },
@@ -5483,12 +5977,25 @@
           "gir": 14,
           "fairways_hit_est": 9,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 75.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 14,
           "fairways_hit_est": 9
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 17
         }
       }
     },
@@ -5503,12 +6010,25 @@
           "gir": 15,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 65.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 15,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 15,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 30,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -5523,12 +6043,25 @@
           "gir": 15,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 71.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 14,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 15,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 29,
+          "fairways_hit_est": 21
         }
       }
     },
@@ -5543,12 +6076,25 @@
           "gir": 13,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 10,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 23,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -5563,12 +6109,25 @@
           "gir": 10,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 23,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -5583,12 +6142,25 @@
           "gir": 12,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 10,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 12,
           "fairways_hit_est": 14
+        },
+        "2": {
+          "gir_count": 22,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -5603,12 +6175,25 @@
           "gir": 15,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 12,
+          "fairways_hit_est": 15,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 15,
           "fairways_hit_est": 13
+        },
+        "2": {
+          "gir_count": 27,
+          "fairways_hit_est": 28
         }
       }
     },
@@ -5623,12 +6208,25 @@
           "gir": 14,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 8,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 14,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 22,
+          "fairways_hit_est": 24
         }
       }
     },
@@ -5643,12 +6241,25 @@
           "gir": 14,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 14,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 27,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -5663,12 +6274,25 @@
           "gir": 13,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 12,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -5683,12 +6307,25 @@
           "gir": 10,
           "fairways_hit_est": 8,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 15,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 8
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 17
         }
       }
     },
@@ -5703,12 +6340,25 @@
           "gir": 11,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 22,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -5723,12 +6373,25 @@
           "gir": 15,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 15,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 26,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -5743,12 +6406,25 @@
           "gir": 11,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 8,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 13
+        },
+        "2": {
+          "gir_count": 19,
+          "fairways_hit_est": 25
         }
       }
     },
@@ -5763,12 +6439,25 @@
           "gir": 10,
           "fairways_hit_est": 7,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 76.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 9,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 7
+        },
+        "2": {
+          "gir_count": 19,
+          "fairways_hit_est": 19
         }
       }
     },
@@ -5783,12 +6472,25 @@
           "gir": 13,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 15,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 28,
+          "fairways_hit_est": 19
         }
       }
     },
@@ -5803,12 +6505,25 @@
           "gir": 15,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 73.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 15,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 26,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -5823,12 +6538,25 @@
           "gir": 11,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 12,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 23,
+          "fairways_hit_est": 21
         }
       }
     },
@@ -5843,12 +6571,25 @@
           "gir": 11,
           "fairways_hit_est": 9,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 9
+        },
+        "2": {
+          "gir_count": 24,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -5863,12 +6604,25 @@
           "gir": 9,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 9,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 9,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 18,
+          "fairways_hit_est": 18
         }
       }
     },
@@ -5883,12 +6637,25 @@
           "gir": 13,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 10,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 23,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -5903,12 +6670,25 @@
           "gir": 9,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 73.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 12,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 9,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 21,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -5923,12 +6703,25 @@
           "gir": 8,
           "fairways_hit_est": 8,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 16,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 8,
           "fairways_hit_est": 8
+        },
+        "2": {
+          "gir_count": 24,
+          "fairways_hit_est": 20
         }
       }
     },
@@ -5943,12 +6736,25 @@
           "gir": 13,
           "fairways_hit_est": 9,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 9
+        },
+        "2": {
+          "gir_count": 26,
+          "fairways_hit_est": 17
         }
       }
     },
@@ -5963,12 +6769,25 @@
           "gir": 13,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 62.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 16,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 12
+        },
+        "2": {
+          "gir_count": 29,
+          "fairways_hit_est": 25
         }
       }
     },
@@ -5983,12 +6802,25 @@
           "gir": 11,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 65.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 15,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 26,
+          "fairways_hit_est": 21
         }
       }
     },
@@ -6003,12 +6835,25 @@
           "gir": 11,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 65.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 14,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -6023,12 +6868,25 @@
           "gir": 13,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 26,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -6043,12 +6901,25 @@
           "gir": 12,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 12,
           "fairways_hit_est": 14
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 24
         }
       }
     },
@@ -6063,12 +6934,25 @@
           "gir": 12,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 13,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 12,
           "fairways_hit_est": 13
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 26
         }
       }
     },
@@ -6083,12 +6967,25 @@
           "gir": 13,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 73.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 12,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 11
+        },
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 23
         }
       }
     },
@@ -6103,12 +7000,25 @@
           "gir": 13,
           "fairways_hit_est": 9,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 10,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 9
+        },
+        "2": {
+          "gir_count": 23,
+          "fairways_hit_est": 18
         }
       }
     },
@@ -6123,12 +7033,25 @@
           "gir": 10,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 73.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 11,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 10,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 21,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -6143,12 +7066,25 @@
           "gir": 13,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 15,
+          "holes_played": 18,
+          "gir": 9,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 13,
           "fairways_hit_est": 10
+        },
+        "2": {
+          "gir_count": 22,
+          "fairways_hit_est": 24
         }
       }
     }
