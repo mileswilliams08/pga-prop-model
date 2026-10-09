@@ -283,7 +283,7 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
             "generated_at": pd.Timestamp.now("UTC").isoformat(),
             "overall": {"n": 0, "hits": 0, "pushes": 0, "hit_rate": None},
             "by_category": {}, "by_side": {}, "by_category_side": {}, "by_tournament": {},
-            "by_confidence_bucket": {}, "recent": [],
+            "by_round": {}, "by_confidence_bucket": {}, "recent": [],
         }
 
     df = pd.read_csv(path)
@@ -329,9 +329,28 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
 
     by_side, by_category_side = side_breakdown(df)
 
+    df["round"] = pd.to_numeric(df["round"], errors="coerce")
+
+    def scope_stats(sub: pd.DataFrame) -> dict:
+        """Everything the results page shows for one slice of the graded log."""
+        s_side, s_cat_side = side_breakdown(sub)
+        return {
+            "overall": summarize(sub),
+            "by_category": {cat: summarize(sub[sub["category"] == cat])
+                            for cat in sorted(sub["category"].unique())},
+            "by_side": s_side,
+            "by_category_side": s_cat_side,
+        }
+
+    def by_round_stats(sub: pd.DataFrame) -> dict:
+        """The same stats split by tournament round (keys "1".."4")."""
+        return {str(int(r)): scope_stats(sub[sub["round"] == r])
+                for r in sorted(sub["round"].dropna().unique())}
+
     # Same numbers per tournament, so one week's results (e.g. a one-sided
     # week) don't hide inside the all-time totals above. The all-tournament
-    # numbers above are unchanged.
+    # numbers above are unchanged. Each tournament (and the all-tournament
+    # view) also carries a by_round split for the page's round filters.
     by_tournament = {}
     for tname in sorted(df["tournament"].dropna().unique()):
         sub = df[df["tournament"] == tname]
@@ -340,7 +359,9 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
             "overall": summarize(sub),
             "by_side": t_side,
             "by_category_side": t_cat_side,
+            "by_round": by_round_stats(sub),
         }
+    by_round = by_round_stats(df)
 
     recent = (
         df.sort_values("date", ascending=False)
@@ -356,6 +377,7 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
         "by_side": by_side,
         "by_category_side": by_category_side,
         "by_tournament": by_tournament,
+        "by_round": by_round,
         "by_confidence_bucket": by_confidence_bucket,
         "recent": recent,
     }
