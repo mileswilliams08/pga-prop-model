@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:36:09.169881+00:00",
+  "generated_at": "2026-10-10T20:39:59.506230+00:00",
   "picks": [
     {
       "t": "Bank of Utah Championship",
@@ -7,7 +7,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.5029,
-      "x": "h"
+      "x": "h",
+      "ox": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -15,7 +16,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5286,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5441,
+      "bx": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -23,7 +28,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5606,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5174,
+      "bx": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -31,7 +40,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5517,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.551,
+      "bx": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -39,7 +52,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5399,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5475,
+      "bx": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -47,7 +64,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5231,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -55,7 +73,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5662,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5554,
+      "bx": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -63,7 +85,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.543,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -71,7 +94,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.547,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5496,
+      "bx": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -79,7 +106,8 @@
       "c": "gir",
       "s": "over",
       "p": 0.5054,
-      "x": "h"
+      "x": "h",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -87,7 +115,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5387,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -95,7 +124,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5392,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5473,
+      "bx": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -103,7 +136,8 @@
       "c": "gir",
       "s": "under",
       "p": 0.6423,
-      "x": "m"
+      "x": "m",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -111,7 +145,8 @@
       "c": "fairways",
       "s": "under",
       "p": 0.9056,
-      "x": "p"
+      "x": "p",
+      "ox": "p"
     },
     {
       "t": "Bank of Utah Championship",
@@ -119,7 +154,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5119,
-      "x": "h"
+      "x": "h",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -127,7 +163,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5209,
-      "x": "p"
+      "x": "p",
+      "ox": "p",
+      "bs": "over",
+      "bp": 0.5293,
+      "bx": "p"
     },
     {
       "t": "Bank of Utah Championship",
@@ -135,7 +175,8 @@
       "c": "gir",
       "s": "under",
       "p": 0.5697,
-      "x": "m"
+      "x": "m",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -143,7 +184,8 @@
       "c": "fairways",
       "s": "under",
       "p": 0.6282,
-      "x": "m"
+      "x": "m",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -151,7 +193,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5445,
-      "x": "h"
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5222,
+      "bx": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -159,7 +205,8 @@
       "c": "gir",
       "s": "under",
       "p": 0.6959,
-      "x": "p"
+      "x": "p",
+      "ox": "p"
     },
     {
       "t": "Bank of Utah Championship",
@@ -167,7 +214,8 @@
       "c": "fairways",
       "s": "under",
       "p": 0.6933,
-      "x": "h"
+      "x": "h",
+      "ox": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -175,7 +223,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5477,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5498,
+      "bx": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -183,7 +235,8 @@
       "c": "gir",
       "s": "under",
       "p": 0.5129,
-      "x": "m"
+      "x": "m",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -191,7 +244,8 @@
       "c": "fairways",
       "s": "under",
       "p": 0.7247,
-      "x": "p"
+      "x": "p",
+      "ox": "p"
     },
     {
       "t": "Bank of Utah Championship",
@@ -199,7 +253,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.7367,
-      "x": "h"
+      "x": "h",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -207,7 +262,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5229,
-      "x": "h"
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5287,
+      "bx": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -215,7 +274,8 @@
       "c": "gir",
       "s": "under",
       "p": 0.6273,
-      "x": "m"
+      "x": "m",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -223,7 +283,8 @@
       "c": "fairways",
       "s": "under",
       "p": 0.7289,
-      "x": "m"
+      "x": "m",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -231,7 +292,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.5253,
-      "x": "h"
+      "x": "h",
+      "ox": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -239,7 +301,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5123,
-      "x": "h"
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5319,
+      "bx": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -247,7 +313,8 @@
       "c": "fairways",
       "s": "under",
       "p": 0.7059,
-      "x": "m"
+      "x": "m",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -255,7 +322,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.6687,
-      "x": "h"
+      "x": "h",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -263,7 +331,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5569,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5526,
+      "bx": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -271,7 +343,8 @@
       "c": "gir",
       "s": "under",
       "p": 0.608,
-      "x": "h"
+      "x": "h",
+      "ox": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -279,7 +352,8 @@
       "c": "fairways",
       "s": "under",
       "p": 0.6272,
-      "x": "m"
+      "x": "m",
+      "ox": "h"
     },
     {
       "t": "Bank of Utah Championship",
@@ -287,7 +361,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.5112,
-      "x": "h"
+      "x": "h",
+      "ox": "m"
     },
     {
       "t": "Bank of Utah Championship",
@@ -295,7 +370,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6314,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5753,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -303,7 +382,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5169,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5305,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -311,7 +394,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5921,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5632,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -319,7 +406,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6923,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5948,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -327,7 +418,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5416,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.548,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -335,7 +430,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6637,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5855,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -343,7 +442,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6024,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5664,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -351,7 +454,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5748,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.558,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -359,7 +466,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6816,
-      "x": "p"
+      "x": "p",
+      "ox": "p",
+      "bs": "over",
+      "bp": 0.5913,
+      "bx": "p"
     },
     {
       "t": "Baycurrent Classic",
@@ -367,7 +478,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5536,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5516,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -375,7 +490,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5997,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5656,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -383,7 +502,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.6065,
-      "x": "h"
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5033,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -391,7 +514,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6586,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5839,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -399,7 +526,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6018,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5662,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -407,7 +538,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5893,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5624,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -415,7 +550,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6458,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5798,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -423,7 +562,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5334,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5456,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -431,7 +574,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6447,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5795,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -439,7 +586,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6498,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5811,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -447,7 +598,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6192,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5715,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -455,7 +610,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6415,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5785,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -463,7 +622,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5857,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5613,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -471,7 +634,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5765,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5585,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -479,7 +646,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6905,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5942,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -487,7 +658,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6168,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5708,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -495,7 +670,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6379,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5774,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -503,7 +682,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6507,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5814,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -511,7 +694,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6942,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5955,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -519,7 +706,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6482,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5806,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -527,7 +718,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.7393,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.6109,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -535,7 +730,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.5431,
-      "x": "h"
+      "x": "h",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -543,7 +739,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5113,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5322,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -551,7 +751,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.5658,
-      "x": "h"
+      "x": "h",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -559,7 +760,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5699,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5565,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -567,7 +772,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.513,
-      "x": "h"
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5317,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -575,7 +784,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5229,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -583,7 +793,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5925,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5076,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -591,7 +805,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5718,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -599,7 +814,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5545,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5192,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -607,7 +826,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5241,
-      "x": "h"
+      "x": "h",
+      "ox": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -615,7 +835,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5454,
-      "x": "h"
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.522,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -623,7 +847,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5471,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5497,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -631,7 +859,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5573,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -639,7 +868,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5677,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5559,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -647,7 +880,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5452,
-      "x": "p"
+      "x": "p",
+      "ox": "p",
+      "bs": "over",
+      "bp": 0.5491,
+      "bx": "p"
     },
     {
       "t": "Baycurrent Classic",
@@ -655,7 +892,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5775,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5588,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -663,7 +904,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5116,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5321,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -671,7 +916,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5092,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5383,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -679,7 +928,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5919,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5632,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -687,7 +940,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.5026,
-      "x": "h"
+      "x": "h",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -695,7 +949,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5673,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5557,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -703,7 +961,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.5967,
-      "x": "h"
+      "x": "h",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -711,7 +970,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6184,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5713,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -719,7 +982,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6082,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5682,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -727,7 +994,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5407,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -735,7 +1003,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.539,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5472,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -743,7 +1015,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5208,
-      "x": "h"
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5293,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -751,7 +1027,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5027,
-      "x": "h"
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5348,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -759,7 +1039,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5494,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5504,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -767,7 +1051,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5147,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5312,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -775,7 +1063,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5978,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -783,7 +1072,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5729,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5136,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -791,7 +1084,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5613,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5539,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -799,7 +1096,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.573,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5575,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -807,7 +1108,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5345,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -815,7 +1117,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5315,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.545,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -823,7 +1129,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5509,
-      "x": "h"
+      "x": "h",
+      "ox": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -831,7 +1138,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.6015,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5661,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -839,7 +1150,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5444,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5489,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -847,7 +1162,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5617,
-      "x": "h"
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.517,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -855,7 +1174,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5796,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5594,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -863,7 +1186,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.5017,
-      "x": "m"
+      "x": "m",
+      "ox": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -871,7 +1195,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.548,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5499,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -879,7 +1207,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.6177,
-      "x": "m"
+      "x": "m",
+      "ox": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -887,7 +1216,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5637,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5546,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -895,7 +1228,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5114,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -903,7 +1237,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5535,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5516,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -911,7 +1249,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.6034,
-      "x": "p"
+      "x": "p",
+      "ox": "p"
     },
     {
       "t": "Baycurrent Classic",
@@ -919,7 +1258,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.617,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5709,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -927,7 +1270,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.6118,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5016,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -935,7 +1282,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5146,
-      "x": "p"
+      "x": "p",
+      "ox": "p",
+      "bs": "over",
+      "bp": 0.5312,
+      "bx": "p"
     },
     {
       "t": "Baycurrent Classic",
@@ -943,7 +1294,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5968,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -951,7 +1303,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5284,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5271,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -959,7 +1315,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5712,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -967,7 +1324,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5679,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5151,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -975,7 +1336,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5221,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -983,7 +1345,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.567,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5154,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -991,7 +1357,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5236,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -999,7 +1366,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.628,
-      "x": "p"
+      "x": "p",
+      "ox": "p",
+      "bs": "under",
+      "bp": 0.5035,
+      "bx": "p"
     },
     {
       "t": "Baycurrent Classic",
@@ -1007,7 +1378,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5216,
-      "x": "h"
+      "x": "h",
+      "ox": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1015,7 +1387,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5319,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5451,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1023,7 +1399,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5317,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5451,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1031,7 +1411,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5567,
-      "x": "h"
+      "x": "h",
+      "ox": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1039,7 +1420,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5185,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.53,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1047,7 +1432,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5445,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1055,7 +1441,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5641,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5548,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1063,7 +1453,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5972,
-      "x": "p"
+      "x": "p",
+      "ox": "p",
+      "bs": "over",
+      "bp": 0.5062,
+      "bx": "p"
     },
     {
       "t": "Baycurrent Classic",
@@ -1071,7 +1465,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.572,
-      "x": "h"
+      "x": "h",
+      "ox": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1079,7 +1474,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5043,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5343,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1087,7 +1486,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5539,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5517,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1095,7 +1498,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5061,
-      "x": "p"
+      "x": "p",
+      "ox": "p",
+      "bs": "over",
+      "bp": 0.5374,
+      "bx": "p"
     },
     {
       "t": "Baycurrent Classic",
@@ -1103,7 +1510,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.5972,
-      "x": "m"
+      "x": "m",
+      "ox": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1111,7 +1519,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5353,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5461,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1119,7 +1531,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5247,
-      "x": "p"
+      "x": "p",
+      "ox": "p",
+      "bs": "over",
+      "bp": 0.543,
+      "bx": "p"
     },
     {
       "t": "Baycurrent Classic",
@@ -1127,7 +1543,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.54,
-      "x": "h"
+      "x": "h",
+      "ox": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1135,7 +1552,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5237,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5426,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1143,7 +1564,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5599,
-      "x": "p"
+      "x": "p",
+      "ox": "p"
     },
     {
       "t": "Baycurrent Classic",
@@ -1151,7 +1573,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.6044,
-      "x": "p"
+      "x": "p",
+      "ox": "p",
+      "bs": "over",
+      "bp": 0.5039,
+      "bx": "p"
     },
     {
       "t": "Baycurrent Classic",
@@ -1159,7 +1585,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.518,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5302,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1167,7 +1597,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5341,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5458,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1175,7 +1609,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5536,
-      "x": "p"
+      "x": "p",
+      "ox": "p"
     },
     {
       "t": "Baycurrent Classic",
@@ -1183,7 +1618,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.6002,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5052,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1191,7 +1630,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5879,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.509,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1199,7 +1642,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5479,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5499,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1207,7 +1654,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5597,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5534,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1215,7 +1666,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5339,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1223,7 +1675,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5531,
-      "x": "h"
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5196,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1231,7 +1687,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5502,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1239,7 +1696,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.516,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5404,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1247,7 +1708,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.575,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.513,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1255,7 +1720,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5291,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5443,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1263,7 +1732,8 @@
       "c": "birdies",
       "s": "over",
       "p": 0.5408,
-      "x": "m"
+      "x": "m",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1271,7 +1741,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5374,
-      "x": "m"
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5244,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1279,7 +1753,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5645,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5549,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1287,7 +1765,8 @@
       "c": "birdies",
       "s": "under",
       "p": 0.5022,
-      "x": "h"
+      "x": "h",
+      "ox": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1295,7 +1774,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5345,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5459,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1303,7 +1786,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.5502,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5506,
+      "bx": "h"
     },
     {
       "t": "Baycurrent Classic",
@@ -1311,7 +1798,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.54,
-      "x": "m"
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5475,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1319,7 +1810,11 @@
       "c": "strokes",
       "s": "under",
       "p": 0.5804,
-      "x": "h"
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5113,
+      "bx": "m"
     },
     {
       "t": "Baycurrent Classic",
@@ -1327,7 +1822,11 @@
       "c": "strokes",
       "s": "over",
       "p": 0.604,
-      "x": "h"
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5669,
+      "bx": "h"
     }
   ],
   "overall": {
