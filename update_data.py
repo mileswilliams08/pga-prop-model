@@ -52,6 +52,8 @@ from prop_models import (gir_prop, fairways_prop, birdies_or_better_prop,
 from match_props import attach_platform_lines, build_line_lookup, normalize_name
 from course_history import build_course_profiles, normalize_tournament_name
 from live_course_conditions import apply_live_conditions
+from prop_models import (expected_pars_bogeys, pars_prop, bogeys_prop,
+                         DEFAULT_PARS_LINE, DEFAULT_BOGEYS_LINE)
 
 CONFIG_PATH = "config.json"
 OUTPUT_PATH = "docs/data/props.json"
@@ -148,7 +150,40 @@ PROP_SPECS = {
 }
 
 
-def build_props(cfg, profile: pd.DataFrame, line_lookup: dict = None) -> list:
+# EXPERIMENTAL props derived from scoring + birdie rate and the course's par
+# (see prop_models.py). Tracked on the results page but kept out of headline
+# numbers until they've proven themselves against real PrizePicks lines.
+EXPERIMENTAL_SPECS = {"pars": pars_prop, "bogeys": bogeys_prop}
+EXPERIMENTAL_DEFAULT_LINES = {"pars": DEFAULT_PARS_LINE, "bogeys": DEFAULT_BOGEYS_LINE}
+
+
+def get_course_par(cfg):
+    """
+    Course par for the week: config.json's "course_par" if set, else read
+    from ESPN's posted hole pars (only available once a round has been
+    played), else None -- in which case Pars / Bogeys-or-Worse are simply
+    skipped this run rather than priced against a guessed par.
+    """
+    if cfg.get("course_par"):
+        return int(cfg["course_par"])
+    try:
+        from datetime import datetime, timedelta, timezone
+        from espn_round_results import find_event_id, get_field, infer_course_par
+        now = datetime.now(timezone.utc)
+        event_id = find_event_id((now - timedelta(days=4)).strftime("%Y%m%d"),
+                                 (now + timedelta(days=4)).strftime("%Y%m%d"),
+                                 tournament_name=cfg["tournament_name"])
+        par = infer_course_par(event_id, cfg["year"], get_field(event_id))
+        if par:
+            print(f"Course par {par} (read from ESPN hole data).")
+        return par
+    except Exception as e:
+        print(f"Could not infer course par from ESPN ({e}).")
+        return None
+
+
+def build_props(cfg, profile: pd.DataFrame, line_lookup: dict = None,
+                course_par=None) -> list:
     """
     For each player/stat, computes the model's probability against the
     REAL line a platform actually posted for that specific player
@@ -187,6 +222,21 @@ def build_props(cfg, profile: pd.DataFrame, line_lookup: dict = None) -> list:
                 **({"odds_type": match.get("odds_type", "standard")} if match else {}),
                 **prop_func(r[col], line),
             }
+        if course_par is not None and not pd.isna(r.get("adj_scoring_avg")) \
+                and not pd.isna(r.get("adj_birdie_rate_per_hole")):
+            exp_pars, exp_bogeys = expected_pars_bogeys(
+                r["adj_scoring_avg"], r["adj_birdie_rate_per_hole"], course_par)
+            for category, prop_func in EXPERIMENTAL_SPECS.items():
+                match = player_lines.get(category)
+                line = match["line"] if match else EXPERIMENTAL_DEFAULT_LINES[category]
+                entry[category] = {
+                    "line": line,
+                    "source": match["source"] if match else None,
+                    **({"odds_type": match.get("odds_type", "standard")} if match else {}),
+                    "experimental": True,
+                    "expected": round(float(exp_pars if category == "pars" else exp_bogeys), 2),
+                    **prop_func(exp_pars if category == "pars" else exp_bogeys, line),
+                }
         rows.append(entry)
     return rows
 
@@ -298,7 +348,12 @@ def main(allow_no_lines: bool = False):
             if not pp.attrs.get("odds_type_field_seen", True):
                 print("WARNING: PrizePicks rows had no 'odds_type' field -- goblins/demons "
                       "can't be told apart from standard lines. Check the API field name.")
-    props = build_props(cfg, profile, build_line_lookup(platform_dfs))
+    course_par = get_course_par(cfg)
+    if course_par is None:
+        print("No course par known yet (set \"course_par\" in config.json, or it is read "
+              "from ESPN once a round is played) -- skipping the experimental Pars / "
+              "Bogeys-or-Worse props this run.")
+    props = build_props(cfg, profile, build_line_lookup(platform_dfs), course_par=course_par)
     props = attach_platform_lines(props, platform_dfs)
 
     # Sort so the most lopsided (highest-confidence) props float to the top.
@@ -328,6 +383,7 @@ def main(allow_no_lines: bool = False):
     output = {
         "tournament_name": cfg["tournament_name"],
         "generated_at": pd.Timestamp.now("UTC").isoformat(),
+        "course_par": course_par,
         "props": props,
     }
 

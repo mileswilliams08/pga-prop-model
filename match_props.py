@@ -58,8 +58,8 @@ def build_line_lookup(platform_dfs: dict, preferred_order=("prizepicks", "underd
     displayed probability answered a different question than the one
     actually being bet on. Feeding this lookup into build_props() fixes
     that: whenever a real line exists, the model's probability is for
-    THAT line, not a generic placeholder. "other"-category markets (Pars,
-    Bogeys or Worse, etc. — PrizePicks props with no equivalent model
+    THAT line, not a generic placeholder. "other"-category markets
+    (matchups etc. — PrizePicks props with no equivalent model
     stat) are skipped since there is no model prop to evaluate them
     against.
     """
@@ -70,7 +70,7 @@ def build_line_lookup(platform_dfs: dict, preferred_order=("prizepicks", "underd
             continue
         for _, row in df.iterrows():
             category = row["category"]
-            if category not in ("gir", "fairways", "birdies", "strokes"):
+            if category not in ("gir", "fairways", "birdies", "strokes", "pars", "bogeys"):
                 continue
             if is_one_way_row(row):
                 continue  # goblin/demon: one-way line, not a real two-sided prop

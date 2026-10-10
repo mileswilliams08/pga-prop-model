@@ -48,8 +48,7 @@ GOLF_LEAGUE = "PGA"  # PrizePicks also runs a separate "EUROGOLF" league — not
 USER_AGENT = "pga-prop-model/1.0 (read-only board refresh; github.com user project)"
 
 # PrizePicks' real per-round golf markets, as seen on a live board capture
-# (2026-10-02). Anything not listed here (Pars, Bogeys or Worse, combo/
-# matchup markets) maps to "other" rather than being dropped — same
+# (2026-10-02). Anything not listed here (combo/matchup markets) maps to "other" rather than being dropped — same
 # convention as underdog_scraper.normalize_stat_category — so new/renamed
 # markets show up as "other" instead of silently vanishing.
 #
@@ -72,6 +71,8 @@ _CATEGORY_BY_MARKET = {
     "driving accuracy": "fairways",
     "birdies or better": "birdies",
     "strokes": "strokes",
+    "pars": "pars",
+    "bogeys or worse": "bogeys",
 }
 
 

@@ -1,26 +1,6 @@
 """
 Turns a player's (course-adjusted) rate stats into actual prop bet
 probabilities.
-
-Model choices, and why:
-
-- Greens in Regulation, Fairways Hit, Birdies-or-Better:
-  These are all "did it happen on this hole, yes/no" events repeated
-  across ~18 holes (14 for fairways, since par-3s don't have a fairway).
-  A Binomial distribution is the natural fit: n independent-ish trials,
-  each with the same success probability.
-
-  Real golf rounds have *some* hole-to-hole correlation (a player who's
-  swinging well tends to hit more greens across the whole round, not
-  independently on each hole), so pure Binomial slightly understates the
-  spread (variance) of outcomes. We correct for this with an
-  "overdispersion" factor — see `overdispersed_binomial_pmf`.
-
-- Total strokes (round score):
-  Modeled as Normal around the course-adjusted scoring average, with a
-  standard deviation estimated from real PGA Tour round-to-round
-  variance (~2.6-3.0 strokes is typical; tune this from historical data
-  when you have it).
 """
 
 import numpy as np
@@ -29,21 +9,7 @@ from scipy import stats
 
 def overdispersed_binomial_pmf(n: int, p: float, k: np.ndarray,
                                 phi: float = 1.15) -> np.ndarray:
-    """
-    Binomial PMF with a variance inflation factor phi (phi=1 is plain
-    Binomial). We approximate overdispersion using a Beta-Binomial,
-    which is the standard trick: it keeps the same mean but fattens the
-    tails, matching real-world "streaky" rounds better than iid Binomial.
-
-    phi is the ratio (actual variance / binomial variance). A phi of
-    1.1-1.3 is a reasonable starting assumption for golf; tighten this
-    once you have your own round-level data to fit against.
-    """
     var_inflation = phi
-    # Convert phi to Beta-Binomial's concentration parameter.
-    # Binomial variance = n*p*(1-p); Beta-Binomial variance =
-    # n*p*(1-p) * (n + rho*(n-1)) / (n+1)-ish approximations vary, so we
-    # solve for rho (intra-round correlation) directly from phi.
     rho = max(1e-6, (var_inflation - 1) / (n - 1)) if n > 1 else 1e-6
     alpha = p * (1 - rho) / rho
     beta = (1 - p) * (1 - rho) / rho
@@ -51,7 +17,6 @@ def overdispersed_binomial_pmf(n: int, p: float, k: np.ndarray,
 
 
 def prob_over(n: int, p: float, line: float, phi: float = 1.15) -> float:
-    """P(count > line), e.g. line=3.5 birdies -> P(birdies >= 4)."""
     threshold = int(np.floor(line)) + 1
     k = np.arange(threshold, n + 1)
     return overdispersed_binomial_pmf(n, p, k, phi).sum()
@@ -87,11 +52,6 @@ def birdies_or_better_prop(adj_birdie_rate: float, line: float,
 
 def total_strokes_prop(adj_scoring_avg: float, line: float,
                         std_dev: float = 2.8) -> dict:
-    """
-    P(strokes over/under a line), e.g. "Over/Under 69.5 for the round".
-    Uses a Normal approximation to score distribution, which is standard
-    in golf modeling and works well outside the extreme tails.
-    """
     dist = stats.norm(loc=adj_scoring_avg, scale=std_dev)
     p_under = dist.cdf(line)
     return {"under": p_under, "over": 1 - p_under}
@@ -99,13 +59,56 @@ def total_strokes_prop(adj_scoring_avg: float, line: float,
 
 def make_the_cut_prop(adj_scoring_avg: float, projected_cut_line: float,
                        rounds_to_cut: int = 2, std_dev: float = 2.8) -> float:
-    """
-    Rough estimate of P(make the cut): treats the 2-round total as
-    Normal(2*adj_scoring_avg, std_dev*sqrt(2)) and checks it against a
-    projected cut line (you supply this — e.g. from historical cut data
-    for the course, or a live estimate once Round 1 is underway).
-    """
     two_round_mean = adj_scoring_avg * rounds_to_cut
     two_round_std = std_dev * np.sqrt(rounds_to_cut)
     dist = stats.norm(loc=two_round_mean, scale=two_round_std)
     return dist.cdf(projected_cut_line)
+
+
+# ---------------------------------------------------------------------------
+# EXPERIMENTAL: Pars and Bogeys-or-Worse (see backtest_pars_bogeys.py)
+#
+# Derived from the stats the model already has, no new player stat needed:
+# every hole is a birdie-or-better, a par, or a bogey-or-worse, and strokes
+# vs. par = (bogeys + extra on doubles) - (birdies + extra on eagles), so
+#   raw_bogeys = (expected strokes - course par) + expected birdies
+#   raw_pars   = 18 - expected birdies - raw_bogeys
+# The raw numbers exaggerate player-to-player differences, so each is
+# shrunk toward the average with a line (intercept + slope) fit on half of
+# 2025's tournaments and tested on the other half (backtest: beat the
+# base-rate baseline on 7/7 lines; bogeys has a real edge, pars a tiny one).
+# Constants below are from that backtest (rounded to the precision it
+# printed); refit with backtest_pars_bogeys.py if the model's inputs change.
+# ---------------------------------------------------------------------------
+PARS_BOGEYS_FIT = {
+    "bogeys": {"intercept": 0.877, "slope": 0.60, "phi": 1.19},
+    "pars": {"intercept": 7.546, "slope": 0.33, "phi": 1.01},
+}
+DEFAULT_PARS_LINE = 11.5
+DEFAULT_BOGEYS_LINE = 2.5
+
+
+def expected_pars_bogeys(adj_scoring_avg: float, adj_birdie_rate: float,
+                          course_par: float, holes: int = 18, fit: dict = None):
+    """Returns (expected_pars, expected_bogeys_or_worse) for one round."""
+    fit = fit or PARS_BOGEYS_FIT
+    b_hat = holes * min(max(adj_birdie_rate, 0.01), 0.6)
+    g_raw = (adj_scoring_avg - course_par) + b_hat
+    pars_raw = holes - b_hat - g_raw
+    g = min(max(fit["bogeys"]["intercept"] + fit["bogeys"]["slope"] * g_raw, 0.1), 14)
+    pars = min(max(fit["pars"]["intercept"] + fit["pars"]["slope"] * pars_raw, 2), 17)
+    return pars, g
+
+
+def pars_prop(expected_pars: float, line: float, holes: int = 18,
+               fit: dict = None) -> dict:
+    phi = (fit or PARS_BOGEYS_FIT)["pars"]["phi"]
+    p = min(max(expected_pars / holes, 0.01), 0.99)
+    return {"over": prob_over(holes, p, line, phi), "under": prob_under(holes, p, line, phi)}
+
+
+def bogeys_prop(expected_bogeys: float, line: float, holes: int = 18,
+                 fit: dict = None) -> dict:
+    phi = (fit or PARS_BOGEYS_FIT)["bogeys"]["phi"]
+    p = min(max(expected_bogeys / holes, 0.01), 0.99)
+    return {"over": prob_over(holes, p, line, phi), "under": prob_under(holes, p, line, phi)}

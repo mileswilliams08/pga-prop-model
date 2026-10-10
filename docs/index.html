@@ -51,6 +51,8 @@
     <option value="fairways">Fairways Hit</option>
     <option value="birdies">Birdies or Better</option>
     <option value="strokes">Total Strokes</option>
+    <option value="pars">Pars (experimental)</option>
+    <option value="bogeys">Bogeys or Worse (experimental)</option>
   </select>
 </label>
 
@@ -85,7 +87,7 @@ function renderTable() {
   const rows = DATA.props
     .map((p) => {
       const stat = p[propKey];
-      if (stat.source !== "prizepicks") return null;
+      if (!stat || stat.source !== "prizepicks") return null;
       const bestProb = Math.max(stat.over, stat.under);
       const side = stat.over >= stat.under ? "Over" : "Under";
       return { player: p.player, stat, bestProb, side };

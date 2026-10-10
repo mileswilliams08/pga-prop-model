@@ -130,6 +130,11 @@ def update_and_diff(store: dict, tournament_key: str, player_key: str,
             "fairways_possible": exact["fairways_possible"],
             "holes_played": exact["holes_played"],
         })
+        # Hole-by-hole counts (experimental Pars / Bogeys-or-Worse props);
+        # absent when ESPN's holes didn't reconcile with the round totals.
+        for extra in ("pars", "bogeys_or_worse", "par_total"):
+            if extra in exact:
+                entry[extra] = exact[extra]
 
     # Now fill in gir/fairways_hit_est for every round where BOTH this
     # round's checkpoint and the previous round's checkpoint exist.

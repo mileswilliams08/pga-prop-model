@@ -200,6 +200,61 @@ def _round_fairways_possible(round_entry: dict) -> int:
     return count
 
 
+def _round_hole_counts(round_entry: dict, expected_strokes, expected_birdies_or_better):
+    """
+    Exact pars / bogeys-or-worse / course par for one finished round, from
+    that round's own hole-by-hole linescores (hole "value" = strokes,
+    hole "par" = par). Returns None -- and the caller simply records
+    nothing -- unless the holes are complete AND they reconcile with the
+    numbers ESPN gives separately (strokes total and birdies-or-better
+    count). That check is deliberate: these field names were not
+    confirmed against a raw capture, so a wrong guess shows up as a
+    mismatch and a logged warning instead of silently wrong grading.
+    """
+    holes = round_entry.get("linescores") or []
+    scores, pars = [], []
+    for h in holes:
+        try:
+            scores.append(float(h.get("value")))
+            pars.append(float(h.get("par")))
+        except (TypeError, ValueError):
+            return None
+    if len(scores) != 18:
+        return None
+    if abs(sum(scores) - float(expected_strokes)) > 0.5:
+        return None
+    under = sum(1 for s, p in zip(scores, pars) if s < p)
+    if expected_birdies_or_better is not None and under != expected_birdies_or_better:
+        return None
+    return {
+        "pars": sum(1 for s, p in zip(scores, pars) if s == p),
+        "bogeys_or_worse": sum(1 for s, p in zip(scores, pars) if s > p),
+        "par_total": int(sum(pars)),
+    }
+
+
+def infer_course_par(event_id: str, year: int, field: list, max_players: int = 8,
+                      debug: bool = False):
+    """
+    Course par for the event, read from any field player's posted hole pars
+    (a round with 18 holes of linescores). Returns None if no round data
+    exists yet (e.g. before round 1) -- callers fall back to config.json's
+    "course_par" or skip par-dependent props.
+    """
+    for player in (field or [])[:max_players]:
+        try:
+            payload = _get_json(PLAYER_SUMMARY_URL.format(event_id=event_id),
+                                params={"season": year, "player": player["espn_player_id"]},
+                                debug=debug)
+        except Exception:
+            continue
+        for r in payload.get("rounds") or []:
+            holes = r.get("linescores") or []
+            if len(holes) == 18 and all(h.get("par") is not None for h in holes):
+                return int(sum(float(h["par"]) for h in holes))
+    return None
+
+
 def get_player_cumulative_snapshot(event_id: str, year: int, espn_player_id: str,
                                     player_name: str = "", debug: bool = False) -> dict:
     """
@@ -281,6 +336,9 @@ def get_player_cumulative_snapshot(event_id: str, year: int, espn_player_id: str
             "fairways_possible": _round_fairways_possible(r),
             "holes_played": holes_played,
         }
+        counts = _round_hole_counts(r, r["value"], birdies + eagles)
+        if counts is not None:
+            per_round_exact[int(period)].update(counts)
 
     # Cumulative (tournament-total-so-far) stats live in a separate
     # flat list under "stats" at the payload's top level — confirmed

@@ -63,6 +63,14 @@ started round 2). The scheduled run is safe because it runs between rounds for U
   Recheck at the start of each season, not every week.
 - New season: update `year` and shift `blend_years` forward (e.g. `[2027, 2026, 2025]`).
 
+## Pars / Bogeys or Worse (experimental)
+
+- These need the course's par. Optionally add `"course_par": 71` to config.json for the new
+  week; if you leave it out, the pipeline reads par from ESPN once a round has been played
+  (so before round 1 they are skipped and the log says so).
+- They are tracked on the Results tab but left out of the headline "All props" numbers; pick
+  "All props incl. experimental" or the individual prop to see them.
+
 ## 8. Two-minute weekly check
 
 - Actions run is green.

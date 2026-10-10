@@ -52,7 +52,14 @@ CATEGORY_TO_RESULT_FIELD = {
     "fairways": "fairways_hit_est",
     "birdies": "birdies_or_better",
     "strokes": "strokes",
+    "pars": "pars",
+    "bogeys": "bogeys_or_worse",
 }
+
+# Still being validated: tracked and shown on the results page, but kept out
+# of the headline "overall" numbers and the calibration table so they can't
+# move the record of the core props.
+EXPERIMENTAL_CATEGORIES = ("pars", "bogeys")
 
 
 def infer_round_number(generated_at_iso: str, tournament_start_date_iso: str,
@@ -375,7 +382,9 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
             "hit_rate": (hits / n) if n > 0 else None,
         }
 
-    overall = summarize(df)
+    # Headline numbers + calibration table cover the core props only.
+    core = df[~df["category"].isin(EXPERIMENTAL_CATEGORIES)]
+    overall = summarize(core)
 
     by_category = {
         cat: summarize(df[df["category"] == cat])
@@ -383,9 +392,10 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
     }
 
     df["_bucket"] = df["model_prob"].apply(lambda p: _bucket_label(p) if pd.notna(p) else "unknown")
+    core = df[~df["category"].isin(EXPERIMENTAL_CATEGORIES)]
     by_confidence_bucket = {
-        bucket: summarize(df[df["_bucket"] == bucket])
-        for bucket in sorted(df["_bucket"].unique()) if bucket != "unknown"
+        bucket: summarize(core[core["_bucket"] == bucket])
+        for bucket in sorted(core["_bucket"].unique()) if bucket != "unknown"
     }
 
     # Hit rate for the model's Over picks vs. its Under picks ("picked_side"
