@@ -96,8 +96,15 @@ function render(data) {
   const ROUND_OPTIONS = `<option value="__all__">All rounds</option>` +
     [1, 2, 3, 4].map(r => `<option value="${r}">Round ${r}</option>`).join("");
 
+  const allPicks = data.picks || [];
+  const tNames = [...new Set(allPicks.map(x => x.t))].sort();
+
+  const TOURN_OPTIONS = `<option value="__all__">All tournaments</option>` +
+    tNames.map(t => `<option value="${t}">${t}</option>`).join("");
+
   let html = `
     <div class="caveat" style="margin-bottom:8px">Show:
+      <select id="overall-scope" style="${SELECT_STYLE}">${TOURN_OPTIONS}</select>
       <select id="overall-round" style="${SELECT_STYLE}">${ROUND_OPTIONS}</select>
       <select id="overall-prop" style="${SELECT_STYLE}">${PROP_OPTIONS}</select>
       <select id="overall-prob" style="${SELECT_STYLE}">${PROB_OPTIONS}</select></div>
@@ -111,8 +118,6 @@ function render(data) {
   // every tournament side by side.
   const sideStat = (s) => s ? { n: s.n, rate: pct(s.hit_rate), pushes: s.pushes }
                             : { n: 0, rate: "—", pushes: 0 };
-  const allPicks = data.picks || [];
-  const tNames = [...new Set(allPicks.map(x => x.t))].sort();
 
   if (allPicks.length) {
     const options = [`<option value="__all__">All tournaments</option>`]
@@ -228,7 +233,7 @@ function render(data) {
 
   // Overall card + by-prop table: round, prop and probability filters (all tournaments).
   const drawOverall = () => {
-    const f = { r: selected("overall-round"), c: selected("overall-prop"), pr: selected("overall-prob") };
+    const f = { t: selected("overall-scope"), r: selected("overall-round"), c: selected("overall-prop"), pr: selected("overall-prob") };
     const box = document.getElementById("overall-section");
     const o = statsOf(filterPicks(f));
     if (o.n + o.pushes === 0) {
@@ -256,7 +261,7 @@ function render(data) {
     h += `</tbody></table>`;
     box.innerHTML = h;
   };
-  for (const id of ["overall-round", "overall-prop", "overall-prob"])
+  for (const id of ["overall-scope", "overall-round", "overall-prop", "overall-prob"])
     document.getElementById(id).addEventListener("change", drawOverall);
   drawOverall();
 
