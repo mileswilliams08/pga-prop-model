@@ -338,6 +338,42 @@ def apply_exclusions(df, exclusions: set):
     return df[~keys.isin(exclusions)].copy()
 
 
+def add_comparison_columns(df):
+    """
+    Adds, for every graded row, the result a BLIND OVER on that line would
+    have had ("ox": h/m/p), and for Total Strokes rows also the market-blended
+    probability, the side it would have picked and its result ("bs", "bp",
+    "bx"). Nothing extra is stored in the graded log: the model's mean is
+    recovered from the stored probability (prop_models.implied_strokes_mean),
+    so the blend applies retroactively to every past pick. The blend's
+    weight/offset were chosen using picks through Baycurrent Round 3, so those
+    rounds are in-sample; later rounds are a true out-of-sample test.
+    """
+    import numpy as np
+    from prop_models import implied_strokes_mean, blended_strokes_prop
+
+    df = df.copy()
+    valid = df["line"].notna() & df["actual_value"].notna()
+    df["ox"] = None
+    df.loc[valid & (df["actual_value"] > df["line"]), "ox"] = "h"
+    df.loc[valid & (df["actual_value"] < df["line"]), "ox"] = "m"
+    df.loc[valid & (df["actual_value"] == df["line"]), "ox"] = "p"
+
+    df["bs"], df["bp"], df["bx"] = None, np.nan, None
+    for idx, r in df[(df["category"] == "strokes") & valid & df["model_prob"].notna()].iterrows():
+        side = str(r["picked_side"]).lower()
+        p_under = r["model_prob"] if side == "under" else 1 - r["model_prob"]
+        blend = blended_strokes_prop(implied_strokes_mean(r["line"], p_under), r["line"])
+        b_side = "over" if blend["over"] >= blend["under"] else "under"
+        df.at[idx, "bs"] = b_side
+        df.at[idx, "bp"] = float(blend[b_side])
+        if r["actual_value"] == r["line"]:
+            df.at[idx, "bx"] = "p"
+        else:
+            df.at[idx, "bx"] = "h" if (r["actual_value"] > r["line"]) == (b_side == "over") else "m"
+    return df
+
+
 def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> dict:
     """
     Aggregates the graded-results log into the shape the website's
@@ -370,7 +406,10 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
 
     df = pd.read_csv(path)
     df["model_prob"] = pd.to_numeric(df["model_prob"], errors="coerce")
+    df["line"] = pd.to_numeric(df["line"], errors="coerce")
+    df["actual_value"] = pd.to_numeric(df["actual_value"], errors="coerce")
     df = apply_exclusions(df, load_exclusions())
+    df = add_comparison_columns(df)
 
     def summarize(sub: pd.DataFrame) -> dict:
         pushes = int((sub["result"] == "push").sum())
@@ -466,7 +505,11 @@ def build_results_summary(path: str = GRADED_LOG_PATH, recent_n: int = 50) -> di
         {"t": r.tournament, "r": int(r.round) if pd.notna(r.round) else None,
          "c": r.category, "s": r.picked_side,
          "p": round(float(r.model_prob), 4) if pd.notna(r.model_prob) else None,
-         "x": result_code.get(r.result, "p")}
+         "x": result_code.get(r.result, "p"),
+         # blind Over result on this line; for Total Strokes also the
+         # market-blended side / probability / result (see add_comparison_columns)
+         "ox": r.ox,
+         **({"bs": r.bs, "bp": round(float(r.bp), 4), "bx": r.bx} if r.bs else {})}
         for r in df.itertuples()
     ]
 

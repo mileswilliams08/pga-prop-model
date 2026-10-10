@@ -112,3 +112,33 @@ def bogeys_prop(expected_bogeys: float, line: float, holes: int = 18,
     phi = (fit or PARS_BOGEYS_FIT)["bogeys"]["phi"]
     p = min(max(expected_bogeys / holes, 0.01), 0.99)
     return {"over": prob_over(holes, p, line, phi), "under": prob_under(holes, p, line, phi)}
+
+
+# ---------------------------------------------------------------------------
+# Market-blended Total Strokes probability (tracking only -- see results.html)
+#
+# Over every graded Total Strokes pick so far, the model's disagreement with
+# the PrizePicks line carried only about 20% of its claimed signal (slope
+# 0.205, correlation 0.04, n=111), and players averaged ~0.5 strokes ABOVE
+# the line even when the model had no opinion. So the blended estimate leans
+# mostly on the line: weight 0.3 on the model (a little generous vs 0.2) and
+# half the measured +0.5 offset (that estimate is only ~1.8 standard errors
+# from zero). Refit as more picks accumulate.
+# ---------------------------------------------------------------------------
+STROKES_STD = 2.8
+STROKES_BLEND = {"weight": 0.3, "offset": 0.25}
+
+
+def implied_strokes_mean(line: float, p_under: float, std_dev: float = STROKES_STD) -> float:
+    """The model mean that produced a stored Under probability for this line."""
+    p = min(max(float(p_under), 1e-6), 1 - 1e-6)
+    return line - std_dev * stats.norm.ppf(p)
+
+
+def blended_strokes_mean(model_mean: float, line: float, blend: dict = None) -> float:
+    b = blend or STROKES_BLEND
+    return line + b["offset"] + b["weight"] * (model_mean - line)
+
+
+def blended_strokes_prop(model_mean: float, line: float, blend: dict = None) -> dict:
+    return total_strokes_prop(blended_strokes_mean(model_mean, line, blend), line, STROKES_STD)

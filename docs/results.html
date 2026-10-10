@@ -137,6 +137,20 @@ function render(data) {
       swing a lot — treat anything under ~30 picks as noise.</div>`;
   }
 
+  if (allPicks.some(x => x.c === "strokes" && x.bs)) {
+    html += `
+    <h2>Total Strokes: model vs. market-blended vs. blind picks</h2>
+    <div class="caveat" style="margin-bottom:8px">Same Total Strokes lines, four ways to pick. "Blended"
+      leans mostly on the PrizePicks line (30% model); "blind Over/Under" ignores the model and takes
+      every line one way. Picks through Baycurrent Round 3 are in-sample (the blend was tuned on
+      them) — Round 4 onward is the real test. Small samples swing a lot.
+      <br>Show:
+      <select id="blend-scope" style="${SELECT_STYLE}"><option value="__all__">All tournaments</option>${
+        tNames.map(t => `<option value="${t}">${t}</option>`).join("")}</select>
+      <select id="blend-round" style="${SELECT_STYLE}">${ROUND_OPTIONS}</select></div>
+    <div id="blend-section"></div>`;
+  }
+
   if (allPicks.some(x => EXPERIMENTAL.includes(x.c))) {
     const xt = [...new Set(allPicks.filter(x => EXPERIMENTAL.includes(x.c)).map(x => x.t))].sort();
     html += `
@@ -245,6 +259,46 @@ function render(data) {
   for (const id of ["overall-round", "overall-prop", "overall-prob"])
     document.getElementById(id).addEventListener("change", drawOverall);
   drawOverall();
+
+  // Market-blend comparison (Total Strokes only).
+  if (document.getElementById("blend-scope")) {
+    const drawBlend = () => {
+      const t = selected("blend-scope"), rd = selected("blend-round");
+      const rows = allPicks.filter(x => x.c === "strokes" && x.bs &&
+        (t === "__all__" || x.t === t) && (rd === "__all__" || String(x.r) === rd));
+      const box = document.getElementById("blend-section");
+      const rate = (hits, n) => n > 0 ? pct(hits / n) : "—";
+      const count = (codes) => codes.filter(c => c === "h" || c === "m").length;
+      const hits = (codes) => codes.filter(c => c === "h").length;
+      const flip = (c) => c === "h" ? "m" : c === "m" ? "h" : c;
+      const avg = (vals) => vals.length ? pct(vals.reduce((a, b) => a + b, 0) / vals.length) : "—";
+      if (rows.length === 0) {
+        box.innerHTML = `<div class="empty">No Total Strokes picks for this selection yet.</div>`;
+        return;
+      }
+      const raw = rows.map(x => x.x), bl = rows.map(x => x.bx), ov = rows.map(x => x.ox);
+      const defs = [
+        ["Raw model", raw, avg(rows.filter(x => x.p !== null).map(x => x.p))],
+        ["Market-blended", bl, avg(rows.map(x => x.bp))],
+        ["Blind Over (every line)", ov, "—"],
+        ["Blind Under (every line)", ov.map(flip), "—"],
+      ];
+      let h = `<table><thead><tr><th>Method</th><th>N</th><th>Hit rate</th>
+        <th>Avg predicted prob</th></tr></thead><tbody>`;
+      for (const [label, codes, avgp] of defs) {
+        h += `<tr><td>${label}</td><td class="num">${count(codes)}</td>
+          <td class="prob">${rate(hits(codes), count(codes))}</td><td class="prob">${avgp}</td></tr>`;
+      }
+      const flips = rows.filter(x => x.bs !== x.s).length;
+      h += `</tbody></table><div class="caveat">The blend picked a different side than the raw model on
+        ${flips} of ${rows.length} lines. If "Avg predicted prob" is well above the hit rate, that method
+        is overconfident.</div>`;
+      box.innerHTML = h;
+    };
+    for (const id of ["blend-scope", "blend-round"])
+      document.getElementById(id).addEventListener("change", drawBlend);
+    drawBlend();
+  }
 
   // Experimental section: its own tournament/round/probability filters.
   if (document.getElementById("exp-scope")) {
