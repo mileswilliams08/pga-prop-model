@@ -146,9 +146,9 @@ function render(data) {
     html += `
     <h2>Total Strokes: model vs. market-blended vs. blind picks</h2>
     <div class="caveat" style="margin-bottom:8px">Same Total Strokes lines, four ways to pick. "Blended"
-      leans mostly on the PrizePicks line (30% model); "blind Over/Under" ignores the model and takes
-      every line one way. Picks through Baycurrent Round 3 are in-sample (the blend was tuned on
-      them) — Round 4 onward is the real test. Small samples swing a lot.
+      splits the difference between the model and the PrizePicks line (50% model); "blind Over/Under" ignores the model and takes
+      every line one way. Picks through Baycurrent Round 4 are in-sample (the blend was tuned on
+      them) — the next tournament onward is the real test. Small samples swing a lot.
       <br>Show:
       <select id="blend-scope" style="${SELECT_STYLE}"><option value="__all__">All tournaments</option>${
         tNames.map(t => `<option value="${t}">${t}</option>`).join("")}</select>

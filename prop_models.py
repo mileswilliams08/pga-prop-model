@@ -117,16 +117,15 @@ def bogeys_prop(expected_bogeys: float, line: float, holes: int = 18,
 # ---------------------------------------------------------------------------
 # Market-blended Total Strokes probability (tracking only -- see results.html)
 #
-# Over every graded Total Strokes pick so far, the model's disagreement with
-# the PrizePicks line carried only about 20% of its claimed signal (slope
-# 0.205, correlation 0.04, n=111), and players averaged ~0.5 strokes ABOVE
-# the line even when the model had no opinion. So the blended estimate leans
-# mostly on the line: weight 0.3 on the model (a little generous vs 0.2) and
-# half the measured +0.5 offset (that estimate is only ~1.8 standard errors
-# from zero). Refit as more picks accumulate.
+# Refit through Baycurrent Round 4 (146 graded Total Strokes picks): the
+# model's disagreement with the PrizePicks line carries about half of its
+# claimed signal (slope 0.496 +/- ~0.4, correlation 0.108; it was 0.205 after
+# Round 3), and the "lines sit low" offset shrank to 0.30 (~1.2 standard
+# errors, and a blind Over now hits only ~51.5%) -- so the offset is 0.
+# Weight 0.5 on the model, 0.5 on the line. Refit as more picks accumulate.
 # ---------------------------------------------------------------------------
 STROKES_STD = 2.8
-STROKES_BLEND = {"weight": 0.3, "offset": 0.25}
+STROKES_BLEND = {"weight": 0.5, "offset": 0.0}
 
 
 def implied_strokes_mean(line: float, p_under: float, std_dev: float = STROKES_STD) -> float:
