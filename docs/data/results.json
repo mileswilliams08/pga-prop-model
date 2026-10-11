@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:39:59.506230+00:00",
+  "generated_at": "2026-10-11T17:54:05.939742+00:00",
   "picks": [
     {
       "t": "Bank of Utah Championship",
@@ -1827,20 +1827,914 @@
       "bs": "over",
       "bp": 0.5669,
       "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.6153,
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5005,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "under",
+      "p": 0.5009,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.6136,
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5011,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.6214,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5533,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5515,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6393,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5987,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.532,
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.526,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5355,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.6038,
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5041,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.5711,
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5142,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6154,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5253,
+      "x": "p",
+      "ox": "p"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.6311,
+      "x": "h",
+      "ox": "m",
+      "bs": "under",
+      "bp": 0.5044,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.5892,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5237,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5282,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.544,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "bogeys",
+      "s": "over",
+      "p": 0.5645,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5709,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5282,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.544,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6262,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "bogeys",
+      "s": "over",
+      "p": 0.5276,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.5222,
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5289,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "bogeys",
+      "s": "over",
+      "p": 0.5396,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5462,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5609,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5538,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6248,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "bogeys",
+      "s": "over",
+      "p": 0.5426,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5739,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.5079,
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5332,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6128,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "bogeys",
+      "s": "under",
+      "p": 0.5077,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.6012,
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5049,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5507,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5507,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.6164,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5025,
+      "x": "p",
+      "ox": "p",
+      "bs": "over",
+      "bp": 0.5363,
+      "bx": "p"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6446,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "bogeys",
+      "s": "over",
+      "p": 0.5367,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "under",
+      "p": 0.5955,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5321,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5452,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "bogeys",
+      "s": "under",
+      "p": 0.5268,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.558,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5215,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.542,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6153,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.542,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.52,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5415,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5616,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.6075,
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.503,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6227,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5608,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.523,
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5287,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5947,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.542,
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.523,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "over",
+      "p": 0.5455,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.5915,
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5079,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5843,
+      "x": "p",
+      "ox": "p"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.6242,
+      "x": "m",
+      "ox": "h",
+      "bs": "under",
+      "bp": 0.5023,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5395,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5565,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5525,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6187,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "bogeys",
+      "s": "over",
+      "p": 0.533,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5357,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.5563,
+      "x": "m",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5187,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.6323,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.5782,
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.512,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "over",
+      "p": 0.5358,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5522,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5123,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5393,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5733,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5255,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5432,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5704,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5609,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5538,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6398,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "bogeys",
+      "s": "over",
+      "p": 0.5604,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5313,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5449,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6138,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5703,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.547,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5496,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6339,
+      "x": "p",
+      "ox": "p"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "bogeys",
+      "s": "over",
+      "p": 0.5463,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.584,
+      "x": "p",
+      "ox": "p",
+      "bs": "over",
+      "bp": 0.5102,
+      "bx": "p"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6564,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5368,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5466,
+      "bx": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6241,
+      "x": "p",
+      "ox": "p"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5272,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.5746,
+      "x": "h",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5131,
+      "bx": "m"
+    },
+    {
+      "t": "Baycurrent Classic",
+      "r": 4,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5307,
+      "x": "p",
+      "ox": "p",
+      "bs": "over",
+      "bp": 0.5447,
+      "bx": "p"
     }
   ],
   "overall": {
-    "n": 151,
-    "hits": 69,
-    "pushes": 15,
-    "hit_rate": 0.45695364238410596
+    "n": 206,
+    "hits": 101,
+    "pushes": 20,
+    "hit_rate": 0.49029126213592233
   },
   "by_category": {
     "birdies": {
-      "n": 38,
-      "hits": 17,
-      "pushes": 3,
-      "hit_rate": 0.4473684210526316
+      "n": 61,
+      "hits": 30,
+      "pushes": 5,
+      "hit_rate": 0.4918032786885246
+    },
+    "bogeys": {
+      "n": 10,
+      "hits": 5,
+      "pushes": 0,
+      "hit_rate": 0.5
     },
     "fairways": {
       "n": 5,
@@ -1854,40 +2748,60 @@
       "pushes": 1,
       "hit_rate": 0.3333333333333333
     },
+    "pars": {
+      "n": 15,
+      "hits": 9,
+      "pushes": 2,
+      "hit_rate": 0.6
+    },
     "strokes": {
-      "n": 102,
-      "hits": 49,
-      "pushes": 9,
-      "hit_rate": 0.4803921568627451
+      "n": 134,
+      "hits": 68,
+      "pushes": 12,
+      "hit_rate": 0.5074626865671642
     }
   },
   "by_side": {
     "over": {
-      "n": 100,
-      "hits": 48,
-      "pushes": 6,
-      "hit_rate": 0.48
+      "n": 146,
+      "hits": 74,
+      "pushes": 10,
+      "hit_rate": 0.5068493150684932
     },
     "under": {
-      "n": 51,
-      "hits": 21,
-      "pushes": 9,
-      "hit_rate": 0.4117647058823529
+      "n": 85,
+      "hits": 41,
+      "pushes": 12,
+      "hit_rate": 0.4823529411764706
     }
   },
   "by_category_side": {
     "birdies": {
       "over": {
-        "n": 27,
-        "hits": 9,
-        "pushes": 2,
-        "hit_rate": 0.3333333333333333
+        "n": 48,
+        "hits": 22,
+        "pushes": 4,
+        "hit_rate": 0.4583333333333333
       },
       "under": {
-        "n": 11,
+        "n": 13,
         "hits": 8,
         "pushes": 1,
-        "hit_rate": 0.7272727272727273
+        "hit_rate": 0.6153846153846154
+      }
+    },
+    "bogeys": {
+      "over": {
+        "n": 8,
+        "hits": 4,
+        "pushes": 0,
+        "hit_rate": 0.5
+      },
+      "under": {
+        "n": 2,
+        "hits": 1,
+        "pushes": 0,
+        "hit_rate": 0.5
       }
     },
     "fairways": {
@@ -1918,18 +2832,32 @@
         "hit_rate": 0.2
       }
     },
-    "strokes": {
+    "pars": {
       "over": {
-        "n": 72,
-        "hits": 38,
-        "pushes": 4,
-        "hit_rate": 0.5277777777777778
+        "n": 2,
+        "hits": 2,
+        "pushes": 0,
+        "hit_rate": 1.0
       },
       "under": {
-        "n": 30,
-        "hits": 11,
-        "pushes": 5,
-        "hit_rate": 0.36666666666666664
+        "n": 13,
+        "hits": 7,
+        "pushes": 2,
+        "hit_rate": 0.5384615384615384
+      }
+    },
+    "strokes": {
+      "over": {
+        "n": 87,
+        "hits": 45,
+        "pushes": 6,
+        "hit_rate": 0.5172413793103449
+      },
+      "under": {
+        "n": 47,
+        "hits": 23,
+        "pushes": 6,
+        "hit_rate": 0.48936170212765956
       }
     }
   },
@@ -2124,52 +3052,80 @@
     },
     "Baycurrent Classic": {
       "overall": {
-        "n": 118,
-        "hits": 51,
-        "pushes": 11,
-        "hit_rate": 0.4322033898305085
+        "n": 198,
+        "hits": 97,
+        "pushes": 18,
+        "hit_rate": 0.4898989898989899
       },
       "by_side": {
         "over": {
-          "n": 84,
-          "hits": 38,
-          "pushes": 6,
-          "hit_rate": 0.4523809523809524
+          "n": 130,
+          "hits": 64,
+          "pushes": 10,
+          "hit_rate": 0.49230769230769234
         },
         "under": {
-          "n": 34,
-          "hits": 13,
-          "pushes": 5,
-          "hit_rate": 0.38235294117647056
+          "n": 68,
+          "hits": 33,
+          "pushes": 8,
+          "hit_rate": 0.4852941176470588
         }
       },
       "by_category_side": {
         "birdies": {
           "over": {
-            "n": 21,
-            "hits": 6,
-            "pushes": 2,
-            "hit_rate": 0.2857142857142857
+            "n": 42,
+            "hits": 19,
+            "pushes": 4,
+            "hit_rate": 0.4523809523809524
           },
           "under": {
-            "n": 8,
+            "n": 10,
             "hits": 5,
             "pushes": 1,
-            "hit_rate": 0.625
+            "hit_rate": 0.5
+          }
+        },
+        "bogeys": {
+          "over": {
+            "n": 8,
+            "hits": 4,
+            "pushes": 0,
+            "hit_rate": 0.5
+          },
+          "under": {
+            "n": 2,
+            "hits": 1,
+            "pushes": 0,
+            "hit_rate": 0.5
+          }
+        },
+        "pars": {
+          "over": {
+            "n": 2,
+            "hits": 2,
+            "pushes": 0,
+            "hit_rate": 1.0
+          },
+          "under": {
+            "n": 13,
+            "hits": 7,
+            "pushes": 2,
+            "hit_rate": 0.5384615384615384
           }
         },
         "strokes": {
           "over": {
-            "n": 63,
-            "hits": 32,
-            "pushes": 4,
-            "hit_rate": 0.5079365079365079
+            "n": 78,
+            "hits": 39,
+            "pushes": 6,
+            "hit_rate": 0.5
           },
           "under": {
-            "n": 26,
-            "hits": 8,
-            "pushes": 4,
-            "hit_rate": 0.3076923076923077
+            "n": 43,
+            "hits": 20,
+            "pushes": 5,
+            "hit_rate": 0.46511627906976744
           }
         }
       },
@@ -2348,6 +3304,112 @@
                 "hits": 2,
                 "pushes": 4,
                 "hit_rate": 0.15384615384615385
+              }
+            }
+          }
+        },
+        "4": {
+          "overall": {
+            "n": 80,
+            "hits": 46,
+            "pushes": 7,
+            "hit_rate": 0.575
+          },
+          "by_category": {
+            "birdies": {
+              "n": 23,
+              "hits": 13,
+              "pushes": 2,
+              "hit_rate": 0.5652173913043478
+            },
+            "bogeys": {
+              "n": 10,
+              "hits": 5,
+              "pushes": 0,
+              "hit_rate": 0.5
+            },
+            "pars": {
+              "n": 15,
+              "hits": 9,
+              "pushes": 2,
+              "hit_rate": 0.6
+            },
+            "strokes": {
+              "n": 32,
+              "hits": 19,
+              "pushes": 3,
+              "hit_rate": 0.59375
+            }
+          },
+          "by_side": {
+            "over": {
+              "n": 46,
+              "hits": 26,
+              "pushes": 4,
+              "hit_rate": 0.5652173913043478
+            },
+            "under": {
+              "n": 34,
+              "hits": 20,
+              "pushes": 3,
+              "hit_rate": 0.5882352941176471
+            }
+          },
+          "by_category_side": {
+            "birdies": {
+              "over": {
+                "n": 21,
+                "hits": 13,
+                "pushes": 2,
+                "hit_rate": 0.6190476190476191
+              },
+              "under": {
+                "n": 2,
+                "hits": 0,
+                "pushes": 0,
+                "hit_rate": 0.0
+              }
+            },
+            "bogeys": {
+              "over": {
+                "n": 8,
+                "hits": 4,
+                "pushes": 0,
+                "hit_rate": 0.5
+              },
+              "under": {
+                "n": 2,
+                "hits": 1,
+                "pushes": 0,
+                "hit_rate": 0.5
+              }
+            },
+            "pars": {
+              "over": {
+                "n": 2,
+                "hits": 2,
+                "pushes": 0,
+                "hit_rate": 1.0
+              },
+              "under": {
+                "n": 13,
+                "hits": 7,
+                "pushes": 2,
+                "hit_rate": 0.5384615384615384
+              }
+            },
+            "strokes": {
+              "over": {
+                "n": 15,
+                "hits": 7,
+                "pushes": 2,
+                "hit_rate": 0.4666666666666667
+              },
+              "under": {
+                "n": 17,
+                "hits": 12,
+                "pushes": 1,
+                "hit_rate": 0.7058823529411765
               }
             }
           }
@@ -2536,17 +3598,23 @@
     },
     "4": {
       "overall": {
-        "n": 33,
-        "hits": 18,
-        "pushes": 4,
-        "hit_rate": 0.5454545454545454
+        "n": 113,
+        "hits": 64,
+        "pushes": 11,
+        "hit_rate": 0.5663716814159292
       },
       "by_category": {
         "birdies": {
-          "n": 9,
-          "hits": 6,
+          "n": 32,
+          "hits": 19,
+          "pushes": 2,
+          "hit_rate": 0.59375
+        },
+        "bogeys": {
+          "n": 10,
+          "hits": 5,
           "pushes": 0,
-          "hit_rate": 0.6666666666666666
+          "hit_rate": 0.5
         },
         "fairways": {
           "n": 5,
@@ -2560,40 +3628,60 @@
           "pushes": 1,
           "hit_rate": 0.3333333333333333
         },
-        "strokes": {
-          "n": 13,
+        "pars": {
+          "n": 15,
           "hits": 9,
-          "pushes": 1,
-          "hit_rate": 0.6923076923076923
+          "pushes": 2,
+          "hit_rate": 0.6
+        },
+        "strokes": {
+          "n": 45,
+          "hits": 28,
+          "pushes": 4,
+          "hit_rate": 0.6222222222222222
         }
       },
       "by_side": {
         "over": {
-          "n": 16,
-          "hits": 10,
-          "pushes": 0,
-          "hit_rate": 0.625
+          "n": 62,
+          "hits": 36,
+          "pushes": 4,
+          "hit_rate": 0.5806451612903226
         },
         "under": {
-          "n": 17,
-          "hits": 8,
-          "pushes": 4,
-          "hit_rate": 0.47058823529411764
+          "n": 51,
+          "hits": 28,
+          "pushes": 7,
+          "hit_rate": 0.5490196078431373
         }
       },
       "by_category_side": {
         "birdies": {
           "over": {
-            "n": 6,
+            "n": 27,
+            "hits": 16,
+            "pushes": 2,
+            "hit_rate": 0.5925925925925926
+          },
+          "under": {
+            "n": 5,
             "hits": 3,
+            "pushes": 0,
+            "hit_rate": 0.6
+          }
+        },
+        "bogeys": {
+          "over": {
+            "n": 8,
+            "hits": 4,
             "pushes": 0,
             "hit_rate": 0.5
           },
           "under": {
-            "n": 3,
-            "hits": 3,
+            "n": 2,
+            "hits": 1,
             "pushes": 0,
-            "hit_rate": 1.0
+            "hit_rate": 0.5
           }
         },
         "fairways": {
@@ -2624,18 +3712,32 @@
             "hit_rate": 0.2
           }
         },
-        "strokes": {
+        "pars": {
           "over": {
-            "n": 9,
-            "hits": 6,
+            "n": 2,
+            "hits": 2,
             "pushes": 0,
-            "hit_rate": 0.6666666666666666
+            "hit_rate": 1.0
           },
           "under": {
-            "n": 4,
-            "hits": 3,
-            "pushes": 1,
-            "hit_rate": 0.75
+            "n": 13,
+            "hits": 7,
+            "pushes": 2,
+            "hit_rate": 0.5384615384615384
+          }
+        },
+        "strokes": {
+          "over": {
+            "n": 24,
+            "hits": 13,
+            "pushes": 2,
+            "hit_rate": 0.5416666666666666
+          },
+          "under": {
+            "n": 21,
+            "hits": 15,
+            "pushes": 2,
+            "hit_rate": 0.7142857142857143
           }
         }
       }
@@ -2643,16 +3745,16 @@
   },
   "by_confidence_bucket": {
     "50-60%": {
-      "n": 114,
-      "hits": 48,
-      "pushes": 8,
-      "hit_rate": 0.42105263157894735
+      "n": 159,
+      "hits": 73,
+      "pushes": 13,
+      "hit_rate": 0.4591194968553459
     },
     "60-70%": {
-      "n": 33,
-      "hits": 19,
+      "n": 43,
+      "hits": 26,
       "pushes": 5,
-      "hit_rate": 0.5757575757575758
+      "hit_rate": 0.6046511627906976
     },
     "70-80%": {
       "n": 4,
@@ -2669,554 +3771,554 @@
   },
   "recent": [
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
       "player": "Wyndham Clark",
       "category": "strokes",
-      "line": 68.5,
-      "result": "hit",
-      "model_prob": 0.6039771752761525,
+      "line": 69.0,
+      "result": "push",
+      "model_prob": 0.530687719108001,
       "picked_side": "over",
-      "actual_value": 74.0
+      "actual_value": 69.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Keegan Bradley",
-      "category": "birdies",
-      "line": 4.5,
+      "player": "Hideki Matsuyama",
+      "category": "pars",
+      "line": 11.0,
       "result": "hit",
-      "model_prob": 0.540015283348008,
+      "model_prob": 0.6152902455333431,
+      "picked_side": "under",
+      "actual_value": 10.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Rickie Fowler",
+      "category": "strokes",
+      "line": 69.5,
+      "result": "miss",
+      "model_prob": 0.5221665511771075,
+      "picked_side": "under",
+      "actual_value": 76.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Rickie Fowler",
+      "category": "bogeys",
+      "line": 2.5,
+      "result": "hit",
+      "model_prob": 0.5395505343946553,
       "picked_side": "over",
       "actual_value": 5.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Xander Schauffele",
+      "player": "Sungjae Im",
       "category": "strokes",
-      "line": 68.5,
+      "line": 69.0,
       "result": "miss",
-      "model_prob": 0.535347702716037,
+      "model_prob": 0.560941303439357,
       "picked_side": "over",
-      "actual_value": 65.0
+      "actual_value": 68.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Xander Schauffele",
-      "category": "birdies",
-      "line": 5.0,
+      "player": "Sungjae Im",
+      "category": "pars",
+      "line": 11.0,
       "result": "miss",
-      "model_prob": 0.5972249524787357,
+      "model_prob": 0.6247859044587901,
       "picked_side": "under",
-      "actual_value": 8.0
+      "actual_value": 13.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Sungjae Im",
+      "category": "bogeys",
+      "line": 2.5,
+      "result": "miss",
+      "model_prob": 0.5425859946222367,
+      "picked_side": "over",
+      "actual_value": 1.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Michael Thorbjornsen",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "hit",
+      "model_prob": 0.5738633552546404,
+      "picked_side": "over",
+      "actual_value": 5.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Michael Thorbjornsen",
+      "category": "strokes",
+      "line": 69.0,
+      "result": "miss",
+      "model_prob": 0.5078850983534091,
+      "picked_side": "under",
+      "actual_value": 71.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Michael Thorbjornsen",
+      "category": "pars",
+      "line": 11.0,
+      "result": "hit",
+      "model_prob": 0.61275288799246,
+      "picked_side": "under",
+      "actual_value": 9.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Michael Thorbjornsen",
+      "category": "bogeys",
+      "line": 2.5,
+      "result": "miss",
+      "model_prob": 0.5076843779118537,
+      "picked_side": "under",
+      "actual_value": 4.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Steven Fisk",
+      "category": "strokes",
+      "line": 70.0,
+      "result": "hit",
+      "model_prob": 0.6011621186558078,
+      "picked_side": "under",
+      "actual_value": 67.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Ryo Hisatsune",
+      "category": "strokes",
+      "line": 69.5,
+      "result": "hit",
+      "model_prob": 0.5507275413104014,
+      "picked_side": "over",
+      "actual_value": 72.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Jacob Bridgeman",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "hit",
+      "model_prob": 0.6164280772494026,
+      "picked_side": "over",
+      "actual_value": 5.0
+    },
+    {
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
       "player": "Jacob Bridgeman",
       "category": "strokes",
       "line": 69.0,
       "result": "push",
-      "model_prob": 0.5061371953440028,
+      "model_prob": 0.5024819084503429,
       "picked_side": "over",
       "actual_value": 69.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Ryo Hisatsune",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "miss",
-      "model_prob": 0.5539252001749208,
-      "picked_side": "over",
-      "actual_value": 69.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Michael Thorbjornsen",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "miss",
-      "model_prob": 0.5043105528533964,
-      "picked_side": "under",
-      "actual_value": 71.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Michael Thorbjornsen",
-      "category": "birdies",
-      "line": 4.5,
+      "player": "Jacob Bridgeman",
+      "category": "pars",
+      "line": 11.0,
       "result": "hit",
-      "model_prob": 0.5719598694640988,
-      "picked_side": "over",
-      "actual_value": 5.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Steven Fisk",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "push",
-      "model_prob": 0.5972364097930233,
+      "model_prob": 0.6445669414292059,
       "picked_side": "under",
-      "actual_value": 70.0
+      "actual_value": 10.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Sungjae Im",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "miss",
-      "model_prob": 0.5641270397977011,
-      "picked_side": "over",
-      "actual_value": 68.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Sungjae Im",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "miss",
-      "model_prob": 0.5444541581901966,
+      "player": "Jacob Bridgeman",
+      "category": "bogeys",
+      "line": 2.5,
+      "result": "hit",
+      "model_prob": 0.5367191877820838,
       "picked_side": "over",
       "actual_value": 3.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Rickie Fowler",
-      "category": "strokes",
-      "line": 69.5,
+      "player": "Xander Schauffele",
+      "category": "birdies",
+      "line": 5.0,
       "result": "miss",
-      "model_prob": 0.5185158037879531,
+      "model_prob": 0.5955232876535494,
       "picked_side": "under",
-      "actual_value": 72.0
+      "actual_value": 6.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Rickie Fowler",
+      "player": "Xander Schauffele",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.5321338017225592,
+      "picked_side": "over",
+      "actual_value": 67.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Xander Schauffele",
+      "category": "bogeys",
+      "line": 2.0,
+      "result": "hit",
+      "model_prob": 0.5267985637893136,
+      "picked_side": "under",
+      "actual_value": 1.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Hideki Matsuyama",
       "category": "birdies",
       "line": 4.5,
       "result": "hit",
-      "model_prob": 0.5566536068696405,
+      "model_prob": 0.558035594988904,
       "picked_side": "over",
-      "actual_value": 5.0
+      "actual_value": 6.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Ryan Gerard",
+      "category": "bogeys",
+      "line": 2.5,
+      "result": "miss",
+      "model_prob": 0.5275519479903187,
+      "picked_side": "over",
+      "actual_value": 1.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Ryan Gerard",
+      "category": "pars",
+      "line": 11.0,
+      "result": "miss",
+      "model_prob": 0.6262433250274969,
+      "picked_side": "under",
+      "actual_value": 13.0
+    },
+    {
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
       "player": "Ryan Gerard",
       "category": "strokes",
       "line": 69.0,
       "result": "miss",
-      "model_prob": 0.5317311752001301,
+      "model_prob": 0.5281662904000534,
       "picked_side": "over",
-      "actual_value": 66.0
+      "actual_value": 68.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Brian Harman",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "miss",
-      "model_prob": 0.5318593864143294,
-      "picked_side": "over",
-      "actual_value": 67.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Christiaan Bezuidenhout",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "push",
-      "model_prob": 0.6280148431945144,
-      "picked_side": "under",
-      "actual_value": 70.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Christiaan Bezuidenhout",
+      "player": "Kevin Roy",
       "category": "birdies",
       "line": 4.0,
-      "result": "miss",
-      "model_prob": 0.5235626501776157,
+      "result": "hit",
+      "model_prob": 0.5354762004381679,
       "picked_side": "over",
-      "actual_value": 2.0
+      "actual_value": 6.0
     },
     {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Nick Taylor",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "miss",
-      "model_prob": 0.566976477320513,
-      "picked_side": "under",
-      "actual_value": 72.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Nick Taylor",
-      "category": "birdies",
-      "line": 4.0,
-      "result": "miss",
-      "model_prob": 0.5220910908760491,
-      "picked_side": "over",
-      "actual_value": 3.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Alex Smalley",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "miss",
-      "model_prob": 0.5679105996200605,
-      "picked_side": "under",
-      "actual_value": 72.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Alex Smalley",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "miss",
-      "model_prob": 0.5711946464270422,
-      "picked_side": "over",
-      "actual_value": 1.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Doug Ghim",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "miss",
-      "model_prob": 0.5283624789198261,
-      "picked_side": "under",
-      "actual_value": 70.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Doug Ghim",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "miss",
-      "model_prob": 0.5967917550377677,
-      "picked_side": "over",
-      "actual_value": 4.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Collin Morikawa",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "push",
-      "model_prob": 0.5145671716381159,
-      "picked_side": "under",
-      "actual_value": 69.0
-    },
-    {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
       "player": "Ben Kohles",
       "category": "strokes",
       "line": 69.5,
-      "result": "miss",
-      "model_prob": 0.6118202043801799,
+      "result": "hit",
+      "model_prob": 0.615326550324554,
       "picked_side": "under",
-      "actual_value": 73.0
+      "actual_value": 68.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Hideki Matsuyama",
+      "player": "Takumi Kanaya",
+      "category": "birdies",
+      "line": 4.0,
+      "result": "miss",
+      "model_prob": 0.5008835711430228,
+      "picked_side": "under",
+      "actual_value": 5.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Takumi Kanaya",
       "category": "strokes",
-      "line": 69.0,
-      "result": "push",
-      "model_prob": 0.5247405992945537,
+      "line": 70.0,
+      "result": "hit",
+      "model_prob": 0.6136194683038833,
+      "picked_side": "under",
+      "actual_value": 69.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Collin Morikawa",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "hit",
+      "model_prob": 0.6213763148034445,
+      "picked_side": "over",
+      "actual_value": 7.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Collin Morikawa",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "hit",
+      "model_prob": 0.5532844062658148,
       "picked_side": "over",
       "actual_value": 69.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Collin Morikawa",
+      "category": "pars",
+      "line": 11.0,
+      "result": "hit",
+      "model_prob": 0.6393460988089754,
+      "picked_side": "under",
+      "actual_value": 7.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Doug Ghim",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "hit",
+      "model_prob": 0.5986888373899342,
+      "picked_side": "over",
+      "actual_value": 5.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Doug Ghim",
+      "category": "strokes",
+      "line": 69.0,
+      "result": "hit",
+      "model_prob": 0.5320075104130039,
+      "picked_side": "under",
+      "actual_value": 67.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Kevin Roy",
+      "category": "strokes",
+      "line": 70.0,
+      "result": "hit",
+      "model_prob": 0.603797836142652,
+      "picked_side": "under",
+      "actual_value": 68.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Ryan Gerard",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "miss",
+      "model_prob": 0.5708892732317973,
+      "picked_side": "over",
+      "actual_value": 4.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Alex Smalley",
+      "category": "strokes",
+      "line": 69.5,
+      "result": "hit",
+      "model_prob": 0.571086974899772,
+      "picked_side": "under",
+      "actual_value": 69.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Alex Smalley",
+      "category": "pars",
+      "line": 11.0,
+      "result": "hit",
+      "model_prob": 0.6154251669402002,
+      "picked_side": "under",
+      "actual_value": 10.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Christiaan Bezuidenhout",
+      "category": "birdies",
+      "line": 4.0,
+      "result": "push",
+      "model_prob": 0.5253388937753126,
+      "picked_side": "over",
+      "actual_value": 4.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Christiaan Bezuidenhout",
+      "category": "strokes",
+      "line": 70.0,
+      "result": "hit",
+      "model_prob": 0.6310687099387331,
+      "picked_side": "under",
+      "actual_value": 68.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Christiaan Bezuidenhout",
+      "category": "pars",
+      "line": 11.5,
+      "result": "miss",
+      "model_prob": 0.5892029598304123,
+      "picked_side": "under",
+      "actual_value": 13.0
+    },
+    {
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
       "player": "Brian Harman",
       "category": "birdies",
       "line": 4.0,
       "result": "hit",
-      "model_prob": 0.5216423393859883,
+      "model_prob": 0.5236577730889352,
       "picked_side": "over",
       "actual_value": 5.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Keegan Bradley",
+      "player": "Brian Harman",
       "category": "strokes",
       "line": 69.5,
       "result": "miss",
-      "model_prob": 0.5236594757847988,
+      "model_prob": 0.5282142523452538,
       "picked_side": "over",
-      "actual_value": 66.0
+      "actual_value": 67.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Brian Harman",
+      "category": "bogeys",
+      "line": 2.5,
+      "result": "miss",
+      "model_prob": 0.5644800165337295,
+      "picked_side": "over",
+      "actual_value": 1.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Hideki Matsuyama",
+      "category": "strokes",
+      "line": 69.0,
+      "result": "miss",
+      "model_prob": 0.5215205784518997,
+      "picked_side": "over",
+      "actual_value": 67.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Sungjae Im",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "miss",
+      "model_prob": 0.5462067502939826,
+      "picked_side": "over",
+      "actual_value": 4.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Keegan Bradley",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "miss",
+      "model_prob": 0.542007499402504,
+      "picked_side": "over",
+      "actual_value": 4.0
+    },
+    {
+      "date": "2026-10-10",
+      "tournament": "Baycurrent Classic",
+      "player": "Keith Mitchell",
+      "category": "pars",
+      "line": 10.5,
+      "result": "hit",
+      "model_prob": 0.5357686822254853,
+      "picked_side": "over",
+      "actual_value": 12.0
+    },
+    {
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
       "player": "Jordan Spieth",
       "category": "strokes",
       "line": 69.5,
       "result": "miss",
-      "model_prob": 0.515997105507138,
+      "model_prob": 0.5123439116417461,
       "picked_side": "over",
-      "actual_value": 68.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Mac Meissner",
-      "category": "birdies",
-      "line": 4.0,
-      "result": "push",
-      "model_prob": 0.5598920561399131,
-      "picked_side": "over",
-      "actual_value": 4.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Stephan Jaeger",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "hit",
-      "model_prob": 0.5804412063616938,
-      "picked_side": "under",
       "actual_value": 67.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Michael Kim",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "miss",
-      "model_prob": 0.5400009156593463,
-      "picked_side": "over",
-      "actual_value": 68.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Min Woo Lee",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "hit",
-      "model_prob": 0.550249812982124,
-      "picked_side": "over",
-      "actual_value": 72.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Max Homa",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "hit",
-      "model_prob": 0.5345449178336441,
-      "picked_side": "over",
-      "actual_value": 70.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Max Homa",
+      "player": "Maverick McNealy",
       "category": "birdies",
       "line": 4.5,
       "result": "hit",
-      "model_prob": 0.5022413213897483,
-      "picked_side": "under",
-      "actual_value": 2.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Taylor Moore",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "miss",
-      "model_prob": 0.537402407916737,
-      "picked_side": "under",
-      "actual_value": 72.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Taylor Moore",
-      "category": "birdies",
-      "line": 4.0,
-      "result": "miss",
-      "model_prob": 0.5407799579819316,
+      "model_prob": 0.5732860977701529,
       "picked_side": "over",
-      "actual_value": 2.0
+      "actual_value": 6.0
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
       "player": "Maverick McNealy",
       "category": "strokes",
       "line": 69.0,
-      "result": "hit",
-      "model_prob": 0.5291274116176509,
-      "picked_side": "over",
-      "actual_value": 70.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Keith Mitchell",
-      "category": "strokes",
-      "line": 69.5,
       "result": "miss",
-      "model_prob": 0.5750466745480967,
-      "picked_side": "under",
-      "actual_value": 70.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Justin Thomas",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "miss",
-      "model_prob": 0.5644897199378055,
+      "model_prob": 0.5254804763514314,
       "picked_side": "over",
       "actual_value": 67.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Jordan Spieth",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "miss",
-      "model_prob": 0.550239407780664,
-      "picked_side": "over",
-      "actual_value": 3.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Pierceson Coody",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "miss",
-      "model_prob": 0.5879415656027018,
-      "picked_side": "under",
-      "actual_value": 72.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Mac Meissner",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "push",
-      "model_prob": 0.6044132181736674,
-      "picked_side": "under",
-      "actual_value": 70.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Johnny Keefer",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "miss",
-      "model_prob": 0.5180472245344554,
-      "picked_side": "under",
-      "actual_value": 74.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Michael Brennan",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "miss",
-      "model_prob": 0.534147253673733,
-      "picked_side": "over",
-      "actual_value": 65.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Ricky Castillo",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "miss",
-      "model_prob": 0.6002384226059346,
-      "picked_side": "under",
-      "actual_value": 74.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Ricky Castillo",
-      "category": "birdies",
-      "line": 4.0,
-      "result": "push",
-      "model_prob": 0.5536143301918762,
-      "picked_side": "over",
-      "actual_value": 4.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Kurt Kitayama",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "hit",
-      "model_prob": 0.5478504767182424,
-      "picked_side": "over",
-      "actual_value": 73.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Adam Scott",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "miss",
-      "model_prob": 0.559668572389723,
-      "picked_side": "over",
-      "actual_value": 65.0
-    },
-    {
-      "date": "2026-10-09",
-      "tournament": "Baycurrent Classic",
-      "player": "Matt Wallace",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "miss",
-      "model_prob": 0.5339429626880225,
-      "picked_side": "over",
-      "actual_value": 4.0
     }
   ]
 }
