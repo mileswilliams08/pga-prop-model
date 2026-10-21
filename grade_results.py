@@ -253,14 +253,19 @@ def grade_tournament_day(props_snapshot: dict, graded_rounds_by_player: dict,
 
 
 def _load_existing_keys(path: str) -> set:
-    """Dedup key: (date, player, category, round) — reruns on the same
-    day/round/player/category just skip, instead of double-logging."""
+    """Dedup key: (tournament, player, category, round) -- each pick is graded
+    ONCE per round, from the earliest snapshot that predicted it. Keyed without
+    the date on purpose: for an event whose rounds are played after the daily
+    run (e.g. Bermuda), two consecutive days' snapshots can both be stamped
+    as predicting Round 1, and the old (date, ...) key would have logged every
+    Round 1 pick twice. Snapshots are graded oldest-first, so the first one
+    wins. Reruns of the same snapshot still just skip."""
     if not os.path.exists(path):
         return set()
     keys = set()
     with open(path, newline="") as f:
         for row in csv.DictReader(f):
-            keys.add((row["date"], row["player"], row["category"], row["round"]))
+            keys.add((row["tournament"], row["player"], row["category"], row["round"]))
     return keys
 
 
@@ -273,7 +278,7 @@ def append_graded_rows(rows: list, date_str: str, tournament_name: str,
     new_rows = []
     for row in rows:
         full_row = {"date": date_str, "tournament": tournament_name, **row}
-        key = (date_str, full_row["player"], full_row["category"], str(full_row["round"]))
+        key = (tournament_name, full_row["player"], full_row["category"], str(full_row["round"]))
         if key in existing_keys:
             continue
         new_rows.append(full_row)
