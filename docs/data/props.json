@@ -1,6 +1,6 @@
 {
   "tournament_name": "Butterfield Bermuda Championship",
-  "generated_at": "2026-10-21T17:50:23.528033+00:00",
+  "generated_at": "2026-10-22T03:29:51.593032+00:00",
   "course_par": 71,
   "props": [
     {
@@ -504,8 +504,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7246947730688145,
-        "under": 0.27530522693118553
+        "over": 0.7246947730687882,
+        "under": 0.27530522693121184
       },
       "strokes": {
         "line": 70.5,
@@ -518,16 +518,16 @@
         "source": null,
         "experimental": true,
         "expected": 10.74,
-        "over": 0.36434171563081097,
-        "under": 0.635658284369189
+        "over": 0.36434171563148726,
+        "under": 0.6356582843685128
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.98,
-        "over": 0.5742955464979519,
-        "under": 0.4257044535020481
+        "over": 0.5742955464979517,
+        "under": 0.42570445350204833
       },
       "platform_lines": []
     },
@@ -1307,8 +1307,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7554327750126136,
-        "under": 0.24456722498738637
+        "over": 0.7554327750125923,
+        "under": 0.24456722498740768
       },
       "strokes": {
         "line": 70.5,
@@ -1321,16 +1321,16 @@
         "source": null,
         "experimental": true,
         "expected": 10.81,
-        "over": 0.3761304270887246,
-        "under": 0.6238695729112754
+        "over": 0.3761304270883205,
+        "under": 0.6238695729116794
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.75,
-        "over": 0.5179973094240781,
-        "under": 0.48200269057592193
+        "over": 0.5179973094240762,
+        "under": 0.4820026905759238
       },
       "platform_lines": []
     },
@@ -1937,8 +1937,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7486145659566893,
-        "under": 0.2513854340433107
+        "over": 0.7486145659566955,
+        "under": 0.2513854340433045
       },
       "strokes": {
         "line": 70.5,
@@ -1959,8 +1959,8 @@
         "source": null,
         "experimental": true,
         "expected": 2.73,
-        "over": 0.5132375618354809,
-        "under": 0.48676243816451914
+        "over": 0.5132375618355101,
+        "under": 0.48676243816448994
       },
       "platform_lines": []
     },
@@ -3288,8 +3288,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.6928762605435818,
-        "under": 0.30712373945641824
+        "over": 0.6928762605435803,
+        "under": 0.3071237394564197
       },
       "strokes": {
         "line": 70.5,
@@ -3310,8 +3310,8 @@
         "source": null,
         "experimental": true,
         "expected": 3.16,
-        "over": 0.6152069808052041,
-        "under": 0.3847930191947959
+        "over": 0.6152069808052142,
+        "under": 0.3847930191947858
       },
       "platform_lines": []
     },
@@ -4657,8 +4657,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7303381009115468,
-        "under": 0.26966189908845317
+        "over": 0.7303381009115488,
+        "under": 0.2696618990884512
       },
       "strokes": {
         "line": 70.5,
@@ -4671,16 +4671,16 @@
         "source": null,
         "experimental": true,
         "expected": 10.64,
-        "over": 0.34555888825031333,
-        "under": 0.6544411117496867
+        "over": 0.3455588882493907,
+        "under": 0.6544411117506093
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.15,
-        "over": 0.6125679417896271,
-        "under": 0.38743205821037285
+        "over": 0.612567941789623,
+        "under": 0.38743205821037696
       },
       "platform_lines": []
     },
@@ -6711,8 +6711,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7122507229647941,
-        "under": 0.2877492770352059
+        "over": 0.7122507229647727,
+        "under": 0.28774927703522735
       },
       "strokes": {
         "line": 70.5,
@@ -6733,8 +6733,8 @@
         "source": null,
         "experimental": true,
         "expected": 2.57,
-        "over": 0.4751151660552961,
-        "under": 0.5248848339447039
+        "over": 0.4751151660552979,
+        "under": 0.5248848339447021
       },
       "platform_lines": []
     },
@@ -7744,8 +7744,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7006031004441957,
-        "under": 0.2993968995558043
+        "over": 0.7006031004442393,
+        "under": 0.29939689955576065
       },
       "strokes": {
         "line": 70.5,
@@ -8943,8 +8943,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.6920374013180588,
-        "under": 0.3079625986819412
+        "over": 0.6920374013180606,
+        "under": 0.3079625986819394
       },
       "strokes": {
         "line": 70.5,
@@ -8965,8 +8965,8 @@
         "source": null,
         "experimental": true,
         "expected": 2.97,
-        "over": 0.5706458334523333,
-        "under": 0.42935416654766667
+        "over": 0.5706458334523411,
+        "under": 0.4293541665476589
       },
       "platform_lines": []
     },
@@ -9742,8 +9742,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.682446506015867,
-        "under": 0.317553493984133
+        "over": 0.6824465060158922,
+        "under": 0.3175534939841078
       },
       "strokes": {
         "line": 70.5,
@@ -9756,16 +9756,16 @@
         "source": null,
         "experimental": true,
         "expected": 10.79,
-        "over": 0.37310586856859834,
-        "under": 0.6268941314314016
+        "over": 0.37310586856825895,
+        "under": 0.6268941314317411
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.04,
-        "over": 0.5885400476588923,
-        "under": 0.41145995234110766
+        "over": 0.5885400476588893,
+        "under": 0.41145995234111066
       },
       "platform_lines": []
     },
