@@ -266,3 +266,46 @@ date,tournament,round,player,category,line,source,model_prob,picked_side,actual_
 2026-10-10,Baycurrent Classic,4,Patrick Rodgers,birdies,4.0,prizepicks,0.5272383037280972,over,5,hit,False
 2026-10-10,Baycurrent Classic,4,Patrick Rodgers,strokes,70.5,prizepicks,0.5745735767404411,under,70.0,hit,False
 2026-10-10,Baycurrent Classic,4,Wyndham Clark,strokes,69.0,prizepicks,0.530687719108001,over,69.0,push,False
+2026-10-21,Butterfield Bermuda Championship,1,Kevin Yu,strokes,68.5,prizepicks,0.5543401470914874,over,74.0,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Kevin Yu,pars,11.0,prizepicks,0.6249998343909795,under,9,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Max Greyserman,strokes,68.5,prizepicks,0.6260179166312219,over,73.0,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Max Greyserman,pars,11.0,prizepicks,0.6440340617903328,under,13,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Max Greyserman,bogeys,2.5,prizepicks,0.5633599401634811,over,3,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Chris Kirk,strokes,68.5,prizepicks,0.6208023268905017,over,66.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Chris Kirk,pars,11.0,prizepicks,0.6290181292060499,under,11,push,False
+2026-10-21,Butterfield Bermuda Championship,1,Eric Cole,strokes,68.5,prizepicks,0.6219440309304617,over,65.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Eric Cole,pars,11.0,prizepicks,0.6294947973581022,under,10,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Andrew Novak,strokes,68.5,prizepicks,0.5812095481616971,over,64.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Andrew Novak,pars,11.0,prizepicks,0.6068844976073187,under,9,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Ben Kohles,birdies,4.5,prizepicks,0.5429614406772862,over,11,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Ben Kohles,strokes,68.5,prizepicks,0.5956526108235947,over,63.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Ben Kohles,pars,11.5,prizepicks,0.6074301056379514,under,4,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Austin Smotherman,strokes,68.5,prizepicks,0.6087460063808262,over,65.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Austin Smotherman,pars,11.0,prizepicks,0.6175230206667761,under,12,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Kevin Roy,strokes,68.5,prizepicks,0.5633136711514578,over,69.0,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Kevin Roy,pars,11.0,prizepicks,0.5945854995601121,under,12,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Rico Hoey,strokes,68.5,prizepicks,0.5995689933405408,over,69.0,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Rico Hoey,pars,11.0,prizepicks,0.600150777998204,under,9,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Corey Conners,strokes,68.5,prizepicks,0.6415233850825631,over,63.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Corey Conners,pars,11.0,prizepicks,0.6172086815489415,under,10,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Neal Shipley,strokes,68.5,prizepicks,0.6251842277202851,over,68.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Adam Schenk,strokes,69.0,prizepicks,0.6063984102277034,over,75.0,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Trace Crowe,birdies,4.5,prizepicks,0.5707021385359289,over,5,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Trace Crowe,strokes,68.5,prizepicks,0.6363812351469458,over,66.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Taylor Pendrith,birdies,4.5,prizepicks,0.5519761300818885,over,5,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Taylor Pendrith,strokes,69.0,prizepicks,0.5226770754943881,over,68.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Chandler Phillips,birdies,4.5,prizepicks,0.5317260799218665,over,6,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Chandler Phillips,strokes,69.0,prizepicks,0.5303962691196284,over,67.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Patrick Fishburn,birdies,4.5,prizepicks,0.5023689303737732,over,5,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Patrick Fishburn,strokes,68.5,prizepicks,0.622251164859711,over,68.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Austin Eckroat,birdies,4.5,prizepicks,0.5549208423058498,over,3,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Austin Eckroat,strokes,68.5,prizepicks,0.6203473649246757,over,70.0,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Denny McCarthy,birdies,4.5,prizepicks,0.538134960436474,over,5,hit,False
+2026-10-21,Butterfield Bermuda Championship,1,Denny McCarthy,strokes,68.5,prizepicks,0.5896158461037722,over,67.0,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Max McGreevy,birdies,4.5,prizepicks,0.5382531804859496,over,4,miss,False
+2026-10-21,Butterfield Bermuda Championship,1,Max McGreevy,strokes,68.5,prizepicks,0.5674566298937973,over,69.0,hit,False
+2026-10-22,Butterfield Bermuda Championship,1,Max Greyserman,birdies,5.0,prizepicks,0.605509289308102,under,2,hit,False
+2026-10-22,Butterfield Bermuda Championship,1,Corey Conners,birdies,5.0,prizepicks,0.6580155781028575,under,8,miss,False
+2026-10-22,Butterfield Bermuda Championship,1,Chris Kirk,birdies,5.0,prizepicks,0.6255620533687587,under,6,miss,False
+2026-10-22,Butterfield Bermuda Championship,1,Rico Hoey,birdies,5.0,prizepicks,0.6589566254925407,under,6,miss,False
+2026-10-22,Butterfield Bermuda Championship,1,Andrew Novak,birdies,5.0,prizepicks,0.6388704847826392,under,8,miss,False
