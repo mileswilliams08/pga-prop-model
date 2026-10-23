@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T13:22:39.548460+00:00",
+  "generated_at": "2026-10-23T06:37:11.408556+00:00",
   "picks": [
     {
       "t": "Bank of Utah Championship",
@@ -2715,26 +2715,470 @@
       "bs": "over",
       "bp": 0.5154,
       "bx": "p"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5543,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5272,
+      "bx": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "pars",
+      "s": "under",
+      "p": 0.625,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.626,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5638,
+      "bx": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "pars",
+      "s": "under",
+      "p": 0.644,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "bogeys",
+      "s": "over",
+      "p": 0.5634,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.6208,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5611,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "pars",
+      "s": "under",
+      "p": 0.629,
+      "x": "p",
+      "ox": "p"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.6219,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5617,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6295,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5812,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5408,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6069,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.543,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5957,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5482,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6074,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.6087,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5549,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6175,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5633,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5318,
+      "bx": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "pars",
+      "s": "under",
+      "p": 0.5946,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5996,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5502,
+      "bx": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6002,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.6415,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5719,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "pars",
+      "s": "under",
+      "p": 0.6172,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.6252,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5634,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.6064,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5537,
+      "bx": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5707,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.6364,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5692,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.552,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5227,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5113,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5317,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5304,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5152,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5024,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.6223,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5619,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5549,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.6203,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5609,
+      "bx": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5381,
+      "x": "h",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5896,
+      "x": "m",
+      "ox": "m",
+      "bs": "over",
+      "bp": 0.5451,
+      "bx": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5383,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "strokes",
+      "s": "over",
+      "p": 0.5675,
+      "x": "h",
+      "ox": "h",
+      "bs": "over",
+      "bp": 0.5338,
+      "bx": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "under",
+      "p": 0.6055,
+      "x": "h",
+      "ox": "m"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "under",
+      "p": 0.658,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "under",
+      "p": 0.6256,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "under",
+      "p": 0.659,
+      "x": "m",
+      "ox": "h"
+    },
+    {
+      "t": "Butterfield Bermuda Championship",
+      "r": 1,
+      "c": "birdies",
+      "s": "under",
+      "p": 0.6389,
+      "x": "m",
+      "ox": "h"
     }
   ],
   "overall": {
-    "n": 206,
-    "hits": 101,
+    "n": 238,
+    "hits": 115,
     "pushes": 20,
-    "hit_rate": 0.49029126213592233
+    "hit_rate": 0.4831932773109244
   },
   "by_category": {
     "birdies": {
-      "n": 61,
-      "hits": 30,
+      "n": 74,
+      "hits": 37,
       "pushes": 5,
-      "hit_rate": 0.4918032786885246
+      "hit_rate": 0.5
     },
     "bogeys": {
-      "n": 10,
-      "hits": 5,
+      "n": 11,
+      "hits": 6,
       "pushes": 0,
-      "hit_rate": 0.5
+      "hit_rate": 0.5454545454545454
     },
     "fairways": {
       "n": 5,
@@ -2749,53 +3193,53 @@
       "hit_rate": 0.3333333333333333
     },
     "pars": {
-      "n": 15,
-      "hits": 9,
-      "pushes": 2,
-      "hit_rate": 0.6
+      "n": 24,
+      "hits": 15,
+      "pushes": 3,
+      "hit_rate": 0.625
     },
     "strokes": {
-      "n": 134,
-      "hits": 68,
+      "n": 153,
+      "hits": 75,
       "pushes": 12,
-      "hit_rate": 0.5074626865671642
+      "hit_rate": 0.49019607843137253
     }
   },
   "by_side": {
     "over": {
-      "n": 146,
-      "hits": 74,
+      "n": 174,
+      "hits": 88,
       "pushes": 10,
-      "hit_rate": 0.5068493150684932
+      "hit_rate": 0.5057471264367817
     },
     "under": {
-      "n": 85,
-      "hits": 41,
-      "pushes": 12,
-      "hit_rate": 0.4823529411764706
+      "n": 99,
+      "hits": 48,
+      "pushes": 13,
+      "hit_rate": 0.48484848484848486
     }
   },
   "by_category_side": {
     "birdies": {
       "over": {
-        "n": 48,
-        "hits": 22,
+        "n": 56,
+        "hits": 28,
         "pushes": 4,
-        "hit_rate": 0.4583333333333333
+        "hit_rate": 0.5
       },
       "under": {
-        "n": 13,
-        "hits": 8,
+        "n": 18,
+        "hits": 9,
         "pushes": 1,
-        "hit_rate": 0.6153846153846154
+        "hit_rate": 0.5
       }
     },
     "bogeys": {
       "over": {
-        "n": 8,
-        "hits": 4,
+        "n": 9,
+        "hits": 5,
         "pushes": 0,
-        "hit_rate": 0.5
+        "hit_rate": 0.5555555555555556
       },
       "under": {
         "n": 2,
@@ -2840,18 +3284,18 @@
         "hit_rate": 1.0
       },
       "under": {
-        "n": 13,
-        "hits": 7,
-        "pushes": 2,
-        "hit_rate": 0.5384615384615384
+        "n": 22,
+        "hits": 13,
+        "pushes": 3,
+        "hit_rate": 0.5909090909090909
       }
     },
     "strokes": {
       "over": {
-        "n": 87,
-        "hits": 45,
+        "n": 106,
+        "hits": 52,
         "pushes": 6,
-        "hit_rate": 0.5172413793103449
+        "hit_rate": 0.49056603773584906
       },
       "under": {
         "n": 47,
@@ -3415,45 +3859,293 @@
           }
         }
       }
+    },
+    "Butterfield Bermuda Championship": {
+      "overall": {
+        "n": 42,
+        "hits": 21,
+        "pushes": 1,
+        "hit_rate": 0.5
+      },
+      "by_side": {
+        "over": {
+          "n": 28,
+          "hits": 14,
+          "pushes": 0,
+          "hit_rate": 0.5
+        },
+        "under": {
+          "n": 14,
+          "hits": 7,
+          "pushes": 1,
+          "hit_rate": 0.5
+        }
+      },
+      "by_category_side": {
+        "birdies": {
+          "over": {
+            "n": 8,
+            "hits": 6,
+            "pushes": 0,
+            "hit_rate": 0.75
+          },
+          "under": {
+            "n": 5,
+            "hits": 1,
+            "pushes": 0,
+            "hit_rate": 0.2
+          }
+        },
+        "bogeys": {
+          "over": {
+            "n": 1,
+            "hits": 1,
+            "pushes": 0,
+            "hit_rate": 1.0
+          },
+          "under": {
+            "n": 0,
+            "hits": 0,
+            "pushes": 0,
+            "hit_rate": null
+          }
+        },
+        "pars": {
+          "over": {
+            "n": 0,
+            "hits": 0,
+            "pushes": 0,
+            "hit_rate": null
+          },
+          "under": {
+            "n": 9,
+            "hits": 6,
+            "pushes": 1,
+            "hit_rate": 0.6666666666666666
+          }
+        },
+        "strokes": {
+          "over": {
+            "n": 19,
+            "hits": 7,
+            "pushes": 0,
+            "hit_rate": 0.3684210526315789
+          },
+          "under": {
+            "n": 0,
+            "hits": 0,
+            "pushes": 0,
+            "hit_rate": null
+          }
+        }
+      },
+      "by_round": {
+        "1": {
+          "overall": {
+            "n": 42,
+            "hits": 21,
+            "pushes": 1,
+            "hit_rate": 0.5
+          },
+          "by_category": {
+            "birdies": {
+              "n": 13,
+              "hits": 7,
+              "pushes": 0,
+              "hit_rate": 0.5384615384615384
+            },
+            "bogeys": {
+              "n": 1,
+              "hits": 1,
+              "pushes": 0,
+              "hit_rate": 1.0
+            },
+            "pars": {
+              "n": 9,
+              "hits": 6,
+              "pushes": 1,
+              "hit_rate": 0.6666666666666666
+            },
+            "strokes": {
+              "n": 19,
+              "hits": 7,
+              "pushes": 0,
+              "hit_rate": 0.3684210526315789
+            }
+          },
+          "by_side": {
+            "over": {
+              "n": 28,
+              "hits": 14,
+              "pushes": 0,
+              "hit_rate": 0.5
+            },
+            "under": {
+              "n": 14,
+              "hits": 7,
+              "pushes": 1,
+              "hit_rate": 0.5
+            }
+          },
+          "by_category_side": {
+            "birdies": {
+              "over": {
+                "n": 8,
+                "hits": 6,
+                "pushes": 0,
+                "hit_rate": 0.75
+              },
+              "under": {
+                "n": 5,
+                "hits": 1,
+                "pushes": 0,
+                "hit_rate": 0.2
+              }
+            },
+            "bogeys": {
+              "over": {
+                "n": 1,
+                "hits": 1,
+                "pushes": 0,
+                "hit_rate": 1.0
+              },
+              "under": {
+                "n": 0,
+                "hits": 0,
+                "pushes": 0,
+                "hit_rate": null
+              }
+            },
+            "pars": {
+              "over": {
+                "n": 0,
+                "hits": 0,
+                "pushes": 0,
+                "hit_rate": null
+              },
+              "under": {
+                "n": 9,
+                "hits": 6,
+                "pushes": 1,
+                "hit_rate": 0.6666666666666666
+              }
+            },
+            "strokes": {
+              "over": {
+                "n": 19,
+                "hits": 7,
+                "pushes": 0,
+                "hit_rate": 0.3684210526315789
+              },
+              "under": {
+                "n": 0,
+                "hits": 0,
+                "pushes": 0,
+                "hit_rate": null
+              }
+            }
+          }
+        }
+      }
     }
   },
   "by_round": {
     "1": {
       "overall": {
-        "n": 28,
-        "hits": 18,
-        "pushes": 1,
-        "hit_rate": 0.6428571428571429
+        "n": 70,
+        "hits": 39,
+        "pushes": 2,
+        "hit_rate": 0.5571428571428572
       },
       "by_category": {
-        "strokes": {
-          "n": 28,
-          "hits": 18,
+        "birdies": {
+          "n": 13,
+          "hits": 7,
+          "pushes": 0,
+          "hit_rate": 0.5384615384615384
+        },
+        "bogeys": {
+          "n": 1,
+          "hits": 1,
+          "pushes": 0,
+          "hit_rate": 1.0
+        },
+        "pars": {
+          "n": 9,
+          "hits": 6,
           "pushes": 1,
-          "hit_rate": 0.6428571428571429
+          "hit_rate": 0.6666666666666666
+        },
+        "strokes": {
+          "n": 47,
+          "hits": 25,
+          "pushes": 1,
+          "hit_rate": 0.5319148936170213
         }
       },
       "by_side": {
         "over": {
-          "n": 26,
-          "hits": 17,
+          "n": 54,
+          "hits": 31,
           "pushes": 1,
-          "hit_rate": 0.6538461538461539
+          "hit_rate": 0.5740740740740741
         },
         "under": {
-          "n": 2,
-          "hits": 1,
-          "pushes": 0,
+          "n": 16,
+          "hits": 8,
+          "pushes": 1,
           "hit_rate": 0.5
         }
       },
       "by_category_side": {
+        "birdies": {
+          "over": {
+            "n": 8,
+            "hits": 6,
+            "pushes": 0,
+            "hit_rate": 0.75
+          },
+          "under": {
+            "n": 5,
+            "hits": 1,
+            "pushes": 0,
+            "hit_rate": 0.2
+          }
+        },
+        "bogeys": {
+          "over": {
+            "n": 1,
+            "hits": 1,
+            "pushes": 0,
+            "hit_rate": 1.0
+          },
+          "under": {
+            "n": 0,
+            "hits": 0,
+            "pushes": 0,
+            "hit_rate": null
+          }
+        },
+        "pars": {
+          "over": {
+            "n": 0,
+            "hits": 0,
+            "pushes": 0,
+            "hit_rate": null
+          },
+          "under": {
+            "n": 9,
+            "hits": 6,
+            "pushes": 1,
+            "hit_rate": 0.6666666666666666
+          }
+        },
         "strokes": {
           "over": {
-            "n": 26,
-            "hits": 17,
+            "n": 45,
+            "hits": 24,
             "pushes": 1,
-            "hit_rate": 0.6538461538461539
+            "hit_rate": 0.5333333333333333
           },
           "under": {
             "n": 2,
@@ -3745,16 +4437,16 @@
   },
   "by_confidence_bucket": {
     "50-60%": {
-      "n": 159,
-      "hits": 73,
+      "n": 176,
+      "hits": 83,
       "pushes": 13,
-      "hit_rate": 0.4591194968553459
+      "hit_rate": 0.4715909090909091
     },
     "60-70%": {
-      "n": 43,
-      "hits": 26,
+      "n": 58,
+      "hits": 30,
       "pushes": 5,
-      "hit_rate": 0.6046511627906976
+      "hit_rate": 0.5172413793103449
     },
     "70-80%": {
       "n": 4,
@@ -3771,70 +4463,477 @@
   },
   "recent": [
     {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Wyndham Clark",
+      "date": "2026-10-22",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Andrew Novak",
+      "category": "birdies",
+      "line": 5.0,
+      "result": "miss",
+      "model_prob": 0.6388704847826392,
+      "picked_side": "under",
+      "actual_value": 8.0
+    },
+    {
+      "date": "2026-10-22",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Rico Hoey",
+      "category": "birdies",
+      "line": 5.0,
+      "result": "miss",
+      "model_prob": 0.6589566254925407,
+      "picked_side": "under",
+      "actual_value": 6.0
+    },
+    {
+      "date": "2026-10-22",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Chris Kirk",
+      "category": "birdies",
+      "line": 5.0,
+      "result": "miss",
+      "model_prob": 0.6255620533687587,
+      "picked_side": "under",
+      "actual_value": 6.0
+    },
+    {
+      "date": "2026-10-22",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Corey Conners",
+      "category": "birdies",
+      "line": 5.0,
+      "result": "miss",
+      "model_prob": 0.6580155781028575,
+      "picked_side": "under",
+      "actual_value": 8.0
+    },
+    {
+      "date": "2026-10-22",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Max Greyserman",
+      "category": "birdies",
+      "line": 5.0,
+      "result": "hit",
+      "model_prob": 0.605509289308102,
+      "picked_side": "under",
+      "actual_value": 2.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Andrew Novak",
       "category": "strokes",
-      "line": 69.0,
-      "result": "push",
-      "model_prob": 0.530687719108001,
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.5812095481616971,
+      "picked_side": "over",
+      "actual_value": 64.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Kevin Roy",
+      "category": "pars",
+      "line": 11.0,
+      "result": "miss",
+      "model_prob": 0.5945854995601121,
+      "picked_side": "under",
+      "actual_value": 12.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Kevin Roy",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "hit",
+      "model_prob": 0.5633136711514578,
       "picked_side": "over",
       "actual_value": 69.0
     },
     {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Hideki Matsuyama",
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Austin Smotherman",
+      "category": "pars",
+      "line": 11.0,
+      "result": "miss",
+      "model_prob": 0.6175230206667761,
+      "picked_side": "under",
+      "actual_value": 12.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Austin Smotherman",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.6087460063808262,
+      "picked_side": "over",
+      "actual_value": 65.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Ben Kohles",
+      "category": "pars",
+      "line": 11.5,
+      "result": "hit",
+      "model_prob": 0.6074301056379514,
+      "picked_side": "under",
+      "actual_value": 4.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Ben Kohles",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.5956526108235947,
+      "picked_side": "over",
+      "actual_value": 63.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Ben Kohles",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "hit",
+      "model_prob": 0.5429614406772862,
+      "picked_side": "over",
+      "actual_value": 11.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Andrew Novak",
       "category": "pars",
       "line": 11.0,
       "result": "hit",
-      "model_prob": 0.6152902455333431,
+      "model_prob": 0.6068844976073187,
+      "picked_side": "under",
+      "actual_value": 9.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Eric Cole",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.6219440309304617,
+      "picked_side": "over",
+      "actual_value": 65.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Eric Cole",
+      "category": "pars",
+      "line": 11.0,
+      "result": "hit",
+      "model_prob": 0.6294947973581022,
       "picked_side": "under",
       "actual_value": 10.0
     },
     {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Rickie Fowler",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "miss",
-      "model_prob": 0.5221665511771075,
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Rico Hoey",
+      "category": "pars",
+      "line": 11.0,
+      "result": "hit",
+      "model_prob": 0.600150777998204,
       "picked_side": "under",
-      "actual_value": 76.0
+      "actual_value": 9.0
     },
     {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Rickie Fowler",
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Chris Kirk",
+      "category": "pars",
+      "line": 11.0,
+      "result": "push",
+      "model_prob": 0.6290181292060499,
+      "picked_side": "under",
+      "actual_value": 11.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Chris Kirk",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.6208023268905017,
+      "picked_side": "over",
+      "actual_value": 66.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Max Greyserman",
       "category": "bogeys",
       "line": 2.5,
       "result": "hit",
-      "model_prob": 0.5395505343946553,
+      "model_prob": 0.5633599401634811,
+      "picked_side": "over",
+      "actual_value": 3.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Max Greyserman",
+      "category": "pars",
+      "line": 11.0,
+      "result": "miss",
+      "model_prob": 0.6440340617903328,
+      "picked_side": "under",
+      "actual_value": 13.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Max Greyserman",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "hit",
+      "model_prob": 0.6260179166312219,
+      "picked_side": "over",
+      "actual_value": 73.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Kevin Yu",
+      "category": "pars",
+      "line": 11.0,
+      "result": "hit",
+      "model_prob": 0.6249998343909795,
+      "picked_side": "under",
+      "actual_value": 9.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Rico Hoey",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "hit",
+      "model_prob": 0.5995689933405408,
+      "picked_side": "over",
+      "actual_value": 69.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Kevin Yu",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "hit",
+      "model_prob": 0.5543401470914874,
+      "picked_side": "over",
+      "actual_value": 74.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Corey Conners",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.6415233850825631,
+      "picked_side": "over",
+      "actual_value": 63.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Patrick Fishburn",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "hit",
+      "model_prob": 0.5023689303737732,
       "picked_side": "over",
       "actual_value": 5.0
     },
     {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Sungjae Im",
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Corey Conners",
+      "category": "pars",
+      "line": 11.0,
+      "result": "hit",
+      "model_prob": 0.6172086815489415,
+      "picked_side": "under",
+      "actual_value": 10.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Max McGreevy",
       "category": "strokes",
-      "line": 69.0,
+      "line": 68.5,
+      "result": "hit",
+      "model_prob": 0.5674566298937973,
+      "picked_side": "over",
+      "actual_value": 69.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Max McGreevy",
+      "category": "birdies",
+      "line": 4.5,
       "result": "miss",
-      "model_prob": 0.560941303439357,
+      "model_prob": 0.5382531804859496,
+      "picked_side": "over",
+      "actual_value": 4.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Denny McCarthy",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.5896158461037722,
+      "picked_side": "over",
+      "actual_value": 67.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Denny McCarthy",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "hit",
+      "model_prob": 0.538134960436474,
+      "picked_side": "over",
+      "actual_value": 5.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Austin Eckroat",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "miss",
+      "model_prob": 0.5549208423058498,
+      "picked_side": "over",
+      "actual_value": 3.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Patrick Fishburn",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.622251164859711,
       "picked_side": "over",
       "actual_value": 68.0
     },
     {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Sungjae Im",
-      "category": "pars",
-      "line": 11.0,
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Austin Eckroat",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "hit",
+      "model_prob": 0.6203473649246757,
+      "picked_side": "over",
+      "actual_value": 70.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Chandler Phillips",
+      "category": "strokes",
+      "line": 69.0,
       "result": "miss",
-      "model_prob": 0.6247859044587901,
-      "picked_side": "under",
-      "actual_value": 13.0
+      "model_prob": 0.5303962691196284,
+      "picked_side": "over",
+      "actual_value": 67.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Taylor Pendrith",
+      "category": "strokes",
+      "line": 69.0,
+      "result": "miss",
+      "model_prob": 0.5226770754943881,
+      "picked_side": "over",
+      "actual_value": 68.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Taylor Pendrith",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "hit",
+      "model_prob": 0.5519761300818885,
+      "picked_side": "over",
+      "actual_value": 5.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Trace Crowe",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.6363812351469458,
+      "picked_side": "over",
+      "actual_value": 66.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Trace Crowe",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "hit",
+      "model_prob": 0.5707021385359289,
+      "picked_side": "over",
+      "actual_value": 5.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Adam Schenk",
+      "category": "strokes",
+      "line": 69.0,
+      "result": "hit",
+      "model_prob": 0.6063984102277034,
+      "picked_side": "over",
+      "actual_value": 75.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Chandler Phillips",
+      "category": "birdies",
+      "line": 4.5,
+      "result": "hit",
+      "model_prob": 0.5317260799218665,
+      "picked_side": "over",
+      "actual_value": 6.0
+    },
+    {
+      "date": "2026-10-21",
+      "tournament": "Butterfield Bermuda Championship",
+      "player": "Neal Shipley",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.6251842277202851,
+      "picked_side": "over",
+      "actual_value": 68.0
     },
     {
       "date": "2026-10-10",
@@ -3851,17 +4950,6 @@
       "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
       "player": "Michael Thorbjornsen",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "hit",
-      "model_prob": 0.5738633552546404,
-      "picked_side": "over",
-      "actual_value": 5.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Michael Thorbjornsen",
       "category": "strokes",
       "line": 69.0,
       "result": "miss",
@@ -3873,386 +4961,45 @@
       "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
       "player": "Michael Thorbjornsen",
-      "category": "pars",
-      "line": 11.0,
-      "result": "hit",
-      "model_prob": 0.61275288799246,
-      "picked_side": "under",
-      "actual_value": 9.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Michael Thorbjornsen",
-      "category": "bogeys",
-      "line": 2.5,
-      "result": "miss",
-      "model_prob": 0.5076843779118537,
-      "picked_side": "under",
-      "actual_value": 4.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Steven Fisk",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "hit",
-      "model_prob": 0.6011621186558078,
-      "picked_side": "under",
-      "actual_value": 67.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Ryo Hisatsune",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "hit",
-      "model_prob": 0.5507275413104014,
-      "picked_side": "over",
-      "actual_value": 72.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Jacob Bridgeman",
       "category": "birdies",
       "line": 4.5,
       "result": "hit",
-      "model_prob": 0.6164280772494026,
+      "model_prob": 0.5738633552546404,
       "picked_side": "over",
       "actual_value": 5.0
     },
     {
       "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Jacob Bridgeman",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "push",
-      "model_prob": 0.5024819084503429,
-      "picked_side": "over",
-      "actual_value": 69.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Jacob Bridgeman",
-      "category": "pars",
-      "line": 11.0,
-      "result": "hit",
-      "model_prob": 0.6445669414292059,
-      "picked_side": "under",
-      "actual_value": 10.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Jacob Bridgeman",
+      "player": "Rickie Fowler",
       "category": "bogeys",
       "line": 2.5,
       "result": "hit",
-      "model_prob": 0.5367191877820838,
+      "model_prob": 0.5395505343946553,
       "picked_side": "over",
-      "actual_value": 3.0
+      "actual_value": 5.0
     },
     {
       "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Xander Schauffele",
-      "category": "birdies",
-      "line": 5.0,
-      "result": "miss",
-      "model_prob": 0.5955232876535494,
-      "picked_side": "under",
-      "actual_value": 6.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Xander Schauffele",
-      "category": "strokes",
-      "line": 68.5,
-      "result": "miss",
-      "model_prob": 0.5321338017225592,
-      "picked_side": "over",
-      "actual_value": 67.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Xander Schauffele",
-      "category": "bogeys",
-      "line": 2.0,
-      "result": "hit",
-      "model_prob": 0.5267985637893136,
-      "picked_side": "under",
-      "actual_value": 1.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Hideki Matsuyama",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "hit",
-      "model_prob": 0.558035594988904,
-      "picked_side": "over",
-      "actual_value": 6.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Ryan Gerard",
-      "category": "bogeys",
-      "line": 2.5,
-      "result": "miss",
-      "model_prob": 0.5275519479903187,
-      "picked_side": "over",
-      "actual_value": 1.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Ryan Gerard",
+      "player": "Sungjae Im",
       "category": "pars",
       "line": 11.0,
       "result": "miss",
-      "model_prob": 0.6262433250274969,
+      "model_prob": 0.6247859044587901,
       "picked_side": "under",
       "actual_value": 13.0
     },
     {
       "date": "2026-10-10",
       "tournament": "Baycurrent Classic",
-      "player": "Ryan Gerard",
+      "player": "Sungjae Im",
       "category": "strokes",
       "line": 69.0,
       "result": "miss",
-      "model_prob": 0.5281662904000534,
+      "model_prob": 0.560941303439357,
       "picked_side": "over",
       "actual_value": 68.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Kevin Roy",
-      "category": "birdies",
-      "line": 4.0,
-      "result": "hit",
-      "model_prob": 0.5354762004381679,
-      "picked_side": "over",
-      "actual_value": 6.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Ben Kohles",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "hit",
-      "model_prob": 0.615326550324554,
-      "picked_side": "under",
-      "actual_value": 68.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Takumi Kanaya",
-      "category": "birdies",
-      "line": 4.0,
-      "result": "miss",
-      "model_prob": 0.5008835711430228,
-      "picked_side": "under",
-      "actual_value": 5.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Takumi Kanaya",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "hit",
-      "model_prob": 0.6136194683038833,
-      "picked_side": "under",
-      "actual_value": 69.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Collin Morikawa",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "hit",
-      "model_prob": 0.6213763148034445,
-      "picked_side": "over",
-      "actual_value": 7.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Collin Morikawa",
-      "category": "strokes",
-      "line": 68.5,
-      "result": "hit",
-      "model_prob": 0.5532844062658148,
-      "picked_side": "over",
-      "actual_value": 69.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Collin Morikawa",
-      "category": "pars",
-      "line": 11.0,
-      "result": "hit",
-      "model_prob": 0.6393460988089754,
-      "picked_side": "under",
-      "actual_value": 7.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Doug Ghim",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "hit",
-      "model_prob": 0.5986888373899342,
-      "picked_side": "over",
-      "actual_value": 5.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Doug Ghim",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "hit",
-      "model_prob": 0.5320075104130039,
-      "picked_side": "under",
-      "actual_value": 67.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Kevin Roy",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "hit",
-      "model_prob": 0.603797836142652,
-      "picked_side": "under",
-      "actual_value": 68.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Ryan Gerard",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "miss",
-      "model_prob": 0.5708892732317973,
-      "picked_side": "over",
-      "actual_value": 4.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Alex Smalley",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "hit",
-      "model_prob": 0.571086974899772,
-      "picked_side": "under",
-      "actual_value": 69.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Alex Smalley",
-      "category": "pars",
-      "line": 11.0,
-      "result": "hit",
-      "model_prob": 0.6154251669402002,
-      "picked_side": "under",
-      "actual_value": 10.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Christiaan Bezuidenhout",
-      "category": "birdies",
-      "line": 4.0,
-      "result": "push",
-      "model_prob": 0.5253388937753126,
-      "picked_side": "over",
-      "actual_value": 4.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Christiaan Bezuidenhout",
-      "category": "strokes",
-      "line": 70.0,
-      "result": "hit",
-      "model_prob": 0.6310687099387331,
-      "picked_side": "under",
-      "actual_value": 68.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Christiaan Bezuidenhout",
-      "category": "pars",
-      "line": 11.5,
-      "result": "miss",
-      "model_prob": 0.5892029598304123,
-      "picked_side": "under",
-      "actual_value": 13.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Brian Harman",
-      "category": "birdies",
-      "line": 4.0,
-      "result": "hit",
-      "model_prob": 0.5236577730889352,
-      "picked_side": "over",
-      "actual_value": 5.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Brian Harman",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "miss",
-      "model_prob": 0.5282142523452538,
-      "picked_side": "over",
-      "actual_value": 67.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Brian Harman",
-      "category": "bogeys",
-      "line": 2.5,
-      "result": "miss",
-      "model_prob": 0.5644800165337295,
-      "picked_side": "over",
-      "actual_value": 1.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Hideki Matsuyama",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "miss",
-      "model_prob": 0.5215205784518997,
-      "picked_side": "over",
-      "actual_value": 67.0
     },
     {
       "date": "2026-10-10",
@@ -4264,61 +5011,6 @@
       "model_prob": 0.5462067502939826,
       "picked_side": "over",
       "actual_value": 4.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Keegan Bradley",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "miss",
-      "model_prob": 0.542007499402504,
-      "picked_side": "over",
-      "actual_value": 4.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Keith Mitchell",
-      "category": "pars",
-      "line": 10.5,
-      "result": "hit",
-      "model_prob": 0.5357686822254853,
-      "picked_side": "over",
-      "actual_value": 12.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Jordan Spieth",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "miss",
-      "model_prob": 0.5123439116417461,
-      "picked_side": "over",
-      "actual_value": 67.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Maverick McNealy",
-      "category": "birdies",
-      "line": 4.5,
-      "result": "hit",
-      "model_prob": 0.5732860977701529,
-      "picked_side": "over",
-      "actual_value": 6.0
-    },
-    {
-      "date": "2026-10-10",
-      "tournament": "Baycurrent Classic",
-      "player": "Maverick McNealy",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "miss",
-      "model_prob": 0.5254804763514314,
-      "picked_side": "over",
-      "actual_value": 67.0
     }
   ]
 }
