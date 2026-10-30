@@ -1,6 +1,6 @@
 {
   "tournament_name": "VidantaWorld Mexico Open",
-  "generated_at": "2026-10-30T03:45:40.928764+00:00",
+  "generated_at": "2026-10-30T04:10:27.048336+00:00",
   "course_par": 71,
   "props": [
     {
@@ -26,24 +26,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.7880903644329329,
-        "over": 0.2119096355670671
+        "under": 0.7880903644329342,
+        "over": 0.21190963556706577
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 11.08,
-        "over": 0.4281135138866561,
-        "under": 0.5718864861133439
+        "over": 0.4281135138862025,
+        "under": 0.5718864861137976
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.24,
-        "over": 0.3884352277203031,
-        "under": 0.6115647722796969
+        "over": 0.3884352277202995,
+        "under": 0.6115647722797005
       },
       "platform_lines": []
     },
@@ -102,8 +102,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.698250350287252,
-        "under": 0.301749649712748
+        "over": 0.6982503502872719,
+        "under": 0.3017496497127281
       },
       "birdies": {
         "line": 3.5,
@@ -146,8 +146,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8214441144015,
-        "under": 0.1785558855985
+        "over": 0.8214441144014714,
+        "under": 0.17855588559852864
       },
       "birdies": {
         "line": 3.5,
@@ -218,7 +218,7 @@
         "source": null,
         "experimental": true,
         "expected": 2.67,
-        "over": 0.49901633260422384,
+        "over": 0.4990163326042239,
         "under": 0.5009836673957762
       },
       "platform_lines": []
@@ -257,8 +257,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 10.95,
-        "over": 0.4030433141184707,
-        "under": 0.5969566858815293
+        "over": 0.4969678880148245,
+        "under": 0.5030321119851755
       },
       "bogeys": {
         "line": 2.5,
@@ -307,8 +307,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8076680164426288,
-        "under": 0.19233198355737124
+        "over": 0.8076680164426309,
+        "under": 0.19233198355736913
       },
       "birdies": {
         "line": 3.5,
@@ -335,7 +335,7 @@
         "source": null,
         "experimental": true,
         "expected": 2.56,
-        "over": 0.4724285075001026,
+        "over": 0.4724285075001027,
         "under": 0.5275714924998973
       },
       "platform_lines": []
@@ -363,24 +363,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.69284485684451,
-        "over": 0.30715514315549
+        "under": 0.6928448568445118,
+        "over": 0.3071551431554882
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 11.02,
-        "over": 0.41589466173340145,
-        "under": 0.5841053382665986
+        "over": 0.41589466173376693,
+        "under": 0.5841053382662331
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.55,
-        "over": 0.46815441695735094,
-        "under": 0.5318455830426491
+        "over": 0.4681544169573503,
+        "under": 0.5318455830426497
       },
       "platform_lines": []
     },
@@ -395,8 +395,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7917069907700346,
-        "under": 0.2082930092299654
+        "over": 0.7917069907700572,
+        "under": 0.20829300922994276
       },
       "birdies": {
         "line": 3.5,
@@ -483,8 +483,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.4376642433612921,
-        "under": 0.5623357566387079
+        "over": 0.43766424336129217,
+        "under": 0.5623357566387078
       },
       "birdies": {
         "line": 3.5,
@@ -583,24 +583,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.711183313940205,
-        "over": 0.28881668605979505
+        "under": 0.7111833139402067,
+        "over": 0.28881668605979327
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.69,
-        "over": 0.3555582476380905,
-        "under": 0.6444417523619095
+        "over": 0.35555824763774163,
+        "under": 0.6444417523622583
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.8,
-        "over": 0.5310077427930193,
-        "under": 0.4689922572069807
+        "over": 0.5310077427930158,
+        "under": 0.46899225720698423
       },
       "platform_lines": []
     },
@@ -615,7 +615,7 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.499762476360214,
+        "over": 0.49976247636021404,
         "under": 0.500237523639786
       },
       "birdies": {
@@ -885,8 +885,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7832928585019779,
-        "under": 0.21670714149802206
+        "over": 0.78329285850193,
+        "under": 0.21670714149807002
       },
       "strokes": {
         "line": 70.5,
@@ -907,8 +907,8 @@
         "source": null,
         "experimental": true,
         "expected": 2.69,
-        "over": 0.5037957142015974,
-        "under": 0.4962042857984026
+        "over": 0.5037957142015653,
+        "under": 0.4962042857984347
       },
       "platform_lines": []
     },
@@ -929,8 +929,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7819344147815835,
-        "under": 0.21806558521841646
+        "over": 0.7819344147815837,
+        "under": 0.21806558521841635
       },
       "strokes": {
         "line": 70.5,
@@ -1111,24 +1111,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.7016093284426594,
-        "over": 0.29839067155734056
+        "under": 0.7016093284426612,
+        "over": 0.2983906715573388
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.74,
-        "over": 0.363961770980426,
-        "under": 0.6360382290195741
+        "over": 0.36396177098055454,
+        "under": 0.6360382290194455
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.78,
-        "over": 0.5263800908135071,
-        "under": 0.4736199091864929
+        "over": 0.526380090813506,
+        "under": 0.473619909186494
       },
       "platform_lines": []
     },
@@ -1199,24 +1199,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6598035644805891,
-        "over": 0.3401964355194109
+        "under": 0.6598035644805909,
+        "over": 0.34019643551940915
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.64,
-        "over": 0.34549675025609866,
-        "under": 0.6545032497439014
+        "over": 0.34549675025618104,
+        "under": 0.654503249743819
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.97,
-        "over": 0.5720927186071387,
-        "under": 0.42790728139286127
+        "over": 0.5720927186071044,
+        "under": 0.4279072813928956
       },
       "platform_lines": []
     },
@@ -1238,8 +1238,8 @@
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.3487713104670742,
-        "under": 0.6512286895329258
+        "over": 0.42821475084035315,
+        "under": 0.5717852491596469
       },
       "strokes": {
         "line": 68.5,
@@ -1254,8 +1254,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 10.91,
-        "over": 0.3958384235369915,
-        "under": 0.6041615764630085
+        "over": 0.48801615117459013,
+        "under": 0.5119838488254098
       },
       "bogeys": {
         "line": 2.5,
@@ -1347,8 +1347,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5567757705517311,
-        "under": 0.4432242294482689
+        "over": 0.5567757705517296,
+        "under": 0.44322422944827045
       },
       "birdies": {
         "line": 3.5,
@@ -1391,8 +1391,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5948095862677178,
-        "under": 0.40519041373228215
+        "over": 0.5948095862677025,
+        "under": 0.40519041373229747
       },
       "birdies": {
         "line": 3.5,
@@ -1473,8 +1473,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.5714929523231493,
-        "under": 0.42850704767685066
+        "over": 0.5714929523231495,
+        "under": 0.42850704767685055
       },
       "fairways": {
         "line": 8.5,
@@ -1499,8 +1499,8 @@
         "source": null,
         "experimental": true,
         "expected": 10.78,
-        "over": 0.37103085329854857,
-        "under": 0.6289691467014514
+        "over": 0.3710308532985486,
+        "under": 0.6289691467014513
       },
       "bogeys": {
         "line": 2.5,
@@ -1523,8 +1523,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6386041284991955,
-        "under": 0.36139587150080454
+        "over": 0.638604128499203,
+        "under": 0.361395871500797
       },
       "birdies": {
         "line": 3.5,
@@ -1567,8 +1567,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7711718881350363,
-        "under": 0.22882811186496366
+        "over": 0.7711718881350164,
+        "under": 0.22882811186498364
       },
       "birdies": {
         "line": 3.5,
@@ -1579,24 +1579,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6662277931726708,
-        "over": 0.3337722068273292
+        "under": 0.6662277931726727,
+        "over": 0.33377220682732733
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.99,
-        "over": 0.41082835285166497,
-        "under": 0.589171647148335
+        "over": 0.41082835285266645,
+        "under": 0.5891716471473336
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.63,
-        "over": 0.49012706083730284,
-        "under": 0.5098729391626972
+        "over": 0.4901270608373037,
+        "under": 0.5098729391626964
       },
       "platform_lines": []
     },
@@ -1711,24 +1711,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6426491671609202,
-        "over": 0.35735083283907976
+        "under": 0.6426491671609221,
+        "over": 0.35735083283907787
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.62,
-        "over": 0.3431164406323623,
-        "under": 0.6568835593676376
+        "over": 0.3431164406322137,
+        "under": 0.6568835593677863
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.02,
-        "over": 0.5838855799535423,
-        "under": 0.4161144200464577
+        "over": 0.5838855799535448,
+        "under": 0.41611442004645516
       },
       "platform_lines": []
     },
@@ -1749,30 +1749,30 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7687241750754243,
-        "under": 0.23127582492457566
+        "over": 0.7687241750754245,
+        "under": 0.23127582492457555
       },
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6723406494843479,
-        "over": 0.3276593505156521
+        "under": 0.6723406494843498,
+        "over": 0.3276593505156502
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.7,
-        "over": 0.3567373447552936,
-        "under": 0.6432626552447064
+        "over": 0.3567373447547449,
+        "under": 0.6432626552452552
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.89,
-        "over": 0.5518481405467776,
-        "under": 0.44815185945322245
+        "over": 0.5518481405467789,
+        "under": 0.4481518594532211
       },
       "platform_lines": []
     },
@@ -1843,24 +1843,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6796079272101105,
-        "over": 0.32039207278988946
+        "under": 0.6796079272101123,
+        "over": 0.3203920727898877
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.73,
-        "over": 0.3616133195472573,
-        "under": 0.6383866804527427
+        "over": 0.3616133195471085,
+        "under": 0.6383866804528915
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.84,
-        "over": 0.5419175486732584,
-        "under": 0.45808245132674164
+        "over": 0.5419175486732621,
+        "under": 0.45808245132673786
       },
       "platform_lines": []
     },
@@ -1875,8 +1875,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6291302888993012,
-        "under": 0.3708697111006988
+        "over": 0.629130288899289,
+        "under": 0.370869711100711
       },
       "birdies": {
         "line": 3.5,
@@ -1887,24 +1887,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.7074175148402843,
-        "over": 0.29258248515971574
+        "under": 0.707417514840286,
+        "over": 0.29258248515971397
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.8,
-        "over": 0.3751817398037532,
-        "under": 0.6248182601962469
+        "over": 0.37518173980358377,
+        "under": 0.6248182601964163
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.71,
-        "over": 0.5091579504813939,
-        "under": 0.4908420495186061
+        "over": 0.5091579504813598,
+        "under": 0.4908420495186402
       },
       "platform_lines": []
     },
@@ -1919,8 +1919,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7665326737420824,
-        "under": 0.23346732625791755
+        "over": 0.7665326737420306,
+        "under": 0.2334673262579694
       },
       "birdies": {
         "line": 4.5,
@@ -1985,8 +1985,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.637141661088381,
-        "under": 0.362858338911619
+        "over": 0.6371416610883742,
+        "under": 0.3628583389116258
       },
       "birdies": {
         "line": 3.5,
@@ -2029,8 +2029,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6809481121702925,
-        "under": 0.3190518878297075
+        "over": 0.680948112170269,
+        "under": 0.31905188782973104
       },
       "birdies": {
         "line": 3.5,
@@ -2085,24 +2085,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6627521795932607,
-        "over": 0.3372478204067393
+        "under": 0.6627521795932625,
+        "over": 0.3372478204067375
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.69,
-        "over": 0.35536065731796224,
-        "under": 0.6446393426820378
+        "over": 0.35536065731800504,
+        "under": 0.644639342681995
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.91,
-        "over": 0.5587446387851241,
-        "under": 0.44125536121487585
+        "over": 0.5587446387851205,
+        "under": 0.4412553612148795
       },
       "platform_lines": []
     },
@@ -2161,8 +2161,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.763554064871401,
-        "under": 0.23644593512859902
+        "over": 0.7635540648713972,
+        "under": 0.2364459351286028
       },
       "birdies": {
         "line": 3.5,
@@ -2173,24 +2173,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.630137107038983,
-        "over": 0.36986289296101704
+        "under": 0.630137107038985,
+        "over": 0.36986289296101504
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.77,
-        "over": 0.3689497747679623,
-        "under": 0.6310502252320377
+        "over": 0.3689497747676047,
+        "under": 0.6310502252323953
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.92,
-        "over": 0.5600041849497227,
-        "under": 0.4399958150502773
+        "over": 0.5600041849497213,
+        "under": 0.43999581505027874
       },
       "platform_lines": []
     },
@@ -2217,24 +2217,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6735472700571195,
-        "over": 0.32645272994288055
+        "under": 0.6735472700571231,
+        "over": 0.3264527299428769
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.81,
-        "over": 0.3763500662459103,
-        "under": 0.6236499337540897
+        "over": 0.37635006624663014,
+        "under": 0.6236499337533699
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.78,
-        "over": 0.5275515448099818,
-        "under": 0.4724484551900182
+        "over": 0.5275515448099741,
+        "under": 0.4724484551900259
       },
       "platform_lines": []
     },
@@ -2249,14 +2249,14 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6805195312816773,
-        "under": 0.3194804687183227
+        "over": 0.6805195312816589,
+        "under": 0.3194804687183411
       },
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7622809389339953,
-        "under": 0.2377190610660047
+        "over": 0.7622809389339749,
+        "under": 0.23771906106602514
       },
       "strokes": {
         "line": 70.5,
@@ -2269,8 +2269,8 @@
         "source": null,
         "experimental": true,
         "expected": 10.76,
-        "over": 0.3676039236142822,
-        "under": 0.6323960763857178
+        "over": 0.36760392361247163,
+        "under": 0.6323960763875284
       },
       "bogeys": {
         "line": 2.5,
@@ -2337,8 +2337,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5909799697888426,
-        "under": 0.4090200302111574
+        "over": 0.5909799697888508,
+        "under": 0.4090200302111492
       },
       "birdies": {
         "line": 3.5,
@@ -2513,8 +2513,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7594923625533452,
-        "under": 0.24050763744665482
+        "over": 0.7594923625533005,
+        "under": 0.24050763744669945
       },
       "birdies": {
         "line": 3.5,
@@ -2541,7 +2541,7 @@
         "source": null,
         "experimental": true,
         "expected": 2.5,
-        "over": 0.4570286335614453,
+        "over": 0.45702863356144535,
         "under": 0.5429713664385547
       },
       "platform_lines": []
@@ -2601,8 +2601,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5842562469133314,
-        "under": 0.41574375308666855
+        "over": 0.5842562469133316,
+        "under": 0.41574375308666844
       },
       "birdies": {
         "line": 3.5,
@@ -2652,8 +2652,8 @@
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.28808719543333516,
-        "under": 0.7119128045666648
+        "over": 0.35096956736399093,
+        "under": 0.649030432636009
       },
       "strokes": {
         "line": 69.0,
@@ -2791,8 +2791,8 @@
         "source": null,
         "experimental": true,
         "expected": 2.83,
-        "over": 0.5376558060436093,
-        "under": 0.4623441939563907
+        "over": 0.5376558060436094,
+        "under": 0.4623441939563906
       },
       "platform_lines": []
     },
@@ -2835,7 +2835,7 @@
         "source": null,
         "experimental": true,
         "expected": 2.34,
-        "over": 0.4144117674607279,
+        "over": 0.41441176746072794,
         "under": 0.5855882325392721
       },
       "platform_lines": []
@@ -2939,8 +2939,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7091880327547392,
-        "under": 0.2908119672452608
+        "over": 0.7091880327547191,
+        "under": 0.2908119672452809
       },
       "birdies": {
         "line": 3.5,
@@ -2959,7 +2959,7 @@
         "source": null,
         "experimental": true,
         "expected": 10.74,
-        "over": 0.3634549227410082,
+        "over": 0.36345492274100827,
         "under": 0.6365450772589918
       },
       "bogeys": {
@@ -2983,8 +2983,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6299173476420594,
-        "under": 0.3700826523579406
+        "over": 0.6299173476420831,
+        "under": 0.37008265235791693
       },
       "birdies": {
         "line": 3.5,
@@ -3047,8 +3047,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7545102979339554,
-        "under": 0.2454897020660446
+        "over": 0.7545102979339552,
+        "under": 0.2454897020660448
       },
       "strokes": {
         "line": 70.5,
@@ -3069,8 +3069,8 @@
         "source": null,
         "experimental": true,
         "expected": 2.95,
-        "over": 0.5678827422749111,
-        "under": 0.4321172577250889
+        "over": 0.5678827422749019,
+        "under": 0.4321172577250981
       },
       "platform_lines": []
     },
@@ -3097,24 +3097,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6441283437282033,
-        "over": 0.35587165627179673
+        "under": 0.644128343728205,
+        "over": 0.35587165627179496
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.69,
-        "over": 0.3554666116337988,
-        "under": 0.6445333883662012
+        "over": 0.3554666116335325,
+        "under": 0.6445333883664675
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.96,
-        "over": 0.568554929712928,
-        "under": 0.431445070287072
+        "over": 0.5685549297129261,
+        "under": 0.4314450702870739
       },
       "platform_lines": []
     },
@@ -3141,24 +3141,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6772697830061805,
-        "over": 0.32273021699381954
+        "under": 0.6772697830061823,
+        "over": 0.32273021699381765
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.78,
-        "over": 0.3707397113612469,
-        "under": 0.629260288638753
+        "over": 0.370739711360213,
+        "under": 0.629260288639787
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.8,
-        "over": 0.5322139094505478,
-        "under": 0.4677860905494522
+        "over": 0.5322139094505487,
+        "under": 0.4677860905494513
       },
       "platform_lines": []
     },
@@ -3229,24 +3229,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.683561538179229,
-        "over": 0.31643846182077096
+        "under": 0.6835615381792308,
+        "over": 0.3164384618207692
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.8,
-        "over": 0.37476671023544406,
-        "under": 0.6252332897645559
+        "over": 0.3747667102357794,
+        "under": 0.6252332897642205
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.77,
-        "over": 0.5237423152409905,
-        "under": 0.47625768475900954
+        "over": 0.523742315240985,
+        "under": 0.476257684759015
       },
       "platform_lines": []
     },
@@ -3317,24 +3317,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6529470784874334,
-        "over": 0.3470529215125666
+        "under": 0.6529470784874353,
+        "over": 0.3470529215125647
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.72,
-        "over": 0.36099021237602075,
-        "under": 0.6390097876239793
+        "over": 0.3609902123752958,
+        "under": 0.6390097876247042
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.91,
-        "over": 0.5573233090935772,
-        "under": 0.4426766909064228
+        "over": 0.5573233090936035,
+        "under": 0.4426766909063965
       },
       "platform_lines": []
     },
@@ -3405,24 +3405,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5218448153302685,
-        "over": 0.4781551846697315
+        "under": 0.5218448153302705,
+        "over": 0.4781551846697295
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.66,
-        "over": 0.34965692265409853,
-        "under": 0.6503430773459015
+        "over": 0.3496569226542265,
+        "under": 0.6503430773457735
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.25,
-        "over": 0.6341305718672663,
-        "under": 0.3658694281327337
+        "over": 0.634130571867267,
+        "under": 0.36586942813273304
       },
       "platform_lines": []
     },
@@ -3481,8 +3481,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6307481773320829,
-        "under": 0.3692518226679171
+        "over": 0.6307481773320777,
+        "under": 0.36925182266792234
       },
       "birdies": {
         "line": 3.5,
@@ -3493,24 +3493,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6238958050970904,
-        "over": 0.3761041949029096
+        "under": 0.6238958050970923,
+        "over": 0.3761041949029077
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.65,
-        "over": 0.34877323558063683,
-        "under": 0.6512267644193632
+        "over": 0.3487732355798797,
+        "under": 0.6512267644201203
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.04,
-        "over": 0.5868181259753917,
-        "under": 0.41318187402460826
+        "over": 0.5868181259753914,
+        "under": 0.4131818740246086
       },
       "platform_lines": []
     },
@@ -3525,8 +3525,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5150295394862942,
-        "under": 0.48497046051370585
+        "over": 0.5150295394862905,
+        "under": 0.4849704605137095
       },
       "birdies": {
         "line": 3.5,
@@ -3641,8 +3641,8 @@
         "source": null,
         "experimental": true,
         "expected": 2.76,
-        "over": 0.5213671756966152,
-        "under": 0.47863282430338483
+        "over": 0.5213671756966153,
+        "under": 0.4786328243033847
       },
       "platform_lines": []
     },
@@ -3801,24 +3801,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6510354800545112,
-        "over": 0.3489645199454888
+        "under": 0.6510354800545131,
+        "over": 0.34896451994548694
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.74,
-        "over": 0.3642062856511653,
-        "under": 0.6357937143488347
+        "over": 0.36420628565140023,
+        "under": 0.6357937143485998
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.9,
-        "over": 0.554526463824814,
-        "under": 0.44547353617518604
+        "over": 0.5545264638248437,
+        "under": 0.4454735361751563
       },
       "platform_lines": []
     },
@@ -3833,8 +3833,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.534918758096649,
-        "under": 0.465081241903351
+        "over": 0.5349187580966465,
+        "under": 0.46508124190335354
       },
       "birdies": {
         "line": 3.5,
@@ -3845,24 +3845,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6427050203010796,
-        "over": 0.35729497969892043
+        "under": 0.6427050203010816,
+        "over": 0.35729497969891844
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.72,
-        "over": 0.3607353752863906,
-        "under": 0.6392646247136093
+        "over": 0.3607353752864452,
+        "under": 0.6392646247135547
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.93,
-        "over": 0.5630787481982029,
-        "under": 0.4369212518017971
+        "over": 0.5630787481982015,
+        "under": 0.4369212518017985
       },
       "platform_lines": []
     },
@@ -3921,8 +3921,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5185288096219618,
-        "under": 0.4814711903780382
+        "over": 0.5185288096219602,
+        "under": 0.48147119037803976
       },
       "birdies": {
         "line": 3.5,
@@ -3977,24 +3977,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6510354800545112,
-        "over": 0.3489645199454888
+        "under": 0.6510354800545131,
+        "over": 0.34896451994548694
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.75,
-        "over": 0.3652048471350903,
-        "under": 0.6347951528649096
+        "over": 0.3652048471356627,
+        "under": 0.6347951528643373
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.89,
-        "over": 0.5533392886877285,
-        "under": 0.4466607113122715
+        "over": 0.5533392886877291,
+        "under": 0.4466607113122709
       },
       "platform_lines": []
     },
@@ -4021,24 +4021,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5932171287975856,
-        "over": 0.4067828712024144
+        "under": 0.5932171287975876,
+        "over": 0.4067828712024124
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.61,
-        "over": 0.3401754379418778,
-        "under": 0.6598245620581222
+        "over": 0.34017543794217575,
+        "under": 0.6598245620578242
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.15,
-        "over": 0.6117484150550521,
-        "under": 0.38825158494494794
+        "over": 0.6117484150550146,
+        "under": 0.38825158494498535
       },
       "platform_lines": []
     },
@@ -4053,8 +4053,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5852284328999585,
-        "under": 0.4147715671000415
+        "over": 0.5852284328999819,
+        "under": 0.41477156710001806
       },
       "birdies": {
         "line": 3.5,
@@ -4065,24 +4065,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6299293862440846,
-        "over": 0.37007061375591543
+        "under": 0.6299293862440885,
+        "over": 0.37007061375591155
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.69,
-        "over": 0.35600814163622935,
-        "under": 0.6439918583637707
+        "over": 0.35600814163597716,
+        "under": 0.6439918583640228
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.99,
-        "over": 0.5752974712818504,
-        "under": 0.4247025287181496
+        "over": 0.575297471281847,
+        "under": 0.42470252871815295
       },
       "platform_lines": []
     },
@@ -4097,8 +4097,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6151243694352082,
-        "under": 0.3848756305647918
+        "over": 0.6151243694351992,
+        "under": 0.3848756305648008
       },
       "birdies": {
         "line": 3.5,
@@ -4148,15 +4148,15 @@
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.3654348024384469,
-        "under": 0.6345651975615532
+        "over": 0.449133983704539,
+        "under": 0.5508660162954611
       },
       "strokes": {
         "line": 68.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "under": 0.31406383629973667,
-        "over": 0.6859361637002633
+        "under": 0.31406383629973844,
+        "over": 0.6859361637002616
       },
       "pars": {
         "line": 11.0,
@@ -4164,16 +4164,16 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 10.81,
-        "over": 0.3761666909370686,
-        "under": 0.6238333090629313
+        "over": 0.46339602101940347,
+        "under": 0.5366039789805965
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.82,
-        "over": 0.536167347078398,
-        "under": 0.46383265292160203
+        "over": 0.5361673470783985,
+        "under": 0.4638326529216015
       },
       "platform_lines": [
         {
@@ -4213,8 +4213,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5917396889190187,
-        "under": 0.40826031108098126
+        "over": 0.5917396889190006,
+        "under": 0.40826031108099936
       },
       "birdies": {
         "line": 3.5,
@@ -4225,24 +4225,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6591252495413771,
-        "over": 0.3408747504586229
+        "under": 0.659125249541379,
+        "over": 0.34087475045862103
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.77,
-        "over": 0.369623058841241,
-        "under": 0.630376941158759
+        "over": 0.36962305884245217,
+        "under": 0.6303769411575478
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.85,
-        "over": 0.543675062700816,
-        "under": 0.456324937299184
+        "over": 0.5436750627008164,
+        "under": 0.45632493729918355
       },
       "platform_lines": []
     },
@@ -4257,8 +4257,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6516370633838645,
-        "under": 0.3483629366161355
+        "over": 0.6516370633838505,
+        "under": 0.3483629366161495
       },
       "birdies": {
         "line": 3.5,
@@ -4269,24 +4269,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6228880742543713,
-        "over": 0.3771119257456287
+        "under": 0.6228880742543732,
+        "over": 0.3771119257456268
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.68,
-        "over": 0.35346918002811467,
-        "under": 0.6465308199718853
+        "over": 0.3534691800277533,
+        "under": 0.6465308199722467
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.01,
-        "over": 0.5818587915367261,
-        "under": 0.41814120846327385
+        "over": 0.5818587915367287,
+        "under": 0.4181412084632713
       },
       "platform_lines": []
     },
@@ -4307,8 +4307,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.744843019513612,
-        "under": 0.255156980486388
+        "over": 0.7448430195136089,
+        "under": 0.2551569804863911
       },
       "strokes": {
         "line": 70.5,
@@ -4329,8 +4329,8 @@
         "source": null,
         "experimental": true,
         "expected": 2.77,
-        "over": 0.5240644546404543,
-        "under": 0.47593554535954574
+        "over": 0.5240644546404578,
+        "under": 0.4759355453595422
       },
       "platform_lines": []
     },
@@ -4510,16 +4510,16 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.7185683376371268,
-        "over": 0.2814316623628732
+        "under": 0.7185683376371286,
+        "over": 0.2814316623628714
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.94,
-        "over": 0.40081853984958266,
-        "under": 0.5991814601504173
+        "over": 0.4008185398487768,
+        "under": 0.5991814601512232
       },
       "bogeys": {
         "line": 2.5,
@@ -4542,8 +4542,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5490744549336406,
-        "under": 0.4509255450663594
+        "over": 0.5490744549336364,
+        "under": 0.4509255450663636
       },
       "birdies": {
         "line": 3.5,
@@ -4554,24 +4554,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.644283982716478,
-        "over": 0.355716017283522
+        "under": 0.6442839827164799,
+        "over": 0.3557160172835201
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.75,
-        "over": 0.3653919147444457,
-        "under": 0.6346080852555542
+        "over": 0.3653919147446771,
+        "under": 0.6346080852553229
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.91,
-        "over": 0.5567321359485264,
-        "under": 0.44326786405147356
+        "over": 0.5567321359485196,
+        "under": 0.44326786405148044
       },
       "platform_lines": []
     },
@@ -4606,7 +4606,7 @@
         "source": null,
         "experimental": true,
         "expected": 10.93,
-        "over": 0.39827631628122084,
+        "over": 0.3982763162812209,
         "under": 0.6017236837187792
       },
       "bogeys": {
@@ -4642,24 +4642,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6365345118676213,
-        "over": 0.36346548813237867
+        "under": 0.6365345118676251,
+        "over": 0.3634654881323749
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.73,
-        "over": 0.36290747326090705,
-        "under": 0.637092526739093
+        "over": 0.36290747326082645,
+        "under": 0.6370925267391736
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.94,
-        "over": 0.5637625446889711,
-        "under": 0.43623745531102887
+        "over": 0.5637625446889704,
+        "under": 0.43623745531102964
       },
       "platform_lines": []
     },
@@ -4686,24 +4686,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6722520613970452,
-        "over": 0.3277479386029548
+        "under": 0.672252061397047,
+        "over": 0.32774793860295304
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.82,
-        "over": 0.3792705965146978,
-        "under": 0.6207294034853021
+        "over": 0.37927059651376327,
+        "under": 0.6207294034862367
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.77,
-        "over": 0.5247630140058205,
-        "under": 0.4752369859941795
+        "over": 0.5247630140058243,
+        "under": 0.47523698599417574
       },
       "platform_lines": []
     },
@@ -4730,24 +4730,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6750304449814077,
-        "over": 0.32496955501859226
+        "under": 0.6750304449814095,
+        "over": 0.3249695550185905
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.83,
-        "over": 0.38083460779064465,
-        "under": 0.6191653922093554
+        "over": 0.3808346077899368,
+        "under": 0.6191653922100633
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.76,
-        "over": 0.5212928177461612,
-        "under": 0.4787071822538388
+        "over": 0.5212928177461923,
+        "under": 0.4787071822538077
       },
       "platform_lines": []
     },
@@ -4806,8 +4806,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6615272776950832,
-        "under": 0.33847272230491676
+        "over": 0.661527277695074,
+        "under": 0.338472722304926
       },
       "birdies": {
         "line": 3.5,
@@ -4938,8 +4938,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7392571555381026,
-        "under": 0.26074284446189744
+        "over": 0.7392571555380673,
+        "under": 0.26074284446193274
       },
       "birdies": {
         "line": 3.5,
@@ -4950,24 +4950,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6487516373913631,
-        "over": 0.3512483626086369
+        "under": 0.6487516373913649,
+        "over": 0.3512483626086351
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.8,
-        "over": 0.37558985070784345,
-        "under": 0.6244101492921565
+        "over": 0.37558985070734496,
+        "under": 0.624410149292655
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.85,
-        "over": 0.5422205278617699,
-        "under": 0.4577794721382301
+        "over": 0.5422205278617686,
+        "under": 0.45777947213823145
       },
       "platform_lines": []
     },
@@ -4982,8 +4982,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6138191690071144,
-        "under": 0.3861808309928856
+        "over": 0.6138191690071234,
+        "under": 0.3861808309928766
       },
       "birdies": {
         "line": 3.5,
@@ -5082,24 +5082,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6439417541462967,
-        "over": 0.35605824585370327
+        "under": 0.6439417541462986,
+        "over": 0.3560582458537014
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.77,
-        "over": 0.3687425080861247,
-        "under": 0.6312574919138754
+        "over": 0.36874250808590153,
+        "under": 0.6312574919140985
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.89,
-        "over": 0.5529452568940982,
-        "under": 0.44705474310590176
+        "over": 0.5529452568941282,
+        "under": 0.4470547431058718
       },
       "platform_lines": []
     },
@@ -5108,8 +5108,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.502567551321296,
-        "under": 0.49743244867870395
+        "over": 0.5025675513212962,
+        "under": 0.49743244867870384
       },
       "fairways": {
         "line": 8.5,
@@ -5170,24 +5170,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.647111214996199,
-        "over": 0.35288878500380105
+        "under": 0.6471112149962008,
+        "over": 0.35288878500379917
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.77,
-        "over": 0.37029017893224697,
-        "under": 0.629709821067753
+        "over": 0.37029017893295174,
+        "under": 0.6297098210670482
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.88,
-        "over": 0.549408737977927,
-        "under": 0.450591262022073
+        "over": 0.5494087379779253,
+        "under": 0.45059126202207467
       },
       "platform_lines": []
     },
@@ -5202,8 +5202,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6540153897861289,
-        "under": 0.34598461021387106
+        "over": 0.6540153897861414,
+        "under": 0.3459846102138586
       },
       "birdies": {
         "line": 3.5,
@@ -5290,8 +5290,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7102929819375022,
-        "under": 0.28970701806249777
+        "over": 0.7102929819375036,
+        "under": 0.28970701806249644
       },
       "birdies": {
         "line": 3.5,
@@ -5302,24 +5302,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6637679703019421,
-        "over": 0.3362320296980579
+        "under": 0.663767970301944,
+        "over": 0.336232029698056
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.82,
-        "over": 0.37938209996348,
-        "under": 0.62061790003652
+        "over": 0.37938209996293626,
+        "under": 0.6206179000370637
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.79,
-        "over": 0.5294088633893291,
-        "under": 0.47059113661067087
+        "over": 0.5294088633893229,
+        "under": 0.4705911366106771
       },
       "platform_lines": []
     },
@@ -5340,8 +5340,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.735174050270618,
-        "under": 0.264825949729382
+        "over": 0.7351740502705968,
+        "under": 0.2648259497294032
       },
       "strokes": {
         "line": 70.5,
@@ -5354,16 +5354,16 @@
         "source": null,
         "experimental": true,
         "expected": 10.86,
-        "over": 0.38596384288880764,
-        "under": 0.6140361571111923
+        "over": 0.3859638428880568,
+        "under": 0.6140361571119433
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.73,
-        "over": 0.5135376582676812,
-        "under": 0.48646234173231884
+        "over": 0.5135376582676848,
+        "under": 0.4864623417323152
       },
       "platform_lines": []
     },
@@ -5422,8 +5422,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5724569088551695,
-        "under": 0.42754309114483047
+        "over": 0.5724569088551642,
+        "under": 0.4275430911448358
       },
       "birdies": {
         "line": 3.5,
@@ -5582,8 +5582,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6711124746091726,
-        "under": 0.32888752539082744
+        "over": 0.6711124746091727,
+        "under": 0.32888752539082733
       },
       "birdies": {
         "line": 3.5,
@@ -5638,24 +5638,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6293742900230783,
-        "over": 0.3706257099769217
+        "under": 0.6293742900230803,
+        "over": 0.3706257099769197
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.74,
-        "over": 0.3649320714339198,
-        "under": 0.6350679285660802
+        "over": 0.3649320714351191,
+        "under": 0.6350679285648809
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.94,
-        "over": 0.5651218175564466,
-        "under": 0.43487818244355336
+        "over": 0.565121817556444,
+        "under": 0.434878182443556
       },
       "platform_lines": []
     },
@@ -5670,8 +5670,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5949065814312302,
-        "under": 0.4050934185687698
+        "over": 0.5949065814312299,
+        "under": 0.4050934185687701
       },
       "birdies": {
         "line": 3.5,
@@ -5682,24 +5682,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6327604065406347,
-        "over": 0.3672395934593653
+        "under": 0.6327604065406386,
+        "over": 0.3672395934593614
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.76,
-        "over": 0.3671400274301998,
-        "under": 0.6328599725698002
+        "over": 0.36714002742982677,
+        "under": 0.6328599725701732
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.92,
-        "over": 0.5607580865404888,
-        "under": 0.43924191345951125
+        "over": 0.560758086540487,
+        "under": 0.439241913459513
       },
       "platform_lines": []
     },
@@ -5770,24 +5770,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6406443693201143,
-        "over": 0.35935563067988574
+        "under": 0.6406443693201163,
+        "over": 0.35935563067988374
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.78,
-        "over": 0.3708231147554806,
-        "under": 0.6291768852445194
+        "over": 0.3708231147555912,
+        "under": 0.6291768852444088
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.89,
-        "over": 0.5522420124649905,
-        "under": 0.4477579875350095
+        "over": 0.5522420124649863,
+        "under": 0.4477579875350137
       },
       "platform_lines": []
     },
@@ -6036,8 +6036,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.548805378104589,
-        "under": 0.45119462189541104
+        "over": 0.5488053781046032,
+        "under": 0.45119462189539683
       },
       "birdies": {
         "line": 3.5,
@@ -6092,24 +6092,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6598035644805891,
-        "over": 0.3401964355194109
+        "under": 0.6598035644805909,
+        "over": 0.34019643551940915
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.83,
-        "over": 0.38087076746274434,
-        "under": 0.6191292325372557
+        "over": 0.38087076746183285,
+        "under": 0.6191292325381672
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.79,
-        "over": 0.5298349172401089,
-        "under": 0.4701650827598911
+        "over": 0.5298349172401008,
+        "under": 0.4701650827598992
       },
       "platform_lines": []
     },
@@ -6136,24 +6136,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6704153477233056,
-        "over": 0.3295846522766944
+        "under": 0.6704153477233075,
+        "over": 0.32958465227669254
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.86,
-        "over": 0.3863543528281956,
-        "under": 0.6136456471718044
+        "over": 0.3863543528281782,
+        "under": 0.6136456471718218
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.74,
-        "over": 0.51726298093584,
-        "under": 0.48273701906416
+        "over": 0.5172629809358414,
+        "under": 0.48273701906415856
       },
       "platform_lines": []
     },
@@ -6180,24 +6180,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5903899719652614,
-        "over": 0.40961002803473856
+        "under": 0.5903899719652633,
+        "over": 0.4096100280347367
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.67,
-        "over": 0.3507800047818427,
-        "under": 0.6492199952181573
+        "over": 0.35078000478169846,
+        "under": 0.6492199952183015
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.1,
-        "over": 0.601035461459896,
-        "under": 0.39896453854010405
+        "over": 0.6010354614598974,
+        "under": 0.3989645385401026
       },
       "platform_lines": []
     },
@@ -6262,8 +6262,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7294949432099752,
-        "under": 0.2705050567900248
+        "over": 0.7294949432099753,
+        "under": 0.2705050567900247
       },
       "strokes": {
         "line": 70.5,
@@ -6300,36 +6300,36 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.4558734204881486,
-        "under": 0.5441265795118514
+        "over": 0.455873420488148,
+        "under": 0.544126579511852
       },
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7292359139847174,
-        "under": 0.27076408601528257
+        "over": 0.7292359139847175,
+        "under": 0.27076408601528246
       },
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6256410342432623,
-        "over": 0.37435896575673766
+        "under": 0.6256410342432642,
+        "over": 0.3743589657567358
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.75,
-        "over": 0.36658703836605305,
-        "under": 0.633412961633947
+        "over": 0.36658703836708845,
+        "under": 0.6334129616329116
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.94,
-        "over": 0.5651202016360208,
-        "under": 0.43487979836397916
+        "over": 0.5651202016360174,
+        "under": 0.4348797983639826
       },
       "platform_lines": []
     },
@@ -6388,8 +6388,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7008862044301283,
-        "under": 0.2991137955698717
+        "over": 0.700886204430107,
+        "under": 0.29911379556989304
       },
       "birdies": {
         "line": 3.5,
@@ -6540,8 +6540,8 @@
         "source": null,
         "experimental": true,
         "expected": 10.78,
-        "over": 0.3716842872385432,
-        "under": 0.6283157127614568
+        "over": 0.37168428723854324,
+        "under": 0.6283157127614567
       },
       "bogeys": {
         "line": 2.5,
@@ -6620,24 +6620,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6363360130266617,
-        "over": 0.36366398697333835
+        "under": 0.6363360130266635,
+        "over": 0.36366398697333646
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.79,
-        "over": 0.37387535533243993,
-        "under": 0.6261246446675601
+        "over": 0.3738753553323068,
+        "under": 0.6261246446676931
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.88,
-        "over": 0.5509276642834826,
-        "under": 0.4490723357165174
+        "over": 0.550927664283479,
+        "under": 0.44907233571652105
       },
       "platform_lines": []
     },
@@ -6652,8 +6652,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6400337100980266,
-        "under": 0.35996628990197344
+        "over": 0.6400337100980428,
+        "under": 0.3599662899019572
       },
       "birdies": {
         "line": 3.5,
@@ -6664,24 +6664,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5852264006652622,
-        "over": 0.4147735993347378
+        "under": 0.5852264006652642,
+        "over": 0.4147735993347358
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.67,
-        "over": 0.351613388709599,
-        "under": 0.648386611290401
+        "over": 0.35161338870974046,
+        "under": 0.6483866112902595
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.11,
-        "over": 0.6025757234953234,
-        "under": 0.3974242765046766
+        "over": 0.6025757234953216,
+        "under": 0.3974242765046784
       },
       "platform_lines": []
     },
@@ -6696,8 +6696,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.670398611745075,
-        "under": 0.329601388254925
+        "over": 0.6703986117450721,
+        "under": 0.3296013882549279
       },
       "birdies": {
         "line": 3.5,
@@ -6708,24 +6708,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6716407447926089,
-        "over": 0.32835925520739107
+        "under": 0.6716407447926107,
+        "over": 0.3283592552073893
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.89,
-        "over": 0.3908501208836395,
-        "under": 0.6091498791163605
+        "over": 0.39085012088331444,
+        "under": 0.6091498791166856
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.72,
-        "over": 0.5111353179306731,
-        "under": 0.4888646820693269
+        "over": 0.5111353179306672,
+        "under": 0.48886468206933276
       },
       "platform_lines": []
     },
@@ -6752,24 +6752,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6137698809108479,
-        "over": 0.38623011908915206
+        "under": 0.6137698809108498,
+        "over": 0.38623011908915017
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.74,
-        "over": 0.36473177754401465,
-        "under": 0.6352682224559854
+        "over": 0.3647317775436041,
+        "under": 0.6352682224563959
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.98,
-        "over": 0.5733825380299327,
-        "under": 0.42661746197006734
+        "over": 0.5733825380299353,
+        "under": 0.42661746197006467
       },
       "platform_lines": []
     },
@@ -6851,8 +6851,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 10.97,
-        "over": 0.406537490165126,
-        "under": 0.593462509834874
+        "over": 0.5012957392033849,
+        "under": 0.4987042607966151
       },
       "bogeys": {
         "line": 2.5,
@@ -6945,8 +6945,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6775258371995119,
-        "under": 0.32247416280048813
+        "over": 0.6775258371995274,
+        "under": 0.3224741628004726
       },
       "birdies": {
         "line": 3.5,
@@ -6957,24 +6957,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5742195541997944,
-        "over": 0.4257804458002056
+        "under": 0.5742195541997964,
+        "over": 0.4257804458002036
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.65,
-        "over": 0.3486291205505347,
-        "under": 0.6513708794494653
+        "over": 0.3486291205504279,
+        "under": 0.6513708794495721
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.14,
-        "over": 0.6111943004091115,
-        "under": 0.3888056995908885
+        "over": 0.611194300409104,
+        "under": 0.38880569959089595
       },
       "platform_lines": []
     },
@@ -6989,8 +6989,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6790266469393385,
-        "under": 0.32097335306066155
+        "over": 0.6790266469393541,
+        "under": 0.3209733530606459
       },
       "birdies": {
         "line": 3.5,
@@ -7077,14 +7077,14 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6730267300232463,
-        "under": 0.3269732699767537
+        "over": 0.6730267300232702,
+        "under": 0.3269732699767298
       },
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7219214640429448,
-        "under": 0.27807853595705523
+        "over": 0.7219214640429482,
+        "under": 0.2780785359570518
       },
       "strokes": {
         "line": 70.5,
@@ -7105,8 +7105,8 @@
         "source": null,
         "experimental": true,
         "expected": 2.71,
-        "over": 0.5089913228688364,
-        "under": 0.4910086771311636
+        "over": 0.5089913228687765,
+        "under": 0.49100867713122354
       },
       "platform_lines": []
     },
@@ -7121,15 +7121,15 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7218176439969609,
-        "under": 0.2781823560030391
+        "over": 0.721817643996943,
+        "under": 0.27818235600305696
       },
       "birdies": {
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.4076077421065417,
-        "under": 0.5923922578934583
+        "over": 0.5012882844879109,
+        "under": 0.49871171551208915
       },
       "strokes": {
         "line": 68.0,
@@ -7144,8 +7144,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 10.87,
-        "over": 0.38874561298126353,
-        "under": 0.6112543870187365
+        "over": 0.4791683869748011,
+        "under": 0.5208316130251989
       },
       "bogeys": {
         "line": 2.0,
@@ -7153,8 +7153,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 2.56,
-        "over": 0.47205916229314515,
-        "under": 0.5279408377068548
+        "over": 0.6284788166156156,
+        "under": 0.37152118338438445
       },
       "platform_lines": [
         {
@@ -7300,24 +7300,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6595884555029312,
-        "over": 0.3404115444970688
+        "under": 0.6595884555029331,
+        "over": 0.3404115444970669
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.87,
-        "over": 0.38874383021207487,
-        "under": 0.6112561697879251
+        "over": 0.3887438302122605,
+        "under": 0.6112561697877394
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.76,
-        "over": 0.5205120827239835,
-        "under": 0.4794879172760165
+        "over": 0.5205120827239774,
+        "under": 0.4794879172760226
       },
       "platform_lines": []
     },
@@ -7344,24 +7344,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6600877786610665,
-        "over": 0.3399122213389335
+        "under": 0.6600877786610703,
+        "over": 0.33991222133892973
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.88,
-        "over": 0.38911181356551144,
-        "under": 0.6108881864344886
+        "over": 0.38911181356657165,
+        "under": 0.6108881864334283
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.75,
-        "over": 0.5197899179568144,
-        "under": 0.4802100820431856
+        "over": 0.5197899179568088,
+        "under": 0.48021008204319116
       },
       "platform_lines": []
     },
@@ -7382,30 +7382,30 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.719501216023042,
-        "under": 0.28049878397695804
+        "over": 0.7195012160230422,
+        "under": 0.2804987839769578
       },
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6572665668271146,
-        "over": 0.3427334331728854
+        "under": 0.6572665668271165,
+        "over": 0.3427334331728835
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.87,
-        "over": 0.38822490327324016,
-        "under": 0.6117750967267599
+        "over": 0.38822490327262643,
+        "under": 0.6117750967273736
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.76,
-        "over": 0.5224349758782956,
-        "under": 0.47756502412170443
+        "over": 0.5224349758782609,
+        "under": 0.47756502412173907
       },
       "platform_lines": []
     },
@@ -7476,24 +7476,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5889407470561437,
-        "over": 0.41105925294385626
+        "under": 0.5889407470561457,
+        "over": 0.41105925294385426
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.71,
-        "over": 0.3583172386712409,
-        "under": 0.6416827613287591
+        "over": 0.35831723867098,
+        "under": 0.64168276132902
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.06,
-        "over": 0.5931421142820931,
-        "under": 0.40685788571790693
+        "over": 0.5931421142820892,
+        "under": 0.4068578857179108
       },
       "platform_lines": []
     },
@@ -7552,8 +7552,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7166572986488113,
-        "under": 0.28334270135118866
+        "over": 0.716657298648797,
+        "under": 0.283342701351203
       },
       "birdies": {
         "line": 3.5,
@@ -7652,24 +7652,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6435858053842918,
-        "over": 0.3564141946157082
+        "under": 0.6435858053842937,
+        "over": 0.35641419461570634
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.85,
-        "over": 0.38440224406502416,
-        "under": 0.6155977559349759
+        "over": 0.38440224406500967,
+        "under": 0.6155977559349903
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.81,
-        "over": 0.5345469583207965,
-        "under": 0.46545304167920354
+        "over": 0.5345469583207911,
+        "under": 0.46545304167920887
       },
       "platform_lines": []
     },
@@ -7684,8 +7684,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6774984622387715,
-        "under": 0.3225015377612285
+        "over": 0.677498462238769,
+        "under": 0.322501537761231
       },
       "birdies": {
         "line": 3.5,
@@ -7734,8 +7734,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7155867613105638,
-        "under": 0.28441323868943624
+        "over": 0.7155867613105639,
+        "under": 0.28441323868943613
       },
       "strokes": {
         "line": 70.5,
@@ -7916,24 +7916,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.67155653790722,
-        "over": 0.32844346209277997
+        "under": 0.6715565379072218,
+        "over": 0.3284434620927782
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.93,
-        "over": 0.3992612465310393,
-        "under": 0.6007387534689608
+        "over": 0.3992612465308103,
+        "under": 0.6007387534691897
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.68,
-        "over": 0.501019421167408,
-        "under": 0.49898057883259195
+        "over": 0.5010194211674367,
+        "under": 0.4989805788325633
       },
       "platform_lines": []
     },
@@ -7992,8 +7992,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6197104851608932,
-        "under": 0.3802895148391068
+        "over": 0.6197104851608974,
+        "under": 0.38028951483910256
       },
       "birdies": {
         "line": 3.5,
@@ -8004,24 +8004,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6227230050697923,
-        "over": 0.3772769949302077
+        "under": 0.6227230050697942,
+        "over": 0.37727699493020583
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.81,
-        "over": 0.3769416988449687,
-        "under": 0.6230583011550312
+        "over": 0.376941698845927,
+        "under": 0.623058301154073
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.9,
-        "over": 0.5545006113757092,
-        "under": 0.44549938862429084
+        "over": 0.5545006113757056,
+        "under": 0.4454993886242944
       },
       "platform_lines": []
     },
@@ -8080,8 +8080,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.57380775022185,
-        "under": 0.42619224977814996
+        "over": 0.5738077502218557,
+        "under": 0.4261922497781443
       },
       "birdies": {
         "line": 3.5,
@@ -8124,8 +8124,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5631844322134424,
-        "under": 0.4368155677865576
+        "over": 0.563184432213438,
+        "under": 0.43681556778656205
       },
       "birdies": {
         "line": 3.5,
@@ -8136,24 +8136,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5808707717875345,
-        "over": 0.41912922821246545
+        "under": 0.5808707717875384,
+        "over": 0.41912922821246157
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.71,
-        "over": 0.35911016244714966,
-        "under": 0.6408898375528503
+        "over": 0.3591101624466519,
+        "under": 0.640889837553348
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.08,
-        "over": 0.5961599207613286,
-        "under": 0.4038400792386714
+        "over": 0.5961599207613251,
+        "under": 0.40384007923867493
       },
       "platform_lines": []
     },
@@ -8180,24 +8180,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6368652617969238,
-        "over": 0.3631347382030762
+        "under": 0.6368652617969257,
+        "over": 0.3631347382030743
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.85,
-        "over": 0.3839134609887005,
-        "under": 0.6160865390112995
+        "over": 0.38391346098771584,
+        "under": 0.6160865390122842
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.83,
-        "over": 0.5387682252882078,
-        "under": 0.4612317747117922
+        "over": 0.5387682252882071,
+        "under": 0.4612317747117929
       },
       "platform_lines": []
     },
@@ -8224,24 +8224,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5721302344952187,
-        "over": 0.4278697655047813
+        "under": 0.5721302344952207,
+        "over": 0.4278697655047793
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.69,
-        "over": 0.35568007245669186,
-        "under": 0.6443199275433081
+        "over": 0.3556800724570358,
+        "under": 0.6443199275429642
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.11,
-        "over": 0.6042391550943904,
-        "under": 0.3957608449056096
+        "over": 0.6042391550943886,
+        "under": 0.39576084490561136
       },
       "platform_lines": []
     },
@@ -8250,14 +8250,14 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.49944442662604605,
+        "over": 0.4994444266260461,
         "under": 0.500555573373954
       },
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6264935798590918,
-        "under": 0.3735064201409082
+        "over": 0.6264935798590674,
+        "under": 0.3735064201409326
       },
       "birdies": {
         "line": 3.5,
@@ -8268,24 +8268,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6318576261890584,
-        "over": 0.3681423738109416
+        "under": 0.6318576261890603,
+        "over": 0.3681423738109397
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.84,
-        "over": 0.3818857551996706,
-        "under": 0.6181142448003294
+        "over": 0.3818857551994453,
+        "under": 0.6181142448005548
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.85,
-        "over": 0.5438522993927603,
-        "under": 0.45614770060723975
+        "over": 0.543852299392758,
+        "under": 0.45614770060724197
       },
       "platform_lines": []
     },
@@ -8300,8 +8300,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6483839689262575,
-        "under": 0.3516160310737425
+        "over": 0.6483839689262421,
+        "under": 0.35161603107375794
       },
       "birdies": {
         "line": 3.5,
@@ -8312,24 +8312,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6196524225704924,
-        "over": 0.38034757742950764
+        "under": 0.6196524225704944,
+        "over": 0.38034757742950565
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.81,
-        "over": 0.37675984381417293,
-        "under": 0.6232401561858271
+        "over": 0.37675984381482874,
+        "under": 0.6232401561851713
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.9,
-        "over": 0.5563178092321616,
-        "under": 0.44368219076783844
+        "over": 0.5563178092321598,
+        "under": 0.4436821907678402
       },
       "platform_lines": []
     },
@@ -8356,24 +8356,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6618072028763025,
-        "over": 0.33819279712369754
+        "under": 0.6618072028763061,
+        "over": 0.3381927971236939
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.91,
-        "over": 0.39614210950126305,
-        "under": 0.603857890498737
+        "over": 0.3961421095003968,
+        "under": 0.6038578904996033
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.71,
-        "over": 0.5103696032891036,
-        "under": 0.48963039671089637
+        "over": 0.5103696032890983,
+        "under": 0.4896303967109017
       },
       "platform_lines": []
     },
@@ -8400,24 +8400,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.599048832414051,
-        "over": 0.40095116758594895
+        "under": 0.599048832414053,
+        "over": 0.40095116758594695
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.76,
-        "over": 0.3679346931126681,
-        "under": 0.6320653068873319
+        "over": 0.3679346931125782,
+        "under": 0.6320653068874218
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.99,
-        "over": 0.5771058945677991,
-        "under": 0.42289410543220085
+        "over": 0.5771058945677965,
+        "under": 0.4228941054322035
       },
       "platform_lines": []
     },
@@ -8576,24 +8576,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6665603707073269,
-        "over": 0.3334396292926731
+        "under": 0.6665603707073288,
+        "over": 0.33343962929267124
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.93,
-        "over": 0.3989632029516506,
-        "under": 0.6010367970483494
+        "over": 0.3989632029513318,
+        "under": 0.6010367970486682
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.69,
-        "over": 0.5042583675329535,
-        "under": 0.4957416324670465
+        "over": 0.5042583675329511,
+        "under": 0.49574163246704894
       },
       "platform_lines": []
     },
@@ -8602,14 +8602,14 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.48666868239230204,
-        "under": 0.5133313176076979
+        "over": 0.486668682392303,
+        "under": 0.513331317607697
       },
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.533982552325031,
-        "under": 0.466017447674969
+        "over": 0.5339825523250354,
+        "under": 0.46601744767496456
       },
       "birdies": {
         "line": 3.5,
@@ -8620,24 +8620,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6484689027117899,
-        "over": 0.3515310972882101
+        "under": 0.6484689027117918,
+        "over": 0.3515310972882082
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.88,
-        "over": 0.3905815294822192,
-        "under": 0.6094184705177808
+        "over": 0.39058152948269337,
+        "under": 0.6094184705173067
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.77,
-        "over": 0.5245048714064242,
-        "under": 0.4754951285935758
+        "over": 0.5245048714064285,
+        "under": 0.47549512859357146
       },
       "platform_lines": []
     },
@@ -8708,24 +8708,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6278042163015647,
-        "over": 0.3721957836984353
+        "under": 0.6278042163015667,
+        "over": 0.3721957836984333
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.84,
-        "over": 0.38171081180504074,
-        "under": 0.6182891881949593
+        "over": 0.3817108118060822,
+        "under": 0.6182891881939179
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.86,
-        "over": 0.5462154233610047,
-        "under": 0.4537845766389953
+        "over": 0.5462154233610054,
+        "under": 0.45378457663899463
       },
       "platform_lines": []
     },
@@ -8840,24 +8840,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6598035644805891,
-        "over": 0.3401964355194109
+        "under": 0.6598035644805909,
+        "over": 0.34019643551940915
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.92,
-        "over": 0.3969338448784324,
-        "under": 0.6030661551215676
+        "over": 0.39693384487876376,
+        "under": 0.6030661551212362
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.72,
-        "over": 0.5105536620202632,
-        "under": 0.4894463379797368
+        "over": 0.5105536620202601,
+        "under": 0.4894463379797399
       },
       "platform_lines": []
     },
@@ -8884,24 +8884,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6273612485319788,
-        "over": 0.37263875146802117
+        "under": 0.6273612485319808,
+        "over": 0.37263875146801917
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.84,
-        "over": 0.382041707687669,
-        "under": 0.617958292312331
+        "over": 0.38204170768789514,
+        "under": 0.6179582923121049
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.86,
-        "over": 0.5460605508115823,
-        "under": 0.45393944918841767
+        "over": 0.5460605508115761,
+        "under": 0.4539394491884239
       },
       "platform_lines": []
     },
@@ -9016,24 +9016,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.582950988145633,
-        "over": 0.41704901185436705
+        "under": 0.582950988145635,
+        "over": 0.41704901185436505
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.73,
-        "over": 0.362902537493376,
-        "under": 0.637097462506624
+        "over": 0.36290253749383383,
+        "under": 0.6370974625061662
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.05,
-        "over": 0.5908343157820843,
-        "under": 0.40916568421791566
+        "over": 0.5908343157820842,
+        "under": 0.40916568421791577
       },
       "platform_lines": []
     },
@@ -9060,24 +9060,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6218752897812223,
-        "over": 0.3781247102187777
+        "under": 0.6218752897812243,
+        "over": 0.3781247102187757
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.89,
-        "over": 0.390973851347792,
-        "under": 0.6090261486522079
+        "over": 0.39097385134775686,
+        "under": 0.6090261486522431
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.83,
-        "over": 0.5384549151170974,
-        "under": 0.4615450848829026
+        "over": 0.5384549151170934,
+        "under": 0.4615450848829066
       },
       "platform_lines": []
     },
@@ -9092,8 +9092,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5247929272638618,
-        "under": 0.47520707273613816
+        "over": 0.5247929272638617,
+        "under": 0.47520707273613827
       },
       "birdies": {
         "line": 3.5,
@@ -9130,14 +9130,14 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.4810386743641723,
-        "under": 0.5189613256358276
+        "over": 0.48103867436417364,
+        "under": 0.5189613256358263
       },
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6955270413083352,
-        "under": 0.3044729586916648
+        "over": 0.6955270413083225,
+        "under": 0.30447295869167745
       },
       "birdies": {
         "line": 3.5,
@@ -9148,24 +9148,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6248200681283297,
-        "over": 0.3751799318716703
+        "under": 0.6248200681283316,
+        "over": 0.3751799318716684
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.84,
-        "over": 0.3828631779844141,
-        "under": 0.617136822015586
+        "over": 0.3828631779857512,
+        "under": 0.6171368220142488
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.86,
-        "over": 0.5464394547308451,
-        "under": 0.4535605452691549
+        "over": 0.5464394547308399,
+        "under": 0.4535605452691601
       },
       "platform_lines": []
     },
@@ -9180,8 +9180,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5453918487702792,
-        "under": 0.45460815122972076
+        "over": 0.545391848770278,
+        "under": 0.454608151229722
       },
       "birdies": {
         "line": 3.5,
@@ -9192,24 +9192,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6065122082499624,
-        "over": 0.39348779175003756
+        "under": 0.6065122082499644,
+        "over": 0.39348779175003556
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.8,
-        "over": 0.3748824447623899,
-        "under": 0.62511755523761
+        "over": 0.3748824447625569,
+        "under": 0.6251175552374431
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.94,
-        "over": 0.5652876636167733,
-        "under": 0.4347123363832267
+        "over": 0.565287663616777,
+        "under": 0.43471233638322304
       },
       "platform_lines": []
     },
@@ -9268,8 +9268,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5655767665972842,
-        "under": 0.4344232334027158
+        "over": 0.5655767665972828,
+        "under": 0.43442323340271716
       },
       "birdies": {
         "line": 3.5,
@@ -9280,24 +9280,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5843844378749272,
-        "over": 0.4156155621250728
+        "under": 0.5843844378749312,
+        "over": 0.4156155621250688
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.75,
-        "over": 0.36573671558272386,
-        "under": 0.6342632844172762
+        "over": 0.3657367155830393,
+        "under": 0.6342632844169607
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.04,
-        "over": 0.5869001564782983,
-        "under": 0.4130998435217017
+        "over": 0.5869001564782965,
+        "under": 0.4130998435217035
       },
       "platform_lines": []
     },
@@ -9400,8 +9400,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6673527563287558,
-        "under": 0.3326472436712442
+        "over": 0.6673527563287577,
+        "under": 0.3326472436712423
       },
       "birdies": {
         "line": 3.5,
@@ -9412,16 +9412,16 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6493222149153526,
-        "over": 0.3506777850846474
+        "under": 0.6493222149153546,
+        "over": 0.3506777850846454
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.91,
-        "over": 0.39493470476578846,
-        "under": 0.6050652952342115
+        "over": 0.3949347047659766,
+        "under": 0.6050652952340234
       },
       "bogeys": {
         "line": 2.5,
@@ -9456,24 +9456,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5580908786124437,
-        "over": 0.44190912138755634
+        "under": 0.5580908786124457,
+        "over": 0.44190912138755434
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.69,
-        "over": 0.3551611107353229,
-        "under": 0.644838889264677
+        "over": 0.35516111073533435,
+        "under": 0.6448388892646657
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.15,
-        "over": 0.611455477942634,
-        "under": 0.388544522057366
+        "over": 0.6114554779426254,
+        "under": 0.38854452205737455
       },
       "platform_lines": []
     },
@@ -9500,24 +9500,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6436795253227805,
-        "over": 0.3563204746772195
+        "under": 0.6436795253227823,
+        "over": 0.3563204746772177
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.9,
-        "over": 0.39300974969218483,
-        "under": 0.6069902503078152
+        "over": 0.39300974969159475,
+        "under": 0.6069902503084053
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.77,
-        "over": 0.5242493236597847,
-        "under": 0.4757506763402153
+        "over": 0.5242493236597496,
+        "under": 0.47575067634025037
       },
       "platform_lines": []
     },
@@ -9582,8 +9582,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7030696054300148,
-        "under": 0.29693039456998516
+        "over": 0.703069605430015,
+        "under": 0.29693039456998505
       },
       "strokes": {
         "line": 70.5,
@@ -9642,8 +9642,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 10.91,
-        "over": 0.39512156697553463,
-        "under": 0.6048784330244654
+        "over": 0.4871234880651304,
+        "under": 0.5128765119348696
       },
       "bogeys": {
         "line": 2.5,
@@ -9729,8 +9729,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.4962226256532008,
-        "under": 0.5037773743467993
+        "over": 0.49622262565320324,
+        "under": 0.5037773743467968
       },
       "birdies": {
         "line": 3.5,
@@ -9741,24 +9741,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.571433505980159,
-        "over": 0.42856649401984104
+        "under": 0.571433505980161,
+        "over": 0.42856649401983904
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.74,
-        "over": 0.3647457470700731,
-        "under": 0.6352542529299269
+        "over": 0.3647457470703706,
+        "under": 0.6352542529296294
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.07,
-        "over": 0.5943299162267034,
-        "under": 0.4056700837732966
+        "over": 0.5943299162267366,
+        "under": 0.4056700837732634
       },
       "platform_lines": []
     },
@@ -9773,8 +9773,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6633644411615879,
-        "under": 0.3366355588384121
+        "over": 0.6633644411615737,
+        "under": 0.33663555883842633
       },
       "birdies": {
         "line": 3.5,
@@ -9873,24 +9873,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5722146981783025,
-        "over": 0.4277853018216975
+        "under": 0.5722146981783045,
+        "over": 0.4277853018216955
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.75,
-        "over": 0.3666143656138777,
-        "under": 0.6333856343861223
+        "over": 0.3666143656133219,
+        "under": 0.6333856343866782
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.06,
-        "over": 0.5918355480736279,
-        "under": 0.4081644519263721
+        "over": 0.5918355480736275,
+        "under": 0.4081644519263725
       },
       "platform_lines": []
     },
@@ -9912,23 +9912,23 @@
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.35837000359076887,
-        "under": 0.6416299964092311
+        "over": 0.4402840214197824,
+        "under": 0.5597159785802176
       },
       "strokes": {
         "line": 68.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "under": 0.3039022161443288,
-        "over": 0.6960977838556712
+        "under": 0.30390221614433055,
+        "over": 0.6960977838556694
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.8,
-        "over": 0.37586423522968754,
-        "under": 0.6241357647703125
+        "over": 0.3758642352310885,
+        "under": 0.6241357647689115
       },
       "bogeys": {
         "line": 2.0,
@@ -9936,8 +9936,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 2.85,
-        "over": 0.5423585169483613,
-        "under": 0.45764148305163865
+        "over": 0.706658777660461,
+        "under": 0.29334122233953897
       },
       "platform_lines": [
         {
@@ -9989,24 +9989,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5813663620952152,
-        "over": 0.4186336379047848
+        "under": 0.5813663620952172,
+        "over": 0.4186336379047828
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.78,
-        "over": 0.3715942366422565,
-        "under": 0.6284057633577436
+        "over": 0.3715942366422915,
+        "under": 0.6284057633577085
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.01,
-        "over": 0.5816948760536704,
-        "under": 0.41830512394632957
+        "over": 0.5816948760536684,
+        "under": 0.41830512394633157
       },
       "platform_lines": []
     },
@@ -10059,7 +10059,7 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.4151498068419761,
+        "over": 0.41514980684197605,
         "under": 0.5848501931580239
       },
       "fairways": {
@@ -10077,24 +10077,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5876293143787249,
-        "over": 0.4123706856212751
+        "under": 0.5876293143787269,
+        "over": 0.4123706856212731
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.8,
-        "over": 0.37492192789566403,
-        "under": 0.625078072104336
+        "over": 0.3749219278956103,
+        "under": 0.6250780721043897
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.98,
-        "over": 0.5747759276845775,
-        "under": 0.4252240723154225
+        "over": 0.5747759276845711,
+        "under": 0.4252240723154289
       },
       "platform_lines": []
     },
@@ -10121,24 +10121,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5721302344952168,
-        "over": 0.4278697655047832
+        "under": 0.5721302344952207,
+        "over": 0.4278697655047793
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.76,
-        "over": 0.36846253692544806,
-        "under": 0.6315374630745519
+        "over": 0.368462536925392,
+        "under": 0.631537463074608
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.05,
-        "over": 0.5897809773579833,
-        "under": 0.4102190226420167
+        "over": 0.5897809773579799,
+        "under": 0.41021902264202015
       },
       "platform_lines": []
     },
@@ -10209,24 +10209,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5218448153302685,
-        "over": 0.4781551846697315
+        "under": 0.5218448153302705,
+        "over": 0.4781551846697295
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.65,
-        "over": 0.34794774958560964,
-        "under": 0.6520522504143904
+        "over": 0.3479477495858954,
+        "under": 0.6520522504141046
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.26,
-        "over": 0.635985196515549,
-        "under": 0.36401480348445103
+        "over": 0.635985196515547,
+        "under": 0.36401480348445303
       },
       "platform_lines": []
     },
@@ -10253,24 +10253,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.599048832414051,
-        "over": 0.40095116758594895
+        "under": 0.599048832414055,
+        "over": 0.40095116758594496
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.83,
-        "over": 0.3811691955776416,
-        "under": 0.6188308044223584
+        "over": 0.3811691955772216,
+        "under": 0.6188308044227784
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.93,
-        "over": 0.5618048324728975,
-        "under": 0.4381951675271025
+        "over": 0.5618048324728945,
+        "under": 0.4381951675271055
       },
       "platform_lines": []
     },
@@ -10297,24 +10297,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5982285163337815,
-        "over": 0.4017714836662185
+        "under": 0.5982285163337835,
+        "over": 0.4017714836662165
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.84,
-        "over": 0.38287468438035704,
-        "under": 0.617125315619643
+        "over": 0.3828746843806797,
+        "under": 0.6171253156193204
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.92,
-        "over": 0.5602470565963027,
-        "under": 0.4397529434036973
+        "over": 0.5602470565962997,
+        "under": 0.4397529434037003
       },
       "platform_lines": []
     },
@@ -10385,24 +10385,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5720557049709707,
-        "over": 0.4279442950290293
+        "under": 0.5720557049709727,
+        "over": 0.4279442950290273
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.78,
-        "over": 0.37172041142535023,
-        "under": 0.6282795885746497
+        "over": 0.37172041142636975,
+        "under": 0.6282795885736303
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.03,
-        "over": 0.5861193691240303,
-        "under": 0.4138806308759697
+        "over": 0.5861193691240633,
+        "under": 0.41388063087593674
       },
       "platform_lines": []
     },
@@ -10411,8 +10411,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.524652284653336,
-        "under": 0.475347715346664
+        "over": 0.5246522846533362,
+        "under": 0.47534771534666376
       },
       "fairways": {
         "line": 8.5,
@@ -10424,8 +10424,8 @@
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.3846364698653617,
-        "under": 0.6153635301346383
+        "over": 0.47303186627553234,
+        "under": 0.5269681337244676
       },
       "strokes": {
         "line": 68.0,
@@ -10440,8 +10440,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 10.84,
-        "over": 0.3831193610244871,
-        "under": 0.6168806389755128
+        "over": 0.47212622096573914,
+        "under": 0.5278737790342609
       },
       "bogeys": {
         "line": 2.0,
@@ -10449,8 +10449,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 2.69,
-        "over": 0.5042923218142055,
-        "under": 0.49570767818579453
+        "over": 0.6653901980049488,
+        "under": 0.3346098019950512
       },
       "platform_lines": [
         {
@@ -10490,8 +10490,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6873367769090424,
-        "under": 0.3126632230909576
+        "over": 0.6873367769090387,
+        "under": 0.3126632230909613
       },
       "birdies": {
         "line": 3.5,
@@ -10502,24 +10502,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6138843625068444,
-        "over": 0.3861156374931556
+        "under": 0.6138843625068464,
+        "over": 0.3861156374931536
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.89,
-        "over": 0.3920687215104247,
-        "under": 0.6079312784895753
+        "over": 0.39206872151032995,
+        "under": 0.60793127848967
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.84,
-        "over": 0.5414001786710103,
-        "under": 0.4585998213289897
+        "over": 0.5414001786710053,
+        "under": 0.4585998213289947
       },
       "platform_lines": []
     },
@@ -10578,8 +10578,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5559067673117425,
-        "under": 0.4440932326882575
+        "over": 0.5559067673117426,
+        "under": 0.4440932326882574
       },
       "birdies": {
         "line": 3.5,
@@ -10590,24 +10590,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6267514744555052,
-        "over": 0.37324852554449484
+        "under": 0.626751474455507,
+        "over": 0.37324852554449295
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.93,
-        "over": 0.3992408282932467,
-        "under": 0.6007591717067533
+        "over": 0.39924082829304625,
+        "under": 0.6007591717069538
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.78,
-        "over": 0.5260809634104254,
-        "under": 0.47391903658957457
+        "over": 0.5260809634104249,
+        "under": 0.4739190365895751
       },
       "platform_lines": []
     },
@@ -10622,8 +10622,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5153061144043484,
-        "under": 0.48469388559565163
+        "over": 0.5153061144043463,
+        "under": 0.48469388559565374
       },
       "birdies": {
         "line": 5.5,
@@ -10654,8 +10654,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 2.72,
-        "over": 0.5128028258061443,
-        "under": 0.48719717419385566
+        "over": 0.6748378474577093,
+        "under": 0.32516215254229075
       },
       "platform_lines": [
         {
@@ -10739,8 +10739,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6592112195512078,
-        "under": 0.34078878044879224
+        "over": 0.6592112195512215,
+        "under": 0.34078878044877847
       },
       "birdies": {
         "line": 3.5,
@@ -10811,8 +10811,8 @@
         "source": null,
         "experimental": true,
         "expected": 3.1,
-        "over": 0.6006493953477803,
-        "under": 0.3993506046522197
+        "over": 0.6006493953477804,
+        "under": 0.3993506046522196
       },
       "platform_lines": []
     },
@@ -10821,7 +10821,7 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.4978477969660273,
+        "over": 0.4978477969660274,
         "under": 0.5021522030339727
       },
       "fairways": {
@@ -10834,15 +10834,15 @@
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.3551716560666482,
-        "under": 0.6448283439333518
+        "over": 0.4362680792049979,
+        "under": 0.5637319207950021
       },
       "strokes": {
         "line": 68.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "under": 0.3180623054332343,
-        "over": 0.6819376945667657
+        "under": 0.3180623054332361,
+        "over": 0.6819376945667639
       },
       "pars": {
         "line": 11.0,
@@ -10850,8 +10850,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 10.85,
-        "over": 0.38477196989004253,
-        "under": 0.6152280301099575
+        "over": 0.4741968600952034,
+        "under": 0.5258031399047967
       },
       "bogeys": {
         "line": 2.0,
@@ -10859,8 +10859,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 2.77,
-        "over": 0.5235566058946514,
-        "under": 0.47644339410534864
+        "over": 0.6865945529436425,
+        "under": 0.31340544705635753
       },
       "platform_lines": [
         {
@@ -10963,24 +10963,24 @@
         "line": 68.5,
         "source": "prizepicks",
         "odds_type": "standard",
-        "under": 0.31862232274354835,
-        "over": 0.6813776772564517
+        "under": 0.3186223227435502,
+        "over": 0.6813776772564498
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.87,
-        "over": 0.3886723698127921,
-        "under": 0.6113276301872079
+        "over": 0.38867236981305464,
+        "under": 0.6113276301869454
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.9,
-        "over": 0.5547205387245999,
-        "under": 0.4452794612754001
+        "over": 0.5547205387245608,
+        "under": 0.44527946127543916
       },
       "platform_lines": [
         {
@@ -10996,14 +10996,14 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.5088483894111868,
-        "under": 0.4911516105888132
+        "over": 0.5088483894111506,
+        "under": 0.4911516105888494
       },
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5553272809654166,
-        "under": 0.4446727190345834
+        "over": 0.5553272809654127,
+        "under": 0.44467271903458727
       },
       "birdies": {
         "line": 3.5,
@@ -11014,24 +11014,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5501327016013257,
-        "over": 0.44986729839867434
+        "under": 0.5501327016013277,
+        "over": 0.44986729839867234
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.76,
-        "over": 0.36859657841788085,
-        "under": 0.6314034215821192
+        "over": 0.36859657841689614,
+        "under": 0.6314034215831039
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.1,
-        "over": 0.6001952381061512,
-        "under": 0.39980476189384884
+        "over": 0.6001952381061603,
+        "under": 0.39980476189383973
       },
       "platform_lines": []
     },
@@ -11046,8 +11046,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5863507915879951,
-        "under": 0.4136492084120049
+        "over": 0.5863507915880121,
+        "under": 0.41364920841198793
       },
       "birdies": {
         "line": 3.5,
@@ -11058,24 +11058,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.597576791538537,
-        "over": 0.40242320846146296
+        "under": 0.597576791538539,
+        "over": 0.40242320846146096
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.88,
-        "over": 0.3900091303078292,
-        "under": 0.6099908696921708
+        "over": 0.39000913030844014,
+        "under": 0.6099908696915599
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.89,
-        "over": 0.5523028154313651,
-        "under": 0.44769718456863494
+        "over": 0.5523028154313565,
+        "under": 0.4476971845686435
       },
       "platform_lines": []
     },
@@ -11102,24 +11102,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.5406519692389613,
-        "over": 0.4593480307610387
+        "under": 0.5406519692389633,
+        "over": 0.4593480307610367
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.76,
-        "over": 0.3683373761492107,
-        "under": 0.6316626238507893
+        "over": 0.36833737615042983,
+        "under": 0.6316626238495702
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.12,
-        "over": 0.6049662020207444,
-        "under": 0.39503379797925564
+        "over": 0.6049662020207386,
+        "under": 0.3950337979792614
       },
       "platform_lines": []
     },
@@ -11146,24 +11146,24 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6299293862440865,
-        "over": 0.37007061375591355
+        "under": 0.6299293862440885,
+        "over": 0.37007061375591155
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.98,
-        "over": 0.4083018617647083,
-        "under": 0.5916981382352917
+        "over": 0.408301861764628,
+        "under": 0.591698138235372
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.73,
-        "over": 0.5136080076512638,
-        "under": 0.4863919923487362
+        "over": 0.5136080076512612,
+        "under": 0.48639199234873876
       },
       "platform_lines": []
     },
@@ -11229,23 +11229,23 @@
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.4160276138252161,
-        "under": 0.5839723861747839
+        "over": 0.5115454251051663,
+        "under": 0.4884545748948337
       },
       "strokes": {
         "line": 68.5,
         "source": "prizepicks",
         "odds_type": "standard",
-        "under": 0.405816931326403,
-        "over": 0.5941830686735969
+        "under": 0.40581693132640495,
+        "over": 0.594183068673595
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 10.69,
-        "over": 0.35536064994555766,
-        "under": 0.6446393500544423
+        "over": 0.3553606499453861,
+        "under": 0.6446393500546139
       },
       "bogeys": {
         "line": 2.5,
@@ -11253,8 +11253,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 2.87,
-        "over": 0.547593766803633,
-        "under": 0.45240623319636697
+        "over": 0.5475937668036301,
+        "under": 0.45240623319636986
       },
       "platform_lines": [
         {
@@ -11288,15 +11288,15 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6602307055249803,
-        "under": 0.3397692944750197
+        "over": 0.660230705524957,
+        "under": 0.339769294475043
       },
       "birdies": {
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.38243385319248774,
-        "under": 0.6175661468075122
+        "over": 0.47030276206292243,
+        "under": 0.5296972379370776
       },
       "strokes": {
         "line": 68.5,
@@ -11353,8 +11353,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6010748724528558,
-        "under": 0.39892512754714415
+        "over": 0.6010748724528443,
+        "under": 0.3989251275471557
       },
       "birdies": {
         "line": 3.5,
@@ -11365,26 +11365,171 @@
       "strokes": {
         "line": 70.5,
         "source": null,
-        "under": 0.6167270158726667,
-        "over": 0.38327298412733335
+        "under": 0.6167270158726685,
+        "over": 0.38327298412733146
       },
       "pars": {
         "line": 11.5,
         "source": null,
         "experimental": true,
         "expected": 11.01,
-        "over": 0.4145162454456652,
-        "under": 0.5854837545543348
+        "over": 0.4145162454461627,
+        "under": 0.5854837545538373
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.73,
-        "over": 0.5134416795597941,
-        "under": 0.48655832044020586
+        "over": 0.5134416795598256,
+        "under": 0.48655832044017444
       },
       "platform_lines": []
+    },
+    {
+      "player": "Harry Higgs",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.4476502598278437,
+        "under": 0.5523497401721563
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.5961578739846239,
+        "under": 0.40384212601537606
+      },
+      "birdies": {
+        "line": 4.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "over": 0.4957760982589746,
+        "under": 0.5042239017410254
+      },
+      "strokes": {
+        "line": 69.0,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.35256757203747735,
+        "over": 0.6474324279625226
+      },
+      "pars": {
+        "line": 11.5,
+        "source": null,
+        "experimental": true,
+        "expected": 10.76,
+        "over": 0.3679570422413033,
+        "under": 0.6320429577586967
+      },
+      "bogeys": {
+        "line": 2.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "experimental": true,
+        "expected": 3.07,
+        "over": 0.5950042468198514,
+        "under": 0.4049957531801486
+      },
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.0,
+          "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 4.5,
+          "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "bogeys",
+          "line": 2.5,
+          "odds_type": "standard"
+        }
+      ]
+    },
+    {
+      "player": "Jackson Suber",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.6092121053367299,
+        "under": 0.39078789466327013
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.6389184257000304,
+        "under": 0.36108157429996957
+      },
+      "birdies": {
+        "line": 5.0,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "over": 0.48953265484390046,
+        "under": 0.5104673451560995
+      },
+      "strokes": {
+        "line": 68.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.4236961887751524,
+        "over": 0.5763038112248475
+      },
+      "pars": {
+        "line": 11.0,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "experimental": true,
+        "expected": 10.8,
+        "over": 0.4611836774734629,
+        "under": 0.5388163225265371
+      },
+      "bogeys": {
+        "line": 2.0,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "experimental": true,
+        "expected": 2.73,
+        "over": 0.6773483119992234,
+        "under": 0.3226516880007766
+      },
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 68.5,
+          "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "pars",
+          "line": 11.0,
+          "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 5.0,
+          "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 4.5,
+          "odds_type": "goblin"
+        },
+        {
+          "source": "prizepicks",
+          "category": "bogeys",
+          "line": 2.0,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Luke Clanton",
@@ -11404,8 +11549,8 @@
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.3465493441180053,
-        "under": 0.6534506558819947
+        "over": 0.4254138451359369,
+        "under": 0.5745861548640632
       },
       "strokes": {
         "line": 68.5,
@@ -11459,230 +11604,6 @@
       ]
     },
     {
-      "player": "Harry Higgs",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.4476502598278437,
-        "under": 0.5523497401721563
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.5961578739846239,
-        "under": 0.40384212601537606
-      },
-      "birdies": {
-        "line": 4.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.4957760982589746,
-        "under": 0.5042239017410254
-      },
-      "strokes": {
-        "line": 69.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.35256757203747546,
-        "over": 0.6474324279625245
-      },
-      "pars": {
-        "line": 11.5,
-        "source": null,
-        "experimental": true,
-        "expected": 10.76,
-        "over": 0.36795704224108533,
-        "under": 0.6320429577589146
-      },
-      "bogeys": {
-        "line": 2.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "experimental": true,
-        "expected": 3.07,
-        "over": 0.5950042468198888,
-        "under": 0.40499575318011116
-      },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.5,
-          "odds_type": "standard"
-        }
-      ]
-    },
-    {
-      "player": "Jackson Suber",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.6092121053367299,
-        "under": 0.39078789466327013
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.6389184257000304,
-        "under": 0.36108157429996957
-      },
-      "birdies": {
-        "line": 5.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.3980127038893392,
-        "under": 0.6019872961106608
-      },
-      "strokes": {
-        "line": 68.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.4236961887751524,
-        "over": 0.5763038112248475
-      },
-      "pars": {
-        "line": 11.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "experimental": true,
-        "expected": 10.8,
-        "over": 0.374408538698119,
-        "under": 0.6255914613018809
-      },
-      "bogeys": {
-        "line": 2.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "experimental": true,
-        "expected": 2.73,
-        "over": 0.5150836166435641,
-        "under": 0.48491638335643594
-      },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 68.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 11.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.0,
-          "odds_type": "standard"
-        }
-      ]
-    },
-    {
-      "player": "Ben Griffin",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.5673009771527844,
-        "under": 0.4326990228472156
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.604017712148735,
-        "under": 0.395982287851265
-      },
-      "birdies": {
-        "line": 5.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.3759382615475018,
-        "under": 0.6240617384524982
-      },
-      "strokes": {
-        "line": 68.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.4081742070471238,
-        "over": 0.5918257929528762
-      },
-      "pars": {
-        "line": 11.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "experimental": true,
-        "expected": 11.0,
-        "over": 0.4126902095960729,
-        "under": 0.5873097904039271
-      },
-      "bogeys": {
-        "line": 2.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "experimental": true,
-        "expected": 2.43,
-        "over": 0.4382742405266271,
-        "under": 0.5617257594733729
-      },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 68.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 11.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.5,
-          "odds_type": "demon"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.0,
-          "odds_type": "standard"
-        }
-      ]
-    },
-    {
       "player": "Denny McCarthy",
       "gir": {
         "line": 12.5,
@@ -11693,8 +11614,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.6204598382824699,
-        "under": 0.37954016171753013
+        "over": 0.6204598382824779,
+        "under": 0.37954016171752214
       },
       "birdies": {
         "line": 4.5,
@@ -11752,15 +11673,15 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.544102100066178,
-        "under": 0.455897899933822
+        "over": 0.5441021000661781,
+        "under": 0.4558978999338219
       },
       "birdies": {
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.4392050266665823,
-        "under": 0.5607949733334177
+        "over": 0.5394777394687197,
+        "under": 0.4605222605312803
       },
       "strokes": {
         "line": 68.0,
@@ -11775,8 +11696,8 @@
         "odds_type": "standard",
         "experimental": true,
         "expected": 10.73,
-        "over": 0.36279104491108166,
-        "under": 0.6372089550889184
+        "over": 0.446519784035142,
+        "under": 0.553480215964858
       },
       "bogeys": {
         "line": 2.5,
@@ -11814,142 +11735,69 @@
       ]
     },
     {
-      "player": "Pierceson Coody",
+      "player": "Ben Griffin",
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.5142931585473755,
-        "under": 0.48570684145262455
+        "over": 0.5673009771527844,
+        "under": 0.4326990228472156
       },
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.5577327971365695,
-        "under": 0.44226720286343046
+        "over": 0.604017712148735,
+        "under": 0.395982287851265
       },
       "birdies": {
         "line": 5.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "over": 0.3915132139871308,
-        "under": 0.6084867860128692
+        "over": 0.4622356867861171,
+        "under": 0.537764313213883
       },
       "strokes": {
-        "line": 68.5,
+        "line": 68.0,
         "source": "prizepicks",
         "odds_type": "standard",
-        "under": 0.45746541931887064,
-        "over": 0.5425345806811294
+        "under": 0.4081742070471238,
+        "over": 0.5918257929528762
       },
       "pars": {
-        "line": 10.5,
+        "line": 11.0,
         "source": "prizepicks",
         "odds_type": "standard",
         "experimental": true,
-        "expected": 10.9,
-        "over": 0.5820383257393351,
-        "under": 0.4179616742606649
+        "expected": 11.0,
+        "over": 0.5088942775297822,
+        "under": 0.4911057224702178
       },
       "bogeys": {
-        "line": 2.5,
+        "line": 2.0,
         "source": "prizepicks",
         "odds_type": "standard",
         "experimental": true,
-        "expected": 2.57,
-        "over": 0.47392834991555066,
-        "under": 0.5260716500844493
+        "expected": 2.43,
+        "over": 0.5879359832012659,
+        "under": 0.41206401679873406
       },
       "platform_lines": [
         {
           "source": "prizepicks",
           "category": "strokes",
-          "line": 68.5,
+          "line": 68.0,
           "odds_type": "standard"
         },
         {
           "source": "prizepicks",
           "category": "pars",
-          "line": 10.5,
+          "line": 11.0,
           "odds_type": "standard"
         },
         {
           "source": "prizepicks",
           "category": "birdies",
-          "line": 5.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.5,
-          "odds_type": "standard"
-        }
-      ]
-    },
-    {
-      "player": "Aldrich Potgieter",
-      "gir": {
-        "line": 12.5,
-        "source": null,
-        "over": 0.4763280944671182,
-        "under": 0.5236719055328818
-      },
-      "fairways": {
-        "line": 8.5,
-        "source": null,
-        "over": 0.449093046219697,
-        "under": 0.5509069537803031
-      },
-      "birdies": {
-        "line": 5.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.3988091059998045,
-        "under": 0.6011908940001955
-      },
-      "strokes": {
-        "line": 69.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.41990573644466156,
-        "over": 0.5800942635553384
-      },
-      "pars": {
-        "line": 10.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "experimental": true,
-        "expected": 10.62,
-        "over": 0.5285809696253747,
-        "under": 0.4714190303746253
-      },
-      "bogeys": {
-        "line": 2.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "experimental": true,
-        "expected": 3.05,
-        "over": 0.5905852031310852,
-        "under": 0.4094147968689148
-      },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 10.5,
-          "odds_type": "standard"
+          "line": 5.5,
+          "odds_type": "demon"
         },
         {
           "source": "prizepicks",
@@ -11960,7 +11808,7 @@
         {
           "source": "prizepicks",
           "category": "bogeys",
-          "line": 2.5,
+          "line": 2.0,
           "odds_type": "standard"
         }
       ]
@@ -12022,6 +11870,158 @@
           "category": "birdies",
           "line": 4.5,
           "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "bogeys",
+          "line": 2.5,
+          "odds_type": "standard"
+        }
+      ]
+    },
+    {
+      "player": "Aldrich Potgieter",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.4763280944671182,
+        "under": 0.5236719055328818
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.449093046219697,
+        "under": 0.5509069537803031
+      },
+      "birdies": {
+        "line": 5.0,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "over": 0.4905110219067909,
+        "under": 0.509488978093209
+      },
+      "strokes": {
+        "line": 69.0,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.41990573644466156,
+        "over": 0.5800942635553384
+      },
+      "pars": {
+        "line": 10.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "experimental": true,
+        "expected": 10.62,
+        "over": 0.5285809696253747,
+        "under": 0.4714190303746253
+      },
+      "bogeys": {
+        "line": 2.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "experimental": true,
+        "expected": 3.05,
+        "over": 0.5905852031310852,
+        "under": 0.4094147968689148
+      },
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.0,
+          "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "pars",
+          "line": 10.5,
+          "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 5.0,
+          "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "bogeys",
+          "line": 2.5,
+          "odds_type": "standard"
+        }
+      ]
+    },
+    {
+      "player": "Pierceson Coody",
+      "gir": {
+        "line": 12.5,
+        "source": null,
+        "over": 0.5142931585473755,
+        "under": 0.48570684145262455
+      },
+      "fairways": {
+        "line": 8.5,
+        "source": null,
+        "over": 0.5577327971365695,
+        "under": 0.44226720286343046
+      },
+      "birdies": {
+        "line": 5.0,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "over": 0.4815308305748627,
+        "under": 0.5184691694251373
+      },
+      "strokes": {
+        "line": 68.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.45746541931887064,
+        "over": 0.5425345806811294
+      },
+      "pars": {
+        "line": 10.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "experimental": true,
+        "expected": 10.9,
+        "over": 0.5820383257393351,
+        "under": 0.4179616742606649
+      },
+      "bogeys": {
+        "line": 2.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "experimental": true,
+        "expected": 2.57,
+        "over": 0.47392834991555066,
+        "under": 0.5260716500844493
+      },
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 68.5,
+          "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "pars",
+          "line": 10.5,
+          "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 5.0,
+          "odds_type": "standard"
+        },
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 4.5,
+          "odds_type": "goblin"
         },
         {
           "source": "prizepicks",
