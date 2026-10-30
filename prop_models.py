@@ -17,9 +17,17 @@ def overdispersed_binomial_pmf(n: int, p: float, k: np.ndarray,
 
 
 def prob_over(n: int, p: float, line: float, phi: float = 1.15) -> float:
+    # PUSH_FIX: on a whole-number line a tie is a push (graded as no bet), so
+    # Over/Under are compared among non-tied outcomes only. Without this the
+    # Under side silently absorbed the tie probability.
     threshold = int(np.floor(line)) + 1
     k = np.arange(threshold, n + 1)
-    return overdispersed_binomial_pmf(n, p, k, phi).sum()
+    p_over = overdispersed_binomial_pmf(n, p, k, phi).sum()
+    if float(line) == int(line) and 0 <= int(line) <= n:
+        p_push = overdispersed_binomial_pmf(n, p, np.array([int(line)]), phi).sum()
+        if p_push < 1 - 1e-9:
+            return p_over / (1 - p_push)
+    return p_over
 
 
 def prob_under(n: int, p: float, line: float, phi: float = 1.15) -> float:
