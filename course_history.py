@@ -44,6 +44,13 @@ ROUNDS_DIR = "data/historical_rounds"
 PROFILE_COLS = ["gir_pct", "driving_accuracy", "scoring_avg", "birdie_rate_per_hole"]
 
 
+# Same event, different names across years / feeds -> one history key.
+_TOURNAMENT_ALIASES = {
+    "vidantaworld mexico open": "mexico open at vidanta",
+    "mexico open at vidantaworld": "mexico open at vidanta",
+}
+
+
 def normalize_tournament_name(name) -> str:
     """
     'the Memorial Tournament presented by Workday' -> 'memorial tournament'
@@ -61,7 +68,8 @@ def normalize_tournament_name(name) -> str:
     name = re.sub(r"[^a-z0-9\s]", " ", name)
     name = re.sub(r"\s+", " ", name).strip()
     name = re.sub(r"^the\s+", "", name)
-    return name
+    key = name
+    return _TOURNAMENT_ALIASES.get(key, key)
 
 
 def build_course_profiles(years: list) -> pd.DataFrame:
