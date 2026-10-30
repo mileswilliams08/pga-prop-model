@@ -19049,15 +19049,15 @@
           "pars": 12,
           "bogeys_or_worse": 0,
           "par_total": 71,
-          "gir": 15,
-          "fairways_hit_est": 11,
+          "gir": 18,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 15,
-          "fairways_hit_est": 11
+          "gir_count": 18,
+          "fairways_hit_est": 10
         }
       }
     },
@@ -19072,15 +19072,15 @@
           "pars": 11,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": 10,
+          "gir": 14,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 13,
-          "fairways_hit_est": 10
+          "gir_count": 14,
+          "fairways_hit_est": 9
         }
       }
     },
@@ -19141,14 +19141,14 @@
           "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 13,
+          "gir": 15,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 13,
+          "gir_count": 15,
           "fairways_hit_est": 11
         }
       }
@@ -19164,14 +19164,14 @@
           "pars": 15,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 10,
+          "gir": 13,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 10,
+          "gir_count": 13,
           "fairways_hit_est": 11
         }
       }
@@ -19210,14 +19210,14 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 11,
+          "gir": 12,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 11,
+          "gir_count": 12,
           "fairways_hit_est": 9
         }
       }
@@ -19233,14 +19233,14 @@
           "pars": 12,
           "bogeys_or_worse": 0,
           "par_total": 71,
-          "gir": 16,
+          "gir": 19,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 16,
+          "gir_count": 19,
           "fairways_hit_est": 11
         }
       }
@@ -19256,14 +19256,14 @@
           "pars": 10,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 14,
+          "gir": 17,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
+          "gir_count": 17,
           "fairways_hit_est": 9
         }
       }
@@ -19325,15 +19325,15 @@
           "pars": 11,
           "bogeys_or_worse": 4,
           "par_total": 71,
-          "gir": 8,
-          "fairways_hit_est": 5,
+          "gir": 10,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 8,
-          "fairways_hit_est": 5
+          "gir_count": 10,
+          "fairways_hit_est": 6
         }
       }
     },
@@ -19371,14 +19371,14 @@
           "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 13,
+          "gir": 19,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 13,
+          "gir_count": 19,
           "fairways_hit_est": 10
         }
       }
@@ -19440,15 +19440,15 @@
           "pars": 9,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": 10,
+          "gir": 15,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 13,
-          "fairways_hit_est": 10
+          "gir_count": 15,
+          "fairways_hit_est": 9
         }
       }
     },
@@ -19486,15 +19486,15 @@
           "pars": 8,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 9,
+          "gir": 18,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
-          "fairways_hit_est": 9
+          "gir_count": 18,
+          "fairways_hit_est": 10
         }
       }
     },
@@ -19560,15 +19560,15 @@
           "pars": 13,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": 10,
+          "gir": 19,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 13,
-          "fairways_hit_est": 10
+          "gir_count": 19,
+          "fairways_hit_est": 11
         }
       }
     },
@@ -19583,15 +19583,15 @@
           "pars": 10,
           "bogeys_or_worse": 4,
           "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": 6,
+          "gir": 18,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 12,
-          "fairways_hit_est": 6
+          "gir_count": 18,
+          "fairways_hit_est": 8
         }
       }
     },
@@ -19606,15 +19606,15 @@
           "pars": 11,
           "bogeys_or_worse": 4,
           "par_total": 71,
-          "gir": 15,
-          "fairways_hit_est": 8,
+          "gir": 18,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 15,
-          "fairways_hit_est": 8
+          "gir_count": 18,
+          "fairways_hit_est": 9
         }
       }
     },
@@ -19652,15 +19652,15 @@
           "pars": 9,
           "bogeys_or_worse": 4,
           "par_total": 71,
-          "gir": 9,
-          "fairways_hit_est": 8,
+          "gir": 13,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 9,
-          "fairways_hit_est": 8
+          "gir_count": 13,
+          "fairways_hit_est": 7
         }
       }
     },
@@ -19675,14 +19675,14 @@
           "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 14,
+          "gir": 15,
           "fairways_hit_est": 8,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
+          "gir_count": 15,
           "fairways_hit_est": 8
         }
       }
@@ -19721,14 +19721,14 @@
           "pars": 10,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 14,
+          "gir": 15,
           "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
+          "gir_count": 15,
           "fairways_hit_est": 7
         }
       }
@@ -19767,15 +19767,15 @@
           "pars": 9,
           "bogeys_or_worse": 6,
           "par_total": 71,
-          "gir": 8,
-          "fairways_hit_est": 11,
+          "gir": 11,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 8,
-          "fairways_hit_est": 11
+          "gir_count": 11,
+          "fairways_hit_est": 10
         }
       }
     },
@@ -19836,14 +19836,14 @@
           "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 11,
+          "gir": 16,
           "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 11,
+          "gir_count": 16,
           "fairways_hit_est": 7
         }
       }
@@ -19859,15 +19859,15 @@
           "pars": 11,
           "bogeys_or_worse": 0,
           "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": 9,
+          "gir": 14,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 12,
-          "fairways_hit_est": 9
+          "gir_count": 14,
+          "fairways_hit_est": 10
         }
       }
     },
@@ -19928,15 +19928,15 @@
           "pars": 10,
           "bogeys_or_worse": 4,
           "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": 9,
+          "gir": 16,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 11,
-          "fairways_hit_est": 9
+          "gir_count": 16,
+          "fairways_hit_est": 10
         }
       }
     },
@@ -19951,15 +19951,15 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 8,
+          "gir": 18,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
-          "fairways_hit_est": 8
+          "gir_count": 18,
+          "fairways_hit_est": 9
         }
       }
     },
@@ -20020,14 +20020,14 @@
           "pars": 7,
           "bogeys_or_worse": 5,
           "par_total": 71,
-          "gir": 14,
+          "gir": 16,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
+          "gir_count": 16,
           "fairways_hit_est": 9
         }
       }
@@ -20066,14 +20066,14 @@
           "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 9,
+          "gir": 13,
           "fairways_hit_est": 8,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 9,
+          "gir_count": 13,
           "fairways_hit_est": 8
         }
       }
@@ -20112,14 +20112,14 @@
           "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 9,
+          "gir": 11,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 9,
+          "gir_count": 11,
           "fairways_hit_est": 9
         }
       }
@@ -20135,15 +20135,15 @@
           "pars": 12,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": 10,
+          "gir": 16,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 13,
-          "fairways_hit_est": 10
+          "gir_count": 16,
+          "fairways_hit_est": 11
         }
       }
     },
@@ -20204,14 +20204,14 @@
           "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 15,
+          "gir": 21,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 15,
+          "gir_count": 21,
           "fairways_hit_est": 9
         }
       }
@@ -20227,14 +20227,14 @@
           "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 14,
+          "gir": 15,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
+          "gir_count": 15,
           "fairways_hit_est": 10
         }
       }
@@ -20251,14 +20251,14 @@
           "bogeys_or_worse": 1,
           "par_total": 71,
           "gir": 12,
-          "fairways_hit_est": 9,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 12,
-          "fairways_hit_est": 9
+          "fairways_hit_est": 8
         }
       }
     },
@@ -20273,15 +20273,15 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": 9,
+          "gir": 15,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 11,
-          "fairways_hit_est": 9
+          "gir_count": 15,
+          "fairways_hit_est": 10
         }
       }
     },
@@ -20411,14 +20411,14 @@
           "pars": 11,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 3,
+          "gir": 5,
           "fairways_hit_est": 3,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 3,
+          "gir_count": 5,
           "fairways_hit_est": 3
         }
       }
@@ -20434,14 +20434,14 @@
           "pars": 11,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 15,
+          "gir": 19,
           "fairways_hit_est": 12,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 15,
+          "gir_count": 19,
           "fairways_hit_est": 12
         }
       }
@@ -20549,14 +20549,14 @@
           "pars": 10,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 12,
+          "gir": 14,
           "fairways_hit_est": 6,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 12,
+          "gir_count": 14,
           "fairways_hit_est": 6
         }
       }
@@ -20572,15 +20572,15 @@
           "pars": 9,
           "bogeys_or_worse": 4,
           "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": 9,
+          "gir": 15,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 12,
-          "fairways_hit_est": 9
+          "gir_count": 15,
+          "fairways_hit_est": 10
         }
       }
     },
@@ -20641,14 +20641,14 @@
           "pars": 8,
           "bogeys_or_worse": 7,
           "par_total": 71,
-          "gir": 7,
+          "gir": 9,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 7,
+          "gir_count": 9,
           "fairways_hit_est": 11
         }
       }
@@ -20710,15 +20710,15 @@
           "pars": 10,
           "bogeys_or_worse": 4,
           "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": 8,
+          "gir": 13,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 12,
-          "fairways_hit_est": 8
+          "gir_count": 13,
+          "fairways_hit_est": 7
         }
       }
     },
@@ -20734,14 +20734,14 @@
           "bogeys_or_worse": 1,
           "par_total": 71,
           "gir": 11,
-          "fairways_hit_est": 6,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
-          "fairways_hit_est": 6
+          "fairways_hit_est": 7
         }
       }
     },
@@ -20779,15 +20779,15 @@
           "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": 10,
+          "gir": 13,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 12,
-          "fairways_hit_est": 10
+          "gir_count": 13,
+          "fairways_hit_est": 9
         }
       }
     },
@@ -20802,15 +20802,15 @@
           "pars": 10,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 15,
-          "fairways_hit_est": 11,
+          "gir": 16,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 15,
-          "fairways_hit_est": 11
+          "gir_count": 16,
+          "fairways_hit_est": 10
         }
       }
     },
@@ -20825,15 +20825,15 @@
           "pars": 11,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 12,
+          "gir": 16,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
-          "fairways_hit_est": 12
+          "gir_count": 16,
+          "fairways_hit_est": 11
         }
       }
     },
@@ -20871,15 +20871,15 @@
           "pars": 16,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": 5,
+          "gir": 17,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 12,
-          "fairways_hit_est": 5
+          "gir_count": 17,
+          "fairways_hit_est": 7
         }
       }
     },
@@ -20894,15 +20894,15 @@
           "pars": 8,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 10,
-          "fairways_hit_est": 10,
+          "gir": 11,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 10,
-          "fairways_hit_est": 10
+          "gir_count": 11,
+          "fairways_hit_est": 9
         }
       }
     },
@@ -20918,14 +20918,14 @@
           "bogeys_or_worse": 4,
           "par_total": 71,
           "gir": 11,
-          "fairways_hit_est": 6,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
           "gir_count": 11,
-          "fairways_hit_est": 6
+          "fairways_hit_est": 7
         }
       }
     },
@@ -20940,15 +20940,15 @@
           "pars": 16,
           "bogeys_or_worse": 0,
           "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": 8,
+          "gir": 15,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 12,
-          "fairways_hit_est": 8
+          "gir_count": 15,
+          "fairways_hit_est": 9
         }
       }
     },
@@ -20963,14 +20963,14 @@
           "pars": 14,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 13,
+          "gir": 14,
           "fairways_hit_est": 12,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 13,
+          "gir_count": 14,
           "fairways_hit_est": 12
         }
       }
@@ -20986,15 +20986,15 @@
           "pars": 10,
           "bogeys_or_worse": 5,
           "par_total": 71,
-          "gir": 8,
-          "fairways_hit_est": 10,
+          "gir": 9,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 8,
-          "fairways_hit_est": 10
+          "gir_count": 9,
+          "fairways_hit_est": 9
         }
       }
     },
@@ -21032,15 +21032,15 @@
           "pars": 10,
           "bogeys_or_worse": 5,
           "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": 9,
+          "gir": 13,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 11,
-          "fairways_hit_est": 9
+          "gir_count": 13,
+          "fairways_hit_est": 10
         }
       }
     },
@@ -21055,14 +21055,14 @@
           "pars": 14,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 11,
+          "gir": 19,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 11,
+          "gir_count": 19,
           "fairways_hit_est": 11
         }
       }
@@ -21078,14 +21078,14 @@
           "pars": 16,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 16,
+          "gir": 18,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 16,
+          "gir_count": 18,
           "fairways_hit_est": 10
         }
       }
@@ -21124,15 +21124,15 @@
           "pars": 13,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 9,
+          "gir": 18,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
-          "fairways_hit_est": 9
+          "gir_count": 18,
+          "fairways_hit_est": 10
         }
       }
     },
@@ -21262,15 +21262,15 @@
           "pars": 11,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": 10,
+          "gir": 17,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 12,
-          "fairways_hit_est": 10
+          "gir_count": 17,
+          "fairways_hit_est": 9
         }
       }
     },
@@ -21285,14 +21285,14 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 14,
+          "gir": 16,
           "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
+          "gir_count": 16,
           "fairways_hit_est": 13
         }
       }
@@ -21308,14 +21308,14 @@
           "pars": 15,
           "bogeys_or_worse": 0,
           "par_total": 71,
-          "gir": 11,
+          "gir": 12,
           "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 11,
+          "gir_count": 12,
           "fairways_hit_est": 7
         }
       }
@@ -21331,15 +21331,15 @@
           "pars": 11,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 10,
+          "gir": 18,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
-          "fairways_hit_est": 10
+          "gir_count": 18,
+          "fairways_hit_est": 11
         }
       }
     },
@@ -21377,15 +21377,15 @@
           "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 16,
-          "fairways_hit_est": 9,
+          "gir": 21,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 16,
-          "fairways_hit_est": 9
+          "gir_count": 21,
+          "fairways_hit_est": 10
         }
       }
     },
@@ -21423,15 +21423,15 @@
           "pars": 14,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 8,
+          "gir": 20,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 14,
-          "fairways_hit_est": 8
+          "gir_count": 20,
+          "fairways_hit_est": 9
         }
       }
     },
@@ -21492,14 +21492,14 @@
           "pars": 9,
           "bogeys_or_worse": 4,
           "par_total": 71,
-          "gir": 13,
+          "gir": 15,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 13,
+          "gir_count": 15,
           "fairways_hit_est": 10
         }
       }
@@ -21584,15 +21584,15 @@
           "pars": 12,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": 9,
+          "gir": 17,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 13,
-          "fairways_hit_est": 9
+          "gir_count": 17,
+          "fairways_hit_est": 10
         }
       }
     },
