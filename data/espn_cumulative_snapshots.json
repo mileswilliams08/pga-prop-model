@@ -18921,5 +18921,2749 @@
         }
       }
     }
+  },
+  "mexico open at vidanta": {
+    "zach bauchou": {
+      "player_name": "Zach Bauchou",
+      "rounds": {
+        "1": {
+          "strokes": 74.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 6,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "nick hardy": {
+      "player_name": "Nick Hardy",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "denny mccarthy": {
+      "player_name": "Denny McCarthy",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "chad ramey": {
+      "player_name": "Chad Ramey",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "davis riley": {
+      "player_name": "Davis Riley",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 10,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 10,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "alvaro ortiz": {
+      "player_name": "Alvaro Ortiz",
+      "rounds": {
+        "1": {
+          "strokes": 65.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 0,
+          "par_total": 71,
+          "gir": 15,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 15,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "hayden springer": {
+      "player_name": "Hayden Springer",
+      "rounds": {
+        "1": {
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "aaron wise": {
+      "player_name": "Aaron Wise",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 5,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "jeremy paul": {
+      "player_name": "Jeremy Paul",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 7,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "matthieu pavon": {
+      "player_name": "Matthieu Pavon",
+      "rounds": {
+        "1": {
+          "strokes": 65.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "kevin streelman": {
+      "player_name": "Kevin Streelman",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 15,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 10,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 10,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "cam davis": {
+      "player_name": "Cam Davis",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 5,
+          "par_total": 71,
+          "gir": 10,
+          "fairways_hit_est": 6,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 10,
+          "fairways_hit_est": 6
+        }
+      }
+    },
+    "jimmy stanger": {
+      "player_name": "Jimmy Stanger",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "max greyserman": {
+      "player_name": "Max Greyserman",
+      "rounds": {
+        "1": {
+          "strokes": 65.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 0,
+          "par_total": 71,
+          "gir": 16,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 16,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "wyndham clark": {
+      "player_name": "Wyndham Clark",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "trace crowe": {
+      "player_name": "Trace Crowe",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 15,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 15,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "tayler termeer": {
+      "player_name": "Tayler Termeer",
+      "rounds": {
+        "1": {
+          "strokes": 77.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 7,
+          "bogeys_or_worse": 9,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 6,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 6
+        }
+      }
+    },
+    "rasmus hjgaard": {
+      "player_name": "Rasmus H\u00f8jgaard",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 8,
+          "fairways_hit_est": 5,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 8,
+          "fairways_hit_est": 5
+        }
+      }
+    },
+    "andrew novak": {
+      "player_name": "Andrew Novak",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "max mcgreevy": {
+      "player_name": "Max McGreevy",
+      "rounds": {
+        "1": {
+          "strokes": 66.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "rico hoey": {
+      "player_name": "Rico Hoey",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "hank lebioda": {
+      "player_name": "Hank Lebioda",
+      "rounds": {
+        "1": {
+          "strokes": 74.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 7,
+          "bogeys_or_worse": 6,
+          "par_total": 71,
+          "gir": 9,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 9,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "garrick higgo": {
+      "player_name": "Garrick Higgo",
+      "rounds": {
+        "1": {
+          "strokes": 64.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "christo lamprecht": {
+      "player_name": "Christo Lamprecht",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "doug ghim": {
+      "player_name": "Doug Ghim",
+      "rounds": {
+        "1": {
+          "strokes": 65.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "camilo villegas": {
+      "player_name": "Camilo Villegas",
+      "rounds": {
+        "1": {
+          "strokes": 78.0,
+          "birdies_or_better": 0,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 6,
+          "par_total": 71,
+          "gir": 9,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 9,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "billy horschel": {
+      "player_name": "Billy Horschel",
+      "rounds": {},
+      "cumulative_checkpoints": {}
+    },
+    "tony finau": {
+      "player_name": "Tony Finau",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 15,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 15,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "brice garnett": {
+      "player_name": "Brice Garnett",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "david skinns": {
+      "player_name": "David Skinns",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 6,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 6
+        }
+      }
+    },
+    "rafael campos": {
+      "player_name": "Rafael Campos",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 15,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 15,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "patton kizzire": {
+      "player_name": "Patton Kizzire",
+      "rounds": {
+        "1": {
+          "strokes": 74.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 6,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "kevin yu": {
+      "player_name": "Kevin Yu",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 9,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 9,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "kristoffer ventura": {
+      "player_name": "Kristoffer Ventura",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "alejandro tosti": {
+      "player_name": "Alejandro Tosti",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "patrick fishburn": {
+      "player_name": "Patrick Fishburn",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "john vanderlaan": {
+      "player_name": "John VanDerLaan",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 5,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "pontus nyholm": {
+      "player_name": "Pontus Nyholm",
+      "rounds": {
+        "1": {
+          "strokes": 76.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 6,
+          "par_total": 71,
+          "gir": 8,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 8,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "lee hodges": {
+      "player_name": "Lee Hodges",
+      "rounds": {
+        "1": {
+          "strokes": 73.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "ben griffin": {
+      "player_name": "Ben Griffin",
+      "rounds": {
+        "1": {
+          "strokes": 64.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 10,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 10,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "vince whaley": {
+      "player_name": "Vince Whaley",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "jeffrey kang": {
+      "player_name": "Jeffrey Kang",
+      "rounds": {
+        "1": {
+          "strokes": 64.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 0,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "danny walker": {
+      "player_name": "Danny Walker",
+      "rounds": {
+        "1": {
+          "strokes": 76.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 6,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 5,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 5
+        }
+      }
+    },
+    "kevin roy": {
+      "player_name": "Kevin Roy",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 15,
+          "bogeys_or_worse": 0,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "takumi kanaya": {
+      "player_name": "Takumi Kanaya",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "dylan wu": {
+      "player_name": "Dylan Wu",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "austin eckroat": {
+      "player_name": "Austin Eckroat",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "steven fisk": {
+      "player_name": "Steven Fisk",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "will gordon": {
+      "player_name": "Will Gordon",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 7,
+          "bogeys_or_worse": 5,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "marco penge": {
+      "player_name": "Marco Penge",
+      "rounds": {
+        "1": {
+          "strokes": 64.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 0,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "chandler phillips": {
+      "player_name": "Chandler Phillips",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 9,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 9,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "isaiah salinda": {
+      "player_name": "Isaiah Salinda",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 7,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 15,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 15,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "harry hall": {
+      "player_name": "Harry Hall",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 9,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 9,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "tom kim": {
+      "player_name": "Tom Kim",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "chandler blanchet": {
+      "player_name": "Chandler Blanchet",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "ben martin": {
+      "player_name": "Ben Martin",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 10,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 10,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "john parry": {
+      "player_name": "John Parry",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 15,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 15,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "jesper svensson": {
+      "player_name": "Jesper Svensson",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "keita nakajima": {
+      "player_name": "Keita Nakajima",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "mac meissner": {
+      "player_name": "Mac Meissner",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "cameron tankersley": {
+      "player_name": "Cameron Tankersley",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "nick dunlap": {
+      "player_name": "Nick Dunlap",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 5,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 5
+        }
+      }
+    },
+    "pierceson coody": {
+      "player_name": "Pierceson Coody",
+      "rounds": {
+        "1": {
+          "strokes": 65.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "harry higgs": {
+      "player_name": "Harry Higgs",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 9,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 9,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "rasmus neergaardpetersen": {
+      "player_name": "Rasmus Neergaard-Petersen",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "joe highsmith": {
+      "player_name": "Joe Highsmith",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 3,
+          "fairways_hit_est": 3,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 3,
+          "fairways_hit_est": 3
+        }
+      }
+    },
+    "jackson suber": {
+      "player_name": "Jackson Suber",
+      "rounds": {
+        "1": {
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 15,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 15,
+          "fairways_hit_est": 12
+        }
+      }
+    },
+    "santiago de la fuente": {
+      "player_name": "Santiago de la Fuente",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "trent phillips": {
+      "player_name": "Trent Phillips",
+      "rounds": {
+        "1": {
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 15,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 15,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "kensei hirata": {
+      "player_name": "Kensei Hirata",
+      "rounds": {
+        "1": {
+          "strokes": 63.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 0,
+          "par_total": 71,
+          "gir": 18,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 18,
+          "fairways_hit_est": 13
+        }
+      }
+    },
+    "aj ewart": {
+      "player_name": "A.J. Ewart",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "adrien dumont de chassart": {
+      "player_name": "Adrien Dumont de Chassart",
+      "rounds": {
+        "1": {
+          "strokes": 64.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 6,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 6
+        }
+      }
+    },
+    "william mouw": {
+      "player_name": "William Mouw",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "ben james": {
+      "player_name": "Ben James",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 15,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 15,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "aldrich potgieter": {
+      "player_name": "Aldrich Potgieter",
+      "rounds": {
+        "1": {
+          "strokes": 75.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 6,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 6,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 6
+        }
+      }
+    },
+    "davis chatfield": {
+      "player_name": "Davis Chatfield",
+      "rounds": {
+        "1": {
+          "strokes": 76.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 7,
+          "par_total": 71,
+          "gir": 7,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 7,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "gordon sargent": {
+      "player_name": "Gordon Sargent",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "sudarshan yellamaraju": {
+      "player_name": "Sudarshan Yellamaraju",
+      "rounds": {
+        "1": {
+          "strokes": 66.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "omar morales": {
+      "player_name": "Omar Morales",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "karl vilips": {
+      "player_name": "Karl Vilips",
+      "rounds": {
+        "1": {
+          "strokes": 62.0,
+          "birdies_or_better": 10,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 7,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 6,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 6
+        }
+      }
+    },
+    "david ford": {
+      "player_name": "David Ford",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 10,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 10,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "neal shipley": {
+      "player_name": "Neal Shipley",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "blades brown": {
+      "player_name": "Blades Brown",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 15,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 15,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "luke clanton": {
+      "player_name": "Luke Clanton",
+      "rounds": {
+        "1": {
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 12
+        }
+      }
+    },
+    "john daly ii": {
+      "player_name": "John Daly II",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "johnny keefer": {
+      "player_name": "Johnny Keefer",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 16,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 5,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 5
+        }
+      }
+    },
+    "kihei akina": {
+      "player_name": "Kihei Akina",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 10,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 10,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "gerardo gomez": {
+      "player_name": "Gerardo Gomez",
+      "rounds": {
+        "1": {
+          "strokes": 73.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 6,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 6
+        }
+      }
+    },
+    "ryder cowan": {
+      "player_name": "Ryder Cowan",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 16,
+          "bogeys_or_worse": 0,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "garrett endicott": {
+      "player_name": "Garrett Endicott",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 12
+        }
+      }
+    },
+    "alejandro fierro": {
+      "player_name": "Alejandro Fierro",
+      "rounds": {
+        "1": {
+          "strokes": 73.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 5,
+          "par_total": 71,
+          "gir": 8,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 8,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "eli ortego": {
+      "player_name": "Eli Ortego",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "mauricio figueroa ramirez": {
+      "player_name": "Mauricio Figueroa Ramirez",
+      "rounds": {
+        "1": {
+          "strokes": 74.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 5,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "andrew putnam": {
+      "player_name": "Andrew Putnam",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "adam hadwin": {
+      "player_name": "Adam Hadwin",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 16,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 16,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 16,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "peter malnati": {
+      "player_name": "Peter Malnati",
+      "rounds": {
+        "1": {
+          "strokes": 73.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "chan kim": {
+      "player_name": "Chan Kim",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "emiliano grillo": {
+      "player_name": "Emiliano Grillo",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "beau hossler": {
+      "player_name": "Beau Hossler",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 12
+        }
+      }
+    },
+    "joel dahmen": {
+      "player_name": "Joel Dahmen",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 16,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 16,
+          "fairways_hit_est": 11
+        }
+      }
+    },
+    "david lipsky": {
+      "player_name": "David Lipsky",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "patrick rodgers": {
+      "player_name": "Patrick Rodgers",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 5,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "mackenzie hughes": {
+      "player_name": "Mackenzie Hughes",
+      "rounds": {
+        "1": {
+          "strokes": 65.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "marcelo rozo": {
+      "player_name": "Marcelo Rozo",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 13
+        }
+      }
+    },
+    "zecheng dou": {
+      "player_name": "Zecheng Dou",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 15,
+          "bogeys_or_worse": 0,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "ben silverman": {
+      "player_name": "Ben Silverman",
+      "rounds": {
+        "1": {
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "max homa": {
+      "player_name": "Max Homa",
+      "rounds": {
+        "1": {
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 11,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 11,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "zac blair": {
+      "player_name": "Zac Blair",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 16,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 16,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "corey conners": {
+      "player_name": "Corey Conners",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 15,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 15,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "adam svensson": {
+      "player_name": "Adam Svensson",
+      "rounds": {
+        "1": {
+          "strokes": 75.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 8
+        }
+      }
+    },
+    "mark hubbard": {
+      "player_name": "Mark Hubbard",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 9,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 9,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "justin lower": {
+      "player_name": "Justin Lower",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "haotong li": {
+      "player_name": "Haotong Li",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "christiaan bezuidenhout": {
+      "player_name": "Christiaan Bezuidenhout",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 12
+        }
+      }
+    },
+    "erik van rooyen": {
+      "player_name": "Erik van Rooyen",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "jordan smith": {
+      "player_name": "Jordan Smith",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 14,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 10
+        }
+      }
+    },
+    "brian campbell": {
+      "player_name": "Brian Campbell",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 71,
+          "gir": 13,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 13,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "tyler duncan": {
+      "player_name": "Tyler Duncan",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 2,
+          "par_total": 71,
+          "gir": 10,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 10,
+          "fairways_hit_est": 12
+        }
+      }
+    },
+    "paul peterson": {
+      "player_name": "Paul Peterson",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 71,
+          "gir": 10,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 10,
+          "fairways_hit_est": 9
+        }
+      }
+    },
+    "taylor pendrith": {
+      "player_name": "Taylor Pendrith",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 13,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 3,
+          "par_total": 71,
+          "gir": 12,
+          "fairways_hit_est": 9,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 12,
+          "fairways_hit_est": 9
+        }
+      }
+    }
   }
 }
