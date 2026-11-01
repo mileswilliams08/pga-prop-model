@@ -22693,8 +22693,8 @@
           "pars": 9,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 6,
+          "gir": 19,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
@@ -22708,8 +22708,8 @@
           "fairways_hit_est": 16
         },
         "3": {
-          "gir_count": 35,
-          "fairways_hit_est": 22
+          "gir_count": 40,
+          "fairways_hit_est": 23
         }
       }
     },
