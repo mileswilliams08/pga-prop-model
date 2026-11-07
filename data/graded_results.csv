@@ -647,3 +647,7 @@ date,tournament,round,player,category,line,source,model_prob,picked_side,actual_
 2026-11-01,VidantaWorld Mexico Open,4,Harry Hall,strokes,68.5,prizepicks,0.5095452867970045,over,69.0,hit,False
 2026-11-01,VidantaWorld Mexico Open,4,Rafael Campos,birdies,4.5,prizepicks,0.5414147016110512,over,5,hit,False
 2026-11-01,VidantaWorld Mexico Open,4,Rafael Campos,strokes,69.0,prizepicks,0.5749982137481426,over,71.0,hit,False
+2026-11-07,VidantaWorld Mexico Open,3,Sudarshan Yellamaraju,strokes,70.0,prizepicks,0.6295937319395838,under,66.0,hit,False
+2026-11-07,VidantaWorld Mexico Open,3,Beau Hossler,strokes,69.5,prizepicks,0.6012556379527053,under,69.0,hit,False
+2026-11-07,VidantaWorld Mexico Open,3,Denny McCarthy,strokes,69.5,prizepicks,0.5507337112974975,under,70.0,miss,False
+2026-11-07,VidantaWorld Mexico Open,3,Austin Eckroat,strokes,70.0,prizepicks,0.6112179007317061,under,70.0,push,False
