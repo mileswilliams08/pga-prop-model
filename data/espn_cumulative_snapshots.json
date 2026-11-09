@@ -18961,6 +18961,18 @@
           "gir": 15,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 73.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -18975,6 +18987,10 @@
         "3": {
           "gir_count": 44,
           "fairways_hit_est": 41
+        },
+        "4": {
+          "gir_count": 59,
+          "fairways_hit_est": 53
         }
       }
     },
@@ -19089,15 +19105,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 65.0,
-          "birdies_or_better": 5,
-          "fairways_possible": 13,
+          "strokes": 69.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 0,
-          "par_total": 71,
-          "gir": 0,
-          "fairways_hit_est": 2,
+          "pars": 8,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
@@ -19115,8 +19131,8 @@
           "fairways_hit_est": 37
         },
         "4": {
-          "gir_count": 47,
-          "fairways_hit_est": 39
+          "gir_count": 62,
+          "fairways_hit_est": 47
         }
       }
     },
@@ -19160,15 +19176,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 68.0,
-          "birdies_or_better": 5,
-          "fairways_possible": 13,
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
           "holes_played": 18,
           "pars": 11,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
-          "gir": -1,
-          "fairways_hit_est": 3,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -19186,8 +19202,8 @@
           "fairways_hit_est": 38
         },
         "4": {
-          "gir_count": 45,
-          "fairways_hit_est": 41
+          "gir_count": 59,
+          "fairways_hit_est": 49
         }
       }
     },
@@ -19270,15 +19286,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 69.0,
+          "strokes": 68.0,
           "birdies_or_better": 5,
-          "fairways_possible": 13,
+          "fairways_possible": 14,
           "holes_played": 18,
           "pars": 12,
           "bogeys_or_worse": 1,
-          "par_total": 71,
-          "gir": 8,
-          "fairways_hit_est": 0,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         }
       },
@@ -19296,8 +19312,8 @@
           "fairways_hit_est": 39
         },
         "4": {
-          "gir_count": 50,
-          "fairways_hit_est": 39
+          "gir_count": 57,
+          "fairways_hit_est": 53
         }
       }
     },
@@ -19341,15 +19357,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 72.0,
-          "birdies_or_better": 3,
-          "fairways_possible": 13,
+          "strokes": 70.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": 5,
+          "pars": 7,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": 12,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -19367,8 +19383,8 @@
           "fairways_hit_est": 28
         },
         "4": {
-          "gir_count": 50,
-          "fairways_hit_est": 33
+          "gir_count": 51,
+          "fairways_hit_est": 39
         }
       }
     },
@@ -19522,15 +19538,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 71.0,
-          "birdies_or_better": 2,
-          "fairways_possible": 13,
+          "strokes": 72.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
-          "gir": 9,
-          "fairways_hit_est": 2,
+          "pars": 11,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -19548,8 +19564,8 @@
           "fairways_hit_est": 40
         },
         "4": {
-          "gir_count": 55,
-          "fairways_hit_est": 42
+          "gir_count": 62,
+          "fairways_hit_est": 51
         }
       }
     },
@@ -19591,6 +19607,18 @@
           "gir": 11,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 72.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 12,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -19605,6 +19633,10 @@
         "3": {
           "gir_count": 41,
           "fairways_hit_est": 37
+        },
+        "4": {
+          "gir_count": 53,
+          "fairways_hit_est": 49
         }
       }
     },
@@ -19648,15 +19680,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 63.0,
-          "birdies_or_better": 9,
-          "fairways_possible": 13,
+          "strokes": 73.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 1,
-          "par_total": 71,
-          "gir": 6,
-          "fairways_hit_est": -9,
+          "pars": 11,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -19674,8 +19706,8 @@
           "fairways_hit_est": 38
         },
         "4": {
-          "gir_count": 52,
-          "fairways_hit_est": 29
+          "gir_count": 60,
+          "fairways_hit_est": 49
         }
       }
     },
@@ -19759,14 +19791,14 @@
         },
         "4": {
           "strokes": 69.0,
-          "birdies_or_better": 5,
-          "fairways_possible": 13,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
-          "gir": 15,
-          "fairways_hit_est": 4,
+          "pars": 12,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 12,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
@@ -19784,8 +19816,8 @@
           "fairways_hit_est": 32
         },
         "4": {
-          "gir_count": 55,
-          "fairways_hit_est": 36
+          "gir_count": 52,
+          "fairways_hit_est": 42
         }
       }
     },
@@ -19868,15 +19900,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 63.0,
-          "birdies_or_better": 8,
-          "fairways_possible": 13,
+          "strokes": 70.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 0,
-          "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": -6,
+          "pars": 14,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         }
       },
@@ -19894,8 +19926,8 @@
           "fairways_hit_est": 38
         },
         "4": {
-          "gir_count": 53,
-          "fairways_hit_est": 32
+          "gir_count": 56,
+          "fairways_hit_est": 50
         }
       }
     },
@@ -19976,6 +20008,18 @@
           "gir": 13,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 17,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -19990,6 +20034,10 @@
         "3": {
           "gir_count": 38,
           "fairways_hit_est": 35
+        },
+        "4": {
+          "gir_count": 55,
+          "fairways_hit_est": 46
         }
       }
     },
@@ -20104,15 +20152,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 66.0,
-          "birdies_or_better": 5,
-          "fairways_possible": 13,
+          "strokes": 69.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 0,
-          "par_total": 71,
-          "gir": 10,
-          "fairways_hit_est": 2,
+          "pars": 9,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -20130,8 +20178,8 @@
           "fairways_hit_est": 38
         },
         "4": {
-          "gir_count": 52,
-          "fairways_hit_est": 40
+          "gir_count": 55,
+          "fairways_hit_est": 51
         }
       }
     },
@@ -20173,6 +20221,18 @@
           "gir": 14,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 70.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -20187,6 +20247,10 @@
         "3": {
           "gir_count": 42,
           "fairways_hit_est": 42
+        },
+        "4": {
+          "gir_count": 56,
+          "fairways_hit_est": 55
         }
       }
     },
@@ -20338,6 +20402,18 @@
           "gir": 11,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 73.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -20352,6 +20428,10 @@
         "3": {
           "gir_count": 38,
           "fairways_hit_est": 35
+        },
+        "4": {
+          "gir_count": 53,
+          "fairways_hit_est": 46
         }
       }
     },
@@ -20536,6 +20616,18 @@
           "gir": 11,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 66.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -20550,6 +20642,10 @@
         "3": {
           "gir_count": 42,
           "fairways_hit_est": 39
+        },
+        "4": {
+          "gir_count": 57,
+          "fairways_hit_est": 53
         }
       }
     },
@@ -20593,15 +20689,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 72.0,
-          "birdies_or_better": 2,
-          "fairways_possible": 13,
+          "strokes": 69.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
-          "gir": 4,
-          "fairways_hit_est": -1,
+          "pars": 6,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         }
       },
@@ -20619,8 +20715,8 @@
           "fairways_hit_est": 42
         },
         "4": {
-          "gir_count": 47,
-          "fairways_hit_est": 41
+          "gir_count": 56,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -20664,15 +20760,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 75.0,
-          "birdies_or_better": 2,
-          "fairways_possible": 13,
+          "strokes": 72.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 5,
-          "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": -6,
+          "pars": 12,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 11,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         }
       },
@@ -20690,8 +20786,8 @@
           "fairways_hit_est": 39
         },
         "4": {
-          "gir_count": 53,
-          "fairways_hit_est": 33
+          "gir_count": 50,
+          "fairways_hit_est": 51
         }
       }
     },
@@ -20804,6 +20900,18 @@
           "gir": 13,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 67.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -20818,6 +20926,10 @@
         "3": {
           "gir_count": 44,
           "fairways_hit_est": 40
+        },
+        "4": {
+          "gir_count": 60,
+          "fairways_hit_est": 53
         }
       }
     },
@@ -20859,6 +20971,18 @@
           "gir": 13,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 72.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -20873,6 +20997,10 @@
         "3": {
           "gir_count": 41,
           "fairways_hit_est": 40
+        },
+        "4": {
+          "gir_count": 56,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -20916,15 +21044,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 63.0,
-          "birdies_or_better": 8,
-          "fairways_possible": 13,
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
+          "pars": 13,
           "bogeys_or_worse": 0,
-          "par_total": 71,
-          "gir": 9,
-          "fairways_hit_est": -2,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         }
       },
@@ -20942,8 +21070,8 @@
           "fairways_hit_est": 38
         },
         "4": {
-          "gir_count": 55,
-          "fairways_hit_est": 36
+          "gir_count": 62,
+          "fairways_hit_est": 50
         }
       }
     },
@@ -20985,6 +21113,18 @@
           "gir": 11,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 68.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -20999,6 +21139,10 @@
         "3": {
           "gir_count": 37,
           "fairways_hit_est": 36
+        },
+        "4": {
+          "gir_count": 50,
+          "fairways_hit_est": 47
         }
       }
     },
@@ -21111,6 +21255,18 @@
           "gir": 14,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -21125,6 +21281,10 @@
         "3": {
           "gir_count": 45,
           "fairways_hit_est": 39
+        },
+        "4": {
+          "gir_count": 58,
+          "fairways_hit_est": 50
         }
       }
     },
@@ -21246,15 +21406,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 67.0,
-          "birdies_or_better": 5,
-          "fairways_possible": 13,
+          "strokes": 65.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 9,
           "bogeys_or_worse": 1,
-          "par_total": 71,
-          "gir": 5,
-          "fairways_hit_est": -3,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -21272,8 +21432,8 @@
           "fairways_hit_est": 41
         },
         "4": {
-          "gir_count": 47,
-          "fairways_hit_est": 38
+          "gir_count": 57,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -21388,15 +21548,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 71.0,
-          "birdies_or_better": 3,
-          "fairways_possible": 13,
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
           "pars": 12,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
-          "gir": 4,
-          "fairways_hit_est": 0,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         }
       },
@@ -21414,8 +21574,8 @@
           "fairways_hit_est": 35
         },
         "4": {
-          "gir_count": 46,
-          "fairways_hit_est": 35
+          "gir_count": 57,
+          "fairways_hit_est": 47
         }
       }
     },
@@ -21647,15 +21807,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 71.0,
-          "birdies_or_better": 4,
-          "fairways_possible": 13,
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 4,
-          "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": -1,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -21673,8 +21833,8 @@
           "fairways_hit_est": 38
         },
         "4": {
-          "gir_count": 54,
-          "fairways_hit_est": 37
+          "gir_count": 57,
+          "fairways_hit_est": 51
         }
       }
     },
@@ -21718,15 +21878,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 63.0,
-          "birdies_or_better": 8,
-          "fairways_possible": 13,
+          "strokes": 70.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 0,
-          "par_total": 71,
-          "gir": 10,
-          "fairways_hit_est": 1,
+          "pars": 12,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -21744,8 +21904,8 @@
           "fairways_hit_est": 39
         },
         "4": {
-          "gir_count": 57,
-          "fairways_hit_est": 40
+          "gir_count": 63,
+          "fairways_hit_est": 52
         }
       }
     },
@@ -21787,6 +21947,18 @@
           "gir": 12,
           "fairways_hit_est": 10,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 68.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -21801,6 +21973,10 @@
         "3": {
           "gir_count": 41,
           "fairways_hit_est": 35
+        },
+        "4": {
+          "gir_count": 55,
+          "fairways_hit_est": 49
         }
       }
     },
@@ -21984,6 +22160,18 @@
           "gir": 14,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -21998,6 +22186,10 @@
         "3": {
           "gir_count": 41,
           "fairways_hit_est": 37
+        },
+        "4": {
+          "gir_count": 56,
+          "fairways_hit_est": 48
         }
       }
     },
@@ -22041,15 +22233,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 69.0,
+          "strokes": 68.0,
           "birdies_or_better": 4,
-          "fairways_possible": 13,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
-          "gir": 0,
-          "fairways_hit_est": -3,
+          "pars": 12,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -22067,8 +22259,8 @@
           "fairways_hit_est": 41
         },
         "4": {
-          "gir_count": 43,
-          "fairways_hit_est": 38
+          "gir_count": 56,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -22183,15 +22375,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 75.0,
-          "birdies_or_better": 1,
-          "fairways_possible": 13,
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 4,
-          "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": 1,
+          "pars": 11,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -22209,8 +22401,8 @@
           "fairways_hit_est": 39
         },
         "4": {
-          "gir_count": 47,
-          "fairways_hit_est": 40
+          "gir_count": 50,
+          "fairways_hit_est": 50
         }
       }
     },
@@ -22252,6 +22444,18 @@
           "gir": 14,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 73.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -22266,6 +22470,10 @@
         "3": {
           "gir_count": 47,
           "fairways_hit_est": 40
+        },
+        "4": {
+          "gir_count": 61,
+          "fairways_hit_est": 52
         }
       }
     },
@@ -22307,6 +22515,18 @@
           "gir": 14,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 66.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -22321,6 +22541,10 @@
         "3": {
           "gir_count": 42,
           "fairways_hit_est": 39
+        },
+        "4": {
+          "gir_count": 56,
+          "fairways_hit_est": 52
         }
       }
     },
@@ -22366,13 +22590,13 @@
         "4": {
           "strokes": 67.0,
           "birdies_or_better": 7,
-          "fairways_possible": 13,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
-          "gir": 8,
-          "fairways_hit_est": 1,
+          "pars": 9,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         }
       },
@@ -22390,8 +22614,8 @@
           "fairways_hit_est": 36
         },
         "4": {
-          "gir_count": 54,
-          "fairways_hit_est": 37
+          "gir_count": 61,
+          "fairways_hit_est": 50
         }
       }
     },
@@ -22646,6 +22870,18 @@
           "gir": 13,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 69.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 6,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": 12,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -22660,6 +22896,10 @@
         "3": {
           "gir_count": 44,
           "fairways_hit_est": 36
+        },
+        "4": {
+          "gir_count": 56,
+          "fairways_hit_est": 47
         }
       }
     },
@@ -22703,15 +22943,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 68.0,
+          "strokes": 69.0,
           "birdies_or_better": 3,
-          "fairways_possible": 13,
+          "fairways_possible": 14,
           "holes_played": 18,
           "pars": 15,
           "bogeys_or_worse": 0,
-          "par_total": 71,
-          "gir": 7,
-          "fairways_hit_est": -2,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         }
       },
@@ -22729,8 +22969,8 @@
           "fairways_hit_est": 39
         },
         "4": {
-          "gir_count": 56,
-          "fairways_hit_est": 37
+          "gir_count": 65,
+          "fairways_hit_est": 51
         }
       }
     },
@@ -22813,15 +23053,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 70.0,
-          "birdies_or_better": 3,
-          "fairways_possible": 13,
+          "strokes": 65.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": 1,
+          "pars": 11,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -22839,8 +23079,8 @@
           "fairways_hit_est": 36
         },
         "4": {
-          "gir_count": 53,
-          "fairways_hit_est": 37
+          "gir_count": 56,
+          "fairways_hit_est": 49
         }
       }
     },
@@ -23072,15 +23312,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 67.0,
-          "birdies_or_better": 4,
-          "fairways_possible": 13,
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 1,
-          "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": -4,
+          "pars": 12,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -23098,8 +23338,8 @@
           "fairways_hit_est": 40
         },
         "4": {
-          "gir_count": 57,
-          "fairways_hit_est": 36
+          "gir_count": 59,
+          "fairways_hit_est": 53
         }
       }
     },
@@ -23215,14 +23455,14 @@
         },
         "4": {
           "strokes": 71.0,
-          "birdies_or_better": 3,
-          "fairways_possible": 13,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
           "pars": 12,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": -10,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         }
       },
@@ -23240,8 +23480,8 @@
           "fairways_hit_est": 38
         },
         "4": {
-          "gir_count": 51,
-          "fairways_hit_est": 28
+          "gir_count": 55,
+          "fairways_hit_est": 50
         }
       }
     },
@@ -23324,15 +23564,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 65.0,
-          "birdies_or_better": 7,
-          "fairways_possible": 13,
+          "strokes": 70.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 1,
-          "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 3,
+          "pars": 9,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -23350,8 +23590,8 @@
           "fairways_hit_est": 42
         },
         "4": {
-          "gir_count": 60,
-          "fairways_hit_est": 45
+          "gir_count": 61,
+          "fairways_hit_est": 55
         }
       }
     },
@@ -23544,15 +23784,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 69.0,
-          "birdies_or_better": 5,
-          "fairways_possible": 13,
+          "strokes": 66.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
-          "gir": 4,
-          "fairways_hit_est": 0,
+          "pars": 8,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         }
       },
@@ -23570,8 +23810,8 @@
           "fairways_hit_est": 39
         },
         "4": {
-          "gir_count": 48,
-          "fairways_hit_est": 39
+          "gir_count": 58,
+          "fairways_hit_est": 53
         }
       }
     },
@@ -23723,6 +23963,18 @@
           "gir": 14,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 17,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -23737,6 +23989,10 @@
         "3": {
           "gir_count": 41,
           "fairways_hit_est": 40
+        },
+        "4": {
+          "gir_count": 58,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -23780,15 +24036,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 63.0,
-          "birdies_or_better": 8,
-          "fairways_possible": 13,
+          "strokes": 72.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 0,
-          "par_total": 71,
-          "gir": 10,
-          "fairways_hit_est": -5,
+          "pars": 9,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": 11,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -23806,8 +24062,8 @@
           "fairways_hit_est": 39
         },
         "4": {
-          "gir_count": 51,
-          "fairways_hit_est": 34
+          "gir_count": 52,
+          "fairways_hit_est": 50
         }
       }
     },
@@ -23851,15 +24107,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
-          "fairways_possible": 13,
+          "strokes": 63.0,
+          "birdies_or_better": 10,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
-          "gir": 19,
-          "fairways_hit_est": 7,
+          "pars": 7,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -23877,8 +24133,8 @@
           "fairways_hit_est": 40
         },
         "4": {
-          "gir_count": 60,
-          "fairways_hit_est": 47
+          "gir_count": 57,
+          "fairways_hit_est": 53
         }
       }
     },
@@ -23922,15 +24178,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 70.0,
-          "birdies_or_better": 3,
-          "fairways_possible": 13,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
+          "pars": 11,
           "bogeys_or_worse": 2,
-          "par_total": 71,
+          "par_total": 72,
           "gir": 13,
-          "fairways_hit_est": 5,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -23949,7 +24205,7 @@
         },
         "4": {
           "gir_count": 54,
-          "fairways_hit_est": 46
+          "fairways_hit_est": 52
         }
       }
     },
@@ -24438,6 +24694,18 @@
           "gir": 14,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 69.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -24452,6 +24720,10 @@
         "3": {
           "gir_count": 43,
           "fairways_hit_est": 40
+        },
+        "4": {
+          "gir_count": 56,
+          "fairways_hit_est": 52
         }
       }
     },
@@ -24564,6 +24836,18 @@
           "gir": 15,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 69.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -24578,6 +24862,10 @@
         "3": {
           "gir_count": 47,
           "fairways_hit_est": 40
+        },
+        "4": {
+          "gir_count": 61,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -24660,15 +24948,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
-          "fairways_possible": 13,
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 4,
-          "par_total": 71,
-          "gir": 5,
-          "fairways_hit_est": 0,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -24686,8 +24974,8 @@
           "fairways_hit_est": 41
         },
         "4": {
-          "gir_count": 49,
-          "fairways_hit_est": 41
+          "gir_count": 59,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -24731,15 +25019,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 69.0,
-          "birdies_or_better": 4,
-          "fairways_possible": 13,
+          "strokes": 66.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
-          "gir": 4,
-          "fairways_hit_est": -1,
+          "pars": 10,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -24757,8 +25045,8 @@
           "fairways_hit_est": 39
         },
         "4": {
-          "gir_count": 49,
-          "fairways_hit_est": 38
+          "gir_count": 60,
+          "fairways_hit_est": 52
         }
       }
     },
@@ -24871,6 +25159,18 @@
           "gir": 14,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 66.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -24885,6 +25185,10 @@
         "3": {
           "gir_count": 43,
           "fairways_hit_est": 41
+        },
+        "4": {
+          "gir_count": 57,
+          "fairways_hit_est": 53
         }
       }
     },
@@ -24926,6 +25230,18 @@
           "gir": 11,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 67.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 17,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -24940,6 +25256,10 @@
         "3": {
           "gir_count": 40,
           "fairways_hit_est": 33
+        },
+        "4": {
+          "gir_count": 57,
+          "fairways_hit_est": 45
         }
       }
     },
@@ -25054,15 +25374,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 72.0,
-          "birdies_or_better": 2,
-          "fairways_possible": 13,
+          "strokes": 73.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": 0,
+          "pars": 11,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": 11,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         }
       },
@@ -25080,8 +25400,8 @@
           "fairways_hit_est": 40
         },
         "4": {
-          "gir_count": 54,
-          "fairways_hit_est": 40
+          "gir_count": 52,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -25196,15 +25516,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
-          "fairways_possible": 13,
+          "strokes": 69.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
-          "gir": 10,
-          "fairways_hit_est": 2,
+          "pars": 15,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -25222,8 +25542,8 @@
           "fairways_hit_est": 42
         },
         "4": {
-          "gir_count": 56,
-          "fairways_hit_est": 44
+          "gir_count": 61,
+          "fairways_hit_est": 55
         }
       }
     },
@@ -25336,6 +25656,18 @@
           "gir": 12,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 69.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -25350,6 +25682,10 @@
         "3": {
           "gir_count": 43,
           "fairways_hit_est": 40
+        },
+        "4": {
+          "gir_count": 57,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -25462,6 +25798,18 @@
           "gir": 10,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 71.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -25476,6 +25824,10 @@
         "3": {
           "gir_count": 39,
           "fairways_hit_est": 39
+        },
+        "4": {
+          "gir_count": 53,
+          "fairways_hit_est": 50
         }
       }
     },
@@ -25629,15 +25981,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 66.0,
-          "birdies_or_better": 5,
-          "fairways_possible": 13,
+          "strokes": 71.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 0,
-          "par_total": 71,
-          "gir": 10,
-          "fairways_hit_est": 6,
+          "pars": 14,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -25655,8 +26007,8 @@
           "fairways_hit_est": 38
         },
         "4": {
-          "gir_count": 56,
-          "fairways_hit_est": 44
+          "gir_count": 61,
+          "fairways_hit_est": 51
         }
       }
     },
@@ -25771,15 +26123,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 64.0,
-          "birdies_or_better": 8,
-          "fairways_possible": 13,
+          "strokes": 68.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 1,
-          "par_total": 71,
-          "gir": 10,
-          "fairways_hit_est": -2,
+          "pars": 8,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         }
       },
@@ -25797,8 +26149,8 @@
           "fairways_hit_est": 40
         },
         "4": {
-          "gir_count": 54,
-          "fairways_hit_est": 38
+          "gir_count": 58,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -25842,15 +26194,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 64.0,
-          "birdies_or_better": 8,
-          "fairways_possible": 13,
+          "strokes": 63.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 1,
-          "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": 7,
+          "pars": 11,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         }
       },
@@ -25868,8 +26220,8 @@
           "fairways_hit_est": 39
         },
         "4": {
-          "gir_count": 57,
-          "fairways_hit_est": 46
+          "gir_count": 59,
+          "fairways_hit_est": 53
         }
       }
     },
@@ -25984,15 +26336,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 74.0,
-          "birdies_or_better": 3,
-          "fairways_possible": 13,
+          "strokes": 69.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 5,
-          "par_total": 71,
-          "gir": 7,
-          "fairways_hit_est": 6,
+          "pars": 9,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         }
       },
@@ -26010,8 +26362,8 @@
           "fairways_hit_est": 40
         },
         "4": {
-          "gir_count": 46,
-          "fairways_hit_est": 46
+          "gir_count": 54,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -26055,15 +26407,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 70.0,
-          "birdies_or_better": 3,
-          "fairways_possible": 13,
+          "strokes": 71.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
-          "gir": 3,
-          "fairways_hit_est": 2,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         }
       },
@@ -26081,8 +26433,8 @@
           "fairways_hit_est": 40
         },
         "4": {
-          "gir_count": 47,
-          "fairways_hit_est": 42
+          "gir_count": 58,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -26227,6 +26579,18 @@
           "gir": 15,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -26237,6 +26601,10 @@
         "3": {
           "gir_count": 46,
           "fairways_hit_est": 38
+        },
+        "4": {
+          "gir_count": 60,
+          "fairways_hit_est": 50
         }
       }
     },
@@ -26276,6 +26644,18 @@
           "gir": 14,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 69.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -26286,6 +26666,10 @@
         "3": {
           "gir_count": 43,
           "fairways_hit_est": 41
+        },
+        "4": {
+          "gir_count": 58,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -26325,6 +26709,18 @@
           "gir": 11,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 68.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -26335,6 +26731,10 @@
         "3": {
           "gir_count": 42,
           "fairways_hit_est": 40
+        },
+        "4": {
+          "gir_count": 57,
+          "fairways_hit_est": 52
         }
       }
     },
@@ -26374,6 +26774,18 @@
           "gir": 14,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -26384,6 +26796,10 @@
         "3": {
           "gir_count": 41,
           "fairways_hit_est": 37
+        },
+        "4": {
+          "gir_count": 54,
+          "fairways_hit_est": 50
         }
       }
     },
@@ -26456,6 +26872,18 @@
           "gir": 13,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 74.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 11,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -26466,6 +26894,10 @@
         "3": {
           "gir_count": 43,
           "fairways_hit_est": 36
+        },
+        "4": {
+          "gir_count": 54,
+          "fairways_hit_est": 49
         }
       }
     },
@@ -26505,6 +26937,18 @@
           "gir": 14,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 17,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -26515,6 +26959,10 @@
         "3": {
           "gir_count": 41,
           "fairways_hit_est": 36
+        },
+        "4": {
+          "gir_count": 58,
+          "fairways_hit_est": 49
         }
       }
     },
@@ -26587,6 +27035,18 @@
           "gir": 11,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 71.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 11,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -26597,6 +27057,10 @@
         "3": {
           "gir_count": 42,
           "fairways_hit_est": 39
+        },
+        "4": {
+          "gir_count": 53,
+          "fairways_hit_est": 51
         }
       }
     },
@@ -26636,6 +27100,18 @@
           "gir": 13,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -26646,6 +27122,10 @@
         "3": {
           "gir_count": 43,
           "fairways_hit_est": 38
+        },
+        "4": {
+          "gir_count": 58,
+          "fairways_hit_est": 50
         }
       }
     },
@@ -26685,6 +27165,18 @@
           "gir": 11,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 67.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -26695,6 +27187,10 @@
         "3": {
           "gir_count": 39,
           "fairways_hit_est": 39
+        },
+        "4": {
+          "gir_count": 54,
+          "fairways_hit_est": 52
         }
       }
     },
@@ -26833,6 +27329,18 @@
           "gir": 16,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -26843,6 +27351,10 @@
         "3": {
           "gir_count": 47,
           "fairways_hit_est": 40
+        },
+        "4": {
+          "gir_count": 63,
+          "fairways_hit_est": 54
         }
       }
     },
@@ -26948,6 +27460,18 @@
           "gir": 15,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -26958,6 +27482,10 @@
         "3": {
           "gir_count": 43,
           "fairways_hit_est": 36
+        },
+        "4": {
+          "gir_count": 56,
+          "fairways_hit_est": 48
         }
       }
     },
@@ -27030,6 +27558,18 @@
           "gir": 11,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -27040,6 +27580,10 @@
         "3": {
           "gir_count": 42,
           "fairways_hit_est": 40
+        },
+        "4": {
+          "gir_count": 57,
+          "fairways_hit_est": 53
         }
       }
     },
@@ -27079,6 +27623,18 @@
           "gir": 13,
           "fairways_hit_est": 14,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -27089,6 +27645,10 @@
         "3": {
           "gir_count": 45,
           "fairways_hit_est": 41
+        },
+        "4": {
+          "gir_count": 60,
+          "fairways_hit_est": 53
         }
       }
     },
@@ -27128,6 +27688,18 @@
           "gir": 12,
           "fairways_hit_est": 9,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 15,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -27138,6 +27710,10 @@
         "3": {
           "gir_count": 41,
           "fairways_hit_est": 32
+        },
+        "4": {
+          "gir_count": 56,
+          "fairways_hit_est": 43
         }
       }
     },
@@ -27210,6 +27786,18 @@
           "gir": 15,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 69.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 13,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -27220,6 +27808,10 @@
         "3": {
           "gir_count": 40,
           "fairways_hit_est": 38
+        },
+        "4": {
+          "gir_count": 53,
+          "fairways_hit_est": 51
         }
       }
     },
@@ -27259,6 +27851,18 @@
           "gir": 14,
           "fairways_hit_est": 13,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 64.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 18,
+          "fairways_hit_est": 14,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -27269,6 +27873,10 @@
         "3": {
           "gir_count": 42,
           "fairways_hit_est": 36
+        },
+        "4": {
+          "gir_count": 60,
+          "fairways_hit_est": 50
         }
       }
     }

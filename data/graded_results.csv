@@ -671,3 +671,23 @@ date,tournament,round,player,category,line,source,model_prob,picked_side,actual_
 2026-11-08,VidantaWorld Mexico Open,4,Austin Eckroat,strokes,68.0,prizepicks,0.6803077756667886,over,71.0,hit,False
 2026-11-08,VidantaWorld Mexico Open,4,Adrien Dumont de Chassart,birdies,5.5,prizepicks,0.6031420419942181,under,3,hit,False
 2026-11-08,VidantaWorld Mexico Open,4,Adrien Dumont de Chassart,pars,10.0,prizepicks,0.6395384163952335,over,12,hit,False
+2026-11-08,VidantaWorld Mexico Open,4,Zac Blair,birdies,5.5,prizepicks,0.543530749038903,under,6,miss,False
+2026-11-08,VidantaWorld Mexico Open,4,Rico Hoey,birdies,5.5,prizepicks,0.5569330826703984,under,6,miss,False
+2026-11-08,VidantaWorld Mexico Open,4,Rico Hoey,strokes,68.5,prizepicks,0.5963514977345716,over,70.0,hit,False
+2026-11-08,VidantaWorld Mexico Open,4,Rico Hoey,pars,10.0,prizepicks,0.6369126633088715,over,10,push,False
+2026-11-08,VidantaWorld Mexico Open,4,Chris Kirk,birdies,5.5,prizepicks,0.5362913702953185,under,4,hit,False
+2026-11-08,VidantaWorld Mexico Open,4,Chris Kirk,strokes,68.5,prizepicks,0.6008688895539956,over,71.0,hit,False
+2026-11-08,VidantaWorld Mexico Open,4,Ryan Gerard,birdies,6.0,prizepicks,0.7091856348513313,under,4,hit,False
+2026-11-08,VidantaWorld Mexico Open,4,Ryan Gerard,strokes,67.5,prizepicks,0.6908357878459188,over,71.0,hit,False
+2026-11-08,VidantaWorld Mexico Open,4,Ryan Gerard,pars,10.0,prizepicks,0.6845936563637248,over,11,hit,False
+2026-11-08,VidantaWorld Mexico Open,4,Isaiah Salinda,strokes,69.0,prizepicks,0.5305750372793653,over,68.0,miss,False
+2026-11-08,VidantaWorld Mexico Open,4,Ben Martin,birdies,5.0,prizepicks,0.5104144870635157,under,3,hit,False
+2026-11-08,VidantaWorld Mexico Open,4,Ben Martin,strokes,69.0,prizepicks,0.5554946169923525,over,73.0,hit,False
+2026-11-08,VidantaWorld Mexico Open,4,Keith Mitchell,birdies,6.0,prizepicks,0.6120492279408629,under,6,push,False
+2026-11-08,VidantaWorld Mexico Open,4,Keith Mitchell,strokes,68.0,prizepicks,0.6141560631213091,over,69.0,hit,False
+2026-11-08,VidantaWorld Mexico Open,4,Keith Mitchell,pars,10.0,prizepicks,0.624768619180857,over,10,push,False
+2026-11-08,VidantaWorld Mexico Open,4,Michael Kim,strokes,68.5,prizepicks,0.6062855681687447,over,64.0,miss,False
+2026-11-08,VidantaWorld Mexico Open,4,Michael Kim,pars,10.5,prizepicks,0.5584824216668876,over,10,miss,False
+2026-11-08,VidantaWorld Mexico Open,4,Peter Malnati,strokes,69.5,prizepicks,0.5992998053408143,over,69.0,miss,False
+2026-11-08,VidantaWorld Mexico Open,4,Stephan Jaeger,birdies,5.5,prizepicks,0.5085972674079512,under,4,hit,False
+2026-11-08,VidantaWorld Mexico Open,4,Stephan Jaeger,strokes,68.0,prizepicks,0.602599309965538,over,69.0,hit,False
