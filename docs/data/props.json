@@ -1,6 +1,6 @@
 {
   "tournament_name": "VidantaWorld Mexico Open",
-  "generated_at": "2026-11-12T16:53:33.283089+00:00",
+  "generated_at": "2026-11-13T16:30:58.137391+00:00",
   "course_par": 71,
   "props": [
     {
@@ -24,62 +24,28 @@
         "under": 0.19189693061735125
       },
       "strokes": {
-        "line": 69.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.6010110026469137,
-        "over": 0.39898899735308635
+        "line": 70.5,
+        "source": null,
+        "under": 0.7857260985782948,
+        "over": 0.21427390142170522
       },
       "pars": {
-        "line": 11.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 11.5,
+        "source": null,
         "experimental": true,
         "expected": 10.83,
-        "over": 0.4681215704771518,
-        "under": 0.5318784295228483
+        "over": 0.3799271108141602,
+        "under": 0.6200728891858398
       },
       "bogeys": {
-        "line": 2.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 2.5,
+        "source": null,
         "experimental": true,
         "expected": 2.48,
-        "over": 0.6034683247370668,
-        "under": 0.3965316752629332
+        "over": 0.4510368777096564,
+        "under": 0.5489631222903436
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 11.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.0,
-          "odds_type": "standard"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Zac Blair",
@@ -350,8 +316,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6966749283080018,
-        "under": 0.3033250716919982
+        "over": 0.6966749283079964,
+        "under": 0.3033250716920036
       },
       "fairways": {
         "line": 8.5,
@@ -394,8 +360,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7506861128299613,
-        "under": 0.24931388717003866
+        "over": 0.7506861128300119,
+        "under": 0.24931388716998815
       },
       "fairways": {
         "line": 8.5,
@@ -410,10 +376,11 @@
         "under": 0.20966604994952975
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.6824565240997311,
-        "over": 0.3175434759002689
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5467428475360704,
+        "over": 0.4532571524639296
       },
       "pars": {
         "line": 11.5,
@@ -431,7 +398,14 @@
         "over": 0.5625616215649255,
         "under": 0.4374383784350745
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Kensei Hirata",
@@ -492,69 +466,34 @@
         "under": 0.03715629270924581
       },
       "birdies": {
-        "line": 4.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.6179149303343815,
-        "under": 0.3820850696656185
+        "line": 3.5,
+        "source": null,
+        "over": 0.7877473500142081,
+        "under": 0.21225264998579185
       },
       "strokes": {
-        "line": 69.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.5733729059885051,
-        "over": 0.4266270940114949
+        "line": 70.5,
+        "source": null,
+        "under": 0.7061289067183303,
+        "over": 0.2938710932816697
       },
       "pars": {
-        "line": 11.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 11.5,
+        "source": null,
         "experimental": true,
         "expected": 10.7,
-        "over": 0.43862407295592015,
-        "under": 0.5613759270440799
+        "over": 0.3565599053790213,
+        "under": 0.6434400946209786
       },
       "bogeys": {
         "line": 2.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "source": null,
         "experimental": true,
         "expected": 2.81,
         "over": 0.5327776084785463,
         "under": 0.46722239152145373
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 11.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.5,
-          "odds_type": "standard"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Takumi Kanaya",
@@ -686,14 +625,7 @@
         "over": 0.5318108894441486,
         "under": 0.46818911055585144
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Tommy Fleetwood",
@@ -932,8 +864,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.774351871296628,
-        "under": 0.22564812870337203
+        "over": 0.7743518712966325,
+        "under": 0.22564812870336748
       },
       "strokes": {
         "line": 70.5,
@@ -954,8 +886,8 @@
         "source": null,
         "experimental": true,
         "expected": 3.23,
-        "over": 0.6287838076739297,
-        "under": 0.3712161923260703
+        "over": 0.6287838076739324,
+        "under": 0.3712161923260676
       },
       "platform_lines": []
     },
@@ -1020,8 +952,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7893098719658481,
-        "under": 0.21069012803415188
+        "over": 0.789309871965822,
+        "under": 0.21069012803417797
       },
       "strokes": {
         "line": 70.5,
@@ -1042,8 +974,8 @@
         "source": null,
         "experimental": true,
         "expected": 3.18,
-        "over": 0.6181243322949524,
-        "under": 0.38187566770504755
+        "over": 0.6181243322949543,
+        "under": 0.38187566770504566
       },
       "platform_lines": []
     },
@@ -1309,14 +1241,7 @@
         "over": 0.5796040061788211,
         "under": 0.42039599382117887
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Christiaan Bezuidenhout",
@@ -1339,16 +1264,14 @@
         "under": 0.19603975381486138
       },
       "strokes": {
-        "line": 69.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.577474253940213,
-        "over": 0.422525746059787
+        "line": 70.5,
+        "source": null,
+        "under": 0.7097241514862144,
+        "over": 0.29027584851378563
       },
       "pars": {
         "line": 11.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "source": null,
         "experimental": true,
         "expected": 10.63,
         "over": 0.3438984665326534,
@@ -1362,26 +1285,7 @@
         "over": 0.5461980396338123,
         "under": 0.4538019603661877
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 11.5,
-          "odds_type": "standard"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Matt Kuchar",
@@ -1398,23 +1302,20 @@
         "under": 0.05473250055138412
       },
       "birdies": {
-        "line": 4.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.631015158088008,
-        "under": 0.368984841911992
+        "line": 3.5,
+        "source": null,
+        "over": 0.7974593724844719,
+        "under": 0.20254062751552815
       },
       "strokes": {
-        "line": 70.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.593413403538072,
-        "over": 0.40658659646192796
+        "line": 70.5,
+        "source": null,
+        "under": 0.6608945797994671,
+        "over": 0.3391054202005329
       },
       "pars": {
         "line": 11.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "source": null,
         "experimental": true,
         "expected": 10.53,
         "over": 0.327395029580722,
@@ -1428,26 +1329,7 @@
         "over": 0.5930364262217124,
         "under": 0.4069635737782876
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 70.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 11.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "standard"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "John Pak",
@@ -1586,8 +1468,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7260218471805918,
-        "under": 0.2739781528194082
+        "over": 0.7260218471805892,
+        "under": 0.27397815281941085
       },
       "fairways": {
         "line": 8.5,
@@ -1640,75 +1522,34 @@
         "under": 0.05725184932392924
       },
       "birdies": {
-        "line": 5.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.5302134545732549,
-        "under": 0.46978654542674514
+        "line": 3.5,
+        "source": null,
+        "over": 0.7875856194980735,
+        "under": 0.21241438050192651
       },
       "strokes": {
-        "line": 69.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.43198526857472475,
-        "over": 0.5680147314252753
+        "line": 70.5,
+        "source": null,
+        "under": 0.6422174307733857,
+        "over": 0.35778256922661433
       },
       "pars": {
-        "line": 11.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 11.5,
+        "source": null,
         "experimental": true,
         "expected": 10.53,
-        "over": 0.4018493781694304,
-        "under": 0.5981506218305697
+        "over": 0.3277270235331494,
+        "under": 0.6722729764668506
       },
       "bogeys": {
-        "line": 2.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 2.5,
+        "source": null,
         "experimental": true,
         "expected": 3.1,
-        "over": 0.7662653014789474,
-        "under": 0.23373469852105255
+        "over": 0.6021748139798984,
+        "under": 0.39782518602010164
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 11.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.0,
-          "odds_type": "standard"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Daniel Berger",
@@ -1759,14 +1600,14 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6673999035089806,
-        "under": 0.3326000964910194
+        "over": 0.6673999035089784,
+        "under": 0.3326000964910216
       },
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9423588341005494,
-        "under": 0.057641165899450564
+        "over": 0.9423588341005491,
+        "under": 0.0576411658994509
       },
       "birdies": {
         "line": 3.5,
@@ -1853,8 +1694,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9416977318571178,
-        "under": 0.058302268142882196
+        "over": 0.9416977318571161,
+        "under": 0.05830226814288386
       },
       "birdies": {
         "line": 3.5,
@@ -2029,87 +1870,46 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9406440371137289,
-        "under": 0.059355962886271096
+        "over": 0.9406440371137307,
+        "under": 0.05935596288626932
       },
       "birdies": {
-        "line": 5.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.6045890829773947,
-        "under": 0.39541091702260533
+        "line": 3.5,
+        "source": null,
+        "over": 0.8298026891331384,
+        "under": 0.17019731086686163
       },
       "strokes": {
-        "line": 69.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.4804320302331279,
-        "over": 0.519567969766872
+        "line": 70.5,
+        "source": null,
+        "under": 0.686745027210211,
+        "over": 0.313254972789789
       },
       "pars": {
-        "line": 11.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 11.5,
+        "source": null,
         "experimental": true,
         "expected": 10.43,
-        "over": 0.37822530036279295,
-        "under": 0.6217746996372071
+        "over": 0.3093350221553561,
+        "under": 0.6906649778446439
       },
       "bogeys": {
-        "line": 2.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 2.5,
+        "source": null,
         "experimental": true,
         "expected": 3.1,
-        "over": 0.7652411752552778,
-        "under": 0.2347588247447222
+        "over": 0.60108907023662,
+        "under": 0.39891092976338005
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 11.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.0,
-          "odds_type": "standard"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Sudarshan Yellamaraju",
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7096574765937282,
-        "under": 0.29034252340627176
+        "over": 0.7096574765937299,
+        "under": 0.2903425234062701
       },
       "fairways": {
         "line": 8.5,
@@ -2158,8 +1958,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.94025790689877,
-        "under": 0.05974209310123002
+        "over": 0.9402579068987662,
+        "under": 0.059742093101233795
       },
       "birdies": {
         "line": 3.5,
@@ -2196,8 +1996,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7313904950603529,
-        "under": 0.2686095049396471
+        "over": 0.7313904950603549,
+        "under": 0.2686095049396451
       },
       "fairways": {
         "line": 8.5,
@@ -2328,8 +2128,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7151543436311405,
-        "under": 0.2848456563688595
+        "over": 0.7151543436311432,
+        "under": 0.28484565636885684
       },
       "fairways": {
         "line": 8.5,
@@ -2365,14 +2165,7 @@
         "over": 0.6425975225860319,
         "under": 0.35740247741396813
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Sungjae Im",
@@ -2473,8 +2266,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9373136712040888,
-        "under": 0.06268632879591118
+        "over": 0.9373136712040867,
+        "under": 0.0626863287959133
       },
       "birdies": {
         "line": 3.5,
@@ -2527,10 +2320,11 @@
         "under": 0.20043790633015046
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.6806499206531897,
-        "over": 0.31935007934681026
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5447366093953219,
+        "over": 0.45526339060467813
       },
       "pars": {
         "line": 11.5,
@@ -2548,15 +2342,22 @@
         "over": 0.5742457983099537,
         "under": 0.4257542016900463
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Keita Nakajima",
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7743055855286366,
-        "under": 0.2256944144713634
+        "over": 0.7743055855286933,
+        "under": 0.22569441447130667
       },
       "fairways": {
         "line": 8.5,
@@ -2636,14 +2437,7 @@
         "over": 0.579698376737988,
         "under": 0.42030162326201204
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Haotong Li",
@@ -2656,8 +2450,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9344530632597182,
-        "under": 0.06554693674028178
+        "over": 0.9344530632597218,
+        "under": 0.06554693674027823
       },
       "birdies": {
         "line": 3.5,
@@ -2666,10 +2460,11 @@
         "under": 0.17944535764766445
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.65658128245809,
-        "over": 0.34341871754191
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5183479625346357,
+        "over": 0.48165203746536434
       },
       "pars": {
         "line": 11.5,
@@ -2687,7 +2482,14 @@
         "over": 0.6216885587215131,
         "under": 0.3783114412784869
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Rickie Fowler",
@@ -2826,8 +2628,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7359235094866163,
-        "under": 0.26407649051338367
+        "over": 0.7359235094865597,
+        "under": 0.2640764905134403
       },
       "fairways": {
         "line": 8.5,
@@ -2838,8 +2640,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7898386744364756,
-        "under": 0.2101613255635244
+        "over": 0.7898386744364304,
+        "under": 0.2101613255635696
       },
       "strokes": {
         "line": 70.5,
@@ -2852,16 +2654,16 @@
         "source": null,
         "experimental": true,
         "expected": 10.6,
-        "over": 0.3382920227255282,
-        "under": 0.6617079772744718
+        "over": 0.3382920227257538,
+        "under": 0.6617079772742462
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 2.98,
-        "over": 0.5748802542265696,
-        "under": 0.42511974577343037
+        "over": 0.5748802542265382,
+        "under": 0.4251197457734618
       },
       "platform_lines": []
     },
@@ -3008,8 +2810,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9303286209943755,
-        "under": 0.06967137900562448
+        "over": 0.9303286209943822,
+        "under": 0.06967137900561782
       },
       "birdies": {
         "line": 3.5,
@@ -3171,7 +2973,14 @@
         "over": 0.5466845905090999,
         "under": 0.4533154094909001
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 4.5,
+          "odds_type": "goblin"
+        }
+      ]
     },
     {
       "player": "Matt McCarty",
@@ -3184,8 +2993,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9283865296435811,
-        "under": 0.07161347035641885
+        "over": 0.9283865296435814,
+        "under": 0.07161347035641863
       },
       "birdies": {
         "line": 3.5,
@@ -3316,8 +3125,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9260279691407468,
-        "under": 0.07397203085925319
+        "over": 0.9260279691407413,
+        "under": 0.07397203085925874
       },
       "birdies": {
         "line": 3.5,
@@ -3360,8 +3169,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.925735867911215,
-        "under": 0.07426413208878502
+        "over": 0.9257358679112137,
+        "under": 0.07426413208878635
       },
       "birdies": {
         "line": 3.5,
@@ -3479,7 +3288,14 @@
         "over": 0.5296814428193389,
         "under": 0.47031855718066107
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "birdies",
+          "line": 5.5,
+          "odds_type": "demon"
+        }
+      ]
     },
     {
       "player": "Michael Brennan",
@@ -3536,8 +3352,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9239332087989994,
-        "under": 0.07606679120100057
+        "over": 0.9239332087990028,
+        "under": 0.07606679120099724
       },
       "birdies": {
         "line": 3.5,
@@ -3580,73 +3396,38 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9238934608469604,
-        "under": 0.07610653915303955
+        "over": 0.9238934608469616,
+        "under": 0.07610653915303844
       },
       "birdies": {
-        "line": 5.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.566923392389429,
-        "under": 0.433076607610571
+        "line": 3.5,
+        "source": null,
+        "over": 0.8089385908319081,
+        "under": 0.1910614091680919
       },
       "strokes": {
-        "line": 69.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.5372971881150261,
-        "over": 0.46270281188497386
+        "line": 70.5,
+        "source": null,
+        "under": 0.6739222119887494,
+        "over": 0.32607778801125065
       },
       "pars": {
-        "line": 11.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 11.5,
+        "source": null,
         "experimental": true,
         "expected": 10.51,
-        "over": 0.3957828782260341,
-        "under": 0.6042171217739659
+        "over": 0.32299593292507167,
+        "under": 0.6770040670749283
       },
       "bogeys": {
-        "line": 2.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 2.5,
+        "source": null,
         "experimental": true,
         "expected": 3.06,
-        "over": 0.7560685530401065,
-        "under": 0.24393144695989355
+        "over": 0.5914639798048114,
+        "under": 0.40853602019518864
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 11.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.0,
-          "odds_type": "standard"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Chad Ramey",
@@ -3713,10 +3494,11 @@
         "under": 0.18335208511264733
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.6665608368096525,
-        "over": 0.3334391631903475
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5292136777950185,
+        "over": 0.4707863222049815
       },
       "pars": {
         "line": 11.5,
@@ -3734,15 +3516,22 @@
         "over": 0.6074244403584367,
         "under": 0.3925755596415633
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Sami V\u00e4lim\u00e4ki",
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7113500482817203,
-        "under": 0.2886499517182797
+        "over": 0.7113500482816977,
+        "under": 0.2886499517183023
       },
       "fairways": {
         "line": 8.5,
@@ -3757,10 +3546,11 @@
         "under": 0.18740285156384817
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.6580888264668878,
-        "over": 0.3419111735331122
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5199826000998914,
+        "over": 0.4800173999001086
       },
       "pars": {
         "line": 11.5,
@@ -3778,7 +3568,14 @@
         "over": 0.6116927356872919,
         "under": 0.3883072643127081
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Denny McCarthy",
@@ -3873,8 +3670,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6906863513644346,
-        "under": 0.30931364863556543
+        "over": 0.6906863513644421,
+        "under": 0.3093136486355579
       },
       "fairways": {
         "line": 8.5,
@@ -4005,8 +3802,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6884065704143036,
-        "under": 0.31159342958569636
+        "over": 0.6884065704143094,
+        "under": 0.3115934295856906
       },
       "fairways": {
         "line": 8.5,
@@ -4061,8 +3858,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.8065815768592718,
-        "under": 0.1934184231407282
+        "over": 0.8065815768592515,
+        "under": 0.19341842314074853
       },
       "strokes": {
         "line": 70.5,
@@ -4075,16 +3872,16 @@
         "source": null,
         "experimental": true,
         "expected": 10.46,
-        "over": 0.31490872027033306,
-        "under": 0.6850912797296669
+        "over": 0.31490872027026523,
+        "under": 0.6850912797297348
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.15,
-        "over": 0.6131278884934703,
-        "under": 0.38687211150652967
+        "over": 0.6131278884934734,
+        "under": 0.38687211150652656
       },
       "platform_lines": []
     },
@@ -4093,8 +3890,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6561442496357237,
-        "under": 0.3438557503642763
+        "over": 0.6561442496357215,
+        "under": 0.3438557503642785
       },
       "fairways": {
         "line": 8.5,
@@ -4137,8 +3934,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.659108764983994,
-        "under": 0.34089123501600604
+        "over": 0.6591087649840184,
+        "under": 0.3408912350159816
       },
       "fairways": {
         "line": 8.5,
@@ -4181,8 +3978,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7039051265344812,
-        "under": 0.29609487346551877
+        "over": 0.7039051265344792,
+        "under": 0.29609487346552077
       },
       "fairways": {
         "line": 8.5,
@@ -4275,14 +4072,14 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9179636369345765,
-        "under": 0.0820363630654235
+        "over": 0.9179636369345763,
+        "under": 0.08203636306542372
       },
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7964294560667039,
-        "under": 0.2035705439332961
+        "over": 0.796429456066699,
+        "under": 0.20357054393330098
       },
       "strokes": {
         "line": 70.5,
@@ -4303,8 +4100,8 @@
         "source": null,
         "experimental": true,
         "expected": 3.21,
-        "over": 0.62651192380348,
-        "under": 0.37348807619652
+        "over": 0.6265119238034859,
+        "under": 0.37348807619651414
       },
       "platform_lines": []
     },
@@ -4363,8 +4160,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.917064476637344,
-        "under": 0.08293552336265597
+        "over": 0.9170644766373393,
+        "under": 0.08293552336266075
       },
       "birdies": {
         "line": 3.5,
@@ -4577,8 +4374,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7437419207408897,
-        "under": 0.25625807925911026
+        "over": 0.7437419207409953,
+        "under": 0.2562580792590047
       },
       "fairways": {
         "line": 8.5,
@@ -4614,14 +4411,7 @@
         "over": 0.5842261499299866,
         "under": 0.41577385007001344
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Will Chandler",
@@ -4634,8 +4424,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9160073187060471,
-        "under": 0.08399268129395288
+        "over": 0.9160073187060485,
+        "under": 0.08399268129395154
       },
       "birdies": {
         "line": 3.5,
@@ -4722,8 +4512,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9153704518776232,
-        "under": 0.08462954812237677
+        "over": 0.9153704518776242,
+        "under": 0.08462954812237578
       },
       "birdies": {
         "line": 3.5,
@@ -4753,14 +4543,7 @@
         "over": 0.581290987317399,
         "under": 0.41870901268260097
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Justin Rose",
@@ -4827,10 +4610,11 @@
         "under": 0.17240307044403647
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.7132382698434548,
-        "over": 0.28676173015654516
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5814979434937637,
+        "over": 0.4185020565062363
       },
       "pars": {
         "line": 11.5,
@@ -4848,15 +4632,22 @@
         "over": 0.5692783012150847,
         "under": 0.4307216987849153
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Roger Sloan",
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6842576452455634,
-        "under": 0.31574235475443657
+        "over": 0.6842576452455612,
+        "under": 0.3157423547544388
       },
       "fairways": {
         "line": 8.5,
@@ -4905,8 +4696,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9133767112128973,
-        "under": 0.08662328878710268
+        "over": 0.9133767112129019,
+        "under": 0.08662328878709813
       },
       "birdies": {
         "line": 3.5,
@@ -4943,14 +4734,14 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.720343336855529,
-        "under": 0.279656663144471
+        "over": 0.7203433368555288,
+        "under": 0.27965666314447124
       },
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9131822502639604,
-        "under": 0.08681774973603962
+        "over": 0.9131822502639626,
+        "under": 0.0868177497360374
       },
       "birdies": {
         "line": 3.5,
@@ -5003,10 +4794,11 @@
         "under": 0.16152496000332606
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.7065462199218547,
-        "over": 0.29345378007814527
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5738481787767409,
+        "over": 0.4261518212232591
       },
       "pars": {
         "line": 11.5,
@@ -5024,7 +4816,14 @@
         "over": 0.5899006033927529,
         "under": 0.41009939660724715
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Patrick Cantlay",
@@ -5207,8 +5006,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6991322597723193,
-        "under": 0.3008677402276807
+        "over": 0.6991322597723169,
+        "under": 0.30086774022768314
       },
       "fairways": {
         "line": 8.5,
@@ -5251,8 +5050,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6889798436667913,
-        "under": 0.3110201563332087
+        "over": 0.6889798436667366,
+        "under": 0.3110201563332634
       },
       "fairways": {
         "line": 8.5,
@@ -5443,10 +5242,11 @@
         "under": 0.20669081059787953
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.638106912717421,
-        "over": 0.36189308728257896
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.4985081028294077,
+        "over": 0.5014918971705923
       },
       "pars": {
         "line": 11.5,
@@ -5464,7 +5264,14 @@
         "over": 0.6119032480271375,
         "under": 0.38809675197286253
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Luke List",
@@ -5559,8 +5366,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6522815525231851,
-        "under": 0.3477184474768149
+        "over": 0.6522815525232049,
+        "under": 0.34771844747679514
       },
       "fairways": {
         "line": 8.5,
@@ -5603,8 +5410,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7595507912085157,
-        "under": 0.24044920879148435
+        "over": 0.7595507912085138,
+        "under": 0.24044920879148624
       },
       "fairways": {
         "line": 8.5,
@@ -5615,8 +5422,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7753322974630419,
-        "under": 0.2246677025369581
+        "over": 0.775332297463019,
+        "under": 0.22466770253698098
       },
       "strokes": {
         "line": 70.5,
@@ -5629,16 +5436,16 @@
         "source": null,
         "experimental": true,
         "expected": 10.54,
-        "over": 0.3283414541109608,
-        "under": 0.6716585458890392
+        "over": 0.32834145411086935,
+        "under": 0.6716585458891307
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.15,
-        "over": 0.6124642898652151,
-        "under": 0.38753571013478494
+        "over": 0.6124642898652564,
+        "under": 0.38753571013474364
       },
       "platform_lines": []
     },
@@ -5691,8 +5498,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6348930845396252,
-        "under": 0.36510691546037477
+        "over": 0.6348930845396318,
+        "under": 0.3651069154603682
       },
       "fairways": {
         "line": 8.5,
@@ -5829,8 +5636,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9036155228223647,
-        "under": 0.09638447717763532
+        "over": 0.9036155228223619,
+        "under": 0.0963844771776381
       },
       "birdies": {
         "line": 3.5,
@@ -5971,10 +5778,11 @@
         "under": 0.1980161590934335
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.7072411312289957,
-        "over": 0.2927588687710043
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5746400614571051,
+        "over": 0.4253599385428949
       },
       "pars": {
         "line": 11.5,
@@ -5992,7 +5800,14 @@
         "over": 0.546911906998929,
         "under": 0.453088093001071
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Brandon Wu",
@@ -6049,8 +5864,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.9018569346904686,
-        "under": 0.09814306530953143
+        "over": 0.9018569346904708,
+        "under": 0.09814306530952921
       },
       "birdies": {
         "line": 3.5,
@@ -6059,10 +5874,11 @@
         "under": 0.1879081747563225
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.6897592150177146,
-        "over": 0.31024078498228536
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5548897081709283,
+        "over": 0.4451102918290717
       },
       "pars": {
         "line": 11.5,
@@ -6080,7 +5896,14 @@
         "over": 0.5778586253473488,
         "under": 0.4221413746526512
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Kaito Onishi",
@@ -6131,8 +5954,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6872734240001568,
-        "under": 0.3127265759998432
+        "over": 0.6872734240001519,
+        "under": 0.3127265759998481
       },
       "fairways": {
         "line": 8.5,
@@ -6175,8 +5998,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6910464494707443,
-        "under": 0.30895355052925566
+        "over": 0.6910464494707421,
+        "under": 0.3089535505292579
       },
       "fairways": {
         "line": 8.5,
@@ -6185,27 +6008,24 @@
         "under": 0.09871223610964908
       },
       "birdies": {
-        "line": 5.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.581214112925172,
-        "under": 0.418785887074828
+        "line": 3.5,
+        "source": null,
+        "over": 0.8169729171718567,
+        "under": 0.18302708282814328
       },
       "strokes": {
-        "line": 69.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.48985965064422254,
-        "over": 0.5101403493557775
+        "line": 70.5,
+        "source": null,
+        "under": 0.6299504190694005,
+        "over": 0.3700495809305995
       },
       "pars": {
-        "line": 10.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 11.5,
+        "source": null,
         "experimental": true,
         "expected": 10.35,
-        "over": 0.47759856540608875,
-        "under": 0.5224014345939112
+        "over": 0.2972556732570109,
+        "under": 0.7027443267429891
       },
       "bogeys": {
         "line": 2.5,
@@ -6215,38 +6035,7 @@
         "over": 0.643511478676665,
         "under": 0.356488521323335
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 10.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "goblin"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Ryan Palmer",
@@ -6341,8 +6130,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6929267910451494,
-        "under": 0.3070732089548506
+        "over": 0.692926791045155,
+        "under": 0.307073208954845
       },
       "fairways": {
         "line": 8.5,
@@ -6385,8 +6174,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.7009908930021672,
-        "under": 0.2990091069978328
+        "over": 0.7009908930021765,
+        "under": 0.29900910699782346
       },
       "fairways": {
         "line": 8.5,
@@ -6567,8 +6356,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8986132986491636,
-        "under": 0.10138670135083638
+        "over": 0.8986132986491623,
+        "under": 0.10138670135083772
       },
       "birdies": {
         "line": 3.5,
@@ -6655,8 +6444,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.897858946749464,
-        "under": 0.10214105325053602
+        "over": 0.8978589467494669,
+        "under": 0.10214105325053313
       },
       "birdies": {
         "line": 3.5,
@@ -6781,8 +6570,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6524001856103242,
-        "under": 0.3475998143896758
+        "over": 0.6524001856103264,
+        "under": 0.3475998143896736
       },
       "fairways": {
         "line": 8.5,
@@ -6919,8 +6708,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8964384208542602,
-        "under": 0.10356157914573982
+        "over": 0.8964384208542593,
+        "under": 0.10356157914574071
       },
       "birdies": {
         "line": 3.5,
@@ -6967,75 +6756,34 @@
         "under": 0.10378232135540533
       },
       "birdies": {
-        "line": 5.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.5720365587375508,
-        "under": 0.42796344126244923
+        "line": 3.5,
+        "source": null,
+        "over": 0.8118303948527114,
+        "under": 0.18816960514728864
       },
       "strokes": {
-        "line": 69.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.5656360731003709,
-        "over": 0.4343639268996291
+        "line": 70.5,
+        "source": null,
+        "under": 0.6993101464257852,
+        "over": 0.30068985357421485
       },
       "pars": {
-        "line": 10.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 11.5,
+        "source": null,
         "experimental": true,
         "expected": 10.56,
-        "over": 0.5167316288318256,
-        "under": 0.48326837116817445
+        "over": 0.33183064816740904,
+        "under": 0.668169351832591
       },
       "bogeys": {
-        "line": 2.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 2.5,
+        "source": null,
         "experimental": true,
         "expected": 2.95,
-        "over": 0.7319455689735893,
-        "under": 0.2680544310264107
+        "over": 0.5669484697358708,
+        "under": 0.43305153026412924
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 10.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.0,
-          "odds_type": "standard"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Chan Kim",
@@ -7086,14 +6834,14 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6725078680249633,
-        "under": 0.3274921319750367
+        "over": 0.672507868024958,
+        "under": 0.327492131975042
       },
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8933782676919719,
-        "under": 0.10662173230802807
+        "over": 0.8933782676919706,
+        "under": 0.1066217323080294
       },
       "birdies": {
         "line": 3.5,
@@ -7224,8 +6972,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8918381956254071,
-        "under": 0.10816180437459288
+        "over": 0.8918381956254072,
+        "under": 0.10816180437459277
       },
       "birdies": {
         "line": 3.5,
@@ -7350,14 +7098,14 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6454851478751903,
-        "under": 0.3545148521248097
+        "over": 0.6454851478751444,
+        "under": 0.35451485212485556
       },
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8913460184544031,
-        "under": 0.10865398154559691
+        "over": 0.8913460184543966,
+        "under": 0.10865398154560335
       },
       "birdies": {
         "line": 3.5,
@@ -7400,8 +7148,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8899347052056368,
-        "under": 0.11006529479436322
+        "over": 0.889934705205633,
+        "under": 0.110065294794367
       },
       "birdies": {
         "line": 3.5,
@@ -7576,8 +7324,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8887757923472104,
-        "under": 0.11122420765278962
+        "over": 0.8887757923472117,
+        "under": 0.11122420765278829
       },
       "birdies": {
         "line": 3.5,
@@ -7702,14 +7450,14 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6471496840979641,
-        "under": 0.35285031590203586
+        "over": 0.6471496840979749,
+        "under": 0.3528503159020251
       },
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8850540012348791,
-        "under": 0.1149459987651209
+        "over": 0.8850540012348826,
+        "under": 0.11494599876511735
       },
       "birdies": {
         "line": 3.5,
@@ -7752,8 +7500,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.884737877212176,
-        "under": 0.115262122787824
+        "over": 0.8847378772121732,
+        "under": 0.11526212278782677
       },
       "birdies": {
         "line": 3.5,
@@ -7783,14 +7531,7 @@
         "over": 0.5941003774833551,
         "under": 0.4058996225166449
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "standard"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Adam Schenk",
@@ -7841,8 +7582,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.666307014810343,
-        "under": 0.33369298518965695
+        "over": 0.6663070148103359,
+        "under": 0.33369298518966406
       },
       "fairways": {
         "line": 8.5,
@@ -7885,8 +7626,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6758585854037902,
-        "under": 0.3241414145962098
+        "over": 0.6758585854037447,
+        "under": 0.32414141459625534
       },
       "fairways": {
         "line": 8.5,
@@ -7979,8 +7720,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8834007486116879,
-        "under": 0.11659925138831206
+        "over": 0.8834007486116939,
+        "under": 0.11659925138830607
       },
       "birdies": {
         "line": 3.5,
@@ -8017,8 +7758,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6784656722389731,
-        "under": 0.32153432776102686
+        "over": 0.6784656722389822,
+        "under": 0.32153432776101776
       },
       "fairways": {
         "line": 8.5,
@@ -8111,8 +7852,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8819756846001672,
-        "under": 0.11802431539983282
+        "over": 0.8819756846001656,
+        "under": 0.11802431539983438
       },
       "birdies": {
         "line": 3.5,
@@ -8155,8 +7896,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8803178363607126,
-        "under": 0.11968216363928741
+        "over": 0.8803178363607121,
+        "under": 0.11968216363928785
       },
       "birdies": {
         "line": 3.5,
@@ -8193,8 +7934,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6780551555406388,
-        "under": 0.3219448444593612
+        "over": 0.6780551555405899,
+        "under": 0.3219448444594101
       },
       "fairways": {
         "line": 8.5,
@@ -8253,10 +7994,11 @@
         "under": 0.2267147531182454
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.6648573765020548,
-        "over": 0.3351426234979452
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5273514424622416,
+        "over": 0.47264855753775836
       },
       "pars": {
         "line": 11.5,
@@ -8274,7 +8016,14 @@
         "over": 0.5645172412571163,
         "under": 0.43548275874288367
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Quade Cummins",
@@ -8287,8 +8036,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8794557981827564,
-        "under": 0.12054420181724357
+        "over": 0.8794557981827626,
+        "under": 0.12054420181723735
       },
       "birdies": {
         "line": 3.5,
@@ -8325,8 +8074,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6665160655157664,
-        "under": 0.33348393448423364
+        "over": 0.6665160655157641,
+        "under": 0.33348393448423586
       },
       "fairways": {
         "line": 8.5,
@@ -8375,31 +8124,28 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8782107988432198,
-        "under": 0.12178920115678016
+        "over": 0.8782107988432181,
+        "under": 0.12178920115678193
       },
       "birdies": {
-        "line": 5.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.5786387886717723,
-        "under": 0.4213612113282277
+        "line": 3.5,
+        "source": null,
+        "over": 0.8155360106718695,
+        "under": 0.18446398932813046
       },
       "strokes": {
-        "line": 69.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.6072189306843481,
-        "over": 0.39278106931565193
+        "line": 70.5,
+        "source": null,
+        "under": 0.7353977222171773,
+        "over": 0.26460227778282275
       },
       "pars": {
-        "line": 10.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 11.5,
+        "source": null,
         "experimental": true,
         "expected": 10.64,
-        "over": 0.5319522524089899,
-        "under": 0.4680477475910101
+        "over": 0.34571445025561603,
+        "under": 0.654285549744384
       },
       "bogeys": {
         "line": 2.5,
@@ -8409,32 +8155,7 @@
         "over": 0.5284309368222067,
         "under": 0.47156906317779335
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 10.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "goblin"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Ben Martin",
@@ -8579,8 +8300,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8738888141561117,
-        "under": 0.12611118584388825
+        "over": 0.8738888141561064,
+        "under": 0.12611118584389358
       },
       "birdies": {
         "line": 3.5,
@@ -8589,10 +8310,11 @@
         "under": 0.2317299081042672
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.6462068980904483,
-        "over": 0.3537931019095517
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5071634212541375,
+        "over": 0.4928365787458625
       },
       "pars": {
         "line": 11.5,
@@ -8610,7 +8332,14 @@
         "over": 0.579406215311689,
         "under": 0.420593784688311
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Niklas N\u00f8rgaard",
@@ -8623,8 +8352,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8727507718117122,
-        "under": 0.12724922818828777
+        "over": 0.87275077181171,
+        "under": 0.12724922818829
       },
       "birdies": {
         "line": 3.5,
@@ -8711,8 +8440,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8704898601731916,
-        "under": 0.12951013982680837
+        "over": 0.8704898601731926,
+        "under": 0.12951013982680737
       },
       "birdies": {
         "line": 3.5,
@@ -8799,8 +8528,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8689136114079034,
-        "under": 0.13108638859209665
+        "over": 0.868913611407904,
+        "under": 0.13108638859209598
       },
       "birdies": {
         "line": 3.5,
@@ -8891,69 +8620,34 @@
         "under": 0.13203741148135362
       },
       "birdies": {
-        "line": 4.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.6393935890349901,
-        "under": 0.3606064109650099
+        "line": 3.5,
+        "source": null,
+        "over": 0.8035861558085831,
+        "under": 0.19641384419141694
       },
       "strokes": {
-        "line": 70.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.5226078811640642,
-        "over": 0.4773921188359358
+        "line": 70.5,
+        "source": null,
+        "under": 0.5930009342561305,
+        "over": 0.40699906574386946
       },
       "pars": {
-        "line": 10.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 11.5,
+        "source": null,
         "experimental": true,
         "expected": 10.34,
-        "over": 0.4739727238658005,
-        "under": 0.5260272761341995
+        "over": 0.2941319320514264,
+        "under": 0.7058680679485736
       },
       "bogeys": {
         "line": 2.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "source": null,
         "experimental": true,
         "expected": 3.39,
         "over": 0.6637220551188386,
         "under": 0.33627794488116136
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 70.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 10.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 4.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.5,
-          "odds_type": "standard"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Trey Mullinax",
@@ -9016,8 +8710,8 @@
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7696822846108912,
-        "under": 0.23031771538910883
+        "over": 0.7696822846108848,
+        "under": 0.23031771538911516
       },
       "strokes": {
         "line": 70.5,
@@ -9030,16 +8724,16 @@
         "source": null,
         "experimental": true,
         "expected": 10.5,
-        "over": 0.3209021153967087,
-        "under": 0.6790978846032913
+        "over": 0.320902115396969,
+        "under": 0.679097884603031
       },
       "bogeys": {
         "line": 2.5,
         "source": null,
         "experimental": true,
         "expected": 3.25,
-        "over": 0.6345601941207387,
-        "under": 0.3654398058792613
+        "over": 0.6345601941207424,
+        "under": 0.3654398058792576
       },
       "platform_lines": []
     },
@@ -9048,8 +8742,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6453496020874956,
-        "under": 0.3546503979125044
+        "over": 0.6453496020875243,
+        "under": 0.35465039791247566
       },
       "fairways": {
         "line": 8.5,
@@ -9328,10 +9022,11 @@
         "under": 0.19542559227857004
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.645321417456386,
-        "over": 0.35467858254361395
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5062139604696771,
+        "over": 0.49378603953032285
       },
       "pars": {
         "line": 11.5,
@@ -9349,7 +9044,14 @@
         "over": 0.6160882981120062,
         "under": 0.38391170188799384
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Joe Highsmith",
@@ -9416,10 +9118,11 @@
         "under": 0.18649010773534536
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.6730446941406381,
-        "over": 0.32695530585936194
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5363304995841517,
+        "over": 0.4636695004158483
       },
       "pars": {
         "line": 11.5,
@@ -9437,7 +9140,14 @@
         "over": 0.5973170668729246,
         "under": 0.40268293312707537
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Jake Knapp",
@@ -9532,8 +9242,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6573080710696739,
-        "under": 0.3426919289303261
+        "over": 0.6573080710696668,
+        "under": 0.3426919289303332
       },
       "fairways": {
         "line": 8.5,
@@ -9708,8 +9418,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6312183626433006,
-        "under": 0.36878163735669944
+        "over": 0.6312183626432984,
+        "under": 0.36878163735670155
       },
       "fairways": {
         "line": 8.5,
@@ -9768,10 +9478,11 @@
         "under": 0.20057993579973654
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.5752733510354515,
-        "over": 0.4247266489645485
+        "line": 70.0,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5044858504734746,
+        "over": 0.4955141495265254
       },
       "pars": {
         "line": 11.5,
@@ -9789,7 +9500,14 @@
         "over": 0.6751412643116457,
         "under": 0.3248587356883543
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 70.0,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Parker Coody",
@@ -9802,8 +9520,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8474770005569667,
-        "under": 0.15252299944303327
+        "over": 0.8474770005569607,
+        "under": 0.15252299944303926
       },
       "birdies": {
         "line": 3.5,
@@ -9894,69 +9612,34 @@
         "under": 0.1530311599336609
       },
       "birdies": {
-        "line": 5.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "over": 0.6093594705460994,
-        "under": 0.3906405294539006
+        "line": 3.5,
+        "source": null,
+        "over": 0.832375362149319,
+        "under": 0.16762463785068105
       },
       "strokes": {
-        "line": 69.5,
-        "source": "prizepicks",
-        "odds_type": "standard",
-        "under": 0.5929208170553082,
-        "over": 0.4070791829446918
+        "line": 70.5,
+        "source": null,
+        "under": 0.7231442601636272,
+        "over": 0.2768557398363728
       },
       "pars": {
-        "line": 11.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 11.5,
+        "source": null,
         "experimental": true,
         "expected": 10.51,
-        "over": 0.39637293477245517,
-        "under": 0.6036270652275448
+        "over": 0.3234558338440139,
+        "under": 0.6765441661559861
       },
       "bogeys": {
-        "line": 2.0,
-        "source": "prizepicks",
-        "odds_type": "standard",
+        "line": 2.5,
+        "source": null,
         "experimental": true,
         "expected": 2.94,
-        "over": 0.7284856614477043,
-        "under": 0.2715143385522957
+        "over": 0.5635204026471837,
+        "under": 0.4364795973528163
       },
-      "platform_lines": [
-        {
-          "source": "prizepicks",
-          "category": "other",
-          "line": 36.5,
-          "odds_type": "goblin"
-        },
-        {
-          "source": "prizepicks",
-          "category": "strokes",
-          "line": 69.5,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "pars",
-          "line": 11.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "birdies",
-          "line": 5.0,
-          "odds_type": "standard"
-        },
-        {
-          "source": "prizepicks",
-          "category": "bogeys",
-          "line": 2.0,
-          "odds_type": "standard"
-        }
-      ]
+      "platform_lines": []
     },
     {
       "player": "Thorbj\u00f8rn Olesen",
@@ -10189,8 +9872,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8424840140868308,
-        "under": 0.15751598591316918
+        "over": 0.8424840140868542,
+        "under": 0.15751598591314575
       },
       "birdies": {
         "line": 3.5,
@@ -10321,8 +10004,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8399125496253471,
-        "under": 0.16008745037465288
+        "over": 0.8399125496253694,
+        "under": 0.16008745037463057
       },
       "birdies": {
         "line": 3.5,
@@ -10365,8 +10048,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8396594056634318,
-        "under": 0.16034059433656822
+        "over": 0.839659405663458,
+        "under": 0.16034059433654202
       },
       "birdies": {
         "line": 3.5,
@@ -10403,8 +10086,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6175017910309394,
-        "under": 0.3824982089690606
+        "over": 0.6175017910308985,
+        "under": 0.38249820896910147
       },
       "fairways": {
         "line": 8.5,
@@ -10551,10 +10234,11 @@
         "under": 0.1640722982569469
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.7430396054593846,
-        "over": 0.25696039454061537
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.6162329707491373,
+        "over": 0.3837670292508627
       },
       "pars": {
         "line": 11.5,
@@ -10572,7 +10256,14 @@
         "over": 0.5438395397914102,
         "under": 0.4561604602085898
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Callum Tarren",
@@ -10585,8 +10276,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.833491380226008,
-        "under": 0.166508619773992
+        "over": 0.8334913802260359,
+        "under": 0.16650861977396414
       },
       "birdies": {
         "line": 3.5,
@@ -10639,10 +10330,11 @@
         "under": 0.21644128656611117
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.6740294837676064,
-        "over": 0.3259705162323936
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.537415418177518,
+        "over": 0.46258458182248197
       },
       "pars": {
         "line": 11.5,
@@ -10660,7 +10352,14 @@
         "over": 0.5648450486950678,
         "under": 0.4351549513049322
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Harry Hall",
@@ -10805,8 +10504,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8287322389967937,
-        "under": 0.1712677610032063
+        "over": 0.8287322389967625,
+        "under": 0.17126776100323748
       },
       "birdies": {
         "line": 3.5,
@@ -10937,8 +10636,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8252474551321265,
-        "under": 0.1747525448678735
+        "over": 0.8252474551321511,
+        "under": 0.17475254486784886
       },
       "birdies": {
         "line": 3.5,
@@ -10947,10 +10646,11 @@
         "under": 0.23195684220945934
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.6027867902312919,
-        "over": 0.3972132097687081
+        "line": 70.0,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5326748934777272,
+        "over": 0.46732510652227277
       },
       "pars": {
         "line": 11.5,
@@ -10968,7 +10668,14 @@
         "over": 0.6221951237055073,
         "under": 0.37780487629449266
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 70.0,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Maverick McNealy",
@@ -11069,8 +10776,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8202436685002672,
-        "under": 0.1797563314997328
+        "over": 0.8202436685002411,
+        "under": 0.1797563314997589
       },
       "birdies": {
         "line": 3.5,
@@ -11201,8 +10908,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7911419143808277,
-        "under": 0.2088580856191723
+        "over": 0.7911419143808038,
+        "under": 0.20885808561919617
       },
       "birdies": {
         "line": 3.5,
@@ -11255,10 +10962,11 @@
         "under": 0.18843079168331545
       },
       "strokes": {
-        "line": 70.5,
-        "source": null,
-        "under": 0.6499000348521135,
-        "over": 0.35009996514788655
+        "line": 69.5,
+        "source": "prizepicks",
+        "odds_type": "standard",
+        "under": 0.5111321316949722,
+        "over": 0.4888678683050278
       },
       "pars": {
         "line": 11.5,
@@ -11276,21 +10984,28 @@
         "over": 0.6187824194077642,
         "under": 0.38121758059223576
       },
-      "platform_lines": []
+      "platform_lines": [
+        {
+          "source": "prizepicks",
+          "category": "strokes",
+          "line": 69.5,
+          "odds_type": "standard"
+        }
+      ]
     },
     {
       "player": "Taylor Montgomery",
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.5917191705225514,
-        "under": 0.4082808294774486
+        "over": 0.5917191705225441,
+        "under": 0.4082808294774559
       },
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.8111089413985442,
-        "under": 0.18889105860145583
+        "over": 0.8111089413985222,
+        "under": 0.1888910586014778
       },
       "birdies": {
         "line": 3.5,
@@ -11333,8 +11048,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.810762467164853,
-        "under": 0.189237532835147
+        "over": 0.8107624671648542,
+        "under": 0.18923753283514577
       },
       "birdies": {
         "line": 3.5,
@@ -11465,8 +11180,8 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7992023653978223,
-        "under": 0.2007976346021777
+        "over": 0.7992023653978436,
+        "under": 0.20079763460215638
       },
       "birdies": {
         "line": 3.5,
@@ -11503,8 +11218,8 @@
       "gir": {
         "line": 12.5,
         "source": null,
-        "over": 0.6118171905570007,
-        "under": 0.3881828094429993
+        "over": 0.6118171905569987,
+        "under": 0.3881828094430013
       },
       "fairways": {
         "line": 8.5,
@@ -11729,14 +11444,14 @@
       "fairways": {
         "line": 8.5,
         "source": null,
-        "over": 0.7578018510152825,
-        "under": 0.24219814898471748
+        "over": 0.7578018510152636,
+        "under": 0.24219814898473635
       },
       "birdies": {
         "line": 3.5,
         "source": null,
-        "over": 0.7759267315647276,
-        "under": 0.22407326843527242
+        "over": 0.7759267315646762,
+        "under": 0.22407326843532382
       },
       "strokes": {
         "line": 70.5,
@@ -11749,8 +11464,8 @@
         "source": null,
         "experimental": true,
         "expected": 10.46,
-        "over": 0.3141677352037824,
-        "under": 0.6858322647962176
+        "over": 0.314167735204047,
+        "under": 0.6858322647959529
       },
       "bogeys": {
         "line": 2.5,
