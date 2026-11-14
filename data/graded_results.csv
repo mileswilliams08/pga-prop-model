@@ -691,3 +691,7 @@ date,tournament,round,player,category,line,source,model_prob,picked_side,actual_
 2026-11-08,VidantaWorld Mexico Open,4,Peter Malnati,strokes,69.5,prizepicks,0.5992998053408143,over,69.0,miss,False
 2026-11-08,VidantaWorld Mexico Open,4,Stephan Jaeger,birdies,5.5,prizepicks,0.5085972674079512,under,4,hit,False
 2026-11-08,VidantaWorld Mexico Open,4,Stephan Jaeger,strokes,68.0,prizepicks,0.602599309965538,over,69.0,hit,False
+2026-11-14,VidantaWorld Mexico Open,3,Ben Kohles,birdies,5.0,prizepicks,0.5425226639578122,over,4,miss,False
+2026-11-14,VidantaWorld Mexico Open,3,Kevin Yu,strokes,69.5,prizepicks,0.5468302108923752,under,70.0,miss,False
+2026-11-14,VidantaWorld Mexico Open,3,Erik van Rooyen,birdies,5.0,prizepicks,0.5557826246168635,over,4,miss,False
+2026-11-14,VidantaWorld Mexico Open,3,Erik van Rooyen,strokes,70.0,prizepicks,0.584840953412061,under,72.0,miss,False

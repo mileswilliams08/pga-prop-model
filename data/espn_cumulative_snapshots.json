@@ -18927,27 +18927,27 @@
       "player_name": "Zach Bauchou",
       "rounds": {
         "1": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
+          "strokes": 69.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 1,
+          "pars": 15,
+          "bogeys_or_worse": 0,
           "par_total": 72,
           "gir": 12,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 67.0,
-          "birdies_or_better": 7,
+          "strokes": 66.0,
+          "birdies_or_better": 8,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
+          "pars": 8,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 18,
+          "gir": 13,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "3": {
@@ -18958,8 +18958,8 @@
           "pars": 12,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 14,
+          "gir": 19,
+          "fairways_hit_est": 24,
           "fairways_estimated": true
         },
         "4": {
@@ -18981,8 +18981,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 27
+          "gir_count": 25,
+          "fairways_hit_est": 17
         },
         "3": {
           "gir_count": 44,
@@ -18998,27 +18998,27 @@
       "player_name": "Nick Hardy",
       "rounds": {
         "1": {
-          "strokes": 70.0,
-          "birdies_or_better": 5,
-          "fairways_possible": 13,
+          "strokes": 69.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
+          "pars": 13,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
           "gir": 11,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 68.0,
-          "birdies_or_better": 6,
-          "fairways_possible": 13,
+          "strokes": 75.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": 7,
+          "pars": 8,
+          "bogeys_or_worse": 5,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "3": {
@@ -19029,8 +19029,8 @@
           "pars": 12,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": 10,
+          "gir": 12,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "4": {
@@ -19052,8 +19052,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 23,
-          "fairways_hit_est": 16
+          "gir_count": 24,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 36,
@@ -19159,8 +19159,8 @@
           "pars": 12,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 23,
-          "fairways_hit_est": 17,
+          "gir": 19,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         },
         "3": {
@@ -19171,8 +19171,8 @@
           "pars": 8,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 12,
+          "gir": 16,
+          "fairways_hit_est": 17,
           "fairways_estimated": true
         },
         "4": {
@@ -19194,8 +19194,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 34,
-          "fairways_hit_est": 26
+          "gir_count": 30,
+          "fairways_hit_est": 21
         },
         "3": {
           "gir_count": 46,
@@ -19211,27 +19211,27 @@
       "player_name": "Davis Riley",
       "rounds": {
         "1": {
-          "strokes": 71.0,
+          "strokes": 74.0,
           "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 2,
+          "pars": 12,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 10,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
+          "strokes": 74.0,
           "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 1,
+          "pars": 10,
+          "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 12,
+          "gir": 10,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -19241,8 +19241,8 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 25,
-          "fairways_hit_est": 23
+          "gir_count": 20,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -19250,27 +19250,27 @@
       "player_name": "Alvaro Ortiz",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 5,
+          "strokes": 72.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 12,
-          "bogeys_or_worse": 1,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 18,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 66.0,
-          "birdies_or_better": 5,
+          "strokes": 73.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 0,
+          "pars": 12,
+          "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 16,
+          "gir": 6,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "3": {
@@ -19281,8 +19281,8 @@
           "pars": 8,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 13,
+          "gir": 18,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         },
         "4": {
@@ -19304,8 +19304,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 28,
-          "fairways_hit_est": 26
+          "gir_count": 24,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 42,
@@ -19321,26 +19321,26 @@
       "player_name": "Hayden Springer",
       "rounds": {
         "1": {
-          "strokes": 67.0,
+          "strokes": 70.0,
           "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 1,
+          "pars": 8,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 14,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 68.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 13,
+          "gir": 12,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
@@ -19352,7 +19352,7 @@
           "pars": 8,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 12,
+          "gir": 13,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
@@ -19375,7 +19375,7 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 27,
+          "gir_count": 26,
           "fairways_hit_est": 19
         },
         "3": {
@@ -19392,27 +19392,27 @@
       "player_name": "Aaron Wise",
       "rounds": {
         "1": {
-          "strokes": 72.0,
-          "birdies_or_better": 4,
+          "strokes": 67.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 4,
+          "pars": 11,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 11,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 74.0,
-          "birdies_or_better": 3,
+          "strokes": 70.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 4,
+          "pars": 12,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 19,
-          "fairways_hit_est": 16,
+          "gir": 12,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         }
       },
@@ -19422,8 +19422,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 30,
-          "fairways_hit_est": 26
+          "gir_count": 23,
+          "fairways_hit_est": 18
         }
       }
     },
@@ -19502,27 +19502,27 @@
       "player_name": "Matthieu Pavon",
       "rounds": {
         "1": {
-          "strokes": 65.0,
-          "birdies_or_better": 7,
+          "strokes": 70.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 0,
+          "pars": 10,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 15,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 74.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 1,
+          "pars": 12,
+          "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 16,
+          "gir": 10,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "3": {
@@ -19533,8 +19533,8 @@
           "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 13,
+          "gir": 21,
+          "fairways_hit_est": 23,
           "fairways_estimated": true
         },
         "4": {
@@ -19556,8 +19556,8 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 31,
-          "fairways_hit_est": 27
+          "gir_count": 25,
+          "fairways_hit_est": 17
         },
         "3": {
           "gir_count": 46,
@@ -19573,27 +19573,27 @@
       "player_name": "Kevin Streelman",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 6,
+          "strokes": 70.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 3,
+          "pars": 12,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
+          "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 15,
+          "gir": 14,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "3": {
@@ -19604,8 +19604,8 @@
           "pars": 13,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 11,
+          "gir": 14,
+          "fairways_hit_est": 15,
           "fairways_estimated": true
         },
         "4": {
@@ -19627,8 +19627,8 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 30,
-          "fairways_hit_est": 26
+          "gir_count": 27,
+          "fairways_hit_est": 22
         },
         "3": {
           "gir_count": 41,
@@ -19644,27 +19644,27 @@
       "player_name": "Cam Davis",
       "rounds": {
         "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 4,
+          "strokes": 72.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 0,
+          "pars": 9,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 10,
           "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 68.0,
-          "birdies_or_better": 6,
+          "strokes": 76.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 2,
+          "pars": 4,
+          "bogeys_or_worse": 9,
           "par_total": 72,
-          "gir": 21,
-          "fairways_hit_est": 21,
+          "gir": 11,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "3": {
@@ -19675,8 +19675,8 @@
           "pars": 14,
           "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 11,
+          "gir": 25,
+          "fairways_hit_est": 21,
           "fairways_estimated": true
         },
         "4": {
@@ -19698,8 +19698,8 @@
           "fairways_hit_est": 6
         },
         "2": {
-          "gir_count": 31,
-          "fairways_hit_est": 27
+          "gir_count": 21,
+          "fairways_hit_est": 17
         },
         "3": {
           "gir_count": 46,
@@ -19715,27 +19715,27 @@
       "player_name": "Jimmy Stanger",
       "rounds": {
         "1": {
-          "strokes": 75.0,
-          "birdies_or_better": 3,
+          "strokes": 66.0,
+          "birdies_or_better": 7,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 10,
-          "bogeys_or_worse": 5,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 12,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 82.0,
-          "birdies_or_better": 5,
+          "strokes": 78.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 6,
-          "bogeys_or_worse": 7,
+          "pars": 7,
+          "bogeys_or_worse": 8,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 13,
+          "gir": 9,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
@@ -19745,8 +19745,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 23,
-          "fairways_hit_est": 22
+          "gir_count": 21,
+          "fairways_hit_est": 16
         }
       }
     },
@@ -19754,7 +19754,7 @@
       "player_name": "Max Greyserman",
       "rounds": {
         "1": {
-          "strokes": 67.0,
+          "strokes": 64.0,
           "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
@@ -19767,14 +19767,14 @@
         },
         "2": {
           "strokes": 71.0,
-          "birdies_or_better": 5,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 3,
+          "pars": 15,
+          "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 8,
-          "fairways_hit_est": 11,
+          "gir": 7,
+          "fairways_hit_est": 5,
           "fairways_estimated": true
         },
         "3": {
@@ -19785,8 +19785,8 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 10,
+          "gir": 14,
+          "fairways_hit_est": 16,
           "fairways_estimated": true
         },
         "4": {
@@ -19808,8 +19808,8 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 27,
-          "fairways_hit_est": 22
+          "gir_count": 26,
+          "fairways_hit_est": 16
         },
         "3": {
           "gir_count": 40,
@@ -19864,27 +19864,27 @@
       "player_name": "Trace Crowe",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 7,
+          "strokes": 62.0,
+          "birdies_or_better": 10,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 2,
+          "pars": 8,
+          "bogeys_or_worse": 0,
           "par_total": 72,
           "gir": 15,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
+          "strokes": 69.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 2,
+          "pars": 13,
+          "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 17,
+          "gir": 16,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "3": {
@@ -19895,8 +19895,8 @@
           "pars": 9,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 11,
+          "gir": 9,
+          "fairways_hit_est": 19,
           "fairways_estimated": true
         },
         "4": {
@@ -19918,8 +19918,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 28,
-          "fairways_hit_est": 27
+          "gir_count": 31,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 40,
@@ -19974,23 +19974,23 @@
       "player_name": "Rasmus H\u00f8jgaard",
       "rounds": {
         "1": {
-          "strokes": 70.0,
-          "birdies_or_better": 5,
+          "strokes": 69.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 9,
-          "bogeys_or_worse": 4,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 10,
           "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 69.0,
-          "birdies_or_better": 5,
+          "strokes": 68.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
+          "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 15,
@@ -20045,26 +20045,26 @@
       "player_name": "Andrew Novak",
       "rounds": {
         "1": {
-          "strokes": 67.0,
+          "strokes": 72.0,
           "birdies_or_better": 4,
-          "fairways_possible": 13,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 1,
-          "par_total": 71,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 61.0,
-          "birdies_or_better": 10,
-          "fairways_possible": 13,
+          "strokes": 73.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 7,
-          "bogeys_or_worse": 1,
-          "par_total": 71,
-          "gir": 13,
+          "pars": 9,
+          "bogeys_or_worse": 5,
+          "par_total": 72,
+          "gir": 9,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
@@ -20076,7 +20076,7 @@
           "pars": 10,
           "bogeys_or_worse": 0,
           "par_total": 71,
-          "gir": 14,
+          "gir": 18,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
@@ -20099,7 +20099,7 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 26,
+          "gir_count": 22,
           "fairways_hit_est": 22
         },
         "3": {
@@ -20116,6 +20116,18 @@
       "player_name": "Max McGreevy",
       "rounds": {
         "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 19,
+          "fairways_hit_est": 10,
+          "fairways_estimated": true
+        },
+        "2": {
           "strokes": 70.0,
           "birdies_or_better": 4,
           "fairways_possible": 14,
@@ -20123,20 +20135,8 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 19,
-          "fairways_hit_est": 10,
-          "fairways_estimated": true
-        },
-        "2": {
-          "strokes": 68.0,
-          "birdies_or_better": 6,
-          "fairways_possible": 14,
-          "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 2,
-          "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 16,
+          "gir": 4,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "3": {
@@ -20147,8 +20147,8 @@
           "pars": 10,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 12,
+          "gir": 19,
+          "fairways_hit_est": 22,
           "fairways_estimated": true
         },
         "4": {
@@ -20170,8 +20170,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 30,
-          "fairways_hit_est": 26
+          "gir_count": 23,
+          "fairways_hit_est": 16
         },
         "3": {
           "gir_count": 42,
@@ -20187,27 +20187,27 @@
       "player_name": "Rico Hoey",
       "rounds": {
         "1": {
-          "strokes": 67.0,
-          "birdies_or_better": 8,
+          "strokes": 74.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 7,
-          "bogeys_or_worse": 3,
+          "pars": 11,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 12,
           "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 69.0,
+          "strokes": 68.0,
           "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 3,
+          "pars": 10,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 20,
+          "gir": 11,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         },
         "3": {
@@ -20218,8 +20218,8 @@
           "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 14,
+          "gir": 19,
+          "fairways_hit_est": 22,
           "fairways_estimated": true
         },
         "4": {
@@ -20241,8 +20241,8 @@
           "fairways_hit_est": 8
         },
         "2": {
-          "gir_count": 28,
-          "fairways_hit_est": 28
+          "gir_count": 23,
+          "fairways_hit_est": 20
         },
         "3": {
           "gir_count": 42,
@@ -20258,11 +20258,11 @@
       "player_name": "Hank Lebioda",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 5,
+          "strokes": 70.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 9,
@@ -20270,15 +20270,15 @@
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 72.0,
+          "strokes": 70.0,
           "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 5,
+          "pars": 10,
+          "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 15,
+          "gir": 18,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
@@ -20288,8 +20288,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 25,
-          "fairways_hit_est": 24
+          "gir_count": 27,
+          "fairways_hit_est": 18
         }
       }
     },
@@ -20439,27 +20439,27 @@
       "player_name": "Doug Ghim",
       "rounds": {
         "1": {
-          "strokes": 65.0,
-          "birdies_or_better": 8,
-          "fairways_possible": 13,
+          "strokes": 73.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
           "gir": 18,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 68.0,
-          "birdies_or_better": 5,
-          "fairways_possible": 13,
+          "strokes": 66.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
           "holes_played": 18,
           "pars": 11,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 10,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "3": {
@@ -20470,8 +20470,8 @@
           "pars": 12,
           "bogeys_or_worse": 0,
           "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 11,
+          "gir": 15,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         },
         "4": {
@@ -20493,8 +20493,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 21
+          "gir_count": 28,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 43,
@@ -20549,23 +20549,23 @@
       "player_name": "Billy Horschel",
       "rounds": {
         "1": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 69.0,
+          "birdies_or_better": 7,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 2,
+          "pars": 8,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
         },
         "2": {
-          "strokes": 72.0,
-          "birdies_or_better": 7,
+          "strokes": 71.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 7,
-          "bogeys_or_worse": 4,
+          "pars": 11,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
@@ -20573,8 +20573,8 @@
       },
       "cumulative_checkpoints": {
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 25
+          "gir_count": 24,
+          "fairways_hit_est": 16
         }
       }
     },
@@ -20653,12 +20653,12 @@
       "player_name": "Brice Garnett",
       "rounds": {
         "1": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 11,
-          "bogeys_or_worse": 1,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 19,
           "fairways_hit_est": 11,
@@ -20666,14 +20666,14 @@
         },
         "2": {
           "strokes": 70.0,
-          "birdies_or_better": 4,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 2,
+          "pars": 14,
+          "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 17,
+          "gir": 8,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "3": {
@@ -20684,8 +20684,8 @@
           "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 14,
+          "gir": 16,
+          "fairways_hit_est": 23,
           "fairways_estimated": true
         },
         "4": {
@@ -20707,8 +20707,8 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 28
+          "gir_count": 27,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 43,
@@ -20724,27 +20724,27 @@
       "player_name": "David Skinns",
       "rounds": {
         "1": {
-          "strokes": 69.0,
+          "strokes": 72.0,
           "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 2,
+          "pars": 10,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 18,
           "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 68.0,
-          "birdies_or_better": 7,
+          "strokes": 75.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 3,
+          "pars": 10,
+          "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 7,
-          "fairways_hit_est": 17,
+          "gir": 4,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "3": {
@@ -20755,8 +20755,8 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 14,
+          "gir": 17,
+          "fairways_hit_est": 24,
           "fairways_estimated": true
         },
         "4": {
@@ -20778,8 +20778,8 @@
           "fairways_hit_est": 8
         },
         "2": {
-          "gir_count": 25,
-          "fairways_hit_est": 25
+          "gir_count": 22,
+          "fairways_hit_est": 15
         },
         "3": {
           "gir_count": 39,
@@ -20795,27 +20795,27 @@
       "player_name": "Rafael Campos",
       "rounds": {
         "1": {
-          "strokes": 71.0,
-          "birdies_or_better": 2,
+          "strokes": 66.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 15,
-          "bogeys_or_worse": 1,
+          "pars": 12,
+          "bogeys_or_worse": 0,
           "par_total": 72,
           "gir": 18,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 71.0,
-          "birdies_or_better": 4,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 4,
+          "pars": 11,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 16,
+          "gir": 11,
+          "fairways_hit_est": 15,
           "fairways_estimated": true
         },
         "3": {
@@ -20826,8 +20826,8 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 9,
-          "fairways_hit_est": -1,
+          "gir": 10,
+          "fairways_hit_est": 0,
           "fairways_estimated": true
         },
         "4": {
@@ -20849,8 +20849,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 30,
-          "fairways_hit_est": 25
+          "gir_count": 29,
+          "fairways_hit_est": 24
         },
         "3": {
           "gir_count": 39,
@@ -20866,27 +20866,27 @@
       "player_name": "Patton Kizzire",
       "rounds": {
         "1": {
-          "strokes": 66.0,
-          "birdies_or_better": 8,
+          "strokes": 70.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 2,
+          "pars": 14,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 71.0,
-          "birdies_or_better": 3,
+          "strokes": 70.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 10,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 18,
-          "fairways_hit_est": 19,
+          "gir": 7,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "3": {
@@ -20897,8 +20897,8 @@
           "pars": 10,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 12,
+          "gir": 24,
+          "fairways_hit_est": 23,
           "fairways_estimated": true
         },
         "4": {
@@ -20920,8 +20920,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 31,
-          "fairways_hit_est": 28
+          "gir_count": 20,
+          "fairways_hit_est": 17
         },
         "3": {
           "gir_count": 44,
@@ -20937,27 +20937,27 @@
       "player_name": "Kevin Yu",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 6,
+          "strokes": 66.0,
+          "birdies_or_better": 10,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 3,
+          "pars": 4,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 66.0,
+          "birdies_or_better": 7,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 15,
-          "fairways_hit_est": 19,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         },
         "3": {
@@ -20969,7 +20969,7 @@
           "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 13,
-          "fairways_hit_est": 14,
+          "fairways_hit_est": 19,
           "fairways_estimated": true
         },
         "4": {
@@ -20992,7 +20992,7 @@
         },
         "2": {
           "gir_count": 28,
-          "fairways_hit_est": 26
+          "fairways_hit_est": 21
         },
         "3": {
           "gir_count": 41,
@@ -21008,27 +21008,27 @@
       "player_name": "Kristoffer Ventura",
       "rounds": {
         "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 5,
+          "strokes": 66.0,
+          "birdies_or_better": 8,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 1,
+          "pars": 7,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 15,
           "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 71.0,
+          "strokes": 67.0,
           "birdies_or_better": 7,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 7,
-          "bogeys_or_worse": 4,
+          "pars": 9,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 17,
+          "gir": 14,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "3": {
@@ -21039,8 +21039,8 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 13,
+          "gir": 17,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         },
         "4": {
@@ -21062,8 +21062,8 @@
           "fairways_hit_est": 8
         },
         "2": {
-          "gir_count": 31,
-          "fairways_hit_est": 25
+          "gir_count": 29,
+          "fairways_hit_est": 18
         },
         "3": {
           "gir_count": 46,
@@ -21079,11 +21079,11 @@
       "player_name": "Alejandro Tosti",
       "rounds": {
         "1": {
-          "strokes": 66.0,
-          "birdies_or_better": 8,
+          "strokes": 73.0,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
+          "pars": 14,
           "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 14,
@@ -21092,14 +21092,14 @@
         },
         "2": {
           "strokes": 70.0,
-          "birdies_or_better": 5,
+          "birdies_or_better": 8,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 3,
+          "pars": 4,
+          "bogeys_or_worse": 6,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 19,
+          "gir": 11,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "3": {
@@ -21110,8 +21110,8 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 10,
+          "gir": 12,
+          "fairways_hit_est": 21,
           "fairways_estimated": true
         },
         "4": {
@@ -21133,8 +21133,8 @@
           "fairways_hit_est": 7
         },
         "2": {
-          "gir_count": 26,
-          "fairways_hit_est": 26
+          "gir_count": 25,
+          "fairways_hit_est": 15
         },
         "3": {
           "gir_count": 37,
@@ -21150,27 +21150,27 @@
       "player_name": "Patrick Fishburn",
       "rounds": {
         "1": {
-          "strokes": 70.0,
-          "birdies_or_better": 3,
+          "strokes": 73.0,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 1,
+          "pars": 13,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 15,
           "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 3,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 1,
+          "pars": 11,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 19,
+          "gir": 13,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         },
         "3": {
@@ -21181,8 +21181,8 @@
           "pars": 14,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 6,
-          "fairways_hit_est": -2,
+          "gir": 10,
+          "fairways_hit_est": 5,
           "fairways_estimated": true
         },
         "4": {
@@ -21204,8 +21204,8 @@
           "fairways_hit_est": 7
         },
         "2": {
-          "gir_count": 32,
-          "fairways_hit_est": 26
+          "gir_count": 28,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 38,
@@ -21221,27 +21221,27 @@
       "player_name": "John VanDerLaan",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 6,
+          "strokes": 70.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 3,
+          "pars": 14,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 11,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 68.0,
-          "birdies_or_better": 4,
+          "strokes": 66.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
+          "pars": 12,
           "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 20,
-          "fairways_hit_est": 16,
+          "gir": 16,
+          "fairways_hit_est": 5,
           "fairways_estimated": true
         },
         "3": {
@@ -21252,8 +21252,8 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 12,
+          "gir": 18,
+          "fairways_hit_est": 23,
           "fairways_estimated": true
         },
         "4": {
@@ -21275,8 +21275,8 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 31,
-          "fairways_hit_est": 27
+          "gir_count": 27,
+          "fairways_hit_est": 16
         },
         "3": {
           "gir_count": 45,
@@ -21292,27 +21292,27 @@
       "player_name": "Pontus Nyholm",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 7,
+          "strokes": 76.0,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 3,
+          "pars": 12,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 11,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 78.0,
-          "birdies_or_better": 3,
+          "strokes": 72.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 4,
+          "pars": 8,
+          "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 15,
+          "gir": 9,
+          "fairways_hit_est": 1,
           "fairways_estimated": true
         }
       },
@@ -21322,8 +21322,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 27,
-          "fairways_hit_est": 25
+          "gir_count": 20,
+          "fairways_hit_est": 11
         }
       }
     },
@@ -21331,27 +21331,27 @@
       "player_name": "Lee Hodges",
       "rounds": {
         "1": {
-          "strokes": 74.0,
-          "birdies_or_better": 3,
+          "strokes": 69.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 5,
+          "pars": 13,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 12,
           "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 71.0,
-          "birdies_or_better": 2,
+          "strokes": 70.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 15,
+          "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 18,
+          "gir": 18,
+          "fairways_hit_est": 17,
           "fairways_estimated": true
         }
       },
@@ -21361,8 +21361,8 @@
           "fairways_hit_est": 8
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 26
+          "gir_count": 30,
+          "fairways_hit_est": 25
         }
       }
     },
@@ -21441,27 +21441,27 @@
       "player_name": "Vince Whaley",
       "rounds": {
         "1": {
-          "strokes": 73.0,
-          "birdies_or_better": 1,
+          "strokes": 71.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 15,
-          "bogeys_or_worse": 2,
+          "pars": 9,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 16,
           "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 71.0,
+          "strokes": 67.0,
           "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 4,
+          "pars": 11,
+          "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 8,
-          "fairways_hit_est": 13,
+          "gir": 11,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "3": {
@@ -21472,8 +21472,8 @@
           "pars": 8,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 4,
-          "fairways_hit_est": 6,
+          "gir": 1,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "4": {
@@ -21495,8 +21495,8 @@
           "fairways_hit_est": 7
         },
         "2": {
-          "gir_count": 24,
-          "fairways_hit_est": 20
+          "gir_count": 27,
+          "fairways_hit_est": 18
         },
         "3": {
           "gir_count": 28,
@@ -21516,8 +21516,8 @@
           "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 3,
+          "pars": 10,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 14,
           "fairways_hit_est": 10,
@@ -21525,14 +21525,14 @@
         },
         "2": {
           "strokes": 67.0,
-          "birdies_or_better": 6,
+          "birdies_or_better": 8,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
+          "pars": 8,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 14,
+          "gir": 18,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "3": {
@@ -21543,8 +21543,8 @@
           "pars": 14,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 11,
+          "gir": 10,
+          "fairways_hit_est": 18,
           "fairways_estimated": true
         },
         "4": {
@@ -21566,8 +21566,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 24
+          "gir_count": 32,
+          "fairways_hit_est": 17
         },
         "3": {
           "gir_count": 42,
@@ -21583,27 +21583,27 @@
       "player_name": "Danny Walker",
       "rounds": {
         "1": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 74.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 1,
+          "pars": 12,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 12,
           "fairways_hit_est": 5,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 76.0,
-          "birdies_or_better": 1,
+          "strokes": 71.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 3,
+          "pars": 8,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 15,
-          "fairways_hit_est": 20,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -21614,7 +21614,7 @@
         },
         "2": {
           "gir_count": 27,
-          "fairways_hit_est": 25
+          "fairways_hit_est": 16
         }
       }
     },
@@ -21626,23 +21626,23 @@
           "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 2,
+          "pars": 13,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 5,
+          "strokes": 75.0,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 3,
+          "pars": 12,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 12,
-          "fairways_hit_est": 14,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -21653,7 +21653,7 @@
         },
         "2": {
           "gir_count": 25,
-          "fairways_hit_est": 25
+          "fairways_hit_est": 22
         }
       }
     },
@@ -21661,27 +21661,27 @@
       "player_name": "Takumi Kanaya",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 4,
+          "strokes": 74.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 1,
+          "pars": 11,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 16,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 76.0,
-          "birdies_or_better": 1,
+          "strokes": 71.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 13,
-          "bogeys_or_worse": 4,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 6,
-          "fairways_hit_est": 15,
+          "gir": 4,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
@@ -21691,8 +21691,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 22,
-          "fairways_hit_est": 25
+          "gir_count": 20,
+          "fairways_hit_est": 20
         }
       }
     },
@@ -21701,26 +21701,26 @@
       "rounds": {
         "1": {
           "strokes": 72.0,
-          "birdies_or_better": 4,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 3,
+          "pars": 9,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 18,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 68.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 2,
+          "pars": 9,
+          "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 7,
-          "fairways_hit_est": 17,
+          "gir": 9,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "3": {
@@ -21731,8 +21731,8 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": 0,
+          "gir": 9,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "4": {
@@ -21754,8 +21754,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 25,
-          "fairways_hit_est": 26
+          "gir_count": 27,
+          "fairways_hit_est": 20
         },
         "3": {
           "gir_count": 36,
@@ -21771,27 +21771,27 @@
       "player_name": "Austin Eckroat",
       "rounds": {
         "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 7,
+          "strokes": 69.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 3,
+          "pars": 13,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 14,
           "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 66.0,
-          "birdies_or_better": 7,
+          "strokes": 71.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 1,
+          "pars": 11,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 18,
+          "gir": 12,
+          "fairways_hit_est": 15,
           "fairways_estimated": true
         },
         "3": {
@@ -21802,8 +21802,8 @@
           "pars": 5,
           "bogeys_or_worse": 6,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 12,
+          "gir": 16,
+          "fairways_hit_est": 15,
           "fairways_estimated": true
         },
         "4": {
@@ -21825,8 +21825,8 @@
           "fairways_hit_est": 8
         },
         "2": {
-          "gir_count": 30,
-          "fairways_hit_est": 26
+          "gir_count": 26,
+          "fairways_hit_est": 23
         },
         "3": {
           "gir_count": 42,
@@ -21913,11 +21913,11 @@
       "player_name": "Will Gordon",
       "rounds": {
         "1": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
+          "strokes": 68.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
+          "pars": 12,
           "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 16,
@@ -21925,14 +21925,14 @@
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 3,
+          "strokes": 71.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 1,
+          "pars": 11,
+          "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 13,
+          "gir": 12,
           "fairways_hit_est": 16,
           "fairways_estimated": true
         },
@@ -21944,7 +21944,7 @@
           "pars": 8,
           "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 12,
+          "gir": 13,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
@@ -21967,7 +21967,7 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 29,
+          "gir_count": 28,
           "fairways_hit_est": 25
         },
         "3": {
@@ -21984,27 +21984,27 @@
       "player_name": "Marco Penge",
       "rounds": {
         "1": {
-          "strokes": 73.0,
+          "strokes": 70.0,
           "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 4,
+          "pars": 11,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 12,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 73.0,
+          "strokes": 69.0,
           "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 4,
+          "pars": 11,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 11,
+          "gir": 13,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "3": {
@@ -22015,8 +22015,8 @@
           "pars": 10,
           "bogeys_or_worse": 4,
           "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": 8,
+          "gir": 12,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "4": {
@@ -22038,8 +22038,8 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 26,
-          "fairways_hit_est": 22
+          "gir_count": 25,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 37,
@@ -22055,12 +22055,12 @@
       "player_name": "Chandler Phillips",
       "rounds": {
         "1": {
-          "strokes": 72.0,
-          "birdies_or_better": 2,
+          "strokes": 67.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 2,
+          "pars": 13,
+          "bogeys_or_worse": 0,
           "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 8,
@@ -22068,14 +22068,14 @@
         },
         "2": {
           "strokes": 72.0,
-          "birdies_or_better": 4,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 13,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 18,
+          "gir": 11,
+          "fairways_hit_est": 15,
           "fairways_estimated": true
         },
         "3": {
@@ -22086,8 +22086,8 @@
           "pars": 11,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 10,
-          "fairways_hit_est": 0,
+          "gir": 14,
+          "fairways_hit_est": 3,
           "fairways_estimated": true
         },
         "4": {
@@ -22109,8 +22109,8 @@
           "fairways_hit_est": 8
         },
         "2": {
-          "gir_count": 28,
-          "fairways_hit_est": 26
+          "gir_count": 24,
+          "fairways_hit_est": 23
         },
         "3": {
           "gir_count": 38,
@@ -22126,27 +22126,27 @@
       "player_name": "Isaiah Salinda",
       "rounds": {
         "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 6,
+          "strokes": 69.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 2,
+          "pars": 13,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 15,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 71.0,
-          "birdies_or_better": 8,
+          "strokes": 70.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 6,
-          "bogeys_or_worse": 4,
+          "pars": 11,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 12,
-          "fairways_hit_est": 14,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "3": {
@@ -22158,7 +22158,7 @@
           "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 14,
-          "fairways_hit_est": 13,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         },
         "4": {
@@ -22181,7 +22181,7 @@
         },
         "2": {
           "gir_count": 27,
-          "fairways_hit_est": 24
+          "fairways_hit_est": 17
         },
         "3": {
           "gir_count": 41,
@@ -22339,27 +22339,27 @@
       "player_name": "Chandler Blanchet",
       "rounds": {
         "1": {
-          "strokes": 75.0,
-          "birdies_or_better": 5,
+          "strokes": 68.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 4,
+          "pars": 10,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 12,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 64.0,
-          "birdies_or_better": 8,
+          "strokes": 71.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 0,
+          "pars": 11,
+          "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 15,
+          "gir": 14,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "3": {
@@ -22370,8 +22370,8 @@
           "pars": 10,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 9,
-          "fairways_hit_est": 13,
+          "gir": 10,
+          "fairways_hit_est": 17,
           "fairways_estimated": true
         },
         "4": {
@@ -22393,8 +22393,8 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 27,
-          "fairways_hit_est": 26
+          "gir_count": 26,
+          "fairways_hit_est": 22
         },
         "3": {
           "gir_count": 36,
@@ -22410,11 +22410,11 @@
       "player_name": "Ben Martin",
       "rounds": {
         "1": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
+          "strokes": 68.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
+          "pars": 12,
           "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 10,
@@ -22422,15 +22422,15 @@
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 69.0,
-          "birdies_or_better": 4,
+          "strokes": 70.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 23,
-          "fairways_hit_est": 19,
+          "gir": 18,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         },
         "3": {
@@ -22441,8 +22441,8 @@
           "pars": 9,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 14,
+          "gir": 19,
+          "fairways_hit_est": 19,
           "fairways_estimated": true
         },
         "4": {
@@ -22464,8 +22464,8 @@
           "fairways_hit_est": 7
         },
         "2": {
-          "gir_count": 33,
-          "fairways_hit_est": 26
+          "gir_count": 28,
+          "fairways_hit_est": 21
         },
         "3": {
           "gir_count": 47,
@@ -22481,27 +22481,27 @@
       "player_name": "John Parry",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 4,
+          "strokes": 71.0,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 2,
+          "pars": 15,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 21,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
+          "strokes": 69.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
+          "pars": 13,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 7,
-          "fairways_hit_est": 18,
+          "gir": 8,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         },
         "3": {
@@ -22512,8 +22512,8 @@
           "pars": 10,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 12,
+          "gir": 13,
+          "fairways_hit_est": 16,
           "fairways_estimated": true
         },
         "4": {
@@ -22535,8 +22535,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 28,
-          "fairways_hit_est": 27
+          "gir_count": 29,
+          "fairways_hit_est": 23
         },
         "3": {
           "gir_count": 42,
@@ -22564,15 +22564,15 @@
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 66.0,
-          "birdies_or_better": 8,
+          "strokes": 67.0,
+          "birdies_or_better": 7,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
+          "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 15,
+          "gir": 10,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "3": {
@@ -22583,8 +22583,8 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 11,
+          "gir": 21,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         },
         "4": {
@@ -22606,8 +22606,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 32,
-          "fairways_hit_est": 25
+          "gir_count": 25,
+          "fairways_hit_est": 16
         },
         "3": {
           "gir_count": 46,
@@ -22694,27 +22694,27 @@
       "player_name": "Mac Meissner",
       "rounds": {
         "1": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
-          "fairways_possible": 13,
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
+          "pars": 13,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
           "gir": 15,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 69.0,
-          "birdies_or_better": 3,
-          "fairways_possible": 13,
+          "strokes": 68.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 1,
-          "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": 10,
+          "pars": 8,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "3": {
@@ -22725,8 +22725,8 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 9,
+          "gir": 13,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "4": {
@@ -22748,8 +22748,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 27,
-          "fairways_hit_est": 20
+          "gir_count": 28,
+          "fairways_hit_est": 18
         },
         "3": {
           "gir_count": 41,
@@ -22836,12 +22836,12 @@
       "player_name": "Nick Dunlap",
       "rounds": {
         "1": {
-          "strokes": 64.0,
-          "birdies_or_better": 9,
+          "strokes": 68.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 1,
+          "pars": 9,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 11,
           "fairways_hit_est": 5,
@@ -22849,14 +22849,14 @@
         },
         "2": {
           "strokes": 75.0,
-          "birdies_or_better": 3,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
+          "pars": 11,
           "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 20,
-          "fairways_hit_est": 19,
+          "gir": 17,
+          "fairways_hit_est": 16,
           "fairways_estimated": true
         },
         "3": {
@@ -22867,8 +22867,8 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 12,
+          "gir": 16,
+          "fairways_hit_est": 15,
           "fairways_estimated": true
         },
         "4": {
@@ -22890,8 +22890,8 @@
           "fairways_hit_est": 5
         },
         "2": {
-          "gir_count": 31,
-          "fairways_hit_est": 24
+          "gir_count": 28,
+          "fairways_hit_est": 21
         },
         "3": {
           "gir_count": 44,
@@ -22907,27 +22907,27 @@
       "player_name": "Pierceson Coody",
       "rounds": {
         "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 4,
+          "strokes": 71.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 0,
+          "pars": 8,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 14,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 68.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 20,
-          "fairways_hit_est": 18,
+          "gir": 12,
+          "fairways_hit_est": 16,
           "fairways_estimated": true
         },
         "3": {
@@ -22938,8 +22938,8 @@
           "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 12,
+          "gir": 23,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         },
         "4": {
@@ -22961,8 +22961,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 34,
-          "fairways_hit_est": 27
+          "gir_count": 26,
+          "fairways_hit_est": 25
         },
         "3": {
           "gir_count": 49,
@@ -23017,7 +23017,7 @@
       "player_name": "Rasmus Neergaard-Petersen",
       "rounds": {
         "1": {
-          "strokes": 70.0,
+          "strokes": 69.0,
           "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
@@ -23029,15 +23029,15 @@
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 64.0,
-          "birdies_or_better": 8,
+          "strokes": 66.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 0,
+          "pars": 11,
+          "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 14,
+          "gir": 15,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "3": {
@@ -23048,8 +23048,8 @@
           "pars": 8,
           "bogeys_or_worse": 8,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 12,
+          "gir": 11,
+          "fairways_hit_est": 15,
           "fairways_estimated": true
         },
         "4": {
@@ -23071,8 +23071,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 30,
-          "fairways_hit_est": 24
+          "gir_count": 29,
+          "fairways_hit_est": 21
         },
         "3": {
           "gir_count": 40,
@@ -23088,27 +23088,27 @@
       "player_name": "Joe Highsmith",
       "rounds": {
         "1": {
-          "strokes": 66.0,
-          "birdies_or_better": 6,
+          "strokes": 76.0,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 12,
-          "bogeys_or_worse": 0,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 5,
           "fairways_hit_est": 3,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 75.0,
+          "strokes": 68.0,
           "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 4,
+          "pars": 13,
+          "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 22,
-          "fairways_hit_est": 22,
+          "gir": 23,
+          "fairways_hit_est": 19,
           "fairways_estimated": true
         }
       },
@@ -23118,8 +23118,8 @@
           "fairways_hit_est": 3
         },
         "2": {
-          "gir_count": 27,
-          "fairways_hit_est": 25
+          "gir_count": 28,
+          "fairways_hit_est": 22
         }
       }
     },
@@ -23127,27 +23127,27 @@
       "player_name": "Jackson Suber",
       "rounds": {
         "1": {
-          "strokes": 69.0,
+          "strokes": 73.0,
           "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 15,
-          "bogeys_or_worse": 0,
+          "pars": 11,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 19,
           "fairways_hit_est": 12,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 74.0,
-          "birdies_or_better": 4,
+          "strokes": 70.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 8,
-          "bogeys_or_worse": 6,
+          "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 14,
+          "gir": 9,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "3": {
@@ -23158,8 +23158,8 @@
           "pars": 4,
           "bogeys_or_worse": 6,
           "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": 5,
+          "gir": 12,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "4": {
@@ -23181,8 +23181,8 @@
           "fairways_hit_est": 12
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 26
+          "gir_count": 28,
+          "fairways_hit_est": 23
         },
         "3": {
           "gir_count": 40,
@@ -23276,27 +23276,27 @@
       "player_name": "Kensei Hirata",
       "rounds": {
         "1": {
-          "strokes": 65.0,
-          "birdies_or_better": 8,
+          "strokes": 74.0,
+          "birdies_or_better": 1,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 2,
+          "pars": 14,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 18,
           "fairways_hit_est": 13,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 69.0,
+          "strokes": 70.0,
           "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 2,
+          "pars": 10,
+          "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 13,
+          "gir": 7,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "3": {
@@ -23307,8 +23307,8 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 14,
+          "gir": 19,
+          "fairways_hit_est": 21,
           "fairways_estimated": true
         },
         "4": {
@@ -23330,8 +23330,8 @@
           "fairways_hit_est": 13
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 26
+          "gir_count": 25,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 44,
@@ -23347,27 +23347,27 @@
       "player_name": "A.J. Ewart",
       "rounds": {
         "1": {
-          "strokes": 73.0,
-          "birdies_or_better": 2,
+          "strokes": 72.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 13,
-          "bogeys_or_worse": 3,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 75.0,
-          "birdies_or_better": 4,
+          "strokes": 66.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 5,
+          "pars": 11,
+          "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 16,
+          "gir": 16,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "3": {
@@ -23378,8 +23378,8 @@
           "pars": 9,
           "bogeys_or_worse": 4,
           "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": -1,
+          "gir": 8,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "4": {
@@ -23401,8 +23401,8 @@
           "fairways_hit_est": 7
         },
         "2": {
-          "gir_count": 25,
-          "fairways_hit_est": 23
+          "gir_count": 29,
+          "fairways_hit_est": 16
         },
         "3": {
           "gir_count": 37,
@@ -23418,27 +23418,27 @@
       "player_name": "Adrien Dumont de Chassart",
       "rounds": {
         "1": {
-          "strokes": 67.0,
-          "birdies_or_better": 5,
+          "strokes": 73.0,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 0,
+          "pars": 12,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 14,
           "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 74.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 1,
+          "pars": 11,
+          "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 20,
+          "gir": 5,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "3": {
@@ -23449,8 +23449,8 @@
           "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 12,
+          "gir": 21,
+          "fairways_hit_est": 24,
           "fairways_estimated": true
         },
         "4": {
@@ -23472,8 +23472,8 @@
           "fairways_hit_est": 6
         },
         "2": {
-          "gir_count": 27,
-          "fairways_hit_est": 26
+          "gir_count": 19,
+          "fairways_hit_est": 14
         },
         "3": {
           "gir_count": 40,
@@ -23489,27 +23489,27 @@
       "player_name": "William Mouw",
       "rounds": {
         "1": {
-          "strokes": 73.0,
+          "strokes": 70.0,
           "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 4,
+          "pars": 12,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 15,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 71.0,
+          "strokes": 70.0,
           "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 2,
+          "pars": 14,
+          "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 8,
-          "fairways_hit_est": 13,
+          "gir": 12,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
@@ -23519,8 +23519,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 23,
-          "fairways_hit_est": 23
+          "gir_count": 27,
+          "fairways_hit_est": 20
         }
       }
     },
@@ -23638,27 +23638,27 @@
       "player_name": "Davis Chatfield",
       "rounds": {
         "1": {
-          "strokes": 73.0,
-          "birdies_or_better": 2,
+          "strokes": 70.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 3,
+          "pars": 12,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 9,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 73.0,
-          "birdies_or_better": 2,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 3,
+          "pars": 11,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 18,
-          "fairways_hit_est": 15,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
@@ -23669,7 +23669,7 @@
         },
         "2": {
           "gir_count": 27,
-          "fairways_hit_est": 26
+          "fairways_hit_est": 20
         }
       }
     },
@@ -23677,27 +23677,27 @@
       "player_name": "Gordon Sargent",
       "rounds": {
         "1": {
-          "strokes": 76.0,
-          "birdies_or_better": 1,
+          "strokes": 67.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 3,
+          "pars": 10,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 14,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 73.0,
+          "strokes": 71.0,
           "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 15,
+          "gir": 9,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "3": {
@@ -23708,8 +23708,8 @@
           "pars": 12,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 18,
-          "fairways_hit_est": 3,
+          "gir": 19,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "4": {
@@ -23731,8 +23731,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 24,
-          "fairways_hit_est": 25
+          "gir_count": 23,
+          "fairways_hit_est": 20
         },
         "3": {
           "gir_count": 42,
@@ -23748,27 +23748,27 @@
       "player_name": "Sudarshan Yellamaraju",
       "rounds": {
         "1": {
-          "strokes": 71.0,
-          "birdies_or_better": 4,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 11,
-          "bogeys_or_worse": 3,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 63.0,
-          "birdies_or_better": 9,
+          "strokes": 70.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 0,
+          "pars": 12,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 18,
+          "gir": 12,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "3": {
@@ -23779,8 +23779,8 @@
           "pars": 9,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 13,
+          "gir": 19,
+          "fairways_hit_est": 21,
           "fairways_estimated": true
         },
         "4": {
@@ -23802,8 +23802,8 @@
           "fairways_hit_est": 8
         },
         "2": {
-          "gir_count": 30,
-          "fairways_hit_est": 26
+          "gir_count": 25,
+          "fairways_hit_est": 18
         },
         "3": {
           "gir_count": 44,
@@ -23858,15 +23858,15 @@
       "player_name": "Karl Vilips",
       "rounds": {
         "1": {
-          "strokes": 66.0,
+          "strokes": 70.0,
           "birdies_or_better": 8,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 2,
+          "pars": 5,
+          "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 7,
+          "gir": 12,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
@@ -23877,8 +23877,8 @@
           "pars": 8,
           "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 18,
-          "fairways_hit_est": 17,
+          "gir": 17,
+          "fairways_hit_est": 15,
           "fairways_estimated": true
         },
         "3": {
@@ -23908,8 +23908,8 @@
       },
       "cumulative_checkpoints": {
         "1": {
-          "gir_count": 11,
-          "fairways_hit_est": 7
+          "gir_count": 12,
+          "fairways_hit_est": 9
         },
         "2": {
           "gir_count": 29,
@@ -23929,11 +23929,11 @@
       "player_name": "David Ford",
       "rounds": {
         "1": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
+          "strokes": 69.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
+          "pars": 13,
           "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 10,
@@ -23941,15 +23941,15 @@
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 68.0,
-          "birdies_or_better": 5,
+          "strokes": 73.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 11,
-          "bogeys_or_worse": 2,
+          "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 21,
+          "gir": 14,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "3": {
@@ -23960,8 +23960,8 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 12,
+          "gir": 17,
+          "fairways_hit_est": 25,
           "fairways_estimated": true
         },
         "4": {
@@ -23983,8 +23983,8 @@
           "fairways_hit_est": 7
         },
         "2": {
-          "gir_count": 27,
-          "fairways_hit_est": 28
+          "gir_count": 24,
+          "fairways_hit_est": 15
         },
         "3": {
           "gir_count": 41,
@@ -24001,26 +24001,26 @@
       "rounds": {
         "1": {
           "strokes": 68.0,
-          "birdies_or_better": 4,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 0,
+          "pars": 10,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 66.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 11,
-          "bogeys_or_worse": 3,
+          "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 16,
+          "gir": 17,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "3": {
@@ -24031,8 +24031,8 @@
           "pars": 10,
           "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 14,
+          "gir": 11,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         },
         "4": {
@@ -24054,8 +24054,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 25
+          "gir_count": 30,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 41,
@@ -24071,11 +24071,11 @@
       "player_name": "Blades Brown",
       "rounds": {
         "1": {
-          "strokes": 66.0,
-          "birdies_or_better": 7,
+          "strokes": 65.0,
+          "birdies_or_better": 9,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
+          "pars": 7,
           "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 16,
@@ -24083,15 +24083,15 @@
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 68.0,
+          "strokes": 70.0,
           "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 1,
+          "pars": 11,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 17,
+          "gir": 15,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         },
         "3": {
@@ -24102,8 +24102,8 @@
           "pars": 9,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 13,
+          "gir": 10,
+          "fairways_hit_est": 18,
           "fairways_estimated": true
         },
         "4": {
@@ -24125,8 +24125,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 27,
-          "fairways_hit_est": 27
+          "gir_count": 31,
+          "fairways_hit_est": 22
         },
         "3": {
           "gir_count": 41,
@@ -24142,11 +24142,11 @@
       "player_name": "Luke Clanton",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 4,
+          "strokes": 72.0,
+          "birdies_or_better": 1,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
+          "pars": 16,
           "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 16,
@@ -24155,14 +24155,14 @@
         },
         "2": {
           "strokes": 70.0,
-          "birdies_or_better": 6,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 4,
+          "pars": 12,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 17,
+          "gir": 13,
+          "fairways_hit_est": 5,
           "fairways_estimated": true
         },
         "3": {
@@ -24173,8 +24173,8 @@
           "pars": 8,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 13,
+          "gir": 12,
+          "fairways_hit_est": 25,
           "fairways_estimated": true
         },
         "4": {
@@ -24196,8 +24196,8 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 27,
-          "fairways_hit_est": 28
+          "gir_count": 29,
+          "fairways_hit_est": 16
         },
         "3": {
           "gir_count": 41,
@@ -24284,27 +24284,27 @@
       "player_name": "Johnny Keefer",
       "rounds": {
         "1": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
+          "strokes": 70.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 10,
-          "bogeys_or_worse": 2,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 17,
           "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 75.0,
-          "birdies_or_better": 3,
+          "strokes": 70.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 4,
+          "pars": 10,
+          "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 9,
-          "fairways_hit_est": 18,
+          "gir": 10,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         }
       },
@@ -24314,8 +24314,8 @@
           "fairways_hit_est": 7
         },
         "2": {
-          "gir_count": 26,
-          "fairways_hit_est": 25
+          "gir_count": 27,
+          "fairways_hit_est": 21
         }
       }
     },
@@ -24660,12 +24660,12 @@
       "player_name": "Andrew Putnam",
       "rounds": {
         "1": {
-          "strokes": 67.0,
-          "birdies_or_better": 5,
+          "strokes": 71.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 0,
+          "pars": 11,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 19,
           "fairways_hit_est": 11,
@@ -24673,14 +24673,14 @@
         },
         "2": {
           "strokes": 70.0,
-          "birdies_or_better": 5,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 3,
+          "pars": 12,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 10,
-          "fairways_hit_est": 15,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "3": {
@@ -24692,7 +24692,7 @@
           "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 14,
-          "fairways_hit_est": 14,
+          "fairways_hit_est": 18,
           "fairways_estimated": true
         },
         "4": {
@@ -24715,7 +24715,7 @@
         },
         "2": {
           "gir_count": 29,
-          "fairways_hit_est": 26
+          "fairways_hit_est": 22
         },
         "3": {
           "gir_count": 43,
@@ -24802,27 +24802,27 @@
       "player_name": "Peter Malnati",
       "rounds": {
         "1": {
-          "strokes": 66.0,
+          "strokes": 71.0,
           "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 0,
+          "pars": 9,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 11,
           "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 64.0,
-          "birdies_or_better": 8,
+          "strokes": 70.0,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 1,
+          "pars": 16,
+          "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 21,
-          "fairways_hit_est": 20,
+          "gir": 13,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "3": {
@@ -24833,8 +24833,8 @@
           "pars": 13,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 13,
+          "gir": 23,
+          "fairways_hit_est": 23,
           "fairways_estimated": true
         },
         "4": {
@@ -24856,8 +24856,8 @@
           "fairways_hit_est": 7
         },
         "2": {
-          "gir_count": 32,
-          "fairways_hit_est": 27
+          "gir_count": 24,
+          "fairways_hit_est": 17
         },
         "3": {
           "gir_count": 47,
@@ -24912,27 +24912,27 @@
       "player_name": "Emiliano Grillo",
       "rounds": {
         "1": {
-          "strokes": 70.0,
-          "birdies_or_better": 2,
+          "strokes": 71.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 16,
-          "bogeys_or_worse": 0,
+          "pars": 11,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 14,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 67.0,
+          "strokes": 68.0,
           "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 1,
+          "pars": 10,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 17,
+          "gir": 8,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "3": {
@@ -24943,8 +24943,8 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 13,
+          "gir": 22,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         },
         "4": {
@@ -24966,8 +24966,8 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 28
+          "gir_count": 22,
+          "fairways_hit_est": 21
         },
         "3": {
           "gir_count": 44,
@@ -25054,11 +25054,11 @@
       "player_name": "Joel Dahmen",
       "rounds": {
         "1": {
-          "strokes": 73.0,
-          "birdies_or_better": 4,
+          "strokes": 71.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 13,
           "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 16,
@@ -25066,15 +25066,15 @@
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 16,
+          "gir": 11,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "3": {
@@ -25085,8 +25085,8 @@
           "pars": 16,
           "bogeys_or_worse": 0,
           "par_total": 71,
-          "gir": 12,
-          "fairways_hit_est": 8,
+          "gir": 13,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         },
         "4": {
@@ -25108,8 +25108,8 @@
           "fairways_hit_est": 11
         },
         "2": {
-          "gir_count": 28,
-          "fairways_hit_est": 27
+          "gir_count": 27,
+          "fairways_hit_est": 21
         },
         "3": {
           "gir_count": 40,
@@ -25125,27 +25125,27 @@
       "player_name": "David Lipsky",
       "rounds": {
         "1": {
-          "strokes": 71.0,
-          "birdies_or_better": 6,
+          "strokes": 68.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 4,
+          "pars": 12,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 65.0,
-          "birdies_or_better": 8,
+          "strokes": 71.0,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
+          "pars": 15,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 17,
+          "gir": 13,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "3": {
@@ -25156,8 +25156,8 @@
           "pars": 15,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 14,
+          "gir": 17,
+          "fairways_hit_est": 24,
           "fairways_estimated": true
         },
         "4": {
@@ -25179,8 +25179,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 27
+          "gir_count": 26,
+          "fairways_hit_est": 17
         },
         "3": {
           "gir_count": 43,
@@ -25196,12 +25196,12 @@
       "player_name": "Patrick Rodgers",
       "rounds": {
         "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 5,
+          "strokes": 73.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 1,
+          "pars": 10,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 7,
@@ -25212,11 +25212,11 @@
           "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 3,
+          "pars": 14,
+          "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 15,
+          "gir": 13,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         },
         "3": {
@@ -25227,8 +25227,8 @@
           "pars": 9,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 11,
+          "gir": 14,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         },
         "4": {
@@ -25250,8 +25250,8 @@
           "fairways_hit_est": 7
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 22
+          "gir_count": 26,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 40,
@@ -25267,11 +25267,11 @@
       "player_name": "Mackenzie Hughes",
       "rounds": {
         "1": {
-          "strokes": 72.0,
-          "birdies_or_better": 2,
+          "strokes": 70.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
+          "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 17,
@@ -25279,15 +25279,15 @@
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 73.0,
-          "birdies_or_better": 2,
+          "strokes": 72.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
+          "pars": 12,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 17,
+          "gir": 7,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "3": {
@@ -25298,8 +25298,8 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 10,
-          "fairways_hit_est": 2,
+          "gir": 15,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "4": {
@@ -25321,8 +25321,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 26
+          "gir_count": 24,
+          "fairways_hit_est": 17
         },
         "3": {
           "gir_count": 39,
@@ -25338,12 +25338,12 @@
       "player_name": "Marcelo Rozo",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 6,
+          "strokes": 68.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 3,
+          "pars": 12,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 16,
           "fairways_hit_est": 13,
@@ -25357,8 +25357,8 @@
           "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 14,
+          "gir": 13,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "3": {
@@ -25369,8 +25369,8 @@
           "pars": 8,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 13,
+          "gir": 12,
+          "fairways_hit_est": 18,
           "fairways_estimated": true
         },
         "4": {
@@ -25392,8 +25392,8 @@
           "fairways_hit_est": 13
         },
         "2": {
-          "gir_count": 30,
-          "fairways_hit_est": 27
+          "gir_count": 29,
+          "fairways_hit_est": 22
         },
         "3": {
           "gir_count": 41,
@@ -25409,12 +25409,12 @@
       "player_name": "Zecheng Dou",
       "rounds": {
         "1": {
-          "strokes": 72.0,
-          "birdies_or_better": 4,
+          "strokes": 68.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 4,
+          "pars": 9,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 12,
           "fairways_hit_est": 7,
@@ -25425,11 +25425,11 @@
           "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 3,
+          "pars": 13,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 15,
-          "fairways_hit_est": 17,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         },
         "3": {
@@ -25441,7 +25441,7 @@
           "bogeys_or_worse": 3,
           "par_total": 71,
           "gir": 9,
-          "fairways_hit_est": -1,
+          "fairways_hit_est": 2,
           "fairways_estimated": true
         },
         "4": {
@@ -25464,7 +25464,7 @@
         },
         "2": {
           "gir_count": 27,
-          "fairways_hit_est": 24
+          "fairways_hit_est": 21
         },
         "3": {
           "gir_count": 36,
@@ -25551,27 +25551,27 @@
       "player_name": "Max Homa",
       "rounds": {
         "1": {
-          "strokes": 66.0,
-          "birdies_or_better": 6,
-          "fairways_possible": 13,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
           "holes_played": 18,
           "pars": 11,
-          "bogeys_or_worse": 1,
-          "par_total": 71,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
           "gir": 11,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
           "strokes": 71.0,
-          "birdies_or_better": 4,
-          "fairways_possible": 13,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": 10,
+          "pars": 13,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         },
         "3": {
@@ -25582,8 +25582,8 @@
           "pars": 11,
           "bogeys_or_worse": 6,
           "par_total": 71,
-          "gir": 7,
-          "fairways_hit_est": 8,
+          "gir": 2,
+          "fairways_hit_est": 5,
           "fairways_estimated": true
         },
         "4": {
@@ -25605,8 +25605,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 22,
-          "fairways_hit_est": 20
+          "gir_count": 27,
+          "fairways_hit_est": 23
         },
         "3": {
           "gir_count": 29,
@@ -25622,12 +25622,12 @@
       "player_name": "Zac Blair",
       "rounds": {
         "1": {
-          "strokes": 64.0,
-          "birdies_or_better": 8,
+          "strokes": 70.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 0,
+          "pars": 14,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 21,
           "fairways_hit_est": 10,
@@ -25641,8 +25641,8 @@
           "pars": 12,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 18,
+          "gir": 8,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         },
         "3": {
@@ -25653,8 +25653,8 @@
           "pars": 10,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 12,
+          "gir": 14,
+          "fairways_hit_est": 18,
           "fairways_estimated": true
         },
         "4": {
@@ -25676,8 +25676,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 31,
-          "fairways_hit_est": 28
+          "gir_count": 29,
+          "fairways_hit_est": 22
         },
         "3": {
           "gir_count": 43,
@@ -25764,27 +25764,27 @@
       "player_name": "Adam Svensson",
       "rounds": {
         "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 5,
+          "strokes": 73.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 1,
+          "pars": 11,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 20,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 69.0,
+          "strokes": 68.0,
           "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 3,
+          "pars": 10,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 9,
-          "fairways_hit_est": 18,
+          "gir": 7,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         },
         "3": {
@@ -25795,8 +25795,8 @@
           "pars": 10,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 12,
+          "gir": 12,
+          "fairways_hit_est": 17,
           "fairways_estimated": true
         },
         "4": {
@@ -25818,8 +25818,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 27
+          "gir_count": 27,
+          "fairways_hit_est": 22
         },
         "3": {
           "gir_count": 39,
@@ -25835,27 +25835,27 @@
       "player_name": "Mark Hubbard",
       "rounds": {
         "1": {
-          "strokes": 74.0,
-          "birdies_or_better": 3,
+          "strokes": 68.0,
+          "birdies_or_better": 7,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 5,
+          "pars": 9,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": 9,
           "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 1,
+          "pars": 11,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 19,
+          "gir": 18,
+          "fairways_hit_est": 17,
           "fairways_estimated": true
         }
       },
@@ -25865,8 +25865,8 @@
           "fairways_hit_est": 7
         },
         "2": {
-          "gir_count": 26,
-          "fairways_hit_est": 26
+          "gir_count": 27,
+          "fairways_hit_est": 24
         }
       }
     },
@@ -25886,15 +25886,15 @@
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 77.0,
-          "birdies_or_better": 2,
+          "strokes": 69.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 5,
+          "pars": 9,
+          "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 17,
+          "gir": 15,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         },
         "3": {
@@ -25905,8 +25905,8 @@
           "pars": 13,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 11,
-          "fairways_hit_est": 6,
+          "gir": 9,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "4": {
@@ -25928,8 +25928,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 27,
-          "fairways_hit_est": 26
+          "gir_count": 29,
+          "fairways_hit_est": 22
         },
         "3": {
           "gir_count": 38,
@@ -25945,27 +25945,27 @@
       "player_name": "Haotong Li",
       "rounds": {
         "1": {
-          "strokes": 71.0,
-          "birdies_or_better": 5,
+          "strokes": 68.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 3,
+          "pars": 14,
+          "bogeys_or_worse": 0,
           "par_total": 72,
           "gir": 15,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 66.0,
-          "birdies_or_better": 7,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 1,
+          "pars": 11,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 16,
+          "gir": 12,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "3": {
@@ -25976,8 +25976,8 @@
           "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 12,
+          "gir": 19,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         },
         "4": {
@@ -25999,8 +25999,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 31,
-          "fairways_hit_est": 26
+          "gir_count": 27,
+          "fairways_hit_est": 18
         },
         "3": {
           "gir_count": 46,
@@ -26017,26 +26017,26 @@
       "rounds": {
         "1": {
           "strokes": 71.0,
-          "birdies_or_better": 3,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 1,
+          "pars": 8,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": 13,
           "fairways_hit_est": 12,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 69.0,
-          "birdies_or_better": 4,
+          "strokes": 70.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
+          "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 13,
+          "gir": 12,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "3": {
@@ -26047,8 +26047,8 @@
           "pars": 10,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 9,
-          "fairways_hit_est": 6,
+          "gir": 12,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "4": {
@@ -26070,8 +26070,8 @@
           "fairways_hit_est": 12
         },
         "2": {
-          "gir_count": 28,
-          "fairways_hit_est": 25
+          "gir_count": 25,
+          "fairways_hit_est": 20
         },
         "3": {
           "gir_count": 37,
@@ -26087,27 +26087,27 @@
       "player_name": "Erik van Rooyen",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 4,
+          "strokes": 64.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 1,
+          "pars": 12,
+          "bogeys_or_worse": 0,
           "par_total": 72,
           "gir": 12,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 69.0,
+          "strokes": 70.0,
           "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 18,
+          "gir": 16,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "3": {
@@ -26118,8 +26118,8 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 13,
+          "gir": 16,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         },
         "4": {
@@ -26141,8 +26141,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 27
+          "gir_count": 28,
+          "fairways_hit_est": 20
         },
         "3": {
           "gir_count": 44,
@@ -26158,11 +26158,11 @@
       "player_name": "Jordan Smith",
       "rounds": {
         "1": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 67.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
+          "pars": 11,
           "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": 14,
@@ -26171,14 +26171,14 @@
         },
         "2": {
           "strokes": 67.0,
-          "birdies_or_better": 6,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 1,
+          "pars": 13,
+          "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 17,
+          "gir": 15,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         },
         "3": {
@@ -26189,8 +26189,8 @@
           "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 12,
+          "gir": 15,
+          "fairways_hit_est": 15,
           "fairways_estimated": true
         },
         "4": {
@@ -26212,8 +26212,8 @@
           "fairways_hit_est": 10
         },
         "2": {
-          "gir_count": 31,
-          "fairways_hit_est": 27
+          "gir_count": 29,
+          "fairways_hit_est": 24
         },
         "3": {
           "gir_count": 44,
@@ -26300,18 +26300,6 @@
       "player_name": "Tyler Duncan",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 4,
-          "fairways_possible": 14,
-          "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 1,
-          "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 12,
-          "fairways_estimated": true
-        },
-        "2": {
           "strokes": 68.0,
           "birdies_or_better": 5,
           "fairways_possible": 14,
@@ -26319,8 +26307,20 @@
           "pars": 12,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 19,
-          "fairways_hit_est": 16,
+          "gir": 10,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 17,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "3": {
@@ -26331,8 +26331,8 @@
           "pars": 9,
           "bogeys_or_worse": 6,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 12,
+          "gir": 12,
+          "fairways_hit_est": 22,
           "fairways_estimated": true
         },
         "4": {
@@ -26354,8 +26354,8 @@
           "fairways_hit_est": 12
         },
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 28
+          "gir_count": 27,
+          "fairways_hit_est": 18
         },
         "3": {
           "gir_count": 39,
@@ -26371,27 +26371,27 @@
       "player_name": "Paul Peterson",
       "rounds": {
         "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 5,
+          "strokes": 71.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 1,
+          "pars": 11,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 10,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 67.0,
-          "birdies_or_better": 5,
+          "strokes": 70.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 0,
+          "pars": 12,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 23,
-          "fairways_hit_est": 18,
+          "gir": 17,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         },
         "3": {
@@ -26402,8 +26402,8 @@
           "pars": 10,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 13,
+          "gir": 17,
+          "fairways_hit_est": 19,
           "fairways_estimated": true
         },
         "4": {
@@ -26425,8 +26425,8 @@
           "fairways_hit_est": 9
         },
         "2": {
-          "gir_count": 33,
-          "fairways_hit_est": 27
+          "gir_count": 27,
+          "fairways_hit_est": 21
         },
         "3": {
           "gir_count": 44,
@@ -26442,27 +26442,27 @@
       "player_name": "Taylor Pendrith",
       "rounds": {
         "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 7,
+          "strokes": 72.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 7,
-          "bogeys_or_worse": 4,
+          "pars": 11,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 12,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "2": {
-          "strokes": 76.0,
-          "birdies_or_better": 2,
+          "strokes": 70.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 5,
+          "pars": 10,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": 15,
-          "fairways_hit_est": 14,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
@@ -26473,7 +26473,7 @@
         },
         "2": {
           "gir_count": 27,
-          "fairways_hit_est": 23
+          "fairways_hit_est": 19
         }
       }
     },
@@ -26485,74 +26485,8 @@
           "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 2,
-          "par_total": 72,
-          "gir": null,
-          "fairways_hit_est": null
-        },
-        "2": {
-          "strokes": 72.0,
-          "birdies_or_better": 4,
-          "fairways_possible": 14,
-          "holes_played": 18,
-          "pars": 11,
+          "pars": 10,
           "bogeys_or_worse": 3,
-          "par_total": 72,
-          "gir": null,
-          "fairways_hit_est": null
-        }
-      },
-      "cumulative_checkpoints": {
-        "2": {
-          "gir_count": 26,
-          "fairways_hit_est": 27
-        }
-      }
-    },
-    "matt kuchar": {
-      "player_name": "Matt Kuchar",
-      "rounds": {
-        "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 4,
-          "fairways_possible": 14,
-          "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 0,
-          "par_total": 72,
-          "gir": null,
-          "fairways_hit_est": null
-        },
-        "2": {
-          "strokes": 77.0,
-          "birdies_or_better": 2,
-          "fairways_possible": 14,
-          "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 5,
-          "par_total": 72,
-          "gir": null,
-          "fairways_hit_est": null
-        }
-      },
-      "cumulative_checkpoints": {
-        "2": {
-          "gir_count": 26,
-          "fairways_hit_est": 25
-        }
-      }
-    },
-    "chris kirk": {
-      "player_name": "Chris Kirk",
-      "rounds": {
-        "1": {
-          "strokes": 63.0,
-          "birdies_or_better": 9,
-          "fairways_possible": 14,
-          "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 0,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
@@ -26562,8 +26496,74 @@
           "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
+          "pars": 8,
+          "bogeys_or_worse": 5,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 18
+        }
+      }
+    },
+    "matt kuchar": {
+      "player_name": "Matt Kuchar",
+      "rounds": {
+        "1": {
+          "strokes": 73.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 73.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 22
+        }
+      }
+    },
+    "chris kirk": {
+      "player_name": "Chris Kirk",
+      "rounds": {
+        "1": {
+          "strokes": 73.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
           "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 73.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 15,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
@@ -26576,8 +26576,8 @@
           "pars": 5,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 14,
+          "gir": 22,
+          "fairways_hit_est": 23,
           "fairways_estimated": true
         },
         "4": {
@@ -26595,8 +26595,8 @@
       },
       "cumulative_checkpoints": {
         "2": {
-          "gir_count": 31,
-          "fairways_hit_est": 24
+          "gir_count": 24,
+          "fairways_hit_est": 15
         },
         "3": {
           "gir_count": 46,
@@ -26612,22 +26612,22 @@
       "player_name": "Nick Taylor",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 4,
+          "strokes": 77.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 13,
-          "bogeys_or_worse": 1,
+          "pars": 10,
+          "bogeys_or_worse": 5,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
         },
         "2": {
-          "strokes": 70.0,
-          "birdies_or_better": 4,
+          "strokes": 67.0,
+          "birdies_or_better": 7,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": null,
@@ -26641,8 +26641,8 @@
           "pars": 10,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 14,
+          "gir": 18,
+          "fairways_hit_est": 22,
           "fairways_estimated": true
         },
         "4": {
@@ -26660,8 +26660,8 @@
       },
       "cumulative_checkpoints": {
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 27
+          "gir_count": 25,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 43,
@@ -26807,23 +26807,23 @@
       "player_name": "Sami V\u00e4lim\u00e4ki",
       "rounds": {
         "1": {
-          "strokes": 69.0,
-          "birdies_or_better": 5,
+          "strokes": 68.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 1,
+          "pars": 10,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
         },
         "2": {
-          "strokes": 74.0,
-          "birdies_or_better": 5,
+          "strokes": 66.0,
+          "birdies_or_better": 6,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 4,
+          "pars": 12,
+          "bogeys_or_worse": 0,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
@@ -26832,7 +26832,7 @@
       "cumulative_checkpoints": {
         "2": {
           "gir_count": 29,
-          "fairways_hit_est": 24
+          "fairways_hit_est": 25
         }
       }
     },
@@ -27134,22 +27134,22 @@
       "rounds": {
         "1": {
           "strokes": 70.0,
-          "birdies_or_better": 4,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
+          "pars": 13,
           "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
         },
         "2": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
+          "strokes": 74.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 1,
+          "pars": 10,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
@@ -27162,8 +27162,8 @@
           "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 13,
+          "gir": 13,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         },
         "4": {
@@ -27181,8 +27181,8 @@
       },
       "cumulative_checkpoints": {
         "2": {
-          "gir_count": 28,
-          "fairways_hit_est": 26
+          "gir_count": 26,
+          "fairways_hit_est": 19
         },
         "3": {
           "gir_count": 39,
@@ -27526,23 +27526,23 @@
       "player_name": "Lucas Glover",
       "rounds": {
         "1": {
-          "strokes": 70.0,
+          "strokes": 73.0,
           "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 1,
+          "pars": 11,
+          "bogeys_or_worse": 4,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
         },
         "2": {
-          "strokes": 64.0,
-          "birdies_or_better": 11,
+          "strokes": 72.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 5,
-          "bogeys_or_worse": 2,
+          "pars": 11,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
@@ -27555,8 +27555,8 @@
           "pars": 12,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 12,
+          "gir": 18,
+          "fairways_hit_est": 22,
           "fairways_estimated": true
         },
         "4": {
@@ -27574,8 +27574,8 @@
       },
       "cumulative_checkpoints": {
         "2": {
-          "gir_count": 31,
-          "fairways_hit_est": 28
+          "gir_count": 24,
+          "fairways_hit_est": 18
         },
         "3": {
           "gir_count": 42,
@@ -27591,23 +27591,23 @@
       "player_name": "Ben Kohles",
       "rounds": {
         "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 4,
+          "strokes": 66.0,
+          "birdies_or_better": 7,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 0,
+          "pars": 10,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
         },
         "2": {
-          "strokes": 66.0,
-          "birdies_or_better": 6,
+          "strokes": 69.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 0,
+          "pars": 11,
+          "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
@@ -27620,8 +27620,8 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 14,
+          "gir": 19,
+          "fairways_hit_est": 19,
           "fairways_estimated": true
         },
         "4": {
@@ -27639,8 +27639,8 @@
       },
       "cumulative_checkpoints": {
         "2": {
-          "gir_count": 32,
-          "fairways_hit_est": 27
+          "gir_count": 26,
+          "fairways_hit_est": 22
         },
         "3": {
           "gir_count": 45,
@@ -27656,23 +27656,23 @@
       "player_name": "Stephan Jaeger",
       "rounds": {
         "1": {
-          "strokes": 68.0,
-          "birdies_or_better": 6,
+          "strokes": 74.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 2,
+          "pars": 11,
+          "bogeys_or_worse": 3,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
         },
         "2": {
-          "strokes": 65.0,
-          "birdies_or_better": 7,
+          "strokes": 69.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
-          "bogeys_or_worse": 0,
+          "pars": 13,
+          "bogeys_or_worse": 1,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
@@ -27685,8 +27685,8 @@
           "pars": 8,
           "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 9,
+          "gir": 14,
+          "fairways_hit_est": 16,
           "fairways_estimated": true
         },
         "4": {
@@ -27704,8 +27704,8 @@
       },
       "cumulative_checkpoints": {
         "2": {
-          "gir_count": 29,
-          "fairways_hit_est": 23
+          "gir_count": 27,
+          "fairways_hit_est": 16
         },
         "3": {
           "gir_count": 41,
@@ -27721,22 +27721,22 @@
       "player_name": "Nicholas Lindheim",
       "rounds": {
         "1": {
-          "strokes": 79.0,
-          "birdies_or_better": 1,
+          "strokes": 67.0,
+          "birdies_or_better": 5,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 13,
-          "bogeys_or_worse": 4,
+          "bogeys_or_worse": 0,
           "par_total": 72,
           "gir": null,
           "fairways_hit_est": null
         },
         "2": {
-          "strokes": 69.0,
-          "birdies_or_better": 5,
+          "strokes": 71.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 11,
+          "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 72,
           "gir": null,
@@ -27746,7 +27746,7 @@
       "cumulative_checkpoints": {
         "2": {
           "gir_count": 29,
-          "fairways_hit_est": 23
+          "fairways_hit_est": 19
         }
       }
     },
@@ -27877,6 +27877,755 @@
         "4": {
           "gir_count": 60,
           "fairways_hit_est": 50
+        }
+      }
+    },
+    "adam schenk": {
+      "player_name": "Adam Schenk",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 74.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 18
+        }
+      }
+    },
+    "eric cole": {
+      "player_name": "Eric Cole",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 28,
+          "fairways_hit_est": 18
+        }
+      }
+    },
+    "thomas rosenmueller": {
+      "player_name": "Thomas Rosenmueller",
+      "rounds": {
+        "1": {
+          "strokes": 74.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 19
+        }
+      }
+    },
+    "casey russell": {
+      "player_name": "Casey Russell",
+      "rounds": {
+        "1": {
+          "strokes": 84.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 9,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 84.0,
+          "birdies_or_better": 0,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 7,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 15,
+          "fairways_hit_est": 12
+        }
+      }
+    },
+    "austin smotherman": {
+      "player_name": "Austin Smotherman",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 71.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 30,
+          "fairways_hit_est": 18
+        }
+      }
+    },
+    "brian harman": {
+      "player_name": "Brian Harman",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 66.0,
+          "birdies_or_better": 8,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 28,
+          "fairways_hit_est": 15
+        }
+      }
+    },
+    "brendon todd": {
+      "player_name": "Brendon Todd",
+      "rounds": {
+        "1": {
+          "strokes": 72.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 29,
+          "fairways_hit_est": 20
+        }
+      }
+    },
+    "michael thompson": {
+      "player_name": "Michael Thompson",
+      "rounds": {
+        "1": {
+          "strokes": 74.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 5,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 78.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 5,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 22,
+          "fairways_hit_est": 17
+        }
+      }
+    },
+    "rikuya hoshino": {
+      "player_name": "Rikuya Hoshino",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 23,
+          "fairways_hit_est": 20
+        }
+      }
+    },
+    "sam stevens": {
+      "player_name": "Sam Stevens",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 71.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 22,
+          "fairways_hit_est": 22
+        }
+      }
+    },
+    "davis thompson": {
+      "player_name": "Davis Thompson",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 15,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 27,
+          "fairways_hit_est": 22
+        }
+      }
+    },
+    "ricky castillo": {
+      "player_name": "Ricky Castillo",
+      "rounds": {
+        "1": {
+          "strokes": 74.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 67.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 27,
+          "fairways_hit_est": 21
+        }
+      }
+    },
+    "matt mccarty": {
+      "player_name": "Matt McCarty",
+      "rounds": {
+        "1": {
+          "strokes": 68.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 27,
+          "fairways_hit_est": 20
+        }
+      }
+    },
+    "christiaan maas": {
+      "player_name": "Christiaan Maas",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 7,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 23,
+          "fairways_hit_est": 20
+        }
+      }
+    },
+    "emilio gonzlez": {
+      "player_name": "Emilio Gonz\u00e1lez",
+      "rounds": {
+        "1": {
+          "strokes": 69.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 8,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 70.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 26,
+          "fairways_hit_est": 18
+        }
+      }
+    },
+    "miles russell": {
+      "player_name": "Miles Russell",
+      "rounds": {
+        "1": {
+          "strokes": 67.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 68.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 29,
+          "fairways_hit_est": 21
+        }
+      }
+    },
+    "cole sherwood": {
+      "player_name": "Cole Sherwood",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 7,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 71.0,
+          "birdies_or_better": 6,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 7,
+          "bogeys_or_worse": 5,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 24,
+          "fairways_hit_est": 22
+        }
+      }
+    },
+    "tommy morrison": {
+      "player_name": "Tommy Morrison",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 66.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 22,
+          "fairways_hit_est": 17
+        }
+      }
+    },
+    "frankie harris": {
+      "player_name": "Frankie Harris",
+      "rounds": {
+        "1": {
+          "strokes": 76.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 5,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 22
+        }
+      }
+    },
+    "william sides": {
+      "player_name": "William Sides",
+      "rounds": {
+        "1": {
+          "strokes": 76.0,
+          "birdies_or_better": 1,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 69.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 11,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 27,
+          "fairways_hit_est": 19
+        }
+      }
+    },
+    "ct pan": {
+      "player_name": "C.T. Pan",
+      "rounds": {
+        "1": {
+          "strokes": 70.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 10,
+          "bogeys_or_worse": 3,
+          "par_total": 72,
+          "gir": 14,
+          "fairways_hit_est": 7,
+          "fairways_estimated": true
+        }
+      },
+      "cumulative_checkpoints": {
+        "1": {
+          "gir_count": 14,
+          "fairways_hit_est": 7
+        }
+      }
+    },
+    "adrien saddier": {
+      "player_name": "Adrien Saddier",
+      "rounds": {
+        "1": {
+          "strokes": 75.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 9,
+          "bogeys_or_worse": 6,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 73.0,
+          "birdies_or_better": 2,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 25,
+          "fairways_hit_est": 19
+        }
+      }
+    },
+    "daniel berger": {
+      "player_name": "Daniel Berger",
+      "rounds": {
+        "1": {
+          "strokes": 71.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        },
+        "2": {
+          "strokes": 72.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": null,
+          "fairways_hit_est": null
+        }
+      },
+      "cumulative_checkpoints": {
+        "2": {
+          "gir_count": 27,
+          "fairways_hit_est": 18
         }
       }
     }

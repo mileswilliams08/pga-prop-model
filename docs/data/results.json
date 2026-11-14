@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T16:31:17.804027+00:00",
+  "generated_at": "2026-11-14T15:10:28.759836+00:00",
   "picks": [
     {
       "t": "Bank of Utah Championship",
@@ -7041,20 +7041,62 @@
       "bs": "over",
       "bp": 0.5517,
       "bx": "h"
+    },
+    {
+      "t": "VidantaWorld Mexico Open",
+      "r": 3,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5425,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "VidantaWorld Mexico Open",
+      "r": 3,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.5468,
+      "x": "m",
+      "ox": "h",
+      "bs": "under",
+      "bp": 0.5235,
+      "bx": "m"
+    },
+    {
+      "t": "VidantaWorld Mexico Open",
+      "r": 3,
+      "c": "birdies",
+      "s": "over",
+      "p": 0.5558,
+      "x": "m",
+      "ox": "m"
+    },
+    {
+      "t": "VidantaWorld Mexico Open",
+      "r": 3,
+      "c": "strokes",
+      "s": "under",
+      "p": 0.5848,
+      "x": "m",
+      "ox": "h",
+      "bs": "under",
+      "bp": 0.5427,
+      "bx": "m"
     }
   ],
   "overall": {
-    "n": 460,
+    "n": 464,
     "hits": 222,
     "pushes": 43,
-    "hit_rate": 0.4826086956521739
+    "hit_rate": 0.47844827586206895
   },
   "by_category": {
     "birdies": {
-      "n": 153,
+      "n": 155,
       "hits": 73,
       "pushes": 23,
-      "hit_rate": 0.477124183006536
+      "hit_rate": 0.47096774193548385
     },
     "bogeys": {
       "n": 55,
@@ -7081,33 +7123,33 @@
       "hit_rate": 0.5353535353535354
     },
     "strokes": {
-      "n": 296,
+      "n": 298,
       "hits": 146,
       "pushes": 17,
-      "hit_rate": 0.49324324324324326
+      "hit_rate": 0.4899328859060403
     }
   },
   "by_side": {
     "over": {
-      "n": 370,
+      "n": 372,
       "hits": 177,
       "pushes": 26,
-      "hit_rate": 0.4783783783783784
+      "hit_rate": 0.47580645161290325
     },
     "under": {
-      "n": 244,
+      "n": 246,
       "hits": 118,
       "pushes": 38,
-      "hit_rate": 0.48360655737704916
+      "hit_rate": 0.4796747967479675
     }
   },
   "by_category_side": {
     "birdies": {
       "over": {
-        "n": 88,
+        "n": 90,
         "hits": 40,
         "pushes": 10,
-        "hit_rate": 0.45454545454545453
+        "hit_rate": 0.4444444444444444
       },
       "under": {
         "n": 65,
@@ -7180,10 +7222,10 @@
         "hit_rate": 0.4975609756097561
       },
       "under": {
-        "n": 91,
+        "n": 93,
         "hits": 44,
         "pushes": 7,
-        "hit_rate": 0.4835164835164835
+        "hit_rate": 0.4731182795698925
       }
     }
   },
@@ -8144,32 +8186,32 @@
     },
     "VidantaWorld Mexico Open": {
       "overall": {
-        "n": 265,
+        "n": 269,
         "hits": 130,
         "pushes": 28,
-        "hit_rate": 0.49056603773584906
+        "hit_rate": 0.483271375464684
       },
       "by_side": {
         "over": {
-          "n": 172,
+          "n": 174,
           "hits": 82,
           "pushes": 11,
-          "hit_rate": 0.47674418604651164
+          "hit_rate": 0.47126436781609193
         },
         "under": {
-          "n": 93,
+          "n": 95,
           "hits": 48,
           "pushes": 17,
-          "hit_rate": 0.5161290322580645
+          "hit_rate": 0.5052631578947369
         }
       },
       "by_category_side": {
         "birdies": {
           "over": {
-            "n": 19,
+            "n": 21,
             "hits": 8,
             "pushes": 2,
-            "hit_rate": 0.42105263157894735
+            "hit_rate": 0.38095238095238093
           },
           "under": {
             "n": 47,
@@ -8214,10 +8256,10 @@
             "hit_rate": 0.5164835164835165
           },
           "under": {
-            "n": 18,
+            "n": 20,
             "hits": 11,
             "pushes": 1,
-            "hit_rate": 0.6111111111111112
+            "hit_rate": 0.55
           }
         }
       },
@@ -8436,17 +8478,17 @@
         },
         "3": {
           "overall": {
-            "n": 89,
+            "n": 93,
             "hits": 49,
             "pushes": 7,
-            "hit_rate": 0.550561797752809
+            "hit_rate": 0.5268817204301075
           },
           "by_category": {
             "birdies": {
-              "n": 19,
+              "n": 21,
               "hits": 10,
               "pushes": 5,
-              "hit_rate": 0.5263157894736842
+              "hit_rate": 0.47619047619047616
             },
             "bogeys": {
               "n": 10,
@@ -8461,33 +8503,33 @@
               "hit_rate": 0.6470588235294118
             },
             "strokes": {
-              "n": 43,
+              "n": 45,
               "hits": 24,
               "pushes": 1,
-              "hit_rate": 0.5581395348837209
+              "hit_rate": 0.5333333333333333
             }
           },
           "by_side": {
             "over": {
-              "n": 58,
+              "n": 60,
               "hits": 30,
               "pushes": 2,
-              "hit_rate": 0.5172413793103449
+              "hit_rate": 0.5
             },
             "under": {
-              "n": 31,
+              "n": 33,
               "hits": 19,
               "pushes": 5,
-              "hit_rate": 0.6129032258064516
+              "hit_rate": 0.5757575757575758
             }
           },
           "by_category_side": {
             "birdies": {
               "over": {
-                "n": 9,
+                "n": 11,
                 "hits": 5,
                 "pushes": 1,
-                "hit_rate": 0.5555555555555556
+                "hit_rate": 0.45454545454545453
               },
               "under": {
                 "n": 10,
@@ -8532,10 +8574,10 @@
                 "hit_rate": 0.5333333333333333
               },
               "under": {
-                "n": 13,
+                "n": 15,
                 "hits": 8,
                 "pushes": 1,
-                "hit_rate": 0.6153846153846154
+                "hit_rate": 0.5333333333333333
               }
             }
           }
@@ -8864,17 +8906,17 @@
     },
     "3": {
       "overall": {
-        "n": 186,
+        "n": 190,
         "hits": 82,
         "pushes": 23,
-        "hit_rate": 0.44086021505376344
+        "hit_rate": 0.43157894736842106
       },
       "by_category": {
         "birdies": {
-          "n": 44,
+          "n": 46,
           "hits": 18,
           "pushes": 11,
-          "hit_rate": 0.4090909090909091
+          "hit_rate": 0.391304347826087
         },
         "bogeys": {
           "n": 11,
@@ -8889,33 +8931,33 @@
           "hit_rate": 0.5588235294117647
         },
         "strokes": {
-          "n": 97,
+          "n": 99,
           "hits": 41,
           "pushes": 7,
-          "hit_rate": 0.422680412371134
+          "hit_rate": 0.41414141414141414
         }
       },
       "by_side": {
         "over": {
-          "n": 97,
+          "n": 99,
           "hits": 42,
           "pushes": 10,
-          "hit_rate": 0.4329896907216495
+          "hit_rate": 0.42424242424242425
         },
         "under": {
-          "n": 89,
+          "n": 91,
           "hits": 40,
           "pushes": 13,
-          "hit_rate": 0.449438202247191
+          "hit_rate": 0.43956043956043955
         }
       },
       "by_category_side": {
         "birdies": {
           "over": {
-            "n": 32,
+            "n": 34,
             "hits": 12,
             "pushes": 7,
-            "hit_rate": 0.375
+            "hit_rate": 0.35294117647058826
           },
           "under": {
             "n": 12,
@@ -8960,10 +9002,10 @@
             "hit_rate": 0.45652173913043476
           },
           "under": {
-            "n": 51,
+            "n": 53,
             "hits": 20,
             "pushes": 5,
-            "hit_rate": 0.39215686274509803
+            "hit_rate": 0.37735849056603776
           }
         }
       }
@@ -9117,10 +9159,10 @@
   },
   "by_confidence_bucket": {
     "50-60%": {
-      "n": 300,
+      "n": 304,
       "hits": 152,
       "pushes": 28,
-      "hit_rate": 0.5066666666666667
+      "hit_rate": 0.5
     },
     "60-70%": {
       "n": 120,
@@ -9149,70 +9191,125 @@
   },
   "recent": [
     {
-      "date": "2026-11-08",
+      "date": "2026-11-14",
       "tournament": "VidantaWorld Mexico Open",
-      "player": "Stephan Jaeger",
+      "player": "Erik van Rooyen",
       "category": "strokes",
-      "line": 68.0,
-      "result": "hit",
-      "model_prob": 0.602599309965538,
-      "picked_side": "over",
-      "actual_value": 69.0
+      "line": 70.0,
+      "result": "miss",
+      "model_prob": 0.584840953412061,
+      "picked_side": "under",
+      "actual_value": 72.0
     },
     {
-      "date": "2026-11-08",
+      "date": "2026-11-14",
       "tournament": "VidantaWorld Mexico Open",
-      "player": "Chris Kirk",
+      "player": "Erik van Rooyen",
       "category": "birdies",
-      "line": 5.5,
-      "result": "hit",
-      "model_prob": 0.5362913702953185,
+      "line": 5.0,
+      "result": "miss",
+      "model_prob": 0.5557826246168635,
+      "picked_side": "over",
+      "actual_value": 4.0
+    },
+    {
+      "date": "2026-11-14",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Kevin Yu",
+      "category": "strokes",
+      "line": 69.5,
+      "result": "miss",
+      "model_prob": 0.5468302108923752,
       "picked_side": "under",
+      "actual_value": 70.0
+    },
+    {
+      "date": "2026-11-14",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Ben Kohles",
+      "category": "birdies",
+      "line": 5.0,
+      "result": "miss",
+      "model_prob": 0.5425226639578122,
+      "picked_side": "over",
       "actual_value": 4.0
     },
     {
       "date": "2026-11-08",
       "tournament": "VidantaWorld Mexico Open",
-      "player": "Paul Peterson",
-      "category": "birdies",
-      "line": 5.0,
-      "result": "miss",
-      "model_prob": 0.5138420230136168,
-      "picked_side": "over",
-      "actual_value": 3.0
-    },
-    {
-      "date": "2026-11-08",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Paul Peterson",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "hit",
-      "model_prob": 0.5171312792228396,
-      "picked_side": "over",
-      "actual_value": 70.0
-    },
-    {
-      "date": "2026-11-08",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Paul Peterson",
+      "player": "Denny McCarthy",
       "category": "pars",
-      "line": 11.0,
-      "result": "miss",
-      "model_prob": 0.5979983709151248,
-      "picked_side": "under",
+      "line": 10.5,
+      "result": "hit",
+      "model_prob": 0.5354688858860447,
+      "picked_side": "over",
       "actual_value": 13.0
     },
     {
       "date": "2026-11-08",
       "tournament": "VidantaWorld Mexico Open",
-      "player": "Harry Hall",
+      "player": "Rico Hoey",
+      "category": "birdies",
+      "line": 5.5,
+      "result": "miss",
+      "model_prob": 0.5569330826703984,
+      "picked_side": "under",
+      "actual_value": 6.0
+    },
+    {
+      "date": "2026-11-08",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Zac Blair",
+      "category": "birdies",
+      "line": 5.5,
+      "result": "miss",
+      "model_prob": 0.543530749038903,
+      "picked_side": "under",
+      "actual_value": 6.0
+    },
+    {
+      "date": "2026-11-08",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Adrien Dumont de Chassart",
       "category": "pars",
       "line": 10.0,
       "result": "hit",
-      "model_prob": 0.630489742838286,
+      "model_prob": 0.6395384163952335,
       "picked_side": "over",
-      "actual_value": 11.0
+      "actual_value": 12.0
+    },
+    {
+      "date": "2026-11-08",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Adrien Dumont de Chassart",
+      "category": "birdies",
+      "line": 5.5,
+      "result": "hit",
+      "model_prob": 0.6031420419942181,
+      "picked_side": "under",
+      "actual_value": 3.0
+    },
+    {
+      "date": "2026-11-08",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Austin Eckroat",
+      "category": "strokes",
+      "line": 68.0,
+      "result": "hit",
+      "model_prob": 0.6803077756667886,
+      "picked_side": "over",
+      "actual_value": 71.0
+    },
+    {
+      "date": "2026-11-08",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Austin Eckroat",
+      "category": "birdies",
+      "line": 5.5,
+      "result": "hit",
+      "model_prob": 0.5883060289606257,
+      "picked_side": "under",
+      "actual_value": 4.0
     },
     {
       "date": "2026-11-08",
@@ -9239,90 +9336,57 @@
     {
       "date": "2026-11-08",
       "tournament": "VidantaWorld Mexico Open",
-      "player": "Denny McCarthy",
-      "category": "pars",
-      "line": 10.5,
-      "result": "hit",
-      "model_prob": 0.5354688858860447,
-      "picked_side": "over",
-      "actual_value": 13.0
-    },
-    {
-      "date": "2026-11-08",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Austin Eckroat",
+      "player": "Chris Kirk",
       "category": "birdies",
       "line": 5.5,
       "result": "hit",
-      "model_prob": 0.5883060289606257,
+      "model_prob": 0.5362913702953185,
       "picked_side": "under",
       "actual_value": 4.0
     },
     {
       "date": "2026-11-08",
       "tournament": "VidantaWorld Mexico Open",
-      "player": "Austin Eckroat",
+      "player": "Harry Hall",
+      "category": "pars",
+      "line": 10.0,
+      "result": "hit",
+      "model_prob": 0.630489742838286,
+      "picked_side": "over",
+      "actual_value": 11.0
+    },
+    {
+      "date": "2026-11-08",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Paul Peterson",
+      "category": "pars",
+      "line": 11.0,
+      "result": "miss",
+      "model_prob": 0.5979983709151248,
+      "picked_side": "under",
+      "actual_value": 13.0
+    },
+    {
+      "date": "2026-11-08",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Paul Peterson",
       "category": "strokes",
-      "line": 68.0,
+      "line": 69.5,
       "result": "hit",
-      "model_prob": 0.6803077756667886,
+      "model_prob": 0.5171312792228396,
       "picked_side": "over",
-      "actual_value": 71.0
+      "actual_value": 70.0
     },
     {
       "date": "2026-11-08",
       "tournament": "VidantaWorld Mexico Open",
-      "player": "Adrien Dumont de Chassart",
+      "player": "Paul Peterson",
       "category": "birdies",
-      "line": 5.5,
-      "result": "hit",
-      "model_prob": 0.6031420419942181,
-      "picked_side": "under",
+      "line": 5.0,
+      "result": "miss",
+      "model_prob": 0.5138420230136168,
+      "picked_side": "over",
       "actual_value": 3.0
-    },
-    {
-      "date": "2026-11-08",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Adrien Dumont de Chassart",
-      "category": "pars",
-      "line": 10.0,
-      "result": "hit",
-      "model_prob": 0.6395384163952335,
-      "picked_side": "over",
-      "actual_value": 12.0
-    },
-    {
-      "date": "2026-11-08",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Zac Blair",
-      "category": "birdies",
-      "line": 5.5,
-      "result": "miss",
-      "model_prob": 0.543530749038903,
-      "picked_side": "under",
-      "actual_value": 6.0
-    },
-    {
-      "date": "2026-11-08",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Rico Hoey",
-      "category": "birdies",
-      "line": 5.5,
-      "result": "miss",
-      "model_prob": 0.5569330826703984,
-      "picked_side": "under",
-      "actual_value": 6.0
-    },
-    {
-      "date": "2026-11-08",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Rico Hoey",
-      "category": "pars",
-      "line": 10.0,
-      "result": "push",
-      "model_prob": 0.6369126633088715,
-      "picked_side": "over",
-      "actual_value": 10.0
     },
     {
       "date": "2026-11-08",
@@ -9334,6 +9398,17 @@
       "model_prob": 0.5963514977345716,
       "picked_side": "over",
       "actual_value": 70.0
+    },
+    {
+      "date": "2026-11-08",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Rico Hoey",
+      "category": "pars",
+      "line": 10.0,
+      "result": "push",
+      "model_prob": 0.6369126633088715,
+      "picked_side": "over",
+      "actual_value": 10.0
     },
     {
       "date": "2026-11-08",
@@ -9356,6 +9431,17 @@
       "model_prob": 0.6120492279408629,
       "picked_side": "under",
       "actual_value": 6.0
+    },
+    {
+      "date": "2026-11-08",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Stephan Jaeger",
+      "category": "strokes",
+      "line": 68.0,
+      "result": "hit",
+      "model_prob": 0.602599309965538,
+      "picked_side": "over",
+      "actual_value": 69.0
     },
     {
       "date": "2026-11-08",
@@ -9393,13 +9479,13 @@
     {
       "date": "2026-11-08",
       "tournament": "VidantaWorld Mexico Open",
-      "player": "Michael Kim",
-      "category": "strokes",
-      "line": 68.5,
-      "result": "miss",
-      "model_prob": 0.6062855681687447,
+      "player": "Keith Mitchell",
+      "category": "pars",
+      "line": 10.0,
+      "result": "push",
+      "model_prob": 0.624768619180857,
       "picked_side": "over",
-      "actual_value": 64.0
+      "actual_value": 10.0
     },
     {
       "date": "2026-11-08",
@@ -9415,13 +9501,13 @@
     {
       "date": "2026-11-08",
       "tournament": "VidantaWorld Mexico Open",
-      "player": "Keith Mitchell",
-      "category": "pars",
-      "line": 10.0,
-      "result": "push",
-      "model_prob": 0.624768619180857,
+      "player": "Michael Kim",
+      "category": "strokes",
+      "line": 68.5,
+      "result": "miss",
+      "model_prob": 0.6062855681687447,
       "picked_side": "over",
-      "actual_value": 10.0
+      "actual_value": 64.0
     },
     {
       "date": "2026-11-08",
@@ -9492,13 +9578,13 @@
     {
       "date": "2026-11-07",
       "tournament": "VidantaWorld Mexico Open",
-      "player": "Zac Blair",
+      "player": "Lucas Glover",
       "category": "strokes",
-      "line": 70.0,
+      "line": 70.5,
       "result": "miss",
-      "model_prob": 0.6712796262023606,
+      "model_prob": 0.6219345194124818,
       "picked_side": "under",
-      "actual_value": 73.0
+      "actual_value": 74.0
     },
     {
       "date": "2026-11-07",
@@ -9558,13 +9644,13 @@
     {
       "date": "2026-11-07",
       "tournament": "VidantaWorld Mexico Open",
-      "player": "Lucas Glover",
+      "player": "Zac Blair",
       "category": "strokes",
-      "line": 70.5,
+      "line": 70.0,
       "result": "miss",
-      "model_prob": 0.6219345194124818,
+      "model_prob": 0.6712796262023606,
       "picked_side": "under",
-      "actual_value": 74.0
+      "actual_value": 73.0
     },
     {
       "date": "2026-11-07",
@@ -9576,6 +9662,17 @@
       "model_prob": 0.5588758404828289,
       "picked_side": "under",
       "actual_value": 65.0
+    },
+    {
+      "date": "2026-11-07",
+      "tournament": "VidantaWorld Mexico Open",
+      "player": "Rico Hoey",
+      "category": "strokes",
+      "line": 69.5,
+      "result": "hit",
+      "model_prob": 0.5623346413852441,
+      "picked_side": "under",
+      "actual_value": 67.0
     },
     {
       "date": "2026-11-07",
@@ -9622,28 +9719,6 @@
       "actual_value": 73.0
     },
     {
-      "date": "2026-11-07",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Rico Hoey",
-      "category": "strokes",
-      "line": 69.5,
-      "result": "hit",
-      "model_prob": 0.5623346413852441,
-      "picked_side": "under",
-      "actual_value": 67.0
-    },
-    {
-      "date": "2026-11-01",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Chandler Phillips",
-      "category": "strokes",
-      "line": 69.0,
-      "result": "miss",
-      "model_prob": 0.5181404545302122,
-      "picked_side": "under",
-      "actual_value": 70.0
-    },
-    {
       "date": "2026-11-01",
       "tournament": "VidantaWorld Mexico Open",
       "player": "Keita Nakajima",
@@ -9658,45 +9733,12 @@
       "date": "2026-11-01",
       "tournament": "VidantaWorld Mexico Open",
       "player": "Steven Fisk",
-      "category": "strokes",
-      "line": 68.5,
-      "result": "miss",
-      "model_prob": 0.5309543228009467,
-      "picked_side": "over",
-      "actual_value": 63.0
-    },
-    {
-      "date": "2026-11-01",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Steven Fisk",
-      "category": "pars",
-      "line": 11.0,
-      "result": "miss",
-      "model_prob": 0.5031014335018693,
-      "picked_side": "over",
-      "actual_value": 10.0
-    },
-    {
-      "date": "2026-11-01",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Steven Fisk",
-      "category": "bogeys",
-      "line": 2.0,
-      "result": "miss",
-      "model_prob": 0.601389759300919,
-      "picked_side": "over",
-      "actual_value": 0.0
-    },
-    {
-      "date": "2026-11-01",
-      "tournament": "VidantaWorld Mexico Open",
-      "player": "Rasmus Neergaard-Petersen",
       "category": "birdies",
       "line": 5.0,
-      "result": "hit",
-      "model_prob": 0.5662528894132184,
+      "result": "miss",
+      "model_prob": 0.5368201892922431,
       "picked_side": "under",
-      "actual_value": 3.0
+      "actual_value": 8.0
     }
   ]
 }
