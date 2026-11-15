@@ -695,3 +695,26 @@ date,tournament,round,player,category,line,source,model_prob,picked_side,actual_
 2026-11-14,VidantaWorld Mexico Open,3,Kevin Yu,strokes,69.5,prizepicks,0.5468302108923752,under,70.0,miss,False
 2026-11-14,VidantaWorld Mexico Open,3,Erik van Rooyen,birdies,5.0,prizepicks,0.5557826246168635,over,4,miss,False
 2026-11-14,VidantaWorld Mexico Open,3,Erik van Rooyen,strokes,70.0,prizepicks,0.584840953412061,under,72.0,miss,False
+2026-11-14,VidantaWorld Mexico Open,3,Brian Harman,birdies,5.0,prizepicks,0.5033597244739497,over,4,miss,False
+2026-11-14,VidantaWorld Mexico Open,3,Brian Harman,strokes,69.5,prizepicks,0.5280664046631711,over,76.0,hit,False
+2026-11-14,VidantaWorld Mexico Open,3,Sami Välimäki,strokes,69.5,prizepicks,0.5109893240206724,over,69.0,miss,False
+2026-11-15,VidantaWorld Mexico Open,4,Ben Kohles,birdies,4.5,prizepicks,0.6206969221028606,over,5,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Ben Kohles,strokes,70.0,prizepicks,0.7000689725829156,under,67.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Zac Blair,strokes,71.0,prizepicks,0.750404783029897,under,69.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Neal Shipley,birdies,4.0,prizepicks,0.718322166940091,over,5,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Neal Shipley,strokes,70.5,prizepicks,0.6437008060490199,under,72.0,miss,False
+2026-11-15,VidantaWorld Mexico Open,4,John VanDerLaan,strokes,71.0,prizepicks,0.6827887748674015,under,68.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Rasmus Neergaard-Petersen,strokes,70.5,prizepicks,0.6257999137983749,under,65.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Gordon Sargent,strokes,71.0,prizepicks,0.6742581468123229,under,70.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Emiliano Grillo,strokes,70.5,prizepicks,0.6598467789908073,under,67.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Chad Ramey,birdies,4.0,prizepicks,0.7236429377930316,over,6,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Chad Ramey,strokes,71.0,prizepicks,0.7188423749490294,under,67.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Trace Crowe,strokes,71.0,prizepicks,0.7414189605175434,under,70.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Kevin Yu,birdies,4.0,prizepicks,0.787773572235188,over,3,miss,False
+2026-11-15,VidantaWorld Mexico Open,4,Kevin Yu,strokes,71.0,prizepicks,0.7350566736407991,under,72.0,miss,False
+2026-11-15,VidantaWorld Mexico Open,4,Max Homa,strokes,70.5,prizepicks,0.5976204399591702,under,66.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Jeffrey Kang,strokes,71.5,prizepicks,0.695403511766592,under,69.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Mac Meissner,strokes,70.5,prizepicks,0.6300709875011657,under,69.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Erik van Rooyen,strokes,71.0,prizepicks,0.7091978682883565,under,68.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Will Gordon,strokes,72.0,prizepicks,0.7778193469505772,under,68.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Rasmus Højgaard,strokes,71.5,prizepicks,0.7416621667955593,under,69.0,hit,False
