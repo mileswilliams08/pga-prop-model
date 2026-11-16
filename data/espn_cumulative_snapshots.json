@@ -18958,8 +18958,8 @@
           "pars": 10,
           "bogeys_or_worse": 6,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 6,
+          "gir": 19,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "4": {
@@ -18970,8 +18970,8 @@
           "pars": 14,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 23,
-          "fairways_hit_est": 30,
+          "gir": 15,
+          "fairways_hit_est": 28,
           "fairways_estimated": true
         }
       },
@@ -18985,8 +18985,8 @@
           "fairways_hit_est": 17
         },
         "3": {
-          "gir_count": 36,
-          "fairways_hit_est": 23
+          "gir_count": 44,
+          "fairways_hit_est": 25
         },
         "4": {
           "gir_count": 59,
@@ -19171,7 +19171,7 @@
           "pars": 11,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 13,
+          "gir": 22,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
@@ -19183,7 +19183,7 @@
           "pars": 11,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 16,
+          "gir": 7,
           "fairways_hit_est": 18,
           "fairways_estimated": true
         }
@@ -19198,7 +19198,7 @@
           "fairways_hit_est": 21
         },
         "3": {
-          "gir_count": 43,
+          "gir_count": 52,
           "fairways_hit_est": 31
         },
         "4": {
@@ -19352,8 +19352,8 @@
           "pars": 14,
           "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 8,
+          "gir": 23,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "4": {
@@ -19364,8 +19364,8 @@
           "pars": 7,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 12,
+          "gir": 2,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         }
       },
@@ -19379,8 +19379,8 @@
           "fairways_hit_est": 19
         },
         "3": {
-          "gir_count": 38,
-          "fairways_hit_est": 27
+          "gir_count": 49,
+          "fairways_hit_est": 25
         },
         "4": {
           "gir_count": 51,
@@ -19423,7 +19423,7 @@
           "pars": 10,
           "bogeys_or_worse": 6,
           "par_total": 72,
-          "gir": 10,
+          "gir": 21,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         }
@@ -19438,7 +19438,7 @@
           "fairways_hit_est": 18
         },
         "3": {
-          "gir_count": 33,
+          "gir_count": 44,
           "fairways_hit_est": 27
         }
       }
@@ -19625,15 +19625,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 72.0,
-          "birdies_or_better": 3,
+          "strokes": 69.0,
+          "birdies_or_better": 4,
           "fairways_possible": 14,
           "holes_played": 18,
           "pars": 13,
-          "bogeys_or_worse": 2,
+          "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 15,
+          "gir": 14,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -19651,8 +19651,8 @@
           "fairways_hit_est": 34
         },
         "4": {
-          "gir_count": 53,
-          "fairways_hit_est": 49
+          "gir_count": 54,
+          "fairways_hit_est": 45
         }
       }
     },
@@ -19801,8 +19801,8 @@
           "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 9,
+          "gir": 22,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "4": {
@@ -19813,8 +19813,8 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 17,
+          "gir": 4,
+          "fairways_hit_est": 16,
           "fairways_estimated": true
         }
       },
@@ -19828,8 +19828,8 @@
           "fairways_hit_est": 16
         },
         "3": {
-          "gir_count": 40,
-          "fairways_hit_est": 25
+          "gir_count": 48,
+          "fairways_hit_est": 26
         },
         "4": {
           "gir_count": 52,
@@ -19911,8 +19911,8 @@
           "pars": 7,
           "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 6,
+          "gir": 18,
+          "fairways_hit_est": 5,
           "fairways_estimated": true
         },
         "4": {
@@ -19923,8 +19923,8 @@
           "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 25,
+          "gir": 7,
+          "fairways_hit_est": 26,
           "fairways_estimated": true
         }
       },
@@ -19938,8 +19938,8 @@
           "fairways_hit_est": 19
         },
         "3": {
-          "gir_count": 43,
-          "fairways_hit_est": 25
+          "gir_count": 49,
+          "fairways_hit_est": 24
         },
         "4": {
           "gir_count": 56,
@@ -20021,7 +20021,7 @@
           "pars": 8,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 14,
+          "gir": 24,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
@@ -20033,7 +20033,7 @@
           "pars": 11,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 16,
+          "gir": 6,
           "fairways_hit_est": 13,
           "fairways_estimated": true
         }
@@ -20048,7 +20048,7 @@
           "fairways_hit_est": 23
         },
         "3": {
-          "gir_count": 39,
+          "gir_count": 49,
           "fairways_hit_est": 33
         },
         "4": {
@@ -20163,8 +20163,8 @@
           "pars": 12,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 8,
+          "gir": 20,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "4": {
@@ -20175,8 +20175,8 @@
           "pars": 9,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 21,
-          "fairways_hit_est": 27,
+          "gir": 12,
+          "fairways_hit_est": 26,
           "fairways_estimated": true
         }
       },
@@ -20190,8 +20190,8 @@
           "fairways_hit_est": 16
         },
         "3": {
-          "gir_count": 34,
-          "fairways_hit_est": 24
+          "gir_count": 43,
+          "fairways_hit_est": 25
         },
         "4": {
           "gir_count": 55,
@@ -20305,8 +20305,8 @@
           "pars": 12,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 7,
+          "gir": 21,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
@@ -20320,8 +20320,8 @@
           "fairways_hit_est": 18
         },
         "3": {
-          "gir_count": 37,
-          "fairways_hit_est": 25
+          "gir_count": 48,
+          "fairways_hit_est": 27
         }
       }
     },
@@ -20507,15 +20507,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 69.0,
-          "birdies_or_better": 6,
-          "fairways_possible": 13,
+          "strokes": 70.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 9,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 10,
+          "pars": 14,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 10,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
@@ -20533,8 +20533,8 @@
           "fairways_hit_est": 31
         },
         "4": {
-          "gir_count": 56,
-          "fairways_hit_est": 41
+          "gir_count": 52,
+          "fairways_hit_est": 40
         }
       }
     },
@@ -20610,8 +20610,8 @@
           "pars": 9,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 10,
+          "gir": 20,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -20621,8 +20621,8 @@
           "fairways_hit_est": 16
         },
         "3": {
-          "gir_count": 36,
-          "fairways_hit_est": 26
+          "gir_count": 44,
+          "fairways_hit_est": 27
         }
       }
     },
@@ -20737,15 +20737,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 69.0,
-          "birdies_or_better": 8,
+          "strokes": 73.0,
+          "birdies_or_better": 3,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 6,
-          "bogeys_or_worse": 4,
+          "pars": 13,
+          "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 24,
+          "gir": 14,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
@@ -20763,8 +20763,8 @@
           "fairways_hit_est": 30
         },
         "4": {
-          "gir_count": 56,
-          "fairways_hit_est": 54
+          "gir_count": 53,
+          "fairways_hit_est": 39
         }
       }
     },
@@ -20874,8 +20874,8 @@
           "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 10,
+          "gir": 24,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "4": {
@@ -20886,8 +20886,8 @@
           "pars": 8,
           "bogeys_or_worse": 5,
           "par_total": 71,
-          "gir": 8,
-          "fairways_hit_est": 0,
+          "gir": -1,
+          "fairways_hit_est": 1,
           "fairways_estimated": true
         }
       },
@@ -20901,8 +20901,8 @@
           "fairways_hit_est": 24
         },
         "3": {
-          "gir_count": 44,
-          "fairways_hit_est": 34
+          "gir_count": 53,
+          "fairways_hit_est": 33
         },
         "4": {
           "gir_count": 52,
@@ -20945,7 +20945,7 @@
           "pars": 14,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 13,
+          "gir": 24,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
@@ -20957,7 +20957,7 @@
           "pars": 14,
           "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 27,
+          "gir": 16,
           "fairways_hit_est": 27,
           "fairways_estimated": true
         }
@@ -20972,7 +20972,7 @@
           "fairways_hit_est": 17
         },
         "3": {
-          "gir_count": 33,
+          "gir_count": 44,
           "fairways_hit_est": 26
         },
         "4": {
@@ -21016,8 +21016,8 @@
           "pars": 12,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 9,
+          "gir": 25,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "4": {
@@ -21028,8 +21028,8 @@
           "pars": 12,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 24,
+          "gir": 3,
+          "fairways_hit_est": 25,
           "fairways_estimated": true
         }
       },
@@ -21043,8 +21043,8 @@
           "fairways_hit_est": 21
         },
         "3": {
-          "gir_count": 40,
-          "fairways_hit_est": 30
+          "gir_count": 53,
+          "fairways_hit_est": 29
         },
         "4": {
           "gir_count": 56,
@@ -21087,8 +21087,8 @@
           "pars": 13,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 10,
+          "gir": 25,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         },
         "4": {
@@ -21099,8 +21099,8 @@
           "pars": 13,
           "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 22,
+          "gir": 8,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         }
       },
@@ -21114,8 +21114,8 @@
           "fairways_hit_est": 18
         },
         "3": {
-          "gir_count": 45,
-          "fairways_hit_est": 28
+          "gir_count": 54,
+          "fairways_hit_est": 30
         },
         "4": {
           "gir_count": 62,
@@ -21300,8 +21300,8 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 10,
+          "gir": 19,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "4": {
@@ -21312,8 +21312,8 @@
           "pars": 12,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 19,
-          "fairways_hit_est": 24,
+          "gir": 12,
+          "fairways_hit_est": 23,
           "fairways_estimated": true
         }
       },
@@ -21327,8 +21327,8 @@
           "fairways_hit_est": 16
         },
         "3": {
-          "gir_count": 39,
-          "fairways_hit_est": 26
+          "gir_count": 46,
+          "fairways_hit_est": 27
         },
         "4": {
           "gir_count": 58,
@@ -21413,6 +21413,18 @@
           "gir": 11,
           "fairways_hit_est": 11,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 68.0,
+          "birdies_or_better": 5,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 12,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 12,
+          "fairways_hit_est": 12,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -21427,6 +21439,10 @@
         "3": {
           "gir_count": 41,
           "fairways_hit_est": 36
+        },
+        "4": {
+          "gir_count": 53,
+          "fairways_hit_est": 48
         }
       }
     },
@@ -21541,15 +21557,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 67.0,
-          "birdies_or_better": 5,
-          "fairways_possible": 13,
+          "strokes": 73.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 12,
-          "bogeys_or_worse": 1,
-          "par_total": 71,
-          "gir": 3,
-          "fairways_hit_est": 3,
+          "pars": 11,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": 10,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         }
       },
@@ -21567,8 +21583,8 @@
           "fairways_hit_est": 29
         },
         "4": {
-          "gir_count": 40,
-          "fairways_hit_est": 32
+          "gir_count": 47,
+          "fairways_hit_est": 37
         }
       }
     },
@@ -21607,8 +21623,8 @@
           "pars": 7,
           "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 9,
+          "gir": 23,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "4": {
@@ -21619,8 +21635,8 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 21,
+          "gir": 2,
+          "fairways_hit_est": 22,
           "fairways_estimated": true
         }
       },
@@ -21634,8 +21650,8 @@
           "fairways_hit_est": 17
         },
         "3": {
-          "gir_count": 44,
-          "fairways_hit_est": 26
+          "gir_count": 55,
+          "fairways_hit_est": 25
         },
         "4": {
           "gir_count": 57,
@@ -21795,7 +21811,7 @@
           "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 10,
+          "gir": 21,
           "fairways_hit_est": 8,
           "fairways_estimated": true
         },
@@ -21807,7 +21823,7 @@
           "pars": 13,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 13,
+          "gir": 2,
           "fairways_hit_est": 7,
           "fairways_estimated": true
         }
@@ -21822,7 +21838,7 @@
           "fairways_hit_est": 20
         },
         "3": {
-          "gir_count": 37,
+          "gir_count": 48,
           "fairways_hit_est": 28
         },
         "4": {
@@ -21866,8 +21882,8 @@
           "pars": 10,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 9,
+          "gir": 24,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "4": {
@@ -21878,8 +21894,8 @@
           "pars": 12,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 20,
-          "fairways_hit_est": 19,
+          "gir": 7,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         }
       },
@@ -21893,8 +21909,8 @@
           "fairways_hit_est": 23
         },
         "3": {
-          "gir_count": 37,
-          "fairways_hit_est": 32
+          "gir_count": 50,
+          "fairways_hit_est": 31
         },
         "4": {
           "gir_count": 57,
@@ -22008,8 +22024,8 @@
           "pars": 10,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 9,
+          "gir": 23,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "4": {
@@ -22020,8 +22036,8 @@
           "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 15,
+          "gir": 4,
+          "fairways_hit_est": 17,
           "fairways_estimated": true
         }
       },
@@ -22035,8 +22051,8 @@
           "fairways_hit_est": 25
         },
         "3": {
-          "gir_count": 41,
-          "fairways_hit_est": 34
+          "gir_count": 51,
+          "fairways_hit_est": 32
         },
         "4": {
           "gir_count": 55,
@@ -22079,8 +22095,8 @@
           "pars": 11,
           "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 10,
+          "gir": 19,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "4": {
@@ -22091,8 +22107,8 @@
           "pars": 7,
           "bogeys_or_worse": 4,
           "par_total": 71,
-          "gir": 15,
-          "fairways_hit_est": 11,
+          "gir": 6,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         }
       },
@@ -22106,8 +22122,8 @@
           "fairways_hit_est": 19
         },
         "3": {
-          "gir_count": 35,
-          "fairways_hit_est": 29
+          "gir_count": 44,
+          "fairways_hit_est": 28
         },
         "4": {
           "gir_count": 50,
@@ -22150,8 +22166,8 @@
           "pars": 8,
           "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 8,
+          "gir": 20,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         },
         "4": {
@@ -22162,8 +22178,8 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 5,
+          "gir": 6,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
@@ -22177,8 +22193,8 @@
           "fairways_hit_est": 23
         },
         "3": {
-          "gir_count": 36,
-          "fairways_hit_est": 31
+          "gir_count": 44,
+          "fairways_hit_est": 29
         },
         "4": {
           "gir_count": 50,
@@ -22221,8 +22237,8 @@
           "pars": 14,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 8,
+          "gir": 22,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "4": {
@@ -22233,8 +22249,8 @@
           "pars": 14,
           "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 15,
-          "fairways_hit_est": 23,
+          "gir": 7,
+          "fairways_hit_est": 24,
           "fairways_estimated": true
         }
       },
@@ -22248,8 +22264,8 @@
           "fairways_hit_est": 17
         },
         "3": {
-          "gir_count": 41,
-          "fairways_hit_est": 25
+          "gir_count": 49,
+          "fairways_hit_est": 24
         },
         "4": {
           "gir_count": 56,
@@ -22434,7 +22450,7 @@
           "pars": 12,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 15,
+          "gir": 28,
           "fairways_hit_est": 9,
           "fairways_estimated": true
         },
@@ -22446,7 +22462,7 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 9,
+          "gir": -4,
           "fairways_hit_est": 19,
           "fairways_estimated": true
         }
@@ -22461,7 +22477,7 @@
           "fairways_hit_est": 22
         },
         "3": {
-          "gir_count": 41,
+          "gir_count": 54,
           "fairways_hit_est": 31
         },
         "4": {
@@ -22505,7 +22521,7 @@
           "pars": 13,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
+          "gir": 25,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
@@ -22517,7 +22533,7 @@
           "pars": 12,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 19,
+          "gir": 8,
           "fairways_hit_est": 21,
           "fairways_estimated": true
         }
@@ -22532,7 +22548,7 @@
           "fairways_hit_est": 21
         },
         "3": {
-          "gir_count": 42,
+          "gir_count": 53,
           "fairways_hit_est": 31
         },
         "4": {
@@ -22576,8 +22592,8 @@
           "pars": 9,
           "bogeys_or_worse": 6,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 6,
+          "gir": 20,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         },
         "4": {
@@ -22588,8 +22604,8 @@
           "pars": 8,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 23,
+          "gir": 7,
+          "fairways_hit_est": 22,
           "fairways_estimated": true
         }
       },
@@ -22603,8 +22619,8 @@
           "fairways_hit_est": 23
         },
         "3": {
-          "gir_count": 40,
-          "fairways_hit_est": 29
+          "gir_count": 49,
+          "fairways_hit_est": 30
         },
         "4": {
           "gir_count": 56,
@@ -22647,8 +22663,8 @@
           "pars": 13,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 7,
+          "gir": 17,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "4": {
@@ -22659,8 +22675,8 @@
           "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 26,
-          "fairways_hit_est": 27,
+          "gir": 19,
+          "fairways_hit_est": 25,
           "fairways_estimated": true
         }
       },
@@ -22674,8 +22690,8 @@
           "fairways_hit_est": 16
         },
         "3": {
-          "gir_count": 35,
-          "fairways_hit_est": 23
+          "gir_count": 42,
+          "fairways_hit_est": 25
         },
         "4": {
           "gir_count": 61,
@@ -22789,8 +22805,8 @@
           "pars": 10,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 10,
+          "gir": 20,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         },
         "4": {
@@ -22801,8 +22817,8 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 71,
-          "gir": 15,
-          "fairways_hit_est": 7,
+          "gir": 5,
+          "fairways_hit_est": 4,
           "fairways_estimated": true
         }
       },
@@ -22816,8 +22832,8 @@
           "fairways_hit_est": 18
         },
         "3": {
-          "gir_count": 38,
-          "fairways_hit_est": 28
+          "gir_count": 48,
+          "fairways_hit_est": 31
         },
         "4": {
           "gir_count": 53,
@@ -23002,8 +23018,8 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 10,
+          "gir": 24,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         },
         "4": {
@@ -23014,8 +23030,8 @@
           "pars": 15,
           "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 26,
-          "fairways_hit_est": 16,
+          "gir": 15,
+          "fairways_hit_est": 15,
           "fairways_estimated": true
         }
       },
@@ -23029,8 +23045,8 @@
           "fairways_hit_est": 25
         },
         "3": {
-          "gir_count": 39,
-          "fairways_hit_est": 35
+          "gir_count": 50,
+          "fairways_hit_est": 36
         },
         "4": {
           "gir_count": 65,
@@ -23112,8 +23128,8 @@
           "pars": 12,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 10,
+          "gir": 24,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "4": {
@@ -23124,8 +23140,8 @@
           "pars": 11,
           "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 16,
-          "fairways_hit_est": 18,
+          "gir": 3,
+          "fairways_hit_est": 20,
           "fairways_estimated": true
         }
       },
@@ -23139,8 +23155,8 @@
           "fairways_hit_est": 21
         },
         "3": {
-          "gir_count": 40,
-          "fairways_hit_est": 31
+          "gir_count": 53,
+          "fairways_hit_est": 29
         },
         "4": {
           "gir_count": 56,
@@ -23442,8 +23458,8 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 8,
+          "gir": 22,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "4": {
@@ -23454,8 +23470,8 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 8,
-          "fairways_hit_est": 7,
+          "gir": -3,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         }
       },
@@ -23469,8 +23485,8 @@
           "fairways_hit_est": 16
         },
         "3": {
-          "gir_count": 40,
-          "fairways_hit_est": 24
+          "gir_count": 51,
+          "fairways_hit_est": 25
         },
         "4": {
           "gir_count": 48,
@@ -23749,7 +23765,7 @@
           "pars": 14,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 10,
+          "gir": 20,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         }
@@ -23764,7 +23780,7 @@
           "fairways_hit_est": 20
         },
         "3": {
-          "gir_count": 37,
+          "gir_count": 47,
           "fairways_hit_est": 30
         }
       }
@@ -23804,8 +23820,8 @@
           "pars": 10,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 10,
+          "gir": 19,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "4": {
@@ -23816,8 +23832,8 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 71,
-          "gir": 22,
-          "fairways_hit_est": 8,
+          "gir": 14,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
@@ -23831,8 +23847,8 @@
           "fairways_hit_est": 20
         },
         "3": {
-          "gir_count": 34,
-          "fairways_hit_est": 30
+          "gir_count": 42,
+          "fairways_hit_est": 29
         },
         "4": {
           "gir_count": 56,
@@ -23875,8 +23891,8 @@
           "pars": 8,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 9,
+          "gir": 24,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "4": {
@@ -23887,8 +23903,8 @@
           "pars": 8,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 22,
-          "fairways_hit_est": 26,
+          "gir": 9,
+          "fairways_hit_est": 25,
           "fairways_estimated": true
         }
       },
@@ -23902,8 +23918,8 @@
           "fairways_hit_est": 18
         },
         "3": {
-          "gir_count": 36,
-          "fairways_hit_est": 27
+          "gir_count": 49,
+          "fairways_hit_est": 28
         },
         "4": {
           "gir_count": 58,
@@ -24127,8 +24143,8 @@
           "pars": 9,
           "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 10,
-          "fairways_hit_est": 8,
+          "gir": 23,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         },
         "4": {
@@ -24139,8 +24155,8 @@
           "pars": 9,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 23,
+          "gir": -1,
+          "fairways_hit_est": 22,
           "fairways_estimated": true
         }
       },
@@ -24154,8 +24170,8 @@
           "fairways_hit_est": 19
         },
         "3": {
-          "gir_count": 40,
-          "fairways_hit_est": 27
+          "gir_count": 53,
+          "fairways_hit_est": 28
         },
         "4": {
           "gir_count": 52,
@@ -24198,8 +24214,8 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 8,
+          "gir": 23,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "4": {
@@ -24210,8 +24226,8 @@
           "pars": 7,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 23,
+          "gir": 3,
+          "fairways_hit_est": 21,
           "fairways_estimated": true
         }
       },
@@ -24225,8 +24241,8 @@
           "fairways_hit_est": 22
         },
         "3": {
-          "gir_count": 43,
-          "fairways_hit_est": 30
+          "gir_count": 54,
+          "fairways_hit_est": 32
         },
         "4": {
           "gir_count": 57,
@@ -24411,8 +24427,8 @@
           "pars": 13,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 11,
+          "gir": 23,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
@@ -24426,8 +24442,8 @@
           "fairways_hit_est": 21
         },
         "3": {
-          "gir_count": 39,
-          "fairways_hit_est": 32
+          "gir_count": 50,
+          "fairways_hit_est": 30
         }
       }
     },
@@ -25055,8 +25071,8 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 12,
+          "gir": 25,
+          "fairways_hit_est": 14,
           "fairways_estimated": true
         },
         "4": {
@@ -25067,8 +25083,8 @@
           "pars": 11,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 23,
-          "fairways_hit_est": 21,
+          "gir": 12,
+          "fairways_hit_est": 19,
           "fairways_estimated": true
         }
       },
@@ -25082,8 +25098,8 @@
           "fairways_hit_est": 21
         },
         "3": {
-          "gir_count": 36,
-          "fairways_hit_est": 33
+          "gir_count": 47,
+          "fairways_hit_est": 35
         },
         "4": {
           "gir_count": 59,
@@ -25202,15 +25218,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 67.0,
-          "birdies_or_better": 6,
-          "fairways_possible": 13,
+          "strokes": 65.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 10,
-          "bogeys_or_worse": 2,
-          "par_total": 71,
-          "gir": 13,
-          "fairways_hit_est": 16,
+          "pars": 11,
+          "bogeys_or_worse": 0,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -25228,8 +25244,8 @@
           "fairways_hit_est": 30
         },
         "4": {
-          "gir_count": 52,
-          "fairways_hit_est": 46
+          "gir_count": 55,
+          "fairways_hit_est": 43
         }
       }
     },
@@ -25268,8 +25284,8 @@
           "pars": 8,
           "bogeys_or_worse": 7,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 6,
+          "gir": 18,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "4": {
@@ -25280,8 +25296,8 @@
           "pars": 10,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 20,
-          "fairways_hit_est": 30,
+          "gir": 13,
+          "fairways_hit_est": 28,
           "fairways_estimated": true
         }
       },
@@ -25295,8 +25311,8 @@
           "fairways_hit_est": 17
         },
         "3": {
-          "gir_count": 37,
-          "fairways_hit_est": 23
+          "gir_count": 44,
+          "fairways_hit_est": 25
         },
         "4": {
           "gir_count": 57,
@@ -25481,7 +25497,7 @@
           "pars": 6,
           "bogeys_or_worse": 8,
           "par_total": 72,
-          "gir": 8,
+          "gir": 16,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
@@ -25493,7 +25509,7 @@
           "pars": 11,
           "bogeys_or_worse": 4,
           "par_total": 72,
-          "gir": 15,
+          "gir": 7,
           "fairways_hit_est": 21,
           "fairways_estimated": true
         }
@@ -25508,7 +25524,7 @@
           "fairways_hit_est": 22
         },
         "3": {
-          "gir_count": 37,
+          "gir_count": 45,
           "fairways_hit_est": 33
         },
         "4": {
@@ -25557,15 +25573,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 68.0,
-          "birdies_or_better": 7,
-          "fairways_possible": 13,
+          "strokes": 72.0,
+          "birdies_or_better": 4,
+          "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 8,
-          "bogeys_or_worse": 3,
-          "par_total": 71,
-          "gir": 7,
-          "fairways_hit_est": -1,
+          "pars": 10,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": 12,
+          "fairways_hit_est": 9,
           "fairways_estimated": true
         }
       },
@@ -25583,8 +25599,8 @@
           "fairways_hit_est": 32
         },
         "4": {
-          "gir_count": 48,
-          "fairways_hit_est": 31
+          "gir_count": 53,
+          "fairways_hit_est": 41
         }
       }
     },
@@ -25694,8 +25710,8 @@
           "pars": 10,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 9,
+          "gir": 25,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "4": {
@@ -25706,8 +25722,8 @@
           "pars": 13,
           "bogeys_or_worse": 0,
           "par_total": 71,
-          "gir": 2,
-          "fairways_hit_est": 1,
+          "gir": -11,
+          "fairways_hit_est": 2,
           "fairways_estimated": true
         }
       },
@@ -25721,8 +25737,8 @@
           "fairways_hit_est": 23
         },
         "3": {
-          "gir_count": 39,
-          "fairways_hit_est": 32
+          "gir_count": 52,
+          "fairways_hit_est": 31
         },
         "4": {
           "gir_count": 41,
@@ -25765,7 +25781,7 @@
           "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
+          "gir": 24,
           "fairways_hit_est": 10,
           "fairways_estimated": true
         },
@@ -25777,7 +25793,7 @@
           "pars": 9,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 14,
+          "gir": 4,
           "fairways_hit_est": 22,
           "fairways_estimated": true
         }
@@ -25792,7 +25808,7 @@
           "fairways_hit_est": 22
         },
         "3": {
-          "gir_count": 43,
+          "gir_count": 53,
           "fairways_hit_est": 32
         },
         "4": {
@@ -25978,8 +25994,8 @@
           "pars": 10,
           "bogeys_or_worse": 5,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 12,
+          "gir": 21,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         }
       },
@@ -25993,8 +26009,8 @@
           "fairways_hit_est": 24
         },
         "3": {
-          "gir_count": 38,
-          "fairways_hit_est": 36
+          "gir_count": 48,
+          "fairways_hit_est": 37
         }
       }
     },
@@ -26033,8 +26049,8 @@
           "pars": 7,
           "bogeys_or_worse": 6,
           "par_total": 72,
-          "gir": 9,
-          "fairways_hit_est": 9,
+          "gir": 18,
+          "fairways_hit_est": 8,
           "fairways_estimated": true
         },
         "4": {
@@ -26045,8 +26061,8 @@
           "pars": 14,
           "bogeys_or_worse": 1,
           "par_total": 71,
-          "gir": 14,
-          "fairways_hit_est": 9,
+          "gir": 5,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         }
       },
@@ -26060,8 +26076,8 @@
           "fairways_hit_est": 22
         },
         "3": {
-          "gir_count": 38,
-          "fairways_hit_est": 31
+          "gir_count": 47,
+          "fairways_hit_est": 30
         },
         "4": {
           "gir_count": 52,
@@ -26109,15 +26125,15 @@
           "fairways_estimated": true
         },
         "4": {
-          "strokes": 71.0,
-          "birdies_or_better": 3,
+          "strokes": 72.0,
+          "birdies_or_better": 2,
           "fairways_possible": 14,
           "holes_played": 18,
-          "pars": 14,
-          "bogeys_or_worse": 1,
+          "pars": 13,
+          "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 21,
-          "fairways_hit_est": 25,
+          "gir": 14,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
@@ -26135,8 +26151,8 @@
           "fairways_hit_est": 26
         },
         "4": {
-          "gir_count": 61,
-          "fairways_hit_est": 51
+          "gir_count": 54,
+          "fairways_hit_est": 33
         }
       }
     },
@@ -26246,8 +26262,8 @@
           "pars": 8,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 9,
+          "gir": 22,
+          "fairways_hit_est": 10,
           "fairways_estimated": true
         },
         "4": {
@@ -26258,8 +26274,8 @@
           "pars": 8,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 17,
-          "fairways_hit_est": 25,
+          "gir": 8,
+          "fairways_hit_est": 24,
           "fairways_estimated": true
         }
       },
@@ -26273,8 +26289,8 @@
           "fairways_hit_est": 20
         },
         "3": {
-          "gir_count": 41,
-          "fairways_hit_est": 29
+          "gir_count": 50,
+          "fairways_hit_est": 30
         },
         "4": {
           "gir_count": 58,
@@ -26317,7 +26333,7 @@
           "pars": 13,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 13,
+          "gir": 26,
           "fairways_hit_est": 11,
           "fairways_estimated": true
         },
@@ -26329,7 +26345,7 @@
           "pars": 11,
           "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 17,
+          "gir": 4,
           "fairways_hit_est": 18,
           "fairways_estimated": true
         }
@@ -26344,7 +26360,7 @@
           "fairways_hit_est": 24
         },
         "3": {
-          "gir_count": 42,
+          "gir_count": 55,
           "fairways_hit_est": 35
         },
         "4": {
@@ -26459,7 +26475,7 @@
           "pars": 11,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 13,
+          "gir": 27,
           "fairways_hit_est": 8,
           "fairways_estimated": true
         },
@@ -26471,7 +26487,7 @@
           "pars": 9,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
+          "gir": 0,
           "fairways_hit_est": 28,
           "fairways_estimated": true
         }
@@ -26486,7 +26502,7 @@
           "fairways_hit_est": 18
         },
         "3": {
-          "gir_count": 40,
+          "gir_count": 54,
           "fairways_hit_est": 26
         },
         "4": {
@@ -26964,8 +26980,8 @@
           "pars": 13,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 13,
+          "gir": 22,
+          "fairways_hit_est": 12,
           "fairways_estimated": true
         }
       },
@@ -26975,8 +26991,8 @@
           "fairways_hit_est": 25
         },
         "3": {
-          "gir_count": 42,
-          "fairways_hit_est": 38
+          "gir_count": 51,
+          "fairways_hit_est": 37
         }
       }
     },
@@ -27764,8 +27780,8 @@
           "pars": 13,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 12,
-          "fairways_hit_est": 11,
+          "gir": 17,
+          "fairways_hit_est": 13,
           "fairways_estimated": true
         },
         "4": {
@@ -27776,8 +27792,8 @@
           "pars": 13,
           "bogeys_or_worse": 0,
           "par_total": 72,
-          "gir": 22,
-          "fairways_hit_est": 20,
+          "gir": 17,
+          "fairways_hit_est": 18,
           "fairways_estimated": true
         }
       },
@@ -27787,8 +27803,8 @@
           "fairways_hit_est": 22
         },
         "3": {
-          "gir_count": 38,
-          "fairways_hit_est": 33
+          "gir_count": 43,
+          "fairways_hit_est": 35
         },
         "4": {
           "gir_count": 60,
@@ -28205,8 +28221,8 @@
           "pars": 7,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 9,
+          "gir": 21,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -28216,8 +28232,8 @@
           "fairways_hit_est": 18
         },
         "3": {
-          "gir_count": 43,
-          "fairways_hit_est": 27
+          "gir_count": 51,
+          "fairways_hit_est": 29
         }
       }
     },
@@ -28257,6 +28273,18 @@
           "gir": 10,
           "fairways_hit_est": 8,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 68.0,
+          "birdies_or_better": 7,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 7,
+          "bogeys_or_worse": 4,
+          "par_total": 72,
+          "gir": 13,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -28267,6 +28295,10 @@
         "3": {
           "gir_count": 38,
           "fairways_hit_est": 23
+        },
+        "4": {
+          "gir_count": 51,
+          "fairways_hit_est": 34
         }
       }
     },
@@ -28306,6 +28338,18 @@
           "gir": 10,
           "fairways_hit_est": 8,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 71.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 13,
+          "bogeys_or_worse": 2,
+          "par_total": 72,
+          "gir": 8,
+          "fairways_hit_est": 11,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -28316,6 +28360,10 @@
         "3": {
           "gir_count": 39,
           "fairways_hit_est": 28
+        },
+        "4": {
+          "gir_count": 47,
+          "fairways_hit_est": 39
         }
       }
     },
@@ -28421,6 +28469,18 @@
           "gir": 12,
           "fairways_hit_est": 12,
           "fairways_estimated": true
+        },
+        "4": {
+          "strokes": 70.0,
+          "birdies_or_better": 3,
+          "fairways_possible": 14,
+          "holes_played": 18,
+          "pars": 14,
+          "bogeys_or_worse": 1,
+          "par_total": 72,
+          "gir": 16,
+          "fairways_hit_est": 8,
+          "fairways_estimated": true
         }
       },
       "cumulative_checkpoints": {
@@ -28431,6 +28491,10 @@
         "3": {
           "gir_count": 34,
           "fairways_hit_est": 34
+        },
+        "4": {
+          "gir_count": 50,
+          "fairways_hit_est": 42
         }
       }
     },
@@ -28533,8 +28597,8 @@
           "pars": 12,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 12,
+          "gir": 24,
+          "fairways_hit_est": 11,
           "fairways_estimated": true
         }
       },
@@ -28544,8 +28608,8 @@
           "fairways_hit_est": 20
         },
         "3": {
-          "gir_count": 41,
-          "fairways_hit_est": 32
+          "gir_count": 51,
+          "fairways_hit_est": 31
         }
       }
     },
@@ -28582,7 +28646,7 @@
           "pars": 13,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 10,
+          "gir": 20,
           "fairways_hit_est": 8,
           "fairways_estimated": true
         }
@@ -28593,7 +28657,7 @@
           "fairways_hit_est": 20
         },
         "3": {
-          "gir_count": 33,
+          "gir_count": 43,
           "fairways_hit_est": 28
         }
       }
@@ -28631,8 +28695,8 @@
           "pars": 8,
           "bogeys_or_worse": 3,
           "par_total": 72,
-          "gir": 11,
-          "fairways_hit_est": 9,
+          "gir": 20,
+          "fairways_hit_est": 6,
           "fairways_estimated": true
         }
       },
@@ -28642,8 +28706,8 @@
           "fairways_hit_est": 18
         },
         "3": {
-          "gir_count": 37,
-          "fairways_hit_est": 27
+          "gir_count": 46,
+          "fairways_hit_est": 24
         }
       }
     },
@@ -28680,8 +28744,8 @@
           "pars": 12,
           "bogeys_or_worse": 2,
           "par_total": 72,
-          "gir": 14,
-          "fairways_hit_est": 10,
+          "gir": 22,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
@@ -28691,8 +28755,8 @@
           "fairways_hit_est": 21
         },
         "3": {
-          "gir_count": 43,
-          "fairways_hit_est": 31
+          "gir_count": 51,
+          "fairways_hit_est": 28
         }
       }
     },
@@ -28762,8 +28826,8 @@
           "pars": 13,
           "bogeys_or_worse": 1,
           "par_total": 72,
-          "gir": 13,
-          "fairways_hit_est": 9,
+          "gir": 23,
+          "fairways_hit_est": 7,
           "fairways_estimated": true
         }
       },
@@ -28773,8 +28837,8 @@
           "fairways_hit_est": 17
         },
         "3": {
-          "gir_count": 35,
-          "fairways_hit_est": 26
+          "gir_count": 45,
+          "fairways_hit_est": 24
         }
       }
     },

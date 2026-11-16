@@ -718,3 +718,4 @@ date,tournament,round,player,category,line,source,model_prob,picked_side,actual_
 2026-11-15,VidantaWorld Mexico Open,4,Erik van Rooyen,strokes,71.0,prizepicks,0.7091978682883565,under,68.0,hit,False
 2026-11-15,VidantaWorld Mexico Open,4,Will Gordon,strokes,72.0,prizepicks,0.7778193469505772,under,68.0,hit,False
 2026-11-15,VidantaWorld Mexico Open,4,Rasmus Højgaard,strokes,71.5,prizepicks,0.7416621667955593,under,69.0,hit,False
+2026-11-15,VidantaWorld Mexico Open,4,Brian Harman,strokes,70.5,prizepicks,0.60186665125419,under,68.0,hit,False
